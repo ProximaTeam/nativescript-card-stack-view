@@ -1,0 +1,17 @@
+{
+	"name": "card-stack-view-demo",
+	"main": "app.js",
+	"version": "2.3.0",
+	"description": "Nativescript demo app",
+	"license": "MIT",
+	"keywords": [
+		"NativeScript",
+		"CardStackView",
+		"JavaScript",
+		"iOS",
+		"Android"
+	],
+	"android": {
+		"v8Flags": "--expose_gc"
+	}
+}

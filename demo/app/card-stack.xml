@@ -1,0 +1,24 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded"
+      xmlns:ns="nativescript-card-stack-view">
+    <Page.actionBar>
+        <ActionBar title="Card Stack"></ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <GridLayout height="400">
+            <ns:CardStack id="cardStackView" height="100%" width="100%" color="white" dragging="onDrag"
+                          swiped="onSwiped" items="{{ myDataArray }}">
+                <ns:CardStack.itemTemplate>
+                    <ns:CardStackItem backgroundColor="#ff0000" verticalAlignment="middle" margin="15" borderRadius="6">
+                        <GridLayout>
+                            <Image src="{{image}}" stretch="aspectFill" height="100%" width="100%" borderRadius="6"/>
+                            <Label text="{{title}}" horizontalAlignment="center" backgroundColor="#50000000"
+                                   height="30"/>
+                            <Label text="WOW" horizontalAlignment="center" backgroundColor="#50000000" height="30"
+                                   marginTop="50"/>
+                        </GridLayout>
+                    </ns:CardStackItem>
+                </ns:CardStack.itemTemplate>
+            </ns:CardStack>
+        </GridLayout>
+    </StackLayout>
+</Page>

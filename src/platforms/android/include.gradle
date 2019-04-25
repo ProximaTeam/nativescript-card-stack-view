@@ -1,0 +1,15 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+allprojects {
+    repositories {
+         maven { url "https://jitpack.io" }
+    }
+}
+
+android {
+
+}
+
+dependencies {
+    implementation "com.yuyakaido.android:card-stack-view:2.3.2"
+}

@@ -1,0 +1,48 @@
+<GridLayout rows="{{isIOS?30:10}}, auto, *, 15, auto, 15" backgroundColor="#fafafa">
+  <GridLayout row="2" columns="{{isIOS?10:0}}, *, {{isIOS?10:0}}" #cardStackContainer>
+    <CardStack #cardStack
+               [items]="items"
+               (swiped)="onSwiped($event)"
+               (dragging)="onDrag($event)"
+               (canceled)="onDragCancel($event)"
+               (loaded)="onStackLoaded($event)"
+               [options]="cardStackOptions"
+               col="1"
+               width="100%">
+
+      <ng-template let-i="index" let-item="item">
+        <AbsoluteLayout width="100%" margin="{{cardStackMargin}}" height="100%">
+
+          <Image [src]="item.image" stretch="aspectFill" height="100%" width="100%" borderRadius="18"></Image>
+          <StackLayout [top]="stackHeight - (isIOS?120:150)" padding="10" width="100%">
+            <Label [text]="item.title" horizontalAlignment="left" color="#ffffff" fontWeight="800" fontSize="30"
+                   textWrap="true"></Label>
+            <Label [text]="item.description" horizontalAlignment="left" color="#ffffff" fontSize="20"
+                   textWrap="true"></Label>
+          </StackLayout>
+          <StackLayout width="100%" height="100%" verticalAlignment="center">
+            <Image horizontalAlignment="center" src="~/assets/images/thumbs_up.png" width="80" height="80"
+                   *ngIf="item.status === 'positive'"></Image>
+            <Image src="~/assets/images/thumbs_down.png" width="80" height="80" horizontalAlignment="center"
+                   *ngIf="item.status === 'negative'"></Image>
+          </StackLayout>
+
+        </AbsoluteLayout>
+      </ng-template>
+    </CardStack>
+  </GridLayout>
+
+  <GridLayout row="4" columns="*, auto, auto, auto, auto, auto, *">
+    <Image (tap)="restore()" src="~/assets/images/restore_button.png" col="1" width="74" height="74"
+           stretch="aspectFit"></Image>
+    <Image (tap)="reject()" src="~/assets/images/reject_button.png" col="2" width="74" height="74"
+           stretch="aspectFit"></Image>
+    <Image (tap)="superLike()" src="~/assets/images/flame_button.png" col="3" width="74" height="74"
+           stretch="aspectFit"></Image>
+    <Image (tap)="like()" src="~/assets/images/heart_button.png" col="4" width="74" height="74"
+           stretch="aspectFit"></Image>
+    <Image (tap)="superMessage()" src="~/assets/images/super_message_button.png" col="5" width="74" height="74"
+           stretch="aspectFit"></Image>
+  </GridLayout>
+
+</GridLayout>
