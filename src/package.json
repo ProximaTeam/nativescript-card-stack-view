@@ -2,7 +2,7 @@
   "name": "nativescript-card-stack-view",
   "description": "Card stack view component for NativeScript (iOS & Android).",
   "main": "index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "typings": "index.d.ts",
   "nativescript": {
     "platforms": {
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FranciZ/nativescript-card-stack-view.git"
+    "url": "https://github.com/ProximaTeam/nativescript-card-stack-view.git"
   },
   "keywords": [
     "NativeScript",
@@ -63,9 +63,9 @@
     "url": "https://github.com/FranciZ"
   },
   "contributors": [],
-  "bugs": "https://github.com/FranciZ/nativescript-card-stack-view/issues",
+  "bugs": "https://github.com/ProximaTeam/nativescript-card-stack-view/issues",
   "license": "MIT",
-  "homepage": "https://github.com/FranciZ/nativescript-card-stack-view",
+  "homepage": "https://github.com/ProximaTeam/nativescript-card-stack-view",
   "devDependencies": {
     "@angular/animations": "~6.0.0",
     "@angular/common": "~6.0.0",
