@@ -85,8 +85,8 @@ Create the layout:
 
 #### Events
 
-| Event | Description |
-| --- | --- |
+| Event | Description | Returns |
+| --- | --- | --- |
 | swiped | Fires when the cards is swiped and returns direction (`"Left"`,`"Right"`) | `string` |
 | dragging | Fires when dragging occurs | `DragEvent` |
 | canceled | Fires when card swiping canceled and returns position of the card in the array | `number` |
