@@ -107,6 +107,14 @@ export class CardStack extends CardStackCommon {
   }
 
   _onSwipe(view, direction) {
+
+    this.notify({
+      eventName: CardStackCommon.swipedEvent,
+      object: fromObject({
+        direction: direction === 2 ? 'Right' : 'Left',
+        position: this.topPosition
+      })
+    });
     this.selectedIndex++;
     this.updateStackAfterSwipe();
   }
