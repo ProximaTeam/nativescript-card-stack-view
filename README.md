@@ -132,6 +132,11 @@ Assign a data-array to generate the slides and apply the bindingContext. If `ite
 
 ## Changelog
 
+
+**0.0.2**
+
+- Added LICENSE
+
 **0.0.1**
 
 - Initial release
