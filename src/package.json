@@ -2,7 +2,7 @@
   "name": "nativescript-card-stack-view",
   "description": "Card stack view component for NativeScript (iOS & Android).",
   "main": "index",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "typings": "index.d.ts",
   "nativescript": {
     "platforms": {

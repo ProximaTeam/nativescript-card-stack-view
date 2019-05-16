@@ -231,27 +231,42 @@ export class CardStack extends CardStackCommon {
     }
   }
 
+  currentDirection: number;
+
   _onCardPan(state: MDCPanState) {
 
-    if (state.direction === 1 || state.direction === 2) {
-      this.notify({
-        eventName: CardStackCommon.draggingEvent,
-        object: fromObject({
-          side: state.direction === 1 ? 'Left' : 'Right',
-          ratio: state.thresholdRatio
-        })
-      });
+    if (state.thresholdRatio > 0.2) {
+      if ((this.currentDirection !== 1 && this.currentDirection !== 2) || this.currentDirection !== state.direction) {
+        this.notify({
+          eventName: CardStackCommon.draggingEvent,
+          object: fromObject({
+            side: state.direction === 1 ? 'Left' : 'Right',
+            ratio: state.thresholdRatio
+          })
+        });
+
+        this.currentDirection = state.direction;
+      }
+    } else {
+      if (this.currentDirection !== 0) {
+        this.notify({
+          eventName: CardStackCommon.draggingEvent,
+          object: fromObject({
+            side: state.direction === 1 ? 'Left' : 'Right',
+            ratio: state.thresholdRatio
+          })
+        });
+        this.currentDirection = 0;
+      }
     }
 
-    for (let i = this.selectedIndex + 1; i <= (this.selectedIndex + this.visibleCount); i++) {
 
+    for (let i = this.selectedIndex + 1; i <= (this.selectedIndex + this.visibleCount); i++) {
       const cardView = this._viewMap.get(i);
       if (!cardView) {
         return;
       }
-
       cardView.updatePosition(state.thresholdRatio, i - this.selectedIndex);
-
     }
 
   }

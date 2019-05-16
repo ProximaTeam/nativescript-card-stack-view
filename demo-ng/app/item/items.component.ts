@@ -18,6 +18,44 @@ import * as utils from 'tns-core-modules/utils/utils';
 import { DEVICE } from 'nativescript-angular';
 import { AnimationCurve } from 'tns-core-modules/ui/enums';
 
+const items = [
+  {
+    title: 'Stacy, 28',
+    color: '#b3cde0',
+    image: '~/assets/images/1.jpeg',
+    status: 'default',
+    description: 'Simple but crazy! How crazy? Swipe right and find out!'
+  },
+  {
+    title: 'Barbara, 24',
+    color: '#b3cde0',
+    image: '~/assets/images/2.jpeg',
+    status: 'default',
+    description: 'Looking for something special'
+  },
+  {
+    title: 'Alex, 31',
+    color: '#b3cde0',
+    image: '~/assets/images/3.jpeg',
+    status: 'default',
+    description: 'Don\'t be an ahole!'
+  },
+  {
+    title: 'Emily, 22',
+    color: '#b3cde0',
+    image: '~/assets/images/4.jpeg',
+    status: 'default',
+    description: 'Vegans only!'
+  },
+  {
+    title: 'Karen, 33',
+    color: '#b3cde0',
+    image: '~/assets/images/5.jpeg',
+    status: 'default',
+    description: 'I love a good steak!'
+  }
+];
+
 @Component({
   selector: 'ns-items',
   moduleId: module.id,
@@ -87,6 +125,12 @@ export class ItemsComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
+
+    setInterval(() => {
+
+      this.items.push(fromObject(items[Math.floor(Math.random() * items.length)]));
+
+    }, 400);
 
     setTimeout(() => {
       this.items.push(fromObject({
@@ -159,6 +203,9 @@ export class ItemsComponent implements OnInit, AfterViewInit {
       }
 
     } else {
+      if (this.items.getItem(this.cardStackRef.nativeElement.topPosition).get('status') === 'default') {
+        return;
+      }
       this.items.getItem(this.cardStackRef.nativeElement.topPosition).set('status', 'default');
     }
 
