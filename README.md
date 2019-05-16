@@ -87,7 +87,7 @@ Create the layout:
 
 | Event | Description |
 | --- | --- |
-| swiped | Fires when the cards is swiped and returns direction (`"Left"`,`"Right"`) | `string` |
+| swiped | Fires when the cards is swiped and returns direction and position | `SwipedEvent` |
 | dragging | Fires when dragging occurs | `DragEvent` |
 | canceled | Fires when card swiping canceled and returns position of the card in the array | `number` |
 | loaded | Fires when the `CardStack` is loaded ant returns the instance | `CardStack` |
@@ -99,10 +99,20 @@ Create the layout:
 | selectedIndex | Current front card index |
 
 *DragEvent*
+`event.object`:
 ```typescript
 {
   side :string; // `"Left"`,`"Right"` 
   ratio: number; // 0-1 ratio of center to right or left edge  
+}
+```
+
+*SwipedEvent*
+`event.object`:
+```typescript
+{
+  direction :string; // `"Left"`,`"Right"` 
+  position: number; // index of the swiped card
 }
 ```
 
