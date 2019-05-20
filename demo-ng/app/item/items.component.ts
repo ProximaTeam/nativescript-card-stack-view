@@ -109,16 +109,8 @@ export class ItemsComponent implements OnInit, AfterViewInit {
   horizontalDirection;
 
   cardStackOptions = {
-    visibleCount: 4
+    visibleCount: 2
   };
-
-  get cardStackMargin() {
-    if (isIOS) {
-      return '0';
-    } else {
-      return '25 10 5 10';
-    }
-  }
 
   constructor(private itemService: ItemService, private page: Page) {
     page.actionBarHidden = true;
@@ -128,9 +120,12 @@ export class ItemsComponent implements OnInit, AfterViewInit {
 
     setInterval(() => {
 
-      this.items.push(fromObject(items[Math.floor(Math.random() * items.length)]));
+      if (this.items.length < 500) {
+        this.items.push(fromObject(items[Math.floor(Math.random() * items.length)]));
+      }
 
-    }, 400);
+    }, 10);
+
 
     setTimeout(() => {
       this.items.push(fromObject({
@@ -165,6 +160,14 @@ export class ItemsComponent implements OnInit, AfterViewInit {
 
   }
 
+  get cardStackMargin() {
+    if (isIOS) {
+      return '0';
+    } else {
+      return '25 10 5 10';
+    }
+  }
+
   onSwiped(event) {
     this.items.getItem(event.object.position).set('status', 'default');
   }
@@ -182,11 +185,11 @@ export class ItemsComponent implements OnInit, AfterViewInit {
       return;
     }
 
-    if (event.object.side === 'Left' || event.object.side === 'Right') {
-      this.horizontalDirection = event.object.side;
+    if (event.dragData.side === 'Left' || event.dragData.side === 'Right') {
+      this.horizontalDirection = event.dragData.side;
     }
 
-    if (event.object.ratio > 0.2) {
+    if (event.dragData.ratio > 0.20) {
 
       if (this.horizontalDirection === 'Left') {
         const item = this.items.getItem(this.cardStackRef.nativeElement.topPosition);
