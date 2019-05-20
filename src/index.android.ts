@@ -97,13 +97,14 @@ export class CardStack extends CardStackCommon {
     const pageListener = new com.yuyakaido.android.cardstackview.CardStackListener(
       {
         onCardDragging: (side, ratio) => {
-          this.notify({
+          const args: any = {
             eventName: CardStackCommon.draggingEvent,
             object: fromObject({
               side: side.name(), // Left, Right
               ratio
             })
-          });
+          };
+          this.notify(args);
         },
         onCardAppeared: (view, position) => {
           this.notify({

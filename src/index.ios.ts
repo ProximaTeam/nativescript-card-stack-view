@@ -65,6 +65,7 @@ export class CardStack extends CardStackCommon {
   private _delegate;
   private _viewMap: Map<number, ChoosePersonView> = new Map<number, ChoosePersonView>();
   private _visibleArray: Array<ChoosePersonView> = [];
+  currentDirection: number = null;
 
   constructor() {
     super();
@@ -184,6 +185,11 @@ export class CardStack extends CardStackCommon {
       } else {
         (<any>item).mdc_swipe(MDCSwipeDirection.Left);
       }
+
+      this.selectedIndex++;
+
+      this.updateStackAfterSwipe();
+
     }
   }
 
@@ -222,44 +228,70 @@ export class CardStack extends CardStackCommon {
     }
 
     for (let i = this.selectedIndex + 1; i < (this.selectedIndex + this.visibleCount); i++) {
-
       const cardView = this._viewMap.get(i);
       if (!cardView) {
         return;
       }
-
     }
-  }
 
-  currentDirection: number;
+    const removeIndex = this.topPosition - 2;
+    const cardView = this._viewMap.get(removeIndex);
+    if (cardView) {
+      cardView.destroy();
+      this._removeTemplateView(removeIndex);
+      this._viewMap.set(removeIndex, null);
+    }
+
+  }
 
   _onCardPan(state: MDCPanState) {
 
-    if (state.thresholdRatio > 0.2) {
-      if ((this.currentDirection !== 1 && this.currentDirection !== 2) || this.currentDirection !== state.direction) {
-        this.notify({
+    if (state.thresholdRatio > 0.20) {
+      if (this.currentDirection !== state.direction) {
+
+        const args: any = {
           eventName: CardStackCommon.draggingEvent,
-          object: fromObject({
+          dragData: {
             side: state.direction === 1 ? 'Left' : 'Right',
             ratio: state.thresholdRatio
-          })
-        });
+          }
+        };
+
+        this.notify(args);
 
         this.currentDirection = state.direction;
       }
     } else {
-      if (this.currentDirection !== 0) {
-        this.notify({
+      if (this.currentDirection !== 0 && this.currentDirection !== null) {
+
+        const args: any = {
           eventName: CardStackCommon.draggingEvent,
-          object: fromObject({
+          dragData: {
             side: state.direction === 1 ? 'Left' : 'Right',
             ratio: state.thresholdRatio
-          })
-        });
+          }
+        };
+
+        this.notify(args);
         this.currentDirection = 0;
       }
     }
 
+    // if (state.direction === 1 || state.direction === 2) {
+    //   try {
+    //     const args: any = {
+    //       eventName: CardStackCommon.draggingEvent,
+    //       dragData: {
+    //         side: state.direction === 1 ? 'Left' : 'Right',
+    //         ratio: state.thresholdRatio
+    //       }
+    //     };
+
+    //     this.notify(args);
+    //   } catch (err) {
+    //     console.log('error: ', err);
+    //   }
+    // }
 
     for (let i = this.selectedIndex + 1; i <= (this.selectedIndex + this.visibleCount); i++) {
       const cardView = this._viewMap.get(i);
@@ -294,9 +326,10 @@ export class CardStack extends CardStackCommon {
   _createCard(item: Observable, visibleStackPosition: number, index: number): ChoosePersonView {
 
 
+    this.currentDirection = null;
     const cgRect = CGRectMake(0, 0, CGRectGetWidth(this._ios.frame), CGRectGetHeight(this._ios.frame));
 
-    let personViewHolder: any = ChoosePersonView.initWithOwnerFrameItemPositionDelegate(new WeakRef(this), cgRect, item, visibleStackPosition, this._delegate);
+    let personViewHolder: any = ChoosePersonView.initWithOwnerFrameItemPositionDelegate(new WeakRef(this), cgRect, new WeakRef(item), visibleStackPosition, this._delegate);
 
     // console.log('Create card: ', index);
 
@@ -339,7 +372,7 @@ class ChoosePersonView extends MDCSwipeToChooseView {
   frontViewFrame: CGRect;
   cardOffset = 10;
 
-  public static initWithOwnerFrameItemPositionDelegate(owner: WeakRef<CardStack>, frame: CGRect, item: Observable, position: number, delegate): ChoosePersonView {
+  public static initWithOwnerFrameItemPositionDelegate(owner: WeakRef<CardStack>, frame: CGRect, item: WeakRef<Observable>, position: number, delegate): ChoosePersonView {
 
     const cardOffset = 5;
 
@@ -360,11 +393,11 @@ class ChoosePersonView extends MDCSwipeToChooseView {
     view.owner = owner;
     view.cardOffset = cardOffset;
     view.layer.borderWidth = 0;
+
     view.templateView = owner.get()._createTemplateView();
-
     view.templateView.bindingContext = item;
-
     view.addSubview(view.templateView.nativeView);
+
     const topCenter = CGPointMake(CGRectGetMidX(viewFrame), CGRectGetMinY(viewFrame));
     view.layer.anchorPoint = CGPointMake(0.5, 0);
     view.layer.position = topCenter;
@@ -375,10 +408,12 @@ class ChoosePersonView extends MDCSwipeToChooseView {
 
   }
 
-  public setFrameBasedOnPosition(position: number) {
-    ChoosePersonView.animateWithDurationAnimations(0.2, () => {
-      // this.frame = CGRectMake(0, -(10 * position), CGRectGetWidth(this.frontViewFrame), CGRectGetHeight(this.frontViewFrame));
-    });
+  public destroy() {
+    this.templateView = null;
+    this.item = null;
+    this.frontViewFrame = null;
+    this.owner = null;
+    this.removeFromSuperview();
   }
 
   public updatePosition(ratio: number, position: number) {

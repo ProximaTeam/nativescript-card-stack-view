@@ -1,5 +1,5 @@
 import { ObservableArray } from 'tns-core-modules/data/observable-array/observable-array';
-import { KeyedTemplate, Observable, Property, Template } from 'tns-core-modules/ui/core/view';
+import { KeyedTemplate, Observable, Property, Template, View } from 'tns-core-modules/ui/core/view';
 import {
   addWeakEventListener,
   removeWeakEventListener
@@ -37,7 +37,7 @@ export const CLog = (type: CLogTypes = 0, ...args) => {
 
 export class CardStackCommon extends GridLayout {
 
-  views: Array<any> = [];
+  views: Array<View> = [];
 
   public static draggingEvent = 'dragging';
   public static swipedEvent = 'swiped';
@@ -47,7 +47,7 @@ export class CardStackCommon extends GridLayout {
   public static disappearedEvent = 'disappeared';
   public static appearedEvent = 'appeared';
 
-  public visibleCount: number = 3;
+  public visibleCount: number = 4;
   public ios: any;
   public android: any;
   public items: ObservableArray<Observable>;
@@ -71,6 +71,12 @@ export class CardStackCommon extends GridLayout {
     this.addChild(view);
 
     return view;
+  }
+
+  _removeTemplateView(index) {
+    const view = this.views[index];
+    this.removeChild(view);
+    this.views[index] = null;
   }
 
 }

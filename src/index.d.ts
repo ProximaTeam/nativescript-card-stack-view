@@ -1,7 +1,3 @@
-/// <reference path="./node_modules/tns-platform-declarations/android.d.ts" />
-
-import * as common from './index.common';
-import { Color } from 'tns-core-modules/color/color';
 import { ObservableArray } from 'tns-core-modules/data/observable-array/observable-array';
 import { KeyedTemplate, Property, Template, View } from 'tns-core-modules/ui/core/view';
 import { GridLayout } from 'tns-core-modules/ui/layouts/grid-layout';
@@ -73,13 +69,13 @@ declare class CardStackPageChangedListener extends android.support.v4.view.ViewP
 
 export declare class CardStackCommon extends GridLayout {
 
-  public static draggingEvent = 'dragging';
-  public static swipedEvent = 'swiped';
-  public static canceledEvent = 'canceled';
-  public static rewoundEvent = 'rewound';
-  public static loadedEvent = 'loaded';
-  public static disappearedEvent = 'disappeared';
-  public static appearedEvent = 'appeared';
+  public static draggingEvent: string;
+  public static swipedEvent: string;
+  public static canceledEvent: string;
+  public static rewoundEvent: string;
+  public static loadedEvent: string;
+  public static disappearedEvent: string;
+  public static appearedEvent: string;
 
   ios: any;
   android: any;
