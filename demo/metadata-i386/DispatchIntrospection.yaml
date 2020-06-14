@@ -1,0 +1,153 @@
+---
+Module:          
+  FullName:        DispatchIntrospection
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            dispatch_introspection_hook_queue_callout_begin
+    JsName:          dispatch_introspection_hook_queue_callout_begin
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_introspection_hook_queue_callout_end
+    JsName:          dispatch_introspection_hook_queue_callout_end
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_introspection_hook_queue_create
+    JsName:          dispatch_introspection_hook_queue_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_introspection_hook_queue_destroy
+    JsName:          dispatch_introspection_hook_queue_destroy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_introspection_hook_queue_item_complete
+    JsName:          dispatch_introspection_hook_queue_item_complete
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_introspection_hook_queue_item_dequeue
+    JsName:          dispatch_introspection_hook_queue_item_dequeue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_introspection_hook_queue_item_enqueue
+    JsName:          dispatch_introspection_hook_queue_item_enqueue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/introspection.h
+    Module:          
+      FullName:        DispatchIntrospection
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+...

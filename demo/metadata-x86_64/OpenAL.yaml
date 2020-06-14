@@ -1,0 +1,1580 @@
+---
+Module:          
+  FullName:        OpenAL
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         OpenAL
+      IsFramework:     true
+Items:           
+  - Name:            alBuffer3f
+    JsName:          alBuffer3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            alBuffer3i
+    JsName:          alBuffer3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+  - Name:            alBufferData
+    JsName:          alBufferData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            Int
+  - Name:            alBufferf
+    JsName:          alBufferf
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Float
+  - Name:            alBufferfv
+    JsName:          alBufferfv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alBufferi
+    JsName:          alBufferi
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Int
+  - Name:            alBufferiv
+    JsName:          alBufferiv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alDeleteBuffers
+    JsName:          alDeleteBuffers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alDeleteSources
+    JsName:          alDeleteSources
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alDisable
+    JsName:          alDisable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+  - Name:            alDistanceModel
+    JsName:          alDistanceModel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+  - Name:            alDopplerFactor
+    JsName:          alDopplerFactor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Float
+  - Name:            alDopplerVelocity
+    JsName:          alDopplerVelocity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Float
+  - Name:            alEnable
+    JsName:          alEnable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+  - Name:            alGenBuffers
+    JsName:          alGenBuffers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alGenSources
+    JsName:          alGenSources
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alGetBoolean
+    JsName:          alGetBoolean
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Int
+  - Name:            alGetBooleanv
+    JsName:          alGetBooleanv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            CString
+  - Name:            alGetBuffer3f
+    JsName:          alGetBuffer3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetBuffer3i
+    JsName:          alGetBuffer3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetBufferf
+    JsName:          alGetBufferf
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetBufferfv
+    JsName:          alGetBufferfv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetBufferi
+    JsName:          alGetBufferi
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetBufferiv
+    JsName:          alGetBufferiv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetDouble
+    JsName:          alGetDouble
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+      - Type:            Int
+  - Name:            alGetDoublev
+    JsName:          alGetDoublev
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Double
+  - Name:            alGetEnumValue
+    JsName:          alGetEnumValue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+  - Name:            alGetError
+    JsName:          alGetError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+  - Name:            alGetFloat
+    JsName:          alGetFloat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Int
+  - Name:            alGetFloatv
+    JsName:          alGetFloatv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetInteger
+    JsName:          alGetInteger
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Int
+  - Name:            alGetIntegerv
+    JsName:          alGetIntegerv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetListener3f
+    JsName:          alGetListener3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetListener3i
+    JsName:          alGetListener3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetListenerf
+    JsName:          alGetListenerf
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetListenerfv
+    JsName:          alGetListenerfv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetListeneri
+    JsName:          alGetListeneri
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetListeneriv
+    JsName:          alGetListeneriv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetProcAddress
+    JsName:          alGetProcAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            alGetSource3f
+    JsName:          alGetSource3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetSource3i
+    JsName:          alGetSource3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetSourcef
+    JsName:          alGetSourcef
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetSourcefv
+    JsName:          alGetSourcefv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alGetSourcei
+    JsName:          alGetSourcei
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetSourceiv
+    JsName:          alGetSourceiv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alGetString
+    JsName:          alGetString
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Int
+  - Name:            alIsBuffer
+    JsName:          alIsBuffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            UInt
+  - Name:            alIsEnabled
+    JsName:          alIsEnabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Int
+  - Name:            alIsExtensionPresent
+    JsName:          alIsExtensionPresent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            CString
+  - Name:            alIsSource
+    JsName:          alIsSource
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            UInt
+  - Name:            alListener3f
+    JsName:          alListener3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            alListener3i
+    JsName:          alListener3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+  - Name:            alListenerf
+    JsName:          alListenerf
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Float
+  - Name:            alListenerfv
+    JsName:          alListenerfv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alListeneri
+    JsName:          alListeneri
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Int
+  - Name:            alListeneriv
+    JsName:          alListeneriv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alSource3f
+    JsName:          alSource3f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Float
+      - Type:            Float
+      - Type:            Float
+  - Name:            alSource3i
+    JsName:          alSource3i
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+  - Name:            alSourcePause
+    JsName:          alSourcePause
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+  - Name:            alSourcePausev
+    JsName:          alSourcePausev
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourcePlay
+    JsName:          alSourcePlay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+  - Name:            alSourcePlayv
+    JsName:          alSourcePlayv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourceQueueBuffers
+    JsName:          alSourceQueueBuffers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourceRewind
+    JsName:          alSourceRewind
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+  - Name:            alSourceRewindv
+    JsName:          alSourceRewindv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourceStop
+    JsName:          alSourceStop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+  - Name:            alSourceStopv
+    JsName:          alSourceStopv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourceUnqueueBuffers
+    JsName:          alSourceUnqueueBuffers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            alSourcef
+    JsName:          alSourcef
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Float
+  - Name:            alSourcefv
+    JsName:          alSourcefv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            alSourcei
+    JsName:          alSourcei
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Int
+  - Name:            alSourceiv
+    JsName:          alSourceiv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alSpeedOfSound
+    JsName:          alSpeedOfSound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+    Module:          
+      FullName:        OpenAL.al
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Float
+  - Name:            alcCaptureCloseDevice
+    JsName:          alcCaptureCloseDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcCaptureOpenDevice
+    JsName:          alcCaptureOpenDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            UInt
+      - Type:            Int
+      - Type:            Int
+  - Name:            alcCaptureSamples
+    JsName:          alcCaptureSamples
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            alcCaptureStart
+    JsName:          alcCaptureStart
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcCaptureStop
+    JsName:          alcCaptureStop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcCloseDevice
+    JsName:          alcCloseDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcCreateContext
+    JsName:          alcCreateContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alcDestroyContext
+    JsName:          alcDestroyContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcGetContextsDevice
+    JsName:          alcGetContextsDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcGetCurrentContext
+    JsName:          alcGetCurrentContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcGetEnumValue
+    JsName:          alcGetEnumValue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            alcGetError
+    JsName:          alcGetError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcGetIntegerv
+    JsName:          alcGetIntegerv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            alcGetProcAddress
+    JsName:          alcGetProcAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            alcGetString
+    JsName:          alcGetString
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            alcIsExtensionPresent
+    JsName:          alcIsExtensionPresent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            alcMakeContextCurrent
+    JsName:          alcMakeContextCurrent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Char
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcOpenDevice
+    JsName:          alcOpenDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            alcProcessContext
+    JsName:          alcProcessContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            alcSuspendContext
+    JsName:          alcSuspendContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+    Module:          
+      FullName:        OpenAL.alc
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+...

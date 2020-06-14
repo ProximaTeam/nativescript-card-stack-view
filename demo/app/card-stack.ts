@@ -8,49 +8,49 @@ const myDataArray = new ObservableArray([
   fromObject({
     title: 'Stacy, 28',
     color: '#b3cde0',
-    image: '~/res/1.jpeg',
+    image: '~/res/image_1.jpg',
     status: 'default',
     description: 'Simple but crazy'
   }),
   fromObject({
     title: 'Barbara, 24',
     color: '#b3cde0',
-    image: '~/res/2.jpeg',
+    image: '~/res/image_2.jpg',
     status: 'default',
     description: 'Looking for something special'
   }),
   fromObject({
     title: 'Alex, 31',
     color: '#b3cde0',
-    image: '~/res/3.jpeg',
+    image: '~/res/3.jpg',
     status: 'default',
     description: 'Don\'t be an ahole!'
   }),
   fromObject({
     title: 'Emily, 22',
     color: '#b3cde0',
-    image: '~/res/4.jpeg',
+    image: '~/res/4.jpg',
     status: 'default',
     description: 'Vegans only!'
   }),
   fromObject({
     title: 'Karen, 33',
     color: '#b3cde0',
-    image: '~/res/5.jpeg',
+    image: '~/res/5.jpg',
     status: 'default',
     description: 'I love a good steak!'
   }),
   fromObject({
     title: 'Pam, 26',
     color: '#b3cde0',
-    image: '~/res/6.jpeg',
+    image: '~/res/6.jpg',
     status: 'default',
     description: 'My sun allergy is a bi***...'
   }),
   fromObject({
     title: 'Erin, 28',
     color: '#b3cde0',
-    image: '~/res/7.jpeg',
+    image: '~/res/7.jpg',
     status: 'default',
     description: 'I never settle, only the best!'
   })

@@ -1,0 +1,871 @@
+---
+Module:          
+  FullName:        QuickLookThumbnailing
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         QuickLookThumbnailing
+      IsFramework:     true
+Items:           
+  - Name:            QLFileThumbnailRequest
+    JsName:          QLFileThumbnailRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            fileURL
+        JsName:          fileURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            fileURL
+          JsName:          fileURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            maximumSize
+        JsName:          maximumSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumSize
+          JsName:          maximumSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+      - Name:            minimumSize
+        JsName:          minimumSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumSize
+          JsName:          minimumSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+      - Name:            scale
+        JsName:          scale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            scale
+          JsName:          scale
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            QLThumbnailError
+    JsName:          QLThumbnailError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - QLThumbnailErrorGenerationFailed: '0'
+      - QLThumbnailErrorSavingToURLFailed: '1'
+      - QLThumbnailErrorNoCachedThumbnail: '2'
+      - QLThumbnailErrorNoCloudThumbnail: '3'
+      - QLThumbnailErrorRequestInvalid: '4'
+      - QLThumbnailErrorRequestCancelled: '5'
+    SwiftNameFields: 
+      - GenerationFailed: '0'
+      - SavingToURLFailed: '1'
+      - NoCachedThumbnail: '2'
+      - NoCloudThumbnail: '3'
+      - RequestInvalid:  '4'
+      - RequestCancelled: '5'
+  - Name:            QLThumbnailErrorDomain
+    JsName:          QLThumbnailErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            QLThumbnailErrorGenerationFailed
+    JsName:          QLThumbnailErrorGenerationFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            QLThumbnailErrorNoCachedThumbnail
+    JsName:          QLThumbnailErrorNoCachedThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            QLThumbnailErrorNoCloudThumbnail
+    JsName:          QLThumbnailErrorNoCloudThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            QLThumbnailErrorRequestCancelled
+    JsName:          QLThumbnailErrorRequestCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            QLThumbnailErrorRequestInvalid
+    JsName:          QLThumbnailErrorRequestInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            QLThumbnailErrorSavingToURLFailed
+    JsName:          QLThumbnailErrorSavingToURLFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailErrors.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            QLThumbnailGenerationRequest
+    JsName:          QLThumbnailGenerationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithFileAtURL:size:scale:representationTypes:'
+        JsName:          initWithFileAtURLSizeScaleRepresentationTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+          - Type:            Float
+          - Type:            Enum
+            Name:            QLThumbnailGenerationRequestRepresentationTypes
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            iconMode
+        JsName:          iconMode
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            iconMode
+          JsName:          iconMode
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIconMode:'
+          JsName:          setIconMode
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            minimumDimension
+        JsName:          minimumDimension
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumDimension
+          JsName:          minimumDimension
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setMinimumDimension:'
+          JsName:          setMinimumDimension
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            representationTypes
+        JsName:          representationTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            representationTypes
+          JsName:          representationTypes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            QLThumbnailGenerationRequestRepresentationTypes
+      - Name:            scale
+        JsName:          scale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            scale
+          JsName:          scale
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            size
+        JsName:          size
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            size
+          JsName:          size
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            QLThumbnailGenerationRequestRepresentationTypeAll
+    JsName:          QLThumbnailGenerationRequestRepresentationTypeAll
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4294967295'
+  - Name:            QLThumbnailGenerationRequestRepresentationTypeIcon
+    JsName:          QLThumbnailGenerationRequestRepresentationTypeIcon
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            QLThumbnailGenerationRequestRepresentationTypeLowQualityThumbnail
+    JsName:          QLThumbnailGenerationRequestRepresentationTypeLowQualityThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            QLThumbnailGenerationRequestRepresentationTypeThumbnail
+    JsName:          QLThumbnailGenerationRequestRepresentationTypeThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            QLThumbnailGenerationRequestRepresentationTypes
+    JsName:          QLThumbnailGenerationRequestRepresentationTypes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerationRequest.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - QLThumbnailGenerationRequestRepresentationTypeIcon: '1'
+      - QLThumbnailGenerationRequestRepresentationTypeLowQualityThumbnail: '2'
+      - QLThumbnailGenerationRequestRepresentationTypeThumbnail: '4'
+      - QLThumbnailGenerationRequestRepresentationTypeAll: '4294967295'
+    SwiftNameFields: 
+      - Icon:            '1'
+      - LowQualityThumbnail: '2'
+      - Thumbnail:       '4'
+      - All:             '4294967295'
+  - Name:            QLThumbnailGenerator
+    JsName:          QLThumbnailGenerator
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'cancelRequest:'
+        JsName:          cancelRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLThumbnailGenerationRequest
+            WithProtocols:   
+      - Name:            'generateBestRepresentationForRequest:completionHandler:'
+        JsName:          generateBestRepresentationForRequestCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLThumbnailGenerationRequest
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          QLThumbnailRepresentation
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'generateRepresentationsForRequest:updateHandler:'
+        JsName:          generateRepresentationsForRequestUpdateHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLThumbnailGenerationRequest
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          QLThumbnailRepresentation
+                WithProtocols:   
+              - Type:            Enum
+                Name:            QLThumbnailRepresentationType
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'saveBestRepresentationForRequest:toFileAtURL:withContentType:completionHandler:'
+        JsName:          saveBestRepresentationForRequestToFileAtURLWithContentTypeCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLThumbnailGenerationRequest
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+      - Name:            sharedGenerator
+        JsName:          sharedGenerator
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sharedGenerator
+          JsName:          sharedGenerator
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailGenerator.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailGenerator
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          QLThumbnailGenerator
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            QLThumbnailProvider
+    JsName:          QLThumbnailProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailProvider.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'provideThumbnailForFileRequest:completionHandler:'
+        JsName:          provideThumbnailForFileRequestCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailProvider.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLFileThumbnailRequest
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          QLThumbnailReply
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            QLThumbnailReply
+    JsName:          QLThumbnailReply
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailReply.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailReply
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'replyWithContextSize:currentContextDrawingBlock:'
+        JsName:          replyWithContextSizeCurrentContextDrawingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailReply.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailReply
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+          - Type:            Block
+            Signature:       
+              - Type:            Bool
+      - Name:            'replyWithContextSize:drawingBlock:'
+        JsName:          replyWithContextSizeDrawingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailReply.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailReply
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+          - Type:            Block
+            Signature:       
+              - Type:            Bool
+              - Type:            BridgedInterface
+                Name:            id
+                BridgedTo:       id
+      - Name:            'replyWithImageFileURL:'
+        JsName:          replyWithImageFileURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailReply.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailReply
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            QLThumbnailRepresentation
+    JsName:          QLThumbnailRepresentation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            CGImage
+        JsName:          CGImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            CGImage
+          JsName:          CGImage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            QLThumbnailRepresentationType
+      - Name:            UIImage
+        JsName:          UIImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+        Module:          
+          FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            UIImage
+          JsName:          UIImage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+          Module:          
+            FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            QLThumbnailRepresentationType
+    JsName:          QLThumbnailRepresentationType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - QLThumbnailRepresentationTypeIcon: '0'
+      - QLThumbnailRepresentationTypeLowQualityThumbnail: '1'
+      - QLThumbnailRepresentationTypeThumbnail: '2'
+    SwiftNameFields: 
+      - Icon:            '0'
+      - LowQualityThumbnail: '1'
+      - Thumbnail:       '2'
+  - Name:            QLThumbnailRepresentationTypeIcon
+    JsName:          QLThumbnailRepresentationTypeIcon
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            QLThumbnailRepresentationTypeLowQualityThumbnail
+    JsName:          QLThumbnailRepresentationTypeLowQualityThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            QLThumbnailRepresentationTypeThumbnail
+    JsName:          QLThumbnailRepresentationTypeThumbnail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLookThumbnailing.framework/Headers/QLThumbnailRepresentation.h
+    Module:          
+      FullName:        QuickLookThumbnailing.QLThumbnailRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+...

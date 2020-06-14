@@ -1,0 +1,2946 @@
+---
+Module:          
+  FullName:        CoreHaptics
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         CoreHaptics
+      IsFramework:     true
+Items:           
+  - Name:            CHHapticAdvancedPatternPlayer
+    JsName:          CHHapticAdvancedPatternPlayer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPatternPlayer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'pauseAtTime:error:'
+        JsName:          pauseAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'resumeAtTime:error:'
+        JsName:          resumeAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'seekToOffset:error:'
+        JsName:          seekToOffsetError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            completionHandler
+        JsName:          completionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            completionHandler
+          JsName:          completionHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          NSError
+                  WithProtocols:   
+        Setter:          
+          Name:            'setCompletionHandler:'
+          JsName:          setCompletionHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          NSError
+                  WithProtocols:   
+      - Name:            loopEnabled
+        JsName:          loopEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            loopEnabled
+          JsName:          loopEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setLoopEnabled:'
+          JsName:          setLoopEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            loopEnd
+        JsName:          loopEnd
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            loopEnd
+          JsName:          loopEnd
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setLoopEnd:'
+          JsName:          setLoopEnd
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            playbackRate
+        JsName:          playbackRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            playbackRate
+          JsName:          playbackRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setPlaybackRate:'
+          JsName:          setPlaybackRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+      - CHHapticPatternPlayer
+  - Name:            CHHapticDeviceCapability
+    JsName:          CHHapticDeviceCapability
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticDeviceCapability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'attributesForDynamicParameter:error:'
+        JsName:          attributesForDynamicParameterError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CHHapticParameterAttributes
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'attributesForEventParameter:eventType:error:'
+        JsName:          attributesForEventParameterEventTypeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CHHapticParameterAttributes
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            supportsAudio
+        JsName:          supportsAudio
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsAudio
+          JsName:          supportsAudio
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticDeviceCapability
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            supportsHaptics
+        JsName:          supportsHaptics
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsHaptics
+          JsName:          supportsHaptics
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticDeviceCapability
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+  - Name:            CHHapticDynamicParameter
+    JsName:          CHHapticDynamicParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithParameterID:value:relativeTime:'
+        JsName:          initWithParameterIDValueRelativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Float
+          - Type:            Double
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            parameterID
+        JsName:          parameterID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parameterID
+          JsName:          parameterID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            relativeTime
+        JsName:          relativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            relativeTime
+          JsName:          relativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setRelativeTime:'
+          JsName:          setRelativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setValue:'
+          JsName:          setValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticDynamicParameterIDAudioAttackTimeControl
+    JsName:          CHHapticDynamicParameterIDAudioAttackTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioBrightnessControl
+    JsName:          CHHapticDynamicParameterIDAudioBrightnessControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioDecayTimeControl
+    JsName:          CHHapticDynamicParameterIDAudioDecayTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioPanControl
+    JsName:          CHHapticDynamicParameterIDAudioPanControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioPitchControl
+    JsName:          CHHapticDynamicParameterIDAudioPitchControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioReleaseTimeControl
+    JsName:          CHHapticDynamicParameterIDAudioReleaseTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDAudioVolumeControl
+    JsName:          CHHapticDynamicParameterIDAudioVolumeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDHapticAttackTimeControl
+    JsName:          CHHapticDynamicParameterIDHapticAttackTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDHapticDecayTimeControl
+    JsName:          CHHapticDynamicParameterIDHapticDecayTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDHapticIntensityControl
+    JsName:          CHHapticDynamicParameterIDHapticIntensityControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDHapticReleaseTimeControl
+    JsName:          CHHapticDynamicParameterIDHapticReleaseTimeControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticDynamicParameterIDHapticSharpnessControl
+    JsName:          CHHapticDynamicParameterIDHapticSharpnessControl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEngine
+    JsName:          CHHapticEngine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'createAdvancedPlayerWithPattern:error:'
+        JsName:          createAdvancedPlayerWithPatternError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CHHapticAdvancedPatternPlayer
+          - Type:            Interface
+            JsName:          CHHapticPattern
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'createPlayerWithPattern:error:'
+        JsName:          createPlayerWithPatternError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CHHapticPatternPlayer
+          - Type:            Interface
+            JsName:          CHHapticPattern
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initAndReturnError:'
+        JsName:          initAndReturnError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithAudioSession:error:'
+        JsName:          initWithAudioSessionError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          AVAudioSession
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'notifyWhenPlayersFinished:'
+        JsName:          notifyWhenPlayersFinished
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Enum
+                Name:            CHHapticEngineFinishedAction
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'playPatternFromData:error:'
+        JsName:          playPatternFromDataError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'playPatternFromURL:error:'
+        JsName:          playPatternFromURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'registerAudioResource:options:error:'
+        JsName:          registerAudioResourceOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            UInt
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'startAndReturnError:'
+        JsName:          startAndReturnError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'startWithCompletionHandler:'
+        JsName:          startWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'stopWithCompletionHandler:'
+        JsName:          stopWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'unregisterAudioResource:error:'
+        JsName:          unregisterAudioResourceError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            UInt
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+      - Name:            capabilitiesForHardware
+        JsName:          capabilitiesForHardware
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CHHapticDeviceCapability
+    InstanceProperties: 
+      - Name:            autoShutdownEnabled
+        JsName:          autoShutdownEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAutoShutdownEnabled
+          JsName:          isAutoShutdownEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAutoShutdownEnabled:'
+          JsName:          setAutoShutdownEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            currentTime
+        JsName:          currentTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentTime
+          JsName:          currentTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            isMutedForAudio
+        JsName:          isMutedForAudio
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMutedForAudio
+          JsName:          isMutedForAudio
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIsMutedForAudio:'
+          JsName:          setIsMutedForAudio
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            isMutedForHaptics
+        JsName:          isMutedForHaptics
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMutedForHaptics
+          JsName:          isMutedForHaptics
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIsMutedForHaptics:'
+          JsName:          setIsMutedForHaptics
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            playsHapticsOnly
+        JsName:          playsHapticsOnly
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            playsHapticsOnly
+          JsName:          playsHapticsOnly
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setPlaysHapticsOnly:'
+          JsName:          setPlaysHapticsOnly
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            resetHandler
+        JsName:          resetHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            resetHandler
+          JsName:          resetHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+        Setter:          
+          Name:            'setResetHandler:'
+          JsName:          setResetHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+      - Name:            stoppedHandler
+        JsName:          stoppedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEngine
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stoppedHandler
+          JsName:          stoppedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Enum
+                  Name:            CHHapticEngineStoppedReason
+        Setter:          
+          Name:            'setStoppedHandler:'
+          JsName:          setStoppedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEngine
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Enum
+                  Name:            CHHapticEngineStoppedReason
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticEngineFinishedAction
+    JsName:          CHHapticEngineFinishedAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CHHapticEngineFinishedActionStopEngine: '1'
+      - CHHapticEngineFinishedActionLeaveEngineRunning: '2'
+    SwiftNameFields: 
+      - StopEngine:      '1'
+      - LeaveEngineRunning: '2'
+  - Name:            CHHapticEngineFinishedActionLeaveEngineRunning
+    JsName:          CHHapticEngineFinishedActionLeaveEngineRunning
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CHHapticEngineFinishedActionStopEngine
+    JsName:          CHHapticEngineFinishedActionStopEngine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CHHapticEngineStoppedReason
+    JsName:          CHHapticEngineStoppedReason
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CHHapticEngineStoppedReasonAudioSessionInterrupt: '1'
+      - CHHapticEngineStoppedReasonApplicationSuspended: '2'
+      - CHHapticEngineStoppedReasonIdleTimeout: '3'
+      - CHHapticEngineStoppedReasonNotifyWhenFinished: '4'
+      - CHHapticEngineStoppedReasonSystemError: '-1'
+    SwiftNameFields: 
+      - AudioSessionInterrupt: '1'
+      - ApplicationSuspended: '2'
+      - IdleTimeout:     '3'
+      - NotifyWhenFinished: '4'
+      - SystemError:     '-1'
+  - Name:            CHHapticEngineStoppedReasonApplicationSuspended
+    JsName:          CHHapticEngineStoppedReasonApplicationSuspended
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CHHapticEngineStoppedReasonAudioSessionInterrupt
+    JsName:          CHHapticEngineStoppedReasonAudioSessionInterrupt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CHHapticEngineStoppedReasonIdleTimeout
+    JsName:          CHHapticEngineStoppedReasonIdleTimeout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CHHapticEngineStoppedReasonNotifyWhenFinished
+    JsName:          CHHapticEngineStoppedReasonNotifyWhenFinished
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CHHapticEngineStoppedReasonSystemError
+    JsName:          CHHapticEngineStoppedReasonSystemError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEngine
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            CHHapticErrorCode
+    JsName:          CHHapticErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CHHapticErrorCodeEngineNotRunning: '-4805'
+      - CHHapticErrorCodeOperationNotPermitted: '-4806'
+      - CHHapticErrorCodeEngineStartTimeout: '-4808'
+      - CHHapticErrorCodeNotSupported: '-4809'
+      - CHHapticErrorCodeServerInitFailed: '-4810'
+      - CHHapticErrorCodeServerInterrupted: '-4811'
+      - CHHapticErrorCodeInvalidPatternPlayer: '-4812'
+      - CHHapticErrorCodeInvalidPatternData: '-4813'
+      - CHHapticErrorCodeInvalidPatternDictionary: '-4814'
+      - CHHapticErrorCodeInvalidAudioSession: '-4815'
+      - CHHapticErrorCodeInvalidParameterType: '-4820'
+      - CHHapticErrorCodeInvalidEventType: '-4821'
+      - CHHapticErrorCodeInvalidEventTime: '-4822'
+      - CHHapticErrorCodeInvalidEventDuration: '-4823'
+      - CHHapticErrorCodeInvalidAudioResource: '-4824'
+      - CHHapticErrorCodeResourceNotAvailable: '-4825'
+      - CHHapticErrorCodeBadEventEntry: '-4830'
+      - CHHapticErrorCodeBadParameterEntry: '-4831'
+      - CHHapticErrorCodeInvalidTime: '-4840'
+      - CHHapticErrorCodeUnknownError: '-4898'
+      - CHHapticErrorCodeMemoryError: '-4899'
+    SwiftNameFields: 
+      - EngineNotRunning: '-4805'
+      - OperationNotPermitted: '-4806'
+      - EngineStartTimeout: '-4808'
+      - NotSupported:    '-4809'
+      - ServerInitFailed: '-4810'
+      - ServerInterrupted: '-4811'
+      - InvalidPatternPlayer: '-4812'
+      - InvalidPatternData: '-4813'
+      - InvalidPatternDictionary: '-4814'
+      - InvalidAudioSession: '-4815'
+      - InvalidParameterType: '-4820'
+      - InvalidEventType: '-4821'
+      - InvalidEventTime: '-4822'
+      - InvalidEventDuration: '-4823'
+      - InvalidAudioResource: '-4824'
+      - ResourceNotAvailable: '-4825'
+      - BadEventEntry:   '-4830'
+      - BadParameterEntry: '-4831'
+      - InvalidTime:     '-4840'
+      - UnknownError:    '-4898'
+      - MemoryError:     '-4899'
+  - Name:            CHHapticErrorCodeBadEventEntry
+    JsName:          CHHapticErrorCodeBadEventEntry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4830'
+  - Name:            CHHapticErrorCodeBadParameterEntry
+    JsName:          CHHapticErrorCodeBadParameterEntry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4831'
+  - Name:            CHHapticErrorCodeEngineNotRunning
+    JsName:          CHHapticErrorCodeEngineNotRunning
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4805'
+  - Name:            CHHapticErrorCodeEngineStartTimeout
+    JsName:          CHHapticErrorCodeEngineStartTimeout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4808'
+  - Name:            CHHapticErrorCodeInvalidAudioResource
+    JsName:          CHHapticErrorCodeInvalidAudioResource
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4824'
+  - Name:            CHHapticErrorCodeInvalidAudioSession
+    JsName:          CHHapticErrorCodeInvalidAudioSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4815'
+  - Name:            CHHapticErrorCodeInvalidEventDuration
+    JsName:          CHHapticErrorCodeInvalidEventDuration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4823'
+  - Name:            CHHapticErrorCodeInvalidEventTime
+    JsName:          CHHapticErrorCodeInvalidEventTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4822'
+  - Name:            CHHapticErrorCodeInvalidEventType
+    JsName:          CHHapticErrorCodeInvalidEventType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4821'
+  - Name:            CHHapticErrorCodeInvalidParameterType
+    JsName:          CHHapticErrorCodeInvalidParameterType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4820'
+  - Name:            CHHapticErrorCodeInvalidPatternData
+    JsName:          CHHapticErrorCodeInvalidPatternData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4813'
+  - Name:            CHHapticErrorCodeInvalidPatternDictionary
+    JsName:          CHHapticErrorCodeInvalidPatternDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4814'
+  - Name:            CHHapticErrorCodeInvalidPatternPlayer
+    JsName:          CHHapticErrorCodeInvalidPatternPlayer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4812'
+  - Name:            CHHapticErrorCodeInvalidTime
+    JsName:          CHHapticErrorCodeInvalidTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4840'
+  - Name:            CHHapticErrorCodeMemoryError
+    JsName:          CHHapticErrorCodeMemoryError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4899'
+  - Name:            CHHapticErrorCodeNotSupported
+    JsName:          CHHapticErrorCodeNotSupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4809'
+  - Name:            CHHapticErrorCodeOperationNotPermitted
+    JsName:          CHHapticErrorCodeOperationNotPermitted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4806'
+  - Name:            CHHapticErrorCodeResourceNotAvailable
+    JsName:          CHHapticErrorCodeResourceNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4825'
+  - Name:            CHHapticErrorCodeServerInitFailed
+    JsName:          CHHapticErrorCodeServerInitFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4810'
+  - Name:            CHHapticErrorCodeServerInterrupted
+    JsName:          CHHapticErrorCodeServerInterrupted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4811'
+  - Name:            CHHapticErrorCodeUnknownError
+    JsName:          CHHapticErrorCodeUnknownError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticErrors.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4898'
+  - Name:            CHHapticEvent
+    JsName:          CHHapticEvent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEvent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAudioResourceID:parameters:relativeTime:'
+        JsName:          initWithAudioResourceIDParametersRelativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            UInt
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEventParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+      - Name:            'initWithAudioResourceID:parameters:relativeTime:duration:'
+        JsName:          initWithAudioResourceIDParametersRelativeTimeDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            UInt
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEventParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Double
+      - Name:            'initWithEventType:parameters:relativeTime:'
+        JsName:          initWithEventTypeParametersRelativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEventParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+      - Name:            'initWithEventType:parameters:relativeTime:duration:'
+        JsName:          initWithEventTypeParametersRelativeTimeDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEventParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Double
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            duration
+        JsName:          duration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            duration
+          JsName:          duration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setDuration:'
+          JsName:          setDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            eventParameters
+        JsName:          eventParameters
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            eventParameters
+          JsName:          eventParameters
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CHHapticEventParameter
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            relativeTime
+        JsName:          relativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            relativeTime
+          JsName:          relativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setRelativeTime:'
+          JsName:          setRelativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticEvent
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticEvent
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticEventParameter
+    JsName:          CHHapticEventParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithParameterID:value:'
+        JsName:          initWithParameterIDValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            parameterID
+        JsName:          parameterID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parameterID
+          JsName:          parameterID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setValue:'
+          JsName:          setValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticEventParameterIDAttackTime
+    JsName:          CHHapticEventParameterIDAttackTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDAudioBrightness
+    JsName:          CHHapticEventParameterIDAudioBrightness
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDAudioPan
+    JsName:          CHHapticEventParameterIDAudioPan
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDAudioPitch
+    JsName:          CHHapticEventParameterIDAudioPitch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDAudioVolume
+    JsName:          CHHapticEventParameterIDAudioVolume
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDDecayTime
+    JsName:          CHHapticEventParameterIDDecayTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDHapticIntensity
+    JsName:          CHHapticEventParameterIDHapticIntensity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDHapticSharpness
+    JsName:          CHHapticEventParameterIDHapticSharpness
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDReleaseTime
+    JsName:          CHHapticEventParameterIDReleaseTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventParameterIDSustained
+    JsName:          CHHapticEventParameterIDSustained
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventTypeAudioContinuous
+    JsName:          CHHapticEventTypeAudioContinuous
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEvent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventTypeAudioCustom
+    JsName:          CHHapticEventTypeAudioCustom
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEvent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventTypeHapticContinuous
+    JsName:          CHHapticEventTypeHapticContinuous
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEvent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticEventTypeHapticTransient
+    JsName:          CHHapticEventTypeHapticTransient
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEvent.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticEvent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticParameterAttributes
+    JsName:          CHHapticParameterAttributes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticDeviceCapability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            defaultValue
+        JsName:          defaultValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            defaultValue
+          JsName:          defaultValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticDeviceCapability
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            maxValue
+        JsName:          maxValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maxValue
+          JsName:          maxValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticDeviceCapability
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            minValue
+        JsName:          minValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticDeviceCapability
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minValue
+          JsName:          minValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticDeviceCapability.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticDeviceCapability
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CHHapticParameterCurve
+    JsName:          CHHapticParameterCurve
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithParameterID:controlPoints:relativeTime:'
+        JsName:          initWithParameterIDControlPointsRelativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticParameterCurveControlPoint
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            controlPoints
+        JsName:          controlPoints
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controlPoints
+          JsName:          controlPoints
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CHHapticParameterCurveControlPoint
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            parameterID
+        JsName:          parameterID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parameterID
+          JsName:          parameterID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            relativeTime
+        JsName:          relativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            relativeTime
+          JsName:          relativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setRelativeTime:'
+          JsName:          setRelativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticParameterCurveControlPoint
+    JsName:          CHHapticParameterCurveControlPoint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticParameter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithRelativeTime:value:'
+        JsName:          initWithRelativeTimeValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Double
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            relativeTime
+        JsName:          relativeTime
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            relativeTime
+          JsName:          relativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setRelativeTime:'
+          JsName:          setRelativeTime
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticParameter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setValue:'
+          JsName:          setValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticParameter.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticParameter
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticPattern
+    JsName:          CHHapticPattern
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'exportDictionaryAndReturnError:'
+        JsName:          exportDictionaryAndReturnError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPattern
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithDictionary:error:'
+        JsName:          initWithDictionaryError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPattern
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithEvents:parameterCurves:error:'
+        JsName:          initWithEventsParameterCurvesError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPattern
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEvent
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticParameterCurve
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithEvents:parameters:error:'
+        JsName:          initWithEventsParametersError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPattern
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticEvent
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticDynamicParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            duration
+        JsName:          duration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPattern
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            duration
+          JsName:          duration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPattern
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CHHapticPatternKeyEvent
+    JsName:          CHHapticPatternKeyEvent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyEventDuration
+    JsName:          CHHapticPatternKeyEventDuration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyEventParameters
+    JsName:          CHHapticPatternKeyEventParameters
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyEventType
+    JsName:          CHHapticPatternKeyEventType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyEventWaveformPath
+    JsName:          CHHapticPatternKeyEventWaveformPath
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyParameter
+    JsName:          CHHapticPatternKeyParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyParameterCurve
+    JsName:          CHHapticPatternKeyParameterCurve
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyParameterCurveControlPoints
+    JsName:          CHHapticPatternKeyParameterCurveControlPoints
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyParameterID
+    JsName:          CHHapticPatternKeyParameterID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyParameterValue
+    JsName:          CHHapticPatternKeyParameterValue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyPattern
+    JsName:          CHHapticPatternKeyPattern
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyTime
+    JsName:          CHHapticPatternKeyTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternKeyVersion
+    JsName:          CHHapticPatternKeyVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPattern.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPattern
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CHHapticPatternPlayer
+    JsName:          CHHapticPatternPlayer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+    Module:          
+      FullName:        CoreHaptics.CHHapticPatternPlayer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'cancelAndReturnError:'
+        JsName:          cancelAndReturnError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'scheduleParameterCurve:atTime:error:'
+        JsName:          scheduleParameterCurveAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          CHHapticParameterCurve
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'sendParameters:atTime:error:'
+        JsName:          sendParametersAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CHHapticDynamicParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'startAtTime:error:'
+        JsName:          startAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'stopAtTime:error:'
+        JsName:          stopAtTimeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Double
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            isMuted
+        JsName:          isMuted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+        Module:          
+          FullName:        CoreHaptics.CHHapticPatternPlayer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMuted
+          JsName:          isMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIsMuted:'
+          JsName:          setIsMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticPatternPlayer.h
+          Module:          
+            FullName:        CoreHaptics.CHHapticPatternPlayer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

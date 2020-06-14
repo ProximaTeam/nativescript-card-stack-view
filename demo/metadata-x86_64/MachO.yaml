@@ -1,0 +1,4209 @@
+---
+Module:          
+  FullName:        MachO
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            DYLD_BOOL
+    JsName:          DYLD_BOOL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - FALSE:           '0'
+      - TRUE:            '1'
+    SwiftNameFields: 
+  - Name:            'FALSE'
+    JsName:          'FALSE'
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            GENERIC_RELOC_LOCAL_SECTDIFF
+    JsName:          GENERIC_RELOC_LOCAL_SECTDIFF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            GENERIC_RELOC_PAIR
+    JsName:          GENERIC_RELOC_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            GENERIC_RELOC_PB_LA_PTR
+    JsName:          GENERIC_RELOC_PB_LA_PTR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            GENERIC_RELOC_SECTDIFF
+    JsName:          GENERIC_RELOC_SECTDIFF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            GENERIC_RELOC_TLV
+    JsName:          GENERIC_RELOC_TLV
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            GENERIC_RELOC_VANILLA
+    JsName:          GENERIC_RELOC_VANILLA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ''
+    JsName:          NSLinkEditErrorHandlers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            undefined
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            CString
+      - Name:            multiple
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            linkEdit
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            NSLinkEditErrors
+            - Type:            Int
+            - Type:            CString
+            - Type:            CString
+  - Name:            ''
+    JsName:          NSLinkEditErrors
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NSLinkEditFileAccessError: '0'
+      - NSLinkEditFileFormatError: '1'
+      - NSLinkEditMachResourceError: '2'
+      - NSLinkEditUnixResourceError: '3'
+      - NSLinkEditOtherError: '4'
+      - NSLinkEditWarningError: '5'
+      - NSLinkEditMultiplyDefinedError: '6'
+      - NSLinkEditUndefinedError: '7'
+    SwiftNameFields: 
+      - FileAccessError: '0'
+      - FileFormatError: '1'
+      - MachResourceError: '2'
+      - UnixResourceError: '3'
+      - OtherError:      '4'
+      - WarningError:    '5'
+      - MultiplyDefinedError: '6'
+      - UndefinedError:  '7'
+  - Name:            NSLinkEditFileAccessError
+    JsName:          NSLinkEditFileAccessError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NSLinkEditFileFormatError
+    JsName:          NSLinkEditFileFormatError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NSLinkEditMachResourceError
+    JsName:          NSLinkEditMachResourceError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NSLinkEditMultiplyDefinedError
+    JsName:          NSLinkEditMultiplyDefinedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            NSLinkEditOtherError
+    JsName:          NSLinkEditOtherError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            NSLinkEditUndefinedError
+    JsName:          NSLinkEditUndefinedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            NSLinkEditUnixResourceError
+    JsName:          NSLinkEditUnixResourceError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            NSLinkEditWarningError
+    JsName:          NSLinkEditWarningError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            NSObjectFileImageAccess
+    JsName:          NSObjectFileImageAccess
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            NSObjectFileImageArch
+    JsName:          NSObjectFileImageArch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            NSObjectFileImageFailure
+    JsName:          NSObjectFileImageFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NSObjectFileImageFormat
+    JsName:          NSObjectFileImageFormat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            NSObjectFileImageInappropriateFile
+    JsName:          NSObjectFileImageInappropriateFile
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ''
+    JsName:          NSObjectFileImageReturnCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NSObjectFileImageFailure: '0'
+      - NSObjectFileImageSuccess: '1'
+      - NSObjectFileImageInappropriateFile: '2'
+      - NSObjectFileImageArch: '3'
+      - NSObjectFileImageFormat: '4'
+      - NSObjectFileImageAccess: '5'
+    SwiftNameFields: 
+      - Failure:         '0'
+      - Success:         '1'
+      - InappropriateFile: '2'
+      - Arch:            '3'
+      - Format:          '4'
+      - Access:          '5'
+  - Name:            NSObjectFileImageSuccess
+    JsName:          NSObjectFileImageSuccess
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NSOtherErrorIndrLoop
+    JsName:          NSOtherErrorIndrLoop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NSOtherErrorInvalidArgs
+    JsName:          NSOtherErrorInvalidArgs
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            NSOtherErrorLazyBind
+    JsName:          NSOtherErrorLazyBind
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NSOtherErrorLazyInit
+    JsName:          NSOtherErrorLazyInit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ''
+    JsName:          NSOtherErrorNumbers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NSOtherErrorRelocation: '0'
+      - NSOtherErrorLazyBind: '1'
+      - NSOtherErrorIndrLoop: '2'
+      - NSOtherErrorLazyInit: '3'
+      - NSOtherErrorInvalidArgs: '4'
+    SwiftNameFields: 
+      - Relocation:      '0'
+      - LazyBind:        '1'
+      - IndrLoop:        '2'
+      - LazyInit:        '3'
+      - InvalidArgs:     '4'
+  - Name:            NSOtherErrorRelocation
+    JsName:          NSOtherErrorRelocation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NSVersionOfLinkTimeLibrary
+    JsName:          NSVersionOfLinkTimeLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+  - Name:            NSVersionOfRunTimeLibrary
+    JsName:          NSVersionOfRunTimeLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+  - Name:            ''
+    JsName:          NXArchInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            name
+        Signature:       
+          Type:            CString
+      - Name:            cputype
+        Signature:       
+          Type:            Int
+      - Name:            cpusubtype
+        Signature:       
+          Type:            Int
+      - Name:            byteorder
+        Signature:       
+          Type:            Enum
+          Name:            NXByteOrder
+      - Name:            description
+        Signature:       
+          Type:            CString
+  - Name:            NXCombineCpuSubtypes
+    JsName:          NXCombineCpuSubtypes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+  - Name:            NXFindBestFatArch
+    JsName:          NXFindBestFatArch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch
+      - Type:            Int
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch
+      - Type:            UInt
+  - Name:            NXFindBestFatArch_64
+    JsName:          NXFindBestFatArch_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch_64
+      - Type:            Int
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch_64
+      - Type:            UInt
+  - Name:            NXFreeArchInfo
+    JsName:          NXFreeArchInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.arch
+          JsName:          NXArchInfo
+  - Name:            NXGetAllArchInfos
+    JsName:          NXGetAllArchInfos
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.arch
+          JsName:          NXArchInfo
+  - Name:            NXGetArchInfoFromCpuType
+    JsName:          NXGetArchInfoFromCpuType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.arch
+          JsName:          NXArchInfo
+      - Type:            Int
+      - Type:            Int
+  - Name:            NXGetArchInfoFromName
+    JsName:          NXGetArchInfoFromName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.arch
+          JsName:          NXArchInfo
+      - Type:            CString
+  - Name:            NXGetLocalArchInfo
+    JsName:          NXGetLocalArchInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/arch.h
+    Module:          
+      FullName:        MachO.arch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.arch
+          JsName:          NXArchInfo
+  - Name:            'TRUE'
+    JsName:          'TRUE'
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNWIND_ARM64_DWARF_SECTION_OFFSET
+    JsName:          UNWIND_ARM64_DWARF_SECTION_OFFSET
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777215'
+  - Name:            UNWIND_ARM64_FRAMELESS_STACK_SIZE_MASK
+    JsName:          UNWIND_ARM64_FRAMELESS_STACK_SIZE_MASK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16773120'
+  - Name:            UNWIND_ARM64_FRAME_D10_D11_PAIR
+    JsName:          UNWIND_ARM64_FRAME_D10_D11_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '512'
+  - Name:            UNWIND_ARM64_FRAME_D12_D13_PAIR
+    JsName:          UNWIND_ARM64_FRAME_D12_D13_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1024'
+  - Name:            UNWIND_ARM64_FRAME_D14_D15_PAIR
+    JsName:          UNWIND_ARM64_FRAME_D14_D15_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2048'
+  - Name:            UNWIND_ARM64_FRAME_D8_D9_PAIR
+    JsName:          UNWIND_ARM64_FRAME_D8_D9_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            UNWIND_ARM64_FRAME_X19_X20_PAIR
+    JsName:          UNWIND_ARM64_FRAME_X19_X20_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNWIND_ARM64_FRAME_X21_X22_PAIR
+    JsName:          UNWIND_ARM64_FRAME_X21_X22_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            UNWIND_ARM64_FRAME_X23_X24_PAIR
+    JsName:          UNWIND_ARM64_FRAME_X23_X24_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            UNWIND_ARM64_FRAME_X25_X26_PAIR
+    JsName:          UNWIND_ARM64_FRAME_X25_X26_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            UNWIND_ARM64_FRAME_X27_X28_PAIR
+    JsName:          UNWIND_ARM64_FRAME_X27_X28_PAIR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            UNWIND_ARM64_MODE_DWARF
+    JsName:          UNWIND_ARM64_MODE_DWARF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '50331648'
+  - Name:            UNWIND_ARM64_MODE_FRAME
+    JsName:          UNWIND_ARM64_MODE_FRAME
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '67108864'
+  - Name:            UNWIND_ARM64_MODE_FRAMELESS
+    JsName:          UNWIND_ARM64_MODE_FRAMELESS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33554432'
+  - Name:            UNWIND_ARM64_MODE_MASK
+    JsName:          UNWIND_ARM64_MODE_MASK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '251658240'
+  - Name:            UNWIND_HAS_LSDA
+    JsName:          UNWIND_HAS_LSDA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1073741824'
+  - Name:            UNWIND_IS_NOT_FUNCTION_START
+    JsName:          UNWIND_IS_NOT_FUNCTION_START
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2147483648'
+  - Name:            UNWIND_PERSONALITY_MASK
+    JsName:          UNWIND_PERSONALITY_MASK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '805306368'
+  - Name:            UNWIND_X86_64_DWARF_SECTION_OFFSET
+    JsName:          UNWIND_X86_64_DWARF_SECTION_OFFSET
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777215'
+  - Name:            UNWIND_X86_64_FRAMELESS_STACK_ADJUST
+    JsName:          UNWIND_X86_64_FRAMELESS_STACK_ADJUST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '57344'
+  - Name:            UNWIND_X86_64_FRAMELESS_STACK_REG_COUNT
+    JsName:          UNWIND_X86_64_FRAMELESS_STACK_REG_COUNT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7168'
+  - Name:            UNWIND_X86_64_FRAMELESS_STACK_REG_PERMUTATION
+    JsName:          UNWIND_X86_64_FRAMELESS_STACK_REG_PERMUTATION
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1023'
+  - Name:            UNWIND_X86_64_FRAMELESS_STACK_SIZE
+    JsName:          UNWIND_X86_64_FRAMELESS_STACK_SIZE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16711680'
+  - Name:            UNWIND_X86_64_MODE_DWARF
+    JsName:          UNWIND_X86_64_MODE_DWARF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '67108864'
+  - Name:            UNWIND_X86_64_MODE_MASK
+    JsName:          UNWIND_X86_64_MODE_MASK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '251658240'
+  - Name:            UNWIND_X86_64_MODE_RBP_FRAME
+    JsName:          UNWIND_X86_64_MODE_RBP_FRAME
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777216'
+  - Name:            UNWIND_X86_64_MODE_STACK_IMMD
+    JsName:          UNWIND_X86_64_MODE_STACK_IMMD
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33554432'
+  - Name:            UNWIND_X86_64_MODE_STACK_IND
+    JsName:          UNWIND_X86_64_MODE_STACK_IND
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '50331648'
+  - Name:            UNWIND_X86_64_RBP_FRAME_OFFSET
+    JsName:          UNWIND_X86_64_RBP_FRAME_OFFSET
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16711680'
+  - Name:            UNWIND_X86_64_RBP_FRAME_REGISTERS
+    JsName:          UNWIND_X86_64_RBP_FRAME_REGISTERS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32767'
+  - Name:            UNWIND_X86_64_REG_NONE
+    JsName:          UNWIND_X86_64_REG_NONE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            UNWIND_X86_64_REG_R12
+    JsName:          UNWIND_X86_64_REG_R12
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            UNWIND_X86_64_REG_R13
+    JsName:          UNWIND_X86_64_REG_R13
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            UNWIND_X86_64_REG_R14
+    JsName:          UNWIND_X86_64_REG_R14
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            UNWIND_X86_64_REG_R15
+    JsName:          UNWIND_X86_64_REG_R15
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            UNWIND_X86_64_REG_RBP
+    JsName:          UNWIND_X86_64_REG_RBP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            UNWIND_X86_64_REG_RBX
+    JsName:          UNWIND_X86_64_REG_RBX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNWIND_X86_DWARF_SECTION_OFFSET
+    JsName:          UNWIND_X86_DWARF_SECTION_OFFSET
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777215'
+  - Name:            UNWIND_X86_EBP_FRAME_OFFSET
+    JsName:          UNWIND_X86_EBP_FRAME_OFFSET
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16711680'
+  - Name:            UNWIND_X86_EBP_FRAME_REGISTERS
+    JsName:          UNWIND_X86_EBP_FRAME_REGISTERS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32767'
+  - Name:            UNWIND_X86_FRAMELESS_STACK_ADJUST
+    JsName:          UNWIND_X86_FRAMELESS_STACK_ADJUST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '57344'
+  - Name:            UNWIND_X86_FRAMELESS_STACK_REG_COUNT
+    JsName:          UNWIND_X86_FRAMELESS_STACK_REG_COUNT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7168'
+  - Name:            UNWIND_X86_FRAMELESS_STACK_REG_PERMUTATION
+    JsName:          UNWIND_X86_FRAMELESS_STACK_REG_PERMUTATION
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1023'
+  - Name:            UNWIND_X86_FRAMELESS_STACK_SIZE
+    JsName:          UNWIND_X86_FRAMELESS_STACK_SIZE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16711680'
+  - Name:            UNWIND_X86_MODE_DWARF
+    JsName:          UNWIND_X86_MODE_DWARF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '67108864'
+  - Name:            UNWIND_X86_MODE_EBP_FRAME
+    JsName:          UNWIND_X86_MODE_EBP_FRAME
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777216'
+  - Name:            UNWIND_X86_MODE_MASK
+    JsName:          UNWIND_X86_MODE_MASK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '251658240'
+  - Name:            UNWIND_X86_MODE_STACK_IMMD
+    JsName:          UNWIND_X86_MODE_STACK_IMMD
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33554432'
+  - Name:            UNWIND_X86_MODE_STACK_IND
+    JsName:          UNWIND_X86_MODE_STACK_IND
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '50331648'
+  - Name:            UNWIND_X86_REG_EBP
+    JsName:          UNWIND_X86_REG_EBP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            UNWIND_X86_REG_EBX
+    JsName:          UNWIND_X86_REG_EBX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNWIND_X86_REG_ECX
+    JsName:          UNWIND_X86_REG_ECX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            UNWIND_X86_REG_EDI
+    JsName:          UNWIND_X86_REG_EDI
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            UNWIND_X86_REG_EDX
+    JsName:          UNWIND_X86_REG_EDX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            UNWIND_X86_REG_ESI
+    JsName:          UNWIND_X86_REG_ESI
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            UNWIND_X86_REG_NONE
+    JsName:          UNWIND_X86_REG_NONE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            _NSGetExecutablePath
+    JsName:          _NSGetExecutablePath
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            _dyld_get_image_header
+    JsName:          _dyld_get_image_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header
+      - Type:            UInt
+  - Name:            _dyld_get_image_name
+    JsName:          _dyld_get_image_name
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            UInt
+  - Name:            _dyld_get_image_vmaddr_slide
+    JsName:          _dyld_get_image_vmaddr_slide
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            UInt
+  - Name:            _dyld_image_count
+    JsName:          _dyld_image_count
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+  - Name:            _dyld_register_func_for_add_image
+    JsName:          _dyld_register_func_for_add_image
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Struct
+              Module:          MachO.loader
+              JsName:          mach_header
+          - Type:            Long
+  - Name:            _dyld_register_func_for_remove_image
+    JsName:          _dyld_register_func_for_remove_image
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Struct
+              Module:          MachO.loader
+              JsName:          mach_header
+          - Type:            Long
+  - Name:            _mh_bundle_header
+    JsName:          _mh_bundle_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/ldsyms.h
+    Module:          
+      FullName:        MachO.ldsyms
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.loader
+      JsName:          mach_header_64
+  - Name:            _mh_dylib_header
+    JsName:          _mh_dylib_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/ldsyms.h
+    Module:          
+      FullName:        MachO.ldsyms
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.loader
+      JsName:          mach_header_64
+  - Name:            _mh_dylinker_header
+    JsName:          _mh_dylinker_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/ldsyms.h
+    Module:          
+      FullName:        MachO.ldsyms
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.loader
+      JsName:          mach_header_64
+  - Name:            _mh_execute_header
+    JsName:          _mh_execute_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/ldsyms.h
+    Module:          
+      FullName:        MachO.ldsyms
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.loader
+      JsName:          mach_header_64
+  - Name:            _tlv_atexit
+    JsName:          _tlv_atexit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            _tlv_bootstrap
+    JsName:          _tlv_bootstrap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld.h
+    Module:          
+      FullName:        MachO.dyld
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            build_tool_version
+    JsName:          build_tool_version
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            tool
+        Signature:       
+          Type:            UInt
+      - Name:            version
+        Signature:       
+          Type:            UInt
+  - Name:            build_version_command
+    JsName:          build_version_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            platform
+        Signature:       
+          Type:            UInt
+      - Name:            minos
+        Signature:       
+          Type:            UInt
+      - Name:            sdk
+        Signature:       
+          Type:            UInt
+      - Name:            ntools
+        Signature:       
+          Type:            UInt
+  - Name:            data_in_code_entry
+    JsName:          data_in_code_entry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            length
+        Signature:       
+          Type:            Ushort
+      - Name:            kind
+        Signature:       
+          Type:            Ushort
+  - Name:            dyld_all_image_infos
+    JsName:          dyld_all_image_infos
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            UInt
+      - Name:            infoArrayCount
+        Signature:       
+          Type:            UInt
+      - Name:            infoArray
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.dyld_images
+            JsName:          dyld_image_info
+      - Name:            notification
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            dyld_image_mode
+            - Type:            UInt
+            - Type:            IncompleteArray
+              ArrayType:       
+                Type:            Struct
+                Module:          MachO.dyld_images
+                JsName:          dyld_image_info
+      - Name:            processDetachedFromSharedRegion
+        Signature:       
+          Type:            Bool
+      - Name:            libSystemInitialized
+        Signature:       
+          Type:            Bool
+      - Name:            dyldImageLoadAddress
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.loader
+            JsName:          mach_header
+      - Name:            jitInfo
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            dyldVersion
+        Signature:       
+          Type:            CString
+      - Name:            errorMessage
+        Signature:       
+          Type:            CString
+      - Name:            terminationFlags
+        Signature:       
+          Type:            ULong
+      - Name:            coreSymbolicationShmPage
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            systemOrderFlag
+        Signature:       
+          Type:            ULong
+      - Name:            uuidArrayCount
+        Signature:       
+          Type:            ULong
+      - Name:            uuidArray
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.dyld_images
+            JsName:          dyld_uuid_info
+      - Name:            dyldAllImageInfosAddress
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.dyld_images
+            JsName:          dyld_all_image_infos
+      - Name:            initialImageCount
+        Signature:       
+          Type:            ULong
+      - Name:            errorKind
+        Signature:       
+          Type:            ULong
+      - Name:            errorClientOfDylibPath
+        Signature:       
+          Type:            CString
+      - Name:            errorTargetDylibPath
+        Signature:       
+          Type:            CString
+      - Name:            errorSymbol
+        Signature:       
+          Type:            CString
+      - Name:            sharedCacheSlide
+        Signature:       
+          Type:            ULong
+      - Name:            sharedCacheUUID
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UChar
+          Size:            16
+      - Name:            sharedCacheBaseAddress
+        Signature:       
+          Type:            ULong
+      - Name:            infoArrayChangeTimestamp
+        Signature:       
+          Type:            ULongLong
+      - Name:            dyldPath
+        Signature:       
+          Type:            CString
+      - Name:            notifyPorts
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            8
+      - Name:            reserved
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            ULong
+          Size:            9
+      - Name:            compact_dyld_image_info_addr
+        Signature:       
+          Type:            ULong
+      - Name:            compact_dyld_image_info_size
+        Signature:       
+          Type:            ULong
+      - Name:            platform
+        Signature:       
+          Type:            UInt
+  - Name:            dyld_error_kind_dylib_missing
+    JsName:          dyld_error_kind_dylib_missing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            dyld_error_kind_dylib_version
+    JsName:          dyld_error_kind_dylib_version
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            dyld_error_kind_dylib_wrong_arch
+    JsName:          dyld_error_kind_dylib_wrong_arch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            dyld_error_kind_none
+    JsName:          dyld_error_kind_none
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            dyld_error_kind_symbol_missing
+    JsName:          dyld_error_kind_symbol_missing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            dyld_image_adding
+    JsName:          dyld_image_adding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            dyld_image_info
+    JsName:          dyld_image_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            imageLoadAddress
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.loader
+            JsName:          mach_header
+      - Name:            imageFilePath
+        Signature:       
+          Type:            CString
+      - Name:            imageFileModDate
+        Signature:       
+          Type:            ULong
+  - Name:            dyld_image_info_change
+    JsName:          dyld_image_info_change
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            dyld_image_mode
+    JsName:          dyld_image_mode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - dyld_image_adding: '0'
+      - dyld_image_removing: '1'
+      - dyld_image_info_change: '2'
+    SwiftNameFields: 
+  - Name:            dyld_image_removing
+    JsName:          dyld_image_removing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            dyld_info_command
+    JsName:          dyld_info_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            rebase_off
+        Signature:       
+          Type:            UInt
+      - Name:            rebase_size
+        Signature:       
+          Type:            UInt
+      - Name:            bind_off
+        Signature:       
+          Type:            UInt
+      - Name:            bind_size
+        Signature:       
+          Type:            UInt
+      - Name:            weak_bind_off
+        Signature:       
+          Type:            UInt
+      - Name:            weak_bind_size
+        Signature:       
+          Type:            UInt
+      - Name:            lazy_bind_off
+        Signature:       
+          Type:            UInt
+      - Name:            lazy_bind_size
+        Signature:       
+          Type:            UInt
+      - Name:            export_off
+        Signature:       
+          Type:            UInt
+      - Name:            export_size
+        Signature:       
+          Type:            UInt
+  - Name:            dyld_shared_cache_ranges
+    JsName:          dyld_shared_cache_ranges
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.dyld_images
+      JsName:          dyld_shared_cache_rangesStruct
+  - Name:            dyld_shared_cache_ranges
+    JsName:          dyld_shared_cache_rangesStruct
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            sharedRegionsCount
+        Signature:       
+          Type:            ULong
+      - Name:            ranges
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            AnonymousStruct
+            Fields:          
+              - Name:            start
+                Signature:       
+                  Type:            ULong
+              - Name:            length
+                Signature:       
+                  Type:            ULong
+          Size:            4
+  - Name:            dyld_uuid_info
+    JsName:          dyld_uuid_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/dyld_images.h
+    Module:          
+      FullName:        MachO.dyld_images
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            imageLoadAddress
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Struct
+            Module:          MachO.loader
+            JsName:          mach_header
+      - Name:            imageUUID
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UChar
+          Size:            16
+  - Name:            dylib_module
+    JsName:          dylib_module
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            module_name
+        Signature:       
+          Type:            UInt
+      - Name:            iextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            irefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nrefsym
+        Signature:       
+          Type:            UInt
+      - Name:            ilocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            nlocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            iextrel
+        Signature:       
+          Type:            UInt
+      - Name:            nextrel
+        Signature:       
+          Type:            UInt
+      - Name:            iinit_iterm
+        Signature:       
+          Type:            UInt
+      - Name:            ninit_nterm
+        Signature:       
+          Type:            UInt
+      - Name:            objc_module_info_addr
+        Signature:       
+          Type:            UInt
+      - Name:            objc_module_info_size
+        Signature:       
+          Type:            UInt
+  - Name:            dylib_module_64
+    JsName:          dylib_module_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            module_name
+        Signature:       
+          Type:            UInt
+      - Name:            iextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            irefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nrefsym
+        Signature:       
+          Type:            UInt
+      - Name:            ilocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            nlocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            iextrel
+        Signature:       
+          Type:            UInt
+      - Name:            nextrel
+        Signature:       
+          Type:            UInt
+      - Name:            iinit_iterm
+        Signature:       
+          Type:            UInt
+      - Name:            ninit_nterm
+        Signature:       
+          Type:            UInt
+      - Name:            objc_module_info_size
+        Signature:       
+          Type:            UInt
+      - Name:            objc_module_info_addr
+        Signature:       
+          Type:            ULongLong
+  - Name:            dylib_reference
+    JsName:          dylib_reference
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            isym
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+  - Name:            dylib_table_of_contents
+    JsName:          dylib_table_of_contents
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            symbol_index
+        Signature:       
+          Type:            UInt
+      - Name:            module_index
+        Signature:       
+          Type:            UInt
+  - Name:            dysymtab_command
+    JsName:          dysymtab_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            ilocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            nlocalsym
+        Signature:       
+          Type:            UInt
+      - Name:            iextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nextdefsym
+        Signature:       
+          Type:            UInt
+      - Name:            iundefsym
+        Signature:       
+          Type:            UInt
+      - Name:            nundefsym
+        Signature:       
+          Type:            UInt
+      - Name:            tocoff
+        Signature:       
+          Type:            UInt
+      - Name:            ntoc
+        Signature:       
+          Type:            UInt
+      - Name:            modtaboff
+        Signature:       
+          Type:            UInt
+      - Name:            nmodtab
+        Signature:       
+          Type:            UInt
+      - Name:            extrefsymoff
+        Signature:       
+          Type:            UInt
+      - Name:            nextrefsyms
+        Signature:       
+          Type:            UInt
+      - Name:            indirectsymoff
+        Signature:       
+          Type:            UInt
+      - Name:            nindirectsyms
+        Signature:       
+          Type:            UInt
+      - Name:            extreloff
+        Signature:       
+          Type:            UInt
+      - Name:            nextrel
+        Signature:       
+          Type:            UInt
+      - Name:            locreloff
+        Signature:       
+          Type:            UInt
+      - Name:            nlocrel
+        Signature:       
+          Type:            UInt
+  - Name:            encryption_info_command
+    JsName:          encryption_info_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            cryptoff
+        Signature:       
+          Type:            UInt
+      - Name:            cryptsize
+        Signature:       
+          Type:            UInt
+      - Name:            cryptid
+        Signature:       
+          Type:            UInt
+  - Name:            encryption_info_command_64
+    JsName:          encryption_info_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            cryptoff
+        Signature:       
+          Type:            UInt
+      - Name:            cryptsize
+        Signature:       
+          Type:            UInt
+      - Name:            cryptid
+        Signature:       
+          Type:            UInt
+      - Name:            pad
+        Signature:       
+          Type:            UInt
+  - Name:            entry_point_command
+    JsName:          entry_point_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            entryoff
+        Signature:       
+          Type:            ULongLong
+      - Name:            stacksize
+        Signature:       
+          Type:            ULongLong
+  - Name:            fat_arch
+    JsName:          fat_arch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/fat.h
+    Module:          
+      FullName:        MachO.fat
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cputype
+        Signature:       
+          Type:            Int
+      - Name:            cpusubtype
+        Signature:       
+          Type:            Int
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            size
+        Signature:       
+          Type:            UInt
+      - Name:            align
+        Signature:       
+          Type:            UInt
+  - Name:            fat_arch_64
+    JsName:          fat_arch_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/fat.h
+    Module:          
+      FullName:        MachO.fat
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cputype
+        Signature:       
+          Type:            Int
+      - Name:            cpusubtype
+        Signature:       
+          Type:            Int
+      - Name:            offset
+        Signature:       
+          Type:            ULongLong
+      - Name:            size
+        Signature:       
+          Type:            ULongLong
+      - Name:            align
+        Signature:       
+          Type:            UInt
+      - Name:            reserved
+        Signature:       
+          Type:            UInt
+  - Name:            fat_header
+    JsName:          fat_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/fat.h
+    Module:          
+      FullName:        MachO.fat
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            magic
+        Signature:       
+          Type:            UInt
+      - Name:            nfat_arch
+        Signature:       
+          Type:            UInt
+  - Name:            get_edata
+    JsName:          get_edata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            get_end
+    JsName:          get_end
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            get_etext
+    JsName:          get_etext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            getsectbyname
+    JsName:          getsectbyname
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section_64
+      - Type:            CString
+      - Type:            CString
+  - Name:            getsectbynamefromheader
+    JsName:          getsectbynamefromheader
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header
+      - Type:            CString
+      - Type:            CString
+  - Name:            getsectbynamefromheader_64
+    JsName:          getsectbynamefromheader_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section_64
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            CString
+      - Type:            CString
+  - Name:            getsectbynamefromheaderwithswap
+    JsName:          getsectbynamefromheaderwithswap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header
+      - Type:            CString
+      - Type:            CString
+      - Type:            Int
+  - Name:            getsectbynamefromheaderwithswap_64
+    JsName:          getsectbynamefromheaderwithswap_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            CString
+      - Type:            CString
+      - Type:            Int
+  - Name:            getsectdata
+    JsName:          getsectdata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            getsectdatafromFramework
+    JsName:          getsectdatafromFramework
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            getsectdatafromheader
+    JsName:          getsectdatafromheader
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            getsectdatafromheader_64
+    JsName:          getsectdatafromheader_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULongLong
+  - Name:            getsectiondata
+    JsName:          getsectiondata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            getsegbyname
+    JsName:          getsegbyname
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          segment_command_64
+      - Type:            CString
+  - Name:            getsegmentdata
+    JsName:          getsegmentdata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/getsect.h
+    Module:          
+      FullName:        MachO.getsect
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            ident_command
+    JsName:          ident_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+  - Name:            linkedit_data_command
+    JsName:          linkedit_data_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            dataoff
+        Signature:       
+          Type:            UInt
+      - Name:            datasize
+        Signature:       
+          Type:            UInt
+  - Name:            linker_option_command
+    JsName:          linker_option_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            count
+        Signature:       
+          Type:            UInt
+  - Name:            load_command
+    JsName:          load_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+  - Name:            mach_header
+    JsName:          mach_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            magic
+        Signature:       
+          Type:            UInt
+      - Name:            cputype
+        Signature:       
+          Type:            Int
+      - Name:            cpusubtype
+        Signature:       
+          Type:            Int
+      - Name:            filetype
+        Signature:       
+          Type:            UInt
+      - Name:            ncmds
+        Signature:       
+          Type:            UInt
+      - Name:            sizeofcmds
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+  - Name:            mach_header_64
+    JsName:          mach_header_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            magic
+        Signature:       
+          Type:            UInt
+      - Name:            cputype
+        Signature:       
+          Type:            Int
+      - Name:            cpusubtype
+        Signature:       
+          Type:            Int
+      - Name:            filetype
+        Signature:       
+          Type:            UInt
+      - Name:            ncmds
+        Signature:       
+          Type:            UInt
+      - Name:            sizeofcmds
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+      - Name:            reserved
+        Signature:       
+          Type:            UInt
+  - Name:            note_command
+    JsName:          note_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            data_owner
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            offset
+        Signature:       
+          Type:            ULongLong
+      - Name:            size
+        Signature:       
+          Type:            ULongLong
+  - Name:            prebind_cksum_command
+    JsName:          prebind_cksum_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            cksum
+        Signature:       
+          Type:            UInt
+  - Name:            reloc_type_generic
+    JsName:          reloc_type_generic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - GENERIC_RELOC_VANILLA: '0'
+      - GENERIC_RELOC_PAIR: '1'
+      - GENERIC_RELOC_SECTDIFF: '2'
+      - GENERIC_RELOC_PB_LA_PTR: '3'
+      - GENERIC_RELOC_LOCAL_SECTDIFF: '4'
+      - GENERIC_RELOC_TLV: '5'
+    SwiftNameFields: 
+  - Name:            relocation_info
+    JsName:          relocation_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            r_address
+        Signature:       
+          Type:            Int
+      - Name:            r_symbolnum
+        Signature:       
+          Type:            UInt
+      - Name:            r_pcrel
+        Signature:       
+          Type:            UInt
+      - Name:            r_length
+        Signature:       
+          Type:            UInt
+      - Name:            r_extern
+        Signature:       
+          Type:            UInt
+      - Name:            r_type
+        Signature:       
+          Type:            UInt
+  - Name:            routines_command
+    JsName:          routines_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            init_address
+        Signature:       
+          Type:            UInt
+      - Name:            init_module
+        Signature:       
+          Type:            UInt
+      - Name:            reserved1
+        Signature:       
+          Type:            UInt
+      - Name:            reserved2
+        Signature:       
+          Type:            UInt
+      - Name:            reserved3
+        Signature:       
+          Type:            UInt
+      - Name:            reserved4
+        Signature:       
+          Type:            UInt
+      - Name:            reserved5
+        Signature:       
+          Type:            UInt
+      - Name:            reserved6
+        Signature:       
+          Type:            UInt
+  - Name:            routines_command_64
+    JsName:          routines_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            init_address
+        Signature:       
+          Type:            ULongLong
+      - Name:            init_module
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved1
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved2
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved3
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved4
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved5
+        Signature:       
+          Type:            ULongLong
+      - Name:            reserved6
+        Signature:       
+          Type:            ULongLong
+  - Name:            scattered_relocation_info
+    JsName:          scattered_relocation_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/reloc.h
+    Module:          
+      FullName:        MachO.reloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            r_address
+        Signature:       
+          Type:            UInt
+      - Name:            r_type
+        Signature:       
+          Type:            UInt
+      - Name:            r_length
+        Signature:       
+          Type:            UInt
+      - Name:            r_pcrel
+        Signature:       
+          Type:            UInt
+      - Name:            r_scattered
+        Signature:       
+          Type:            UInt
+      - Name:            r_value
+        Signature:       
+          Type:            Int
+  - Name:            section
+    JsName:          section
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            sectname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            segname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            addr
+        Signature:       
+          Type:            UInt
+      - Name:            size
+        Signature:       
+          Type:            UInt
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            align
+        Signature:       
+          Type:            UInt
+      - Name:            reloff
+        Signature:       
+          Type:            UInt
+      - Name:            nreloc
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+      - Name:            reserved1
+        Signature:       
+          Type:            UInt
+      - Name:            reserved2
+        Signature:       
+          Type:            UInt
+  - Name:            section_64
+    JsName:          section_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            sectname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            segname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            addr
+        Signature:       
+          Type:            ULongLong
+      - Name:            size
+        Signature:       
+          Type:            ULongLong
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            align
+        Signature:       
+          Type:            UInt
+      - Name:            reloff
+        Signature:       
+          Type:            UInt
+      - Name:            nreloc
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+      - Name:            reserved1
+        Signature:       
+          Type:            UInt
+      - Name:            reserved2
+        Signature:       
+          Type:            UInt
+      - Name:            reserved3
+        Signature:       
+          Type:            UInt
+  - Name:            segment_command
+    JsName:          segment_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            segname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            vmaddr
+        Signature:       
+          Type:            UInt
+      - Name:            vmsize
+        Signature:       
+          Type:            UInt
+      - Name:            fileoff
+        Signature:       
+          Type:            UInt
+      - Name:            filesize
+        Signature:       
+          Type:            UInt
+      - Name:            maxprot
+        Signature:       
+          Type:            Int
+      - Name:            initprot
+        Signature:       
+          Type:            Int
+      - Name:            nsects
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+  - Name:            segment_command_64
+    JsName:          segment_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            segname
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            16
+      - Name:            vmaddr
+        Signature:       
+          Type:            ULongLong
+      - Name:            vmsize
+        Signature:       
+          Type:            ULongLong
+      - Name:            fileoff
+        Signature:       
+          Type:            ULongLong
+      - Name:            filesize
+        Signature:       
+          Type:            ULongLong
+      - Name:            maxprot
+        Signature:       
+          Type:            Int
+      - Name:            initprot
+        Signature:       
+          Type:            Int
+      - Name:            nsects
+        Signature:       
+          Type:            UInt
+      - Name:            flags
+        Signature:       
+          Type:            UInt
+  - Name:            source_version_command
+    JsName:          source_version_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            version
+        Signature:       
+          Type:            ULongLong
+  - Name:            swap_build_tool_version
+    JsName:          swap_build_tool_version
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          build_tool_version
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_build_version_command
+    JsName:          swap_build_version_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          build_version_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dyld_info_command
+    JsName:          swap_dyld_info_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dyld_info_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dylib_module
+    JsName:          swap_dylib_module
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dylib_module
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dylib_module_64
+    JsName:          swap_dylib_module_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dylib_module_64
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dylib_reference
+    JsName:          swap_dylib_reference
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dylib_reference
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dylib_table_of_contents
+    JsName:          swap_dylib_table_of_contents
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dylib_table_of_contents
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_dysymtab_command
+    JsName:          swap_dysymtab_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          dysymtab_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_encryption_command
+    JsName:          swap_encryption_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          encryption_info_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_encryption_command_64
+    JsName:          swap_encryption_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          encryption_info_command_64
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_entry_point_command
+    JsName:          swap_entry_point_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          entry_point_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_fat_arch
+    JsName:          swap_fat_arch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_fat_arch_64
+    JsName:          swap_fat_arch_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_arch_64
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_fat_header
+    JsName:          swap_fat_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.fat
+          JsName:          fat_header
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_ident_command
+    JsName:          swap_ident_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          ident_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_indirect_symbols
+    JsName:          swap_indirect_symbols
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_linkedit_data_command
+    JsName:          swap_linkedit_data_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          linkedit_data_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_linker_option_command
+    JsName:          swap_linker_option_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          linker_option_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_load_command
+    JsName:          swap_load_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          load_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_mach_header
+    JsName:          swap_mach_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_mach_header_64
+    JsName:          swap_mach_header_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          mach_header_64
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_note_command
+    JsName:          swap_note_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          note_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_prebind_cksum_command
+    JsName:          swap_prebind_cksum_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          prebind_cksum_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_prebind_cksum_command
+    JsName:          swap_prebind_cksum_commandFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          prebind_cksum_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_relocation_info
+    JsName:          swap_relocation_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.reloc
+          JsName:          relocation_info
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_routines_command
+    JsName:          swap_routines_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          routines_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_routines_command_64
+    JsName:          swap_routines_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          routines_command_64
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_section
+    JsName:          swap_section
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_section_64
+    JsName:          swap_section_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          section_64
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_segment_command
+    JsName:          swap_segment_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          segment_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_segment_command_64
+    JsName:          swap_segment_command_64
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          segment_command_64
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_source_version_command
+    JsName:          swap_source_version_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          source_version_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_symseg_command
+    JsName:          swap_symseg_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          symseg_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_symtab_command
+    JsName:          swap_symtab_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          symtab_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_thread_command
+    JsName:          swap_thread_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          thread_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_twolevel_hint
+    JsName:          swap_twolevel_hint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          twolevel_hint
+      - Type:            UInt
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_twolevel_hints_command
+    JsName:          swap_twolevel_hints_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          twolevel_hints_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_uuid_command
+    JsName:          swap_uuid_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          uuid_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_uuid_command
+    JsName:          swap_uuid_commandFunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          uuid_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            swap_version_min_command
+    JsName:          swap_version_min_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/swap.h
+    Module:          
+      FullName:        MachO.swap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MachO.loader
+          JsName:          version_min_command
+      - Type:            Enum
+        Name:            NXByteOrder
+  - Name:            symseg_command
+    JsName:          symseg_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            size
+        Signature:       
+          Type:            UInt
+  - Name:            symtab_command
+    JsName:          symtab_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            symoff
+        Signature:       
+          Type:            UInt
+      - Name:            nsyms
+        Signature:       
+          Type:            UInt
+      - Name:            stroff
+        Signature:       
+          Type:            UInt
+      - Name:            strsize
+        Signature:       
+          Type:            UInt
+  - Name:            thread_command
+    JsName:          thread_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+  - Name:            tlv_descriptor
+    JsName:          tlv_descriptor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            thunk
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Struct
+                Module:          MachO.loader
+                JsName:          tlv_descriptor
+      - Name:            key
+        Signature:       
+          Type:            ULong
+      - Name:            offset
+        Signature:       
+          Type:            ULong
+  - Name:            twolevel_hint
+    JsName:          twolevel_hint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            isub_image
+        Signature:       
+          Type:            UInt
+      - Name:            itoc
+        Signature:       
+          Type:            UInt
+  - Name:            twolevel_hints_command
+    JsName:          twolevel_hints_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            offset
+        Signature:       
+          Type:            UInt
+      - Name:            nhints
+        Signature:       
+          Type:            UInt
+  - Name:            unwind_info_compressed_second_level_page_header
+    JsName:          unwind_info_compressed_second_level_page_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            kind
+        Signature:       
+          Type:            UInt
+      - Name:            entryPageOffset
+        Signature:       
+          Type:            Ushort
+      - Name:            entryCount
+        Signature:       
+          Type:            Ushort
+      - Name:            encodingsPageOffset
+        Signature:       
+          Type:            Ushort
+      - Name:            encodingsCount
+        Signature:       
+          Type:            Ushort
+  - Name:            unwind_info_regular_second_level_entry
+    JsName:          unwind_info_regular_second_level_entry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            functionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            encoding
+        Signature:       
+          Type:            UInt
+  - Name:            unwind_info_regular_second_level_page_header
+    JsName:          unwind_info_regular_second_level_page_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            kind
+        Signature:       
+          Type:            UInt
+      - Name:            entryPageOffset
+        Signature:       
+          Type:            Ushort
+      - Name:            entryCount
+        Signature:       
+          Type:            Ushort
+  - Name:            unwind_info_section_header
+    JsName:          unwind_info_section_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            UInt
+      - Name:            commonEncodingsArraySectionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            commonEncodingsArrayCount
+        Signature:       
+          Type:            UInt
+      - Name:            personalityArraySectionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            personalityArrayCount
+        Signature:       
+          Type:            UInt
+      - Name:            indexSectionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            indexCount
+        Signature:       
+          Type:            UInt
+  - Name:            unwind_info_section_header_index_entry
+    JsName:          unwind_info_section_header_index_entry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            functionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            secondLevelPagesSectionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            lsdaIndexArraySectionOffset
+        Signature:       
+          Type:            UInt
+  - Name:            unwind_info_section_header_lsda_index_entry
+    JsName:          unwind_info_section_header_lsda_index_entry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/compact_unwind_encoding.h
+    Module:          
+      FullName:        MachO.compact_unwind_encoding
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            functionOffset
+        Signature:       
+          Type:            UInt
+      - Name:            lsdaOffset
+        Signature:       
+          Type:            UInt
+  - Name:            uuid_command
+    JsName:          uuid_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            uuid
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UChar
+          Size:            16
+  - Name:            version_min_command
+    JsName:          version_min_command
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/mach-o/loader.h
+    Module:          
+      FullName:        MachO.loader
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            cmd
+        Signature:       
+          Type:            UInt
+      - Name:            cmdsize
+        Signature:       
+          Type:            UInt
+      - Name:            version
+        Signature:       
+          Type:            UInt
+      - Name:            sdk
+        Signature:       
+          Type:            UInt
+...

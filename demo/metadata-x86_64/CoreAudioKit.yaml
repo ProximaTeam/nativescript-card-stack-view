@@ -1,0 +1,629 @@
+---
+Module:          
+  FullName:        CoreAudioKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         CoreAudioKit
+      IsFramework:     true
+Items:           
+  - Name:            AUAudioUnitViewConfiguration
+    JsName:          AUAudioUnitViewConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+    Module:          
+      FullName:        CoreAudioKit.AUViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithWidth:height:hostHasController:'
+        JsName:          initWithWidthHeightHostHasController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+        Module:          
+          FullName:        CoreAudioKit.AUViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Double
+          - Type:            Double
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            height
+        JsName:          height
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+        Module:          
+          FullName:        CoreAudioKit.AUViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            height
+          JsName:          height
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+          Module:          
+            FullName:        CoreAudioKit.AUViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            hostHasController
+        JsName:          hostHasController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+        Module:          
+          FullName:        CoreAudioKit.AUViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hostHasController
+          JsName:          hostHasController
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+          Module:          
+            FullName:        CoreAudioKit.AUViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            width
+        JsName:          width
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+        Module:          
+          FullName:        CoreAudioKit.AUViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            width
+          JsName:          width
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+          Module:          
+            FullName:        CoreAudioKit.AUViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            AUViewController
+    JsName:          AUViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h
+    Module:          
+      FullName:        CoreAudioKit.AUViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSExtensionRequestHandling
+    Base:            UIViewController
+  - Name:            CABTMIDICentralViewController
+    JsName:          CABTMIDICentralViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CABTMIDICentralViewController.h
+    Module:          
+      FullName:        CoreAudioKit.CABTMIDICentralViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            UITableViewController
+  - Name:            CABTMIDILocalPeripheralViewController
+    JsName:          CABTMIDILocalPeripheralViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CABTMIDILocalPeripheralViewController.h
+    Module:          
+      FullName:        CoreAudioKit.CABTMIDILocalPeripheralViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            CAInterAppAudioSwitcherView
+    JsName:          CAInterAppAudioSwitcherView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+    Module:          
+      FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            contentWidth
+        JsName:          contentWidth
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Double
+      - Name:            'setOutputAudioUnit:'
+        JsName:          setOutputAudioUnit
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            showingAppNames
+        JsName:          showingAppNames
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isShowingAppNames
+          JsName:          isShowingAppNames
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowingAppNames:'
+          JsName:          setShowingAppNames
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioSwitcherView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            CAInterAppAudioTransportView
+    JsName:          CAInterAppAudioTransportView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+    Module:          
+      FullName:        CoreAudioKit.CAInterAppAudioTransportView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setOutputAudioUnit:'
+        JsName:          setOutputAudioUnit
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            connected
+        JsName:          connected
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isConnected
+          JsName:          isConnected
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            currentTimeLabelFont
+        JsName:          currentTimeLabelFont
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentTimeLabelFont
+          JsName:          currentTimeLabelFont
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIFont
+              WithProtocols:   
+        Setter:          
+          Name:            'setCurrentTimeLabelFont:'
+          JsName:          setCurrentTimeLabelFont
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIFont
+              WithProtocols:   
+      - Name:            enabled
+        JsName:          enabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isEnabled
+          JsName:          isEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setEnabled:'
+          JsName:          setEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            labelColor
+        JsName:          labelColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            labelColor
+          JsName:          labelColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setLabelColor:'
+          JsName:          setLabelColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            pauseButtonColor
+        JsName:          pauseButtonColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pauseButtonColor
+          JsName:          pauseButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setPauseButtonColor:'
+          JsName:          setPauseButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            playButtonColor
+        JsName:          playButtonColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            playButtonColor
+          JsName:          playButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setPlayButtonColor:'
+          JsName:          setPlayButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            playing
+        JsName:          playing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPlaying
+          JsName:          isPlaying
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            recordButtonColor
+        JsName:          recordButtonColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            recordButtonColor
+          JsName:          recordButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setRecordButtonColor:'
+          JsName:          setRecordButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            recording
+        JsName:          recording
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isRecording
+          JsName:          isRecording
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            rewindButtonColor
+        JsName:          rewindButtonColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+        Module:          
+          FullName:        CoreAudioKit.CAInterAppAudioTransportView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rewindButtonColor
+          JsName:          rewindButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setRewindButtonColor:'
+          JsName:          setRewindButtonColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h
+          Module:          
+            FullName:        CoreAudioKit.CAInterAppAudioTransportView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+...

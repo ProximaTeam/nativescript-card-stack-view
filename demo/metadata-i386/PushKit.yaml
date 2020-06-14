@@ -1,0 +1,431 @@
+---
+Module:          
+  FullName:        PushKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         PushKit
+      IsFramework:     true
+Items:           
+  - Name:            PKPushCredentials
+    JsName:          PKPushCredentials
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushCredentials.h
+    Module:          
+      FullName:        PushKit.PKPushCredentials
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            token
+        JsName:          token
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushCredentials.h
+        Module:          
+          FullName:        PushKit.PKPushCredentials
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            token
+          JsName:          token
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushCredentials.h
+          Module:          
+            FullName:        PushKit.PKPushCredentials
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushCredentials.h
+        Module:          
+          FullName:        PushKit.PKPushCredentials
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushCredentials.h
+          Module:          
+            FullName:        PushKit.PKPushCredentials
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            PKPushPayload
+    JsName:          PKPushPayload
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushPayload.h
+    Module:          
+      FullName:        PushKit.PKPushPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            dictionaryPayload
+        JsName:          dictionaryPayload
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushPayload.h
+        Module:          
+          FullName:        PushKit.PKPushPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dictionaryPayload
+          JsName:          dictionaryPayload
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushPayload.h
+          Module:          
+            FullName:        PushKit.PKPushPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushPayload.h
+        Module:          
+          FullName:        PushKit.PKPushPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushPayload.h
+          Module:          
+            FullName:        PushKit.PKPushPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            PKPushRegistry
+    JsName:          PKPushRegistry
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+    Module:          
+      FullName:        PushKit.PKPushRegistry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithQueue:'
+        JsName:          initWithQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+      - Name:            'pushTokenForType:'
+        JsName:          pushTokenForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+          Module:          
+            FullName:        PushKit.PKPushRegistry
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - PKPushRegistryDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+          Module:          
+            FullName:        PushKit.PKPushRegistry
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - PKPushRegistryDelegate
+      - Name:            desiredPushTypes
+        JsName:          desiredPushTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            desiredPushTypes
+          JsName:          desiredPushTypes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+          Module:          
+            FullName:        PushKit.PKPushRegistry
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setDesiredPushTypes:'
+          JsName:          setDesiredPushTypes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+          Module:          
+            FullName:        PushKit.PKPushRegistry
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            PKPushRegistryDelegate
+    JsName:          PKPushRegistryDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+    Module:          
+      FullName:        PushKit.PKPushRegistry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'pushRegistry:didInvalidatePushTokenForType:'
+        JsName:          pushRegistryDidInvalidatePushTokenForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PKPushRegistry
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'pushRegistry:didReceiveIncomingPushWithPayload:forType:'
+        JsName:          pushRegistryDidReceiveIncomingPushWithPayloadForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PKPushRegistry
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          PKPushPayload
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'pushRegistry:didReceiveIncomingPushWithPayload:forType:withCompletionHandler:'
+        JsName:          pushRegistryDidReceiveIncomingPushWithPayloadForTypeWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PKPushRegistry
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          PKPushPayload
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+      - Name:            'pushRegistry:didUpdatePushCredentials:forType:'
+        JsName:          pushRegistryDidUpdatePushCredentialsForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+        Module:          
+          FullName:        PushKit.PKPushRegistry
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PKPushRegistry
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          PKPushCredentials
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            PKPushTypeComplication
+    JsName:          PKPushTypeComplication
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+    Module:          
+      FullName:        PushKit.PKPushRegistry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            PKPushTypeFileProvider
+    JsName:          PKPushTypeFileProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+    Module:          
+      FullName:        PushKit.PKPushRegistry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            PKPushTypeVoIP
+    JsName:          PKPushTypeVoIP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PushKit.framework/Headers/PKPushRegistry.h
+    Module:          
+      FullName:        PushKit.PKPushRegistry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

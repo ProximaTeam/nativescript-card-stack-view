@@ -1,0 +1,1898 @@
+---
+Module:          
+  FullName:        MultipeerConnectivity
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         MultipeerConnectivity
+      IsFramework:     true
+Items:           
+  - Name:            MCAdvertiserAssistant
+    JsName:          MCAdvertiserAssistant
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithServiceType:discoveryInfo:session:'
+        JsName:          initWithServiceTypeDiscoveryInfoSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+      - Name:            start
+        JsName:          start
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stop
+        JsName:          stop
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MCAdvertiserAssistantDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MCAdvertiserAssistantDelegate
+      - Name:            discoveryInfo
+        JsName:          discoveryInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            discoveryInfo
+          JsName:          discoveryInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            serviceType
+        JsName:          serviceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serviceType
+          JsName:          serviceType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            session
+        JsName:          session
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            session
+          JsName:          session
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCSession
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MCAdvertiserAssistantDelegate
+    JsName:          MCAdvertiserAssistantDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'advertiserAssistantDidDismissInvitation:'
+        JsName:          advertiserAssistantDidDismissInvitation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCAdvertiserAssistant
+            WithProtocols:   
+      - Name:            'advertiserAssistantWillPresentInvitation:'
+        JsName:          advertiserAssistantWillPresentInvitation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCAdvertiserAssistant
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCAdvertiserAssistant
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MCBrowserViewController
+    JsName:          MCBrowserViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCBrowserViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithBrowser:session:'
+        JsName:          initWithBrowserSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MCNearbyServiceBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+      - Name:            'initWithServiceType:session:'
+        JsName:          initWithServiceTypeSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            browser
+        JsName:          browser
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            browser
+          JsName:          browser
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCNearbyServiceBrowser
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MCBrowserViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MCBrowserViewControllerDelegate
+      - Name:            maximumNumberOfPeers
+        JsName:          maximumNumberOfPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumNumberOfPeers
+          JsName:          maximumNumberOfPeers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+        Setter:          
+          Name:            'setMaximumNumberOfPeers:'
+          JsName:          setMaximumNumberOfPeers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            ULong
+      - Name:            minimumNumberOfPeers
+        JsName:          minimumNumberOfPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumNumberOfPeers
+          JsName:          minimumNumberOfPeers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+        Setter:          
+          Name:            'setMinimumNumberOfPeers:'
+          JsName:          setMinimumNumberOfPeers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            ULong
+      - Name:            session
+        JsName:          session
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            session
+          JsName:          session
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCSession
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - MCNearbyServiceBrowserDelegate
+    Base:            UIViewController
+  - Name:            MCBrowserViewControllerDelegate
+    JsName:          MCBrowserViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCBrowserViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'browserViewControllerDidFinish:'
+        JsName:          browserViewControllerDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCBrowserViewController
+            WithProtocols:   
+      - Name:            'browserViewController:shouldPresentNearbyPeer:withDiscoveryInfo:'
+        JsName:          browserViewControllerShouldPresentNearbyPeerWithDiscoveryInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          MCBrowserViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'browserViewControllerWasCancelled:'
+        JsName:          browserViewControllerWasCancelled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCBrowserViewController
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MCEncryptionNone
+    JsName:          MCEncryptionNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MCEncryptionOptional
+    JsName:          MCEncryptionOptional
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MCEncryptionPreference
+    JsName:          MCEncryptionPreference
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MCEncryptionOptional: '0'
+      - MCEncryptionRequired: '1'
+      - MCEncryptionNone: '2'
+    SwiftNameFields: 
+      - Optional:        '0'
+      - Required:        '1'
+      - None:            '2'
+  - Name:            MCEncryptionRequired
+    JsName:          MCEncryptionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MCErrorCancelled
+    JsName:          MCErrorCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            MCErrorCode
+    JsName:          MCErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MCErrorUnknown:  '0'
+      - MCErrorNotConnected: '1'
+      - MCErrorInvalidParameter: '2'
+      - MCErrorUnsupported: '3'
+      - MCErrorTimedOut: '4'
+      - MCErrorCancelled: '5'
+      - MCErrorUnavailable: '6'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - NotConnected:    '1'
+      - InvalidParameter: '2'
+      - Unsupported:     '3'
+      - TimedOut:        '4'
+      - Cancelled:       '5'
+      - Unavailable:     '6'
+  - Name:            MCErrorDomain
+    JsName:          MCErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MCErrorInvalidParameter
+    JsName:          MCErrorInvalidParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MCErrorNotConnected
+    JsName:          MCErrorNotConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MCErrorTimedOut
+    JsName:          MCErrorTimedOut
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            MCErrorUnavailable
+    JsName:          MCErrorUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            MCErrorUnknown
+    JsName:          MCErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MCErrorUnsupported
+    JsName:          MCErrorUnsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            MCNearbyServiceAdvertiser
+    JsName:          MCNearbyServiceAdvertiser
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithPeer:discoveryInfo:serviceType:'
+        JsName:          initWithPeerDiscoveryInfoServiceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            startAdvertisingPeer
+        JsName:          startAdvertisingPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopAdvertisingPeer
+        JsName:          stopAdvertisingPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MCNearbyServiceAdvertiserDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MCNearbyServiceAdvertiserDelegate
+      - Name:            discoveryInfo
+        JsName:          discoveryInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            discoveryInfo
+          JsName:          discoveryInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            myPeerID
+        JsName:          myPeerID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            myPeerID
+          JsName:          myPeerID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCPeerID
+              WithProtocols:   
+      - Name:            serviceType
+        JsName:          serviceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serviceType
+          JsName:          serviceType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MCNearbyServiceAdvertiserDelegate
+    JsName:          MCNearbyServiceAdvertiserDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'advertiser:didNotStartAdvertisingPeer:'
+        JsName:          advertiserDidNotStartAdvertisingPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCNearbyServiceAdvertiser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'advertiser:didReceiveInvitationFromPeer:withContext:invitationHandler:'
+        JsName:          advertiserDidReceiveInvitationFromPeerWithContextInvitationHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceAdvertiser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCNearbyServiceAdvertiser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          MCSession
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MCNearbyServiceBrowser
+    JsName:          MCNearbyServiceBrowser
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithPeer:serviceType:'
+        JsName:          initWithPeerServiceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'invitePeer:toSession:withContext:timeout:'
+        JsName:          invitePeerToSessionWithContextTimeout
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Double
+      - Name:            startBrowsingForPeers
+        JsName:          startBrowsingForPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopBrowsingForPeers
+        JsName:          stopBrowsingForPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MCNearbyServiceBrowserDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MCNearbyServiceBrowserDelegate
+      - Name:            myPeerID
+        JsName:          myPeerID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            myPeerID
+          JsName:          myPeerID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCPeerID
+              WithProtocols:   
+      - Name:            serviceType
+        JsName:          serviceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serviceType
+          JsName:          serviceType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MCNearbyServiceBrowserDelegate
+    JsName:          MCNearbyServiceBrowserDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'browser:didNotStartBrowsingForPeers:'
+        JsName:          browserDidNotStartBrowsingForPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCNearbyServiceBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'browser:foundPeer:withDiscoveryInfo:'
+        JsName:          browserFoundPeerWithDiscoveryInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCNearbyServiceBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'browser:lostPeer:'
+        JsName:          browserLostPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCNearbyServiceBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCNearbyServiceBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MCPeerID
+    JsName:          MCPeerID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCPeerID.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCPeerID
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithDisplayName:'
+        JsName:          initWithDisplayName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCPeerID.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCPeerID
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            displayName
+        JsName:          displayName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCPeerID.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCPeerID
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayName
+          JsName:          displayName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCPeerID.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCPeerID
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MCSession
+    JsName:          MCSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            disconnect
+        JsName:          disconnect
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithPeer:'
+        JsName:          initWithPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+      - Name:            'initWithPeer:securityIdentity:encryptionPreference:'
+        JsName:          initWithPeerSecurityIdentityEncryptionPreference
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Enum
+            Name:            MCEncryptionPreference
+      - Name:            'sendData:toPeers:withMode:error:'
+        JsName:          sendDataToPeersWithModeError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          MCPeerID
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Enum
+            Name:            MCSessionSendDataMode
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'sendResourceAtURL:withName:toPeer:withCompletionHandler:'
+        JsName:          sendResourceAtURLWithNameToPeerWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSProgress
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startStreamWithName:toPeer:error:'
+        JsName:          startStreamWithNameToPeerError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSOutputStream
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'cancelConnectPeer:'
+        JsName:          cancelConnectPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+      - Name:            'connectPeer:withNearbyConnectionData:'
+        JsName:          connectPeerWithNearbyConnectionData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'nearbyConnectionDataForPeer:withCompletionHandler:'
+        JsName:          nearbyConnectionDataForPeerWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            connectedPeers
+        JsName:          connectedPeers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            connectedPeers
+          JsName:          connectedPeers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          MCPeerID
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MCSessionDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MCSessionDelegate
+      - Name:            encryptionPreference
+        JsName:          encryptionPreference
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            encryptionPreference
+          JsName:          encryptionPreference
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MCEncryptionPreference
+      - Name:            myPeerID
+        JsName:          myPeerID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            myPeerID
+          JsName:          myPeerID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MCPeerID
+              WithProtocols:   
+      - Name:            securityIdentity
+        JsName:          securityIdentity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            securityIdentity
+          JsName:          securityIdentity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+          Module:          
+            FullName:        MultipeerConnectivity.MCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MCSessionDelegate
+    JsName:          MCSessionDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'session:didFinishReceivingResourceWithName:fromPeer:atURL:withError:'
+        JsName:          sessionDidFinishReceivingResourceWithNameFromPeerAtURLWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'session:didReceiveCertificate:fromPeer:certificateHandler:'
+        JsName:          sessionDidReceiveCertificateFromPeerCertificateHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+      - Name:            'session:didReceiveData:fromPeer:'
+        JsName:          sessionDidReceiveDataFromPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+      - Name:            'session:didReceiveStream:withName:fromPeer:'
+        JsName:          sessionDidReceiveStreamWithNameFromPeer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSInputStream
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+      - Name:            'session:didStartReceivingResourceWithName:fromPeer:withProgress:'
+        JsName:          sessionDidStartReceivingResourceWithNameFromPeerWithProgress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSProgress
+            WithProtocols:   
+      - Name:            'session:peer:didChangeState:'
+        JsName:          sessionPeerDidChangeState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+        Module:          
+          FullName:        MultipeerConnectivity.MCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MCPeerID
+            WithProtocols:   
+          - Type:            Enum
+            Name:            MCSessionState
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MCSessionSendDataMode
+    JsName:          MCSessionSendDataMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MCSessionSendDataReliable: '0'
+      - MCSessionSendDataUnreliable: '1'
+    SwiftNameFields: 
+      - Reliable:        '0'
+      - Unreliable:      '1'
+  - Name:            MCSessionSendDataReliable
+    JsName:          MCSessionSendDataReliable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MCSessionSendDataUnreliable
+    JsName:          MCSessionSendDataUnreliable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MCSessionState
+    JsName:          MCSessionState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MCSessionStateNotConnected: '0'
+      - MCSessionStateConnecting: '1'
+      - MCSessionStateConnected: '2'
+    SwiftNameFields: 
+      - NotConnected:    '0'
+      - Connecting:      '1'
+      - Connected:       '2'
+  - Name:            MCSessionStateConnected
+    JsName:          MCSessionStateConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MCSessionStateConnecting
+    JsName:          MCSessionStateConnecting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MCSessionStateNotConnected
+    JsName:          MCSessionStateNotConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMCSessionMaximumNumberOfPeers
+    JsName:          kMCSessionMaximumNumberOfPeers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            ULong
+  - Name:            kMCSessionMinimumNumberOfPeers
+    JsName:          kMCSessionMinimumNumberOfPeers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h
+    Module:          
+      FullName:        MultipeerConnectivity.MCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            ULong
+...

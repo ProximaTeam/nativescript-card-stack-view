@@ -1,0 +1,1719 @@
+---
+Module:          
+  FullName:        AssetsLibrary
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AssetsLibrary
+      IsFramework:     true
+Items:           
+  - Name:            ALAsset
+    JsName:          ALAsset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            aspectRatioThumbnail
+        JsName:          aspectRatioThumbnail
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            defaultRepresentation
+        JsName:          defaultRepresentation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ALAssetRepresentation
+            WithProtocols:   
+      - Name:            'representationForUTI:'
+        JsName:          representationForUTI
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ALAssetRepresentation
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setImageData:metadata:completionBlock:'
+        JsName:          setImageDataMetadataCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'setVideoAtPath:completionBlock:'
+        JsName:          setVideoAtPathCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            thumbnail
+        JsName:          thumbnail
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'valueForProperty:'
+        JsName:          valueForProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'writeModifiedImageDataToSavedPhotosAlbum:metadata:completionBlock:'
+        JsName:          writeModifiedImageDataToSavedPhotosAlbumMetadataCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'writeModifiedVideoAtPathToSavedPhotosAlbum:completionBlock:'
+        JsName:          writeModifiedVideoAtPathToSavedPhotosAlbumCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            editable
+        JsName:          editable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isEditable
+          JsName:          isEditable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+          Module:          
+            FullName:        AssetsLibrary.ALAsset
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            originalAsset
+        JsName:          originalAsset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+        Module:          
+          FullName:        AssetsLibrary.ALAsset
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            originalAsset
+          JsName:          originalAsset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+          Module:          
+            FullName:        AssetsLibrary.ALAsset
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ALAsset
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ALAssetLibraryDeletedAssetGroupsKey
+    JsName:          ALAssetLibraryDeletedAssetGroupsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetLibraryInsertedAssetGroupsKey
+    JsName:          ALAssetLibraryInsertedAssetGroupsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetLibraryUpdatedAssetGroupsKey
+    JsName:          ALAssetLibraryUpdatedAssetGroupsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetLibraryUpdatedAssetsKey
+    JsName:          ALAssetLibraryUpdatedAssetsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetOrientation
+    JsName:          ALAssetOrientation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ALAssetOrientationUp: '0'
+      - ALAssetOrientationDown: '1'
+      - ALAssetOrientationLeft: '2'
+      - ALAssetOrientationRight: '3'
+      - ALAssetOrientationUpMirrored: '4'
+      - ALAssetOrientationDownMirrored: '5'
+      - ALAssetOrientationLeftMirrored: '6'
+      - ALAssetOrientationRightMirrored: '7'
+    SwiftNameFields: 
+      - Up:              '0'
+      - Down:            '1'
+      - Left:            '2'
+      - Right:           '3'
+      - UpMirrored:      '4'
+      - DownMirrored:    '5'
+      - LeftMirrored:    '6'
+      - RightMirrored:   '7'
+  - Name:            ALAssetOrientationDown
+    JsName:          ALAssetOrientationDown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ALAssetOrientationDownMirrored
+    JsName:          ALAssetOrientationDownMirrored
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ALAssetOrientationLeft
+    JsName:          ALAssetOrientationLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ALAssetOrientationLeftMirrored
+    JsName:          ALAssetOrientationLeftMirrored
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            ALAssetOrientationRight
+    JsName:          ALAssetOrientationRight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ALAssetOrientationRightMirrored
+    JsName:          ALAssetOrientationRightMirrored
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            ALAssetOrientationUp
+    JsName:          ALAssetOrientationUp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ALAssetOrientationUpMirrored
+    JsName:          ALAssetOrientationUpMirrored
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ALAssetPropertyAssetURL
+    JsName:          ALAssetPropertyAssetURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyDate
+    JsName:          ALAssetPropertyDate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyDuration
+    JsName:          ALAssetPropertyDuration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyLocation
+    JsName:          ALAssetPropertyLocation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyOrientation
+    JsName:          ALAssetPropertyOrientation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyRepresentations
+    JsName:          ALAssetPropertyRepresentations
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyType
+    JsName:          ALAssetPropertyType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetPropertyURLs
+    JsName:          ALAssetPropertyURLs
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetRepresentation
+    JsName:          ALAssetRepresentation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetRepresentation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'CGImageWithOptions:'
+        JsName:          CGImageWithOptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+      - Name:            dimensions
+        JsName:          dimensions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+      - Name:            filename
+        JsName:          filename
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            fullResolutionImage
+        JsName:          fullResolutionImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            fullScreenImage
+        JsName:          fullScreenImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'getBytes:fromOffset:length:error:'
+        JsName:          getBytesFromOffsetLengthError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            ULong
+          - Type:            CString
+          - Type:            LongLong
+          - Type:            ULong
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+      - Name:            orientation
+        JsName:          orientation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            ALAssetOrientation
+      - Name:            scale
+        JsName:          scale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+      - Name:            size
+        JsName:          size
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            LongLong
+      - Name:            url
+        JsName:          url
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            UTI
+        JsName:          UTI
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetRepresentation.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetRepresentation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ALAssetTypePhoto
+    JsName:          ALAssetTypePhoto
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetTypeUnknown
+    JsName:          ALAssetTypeUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetTypeVideo
+    JsName:          ALAssetTypeVideo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsFilter
+    JsName:          ALAssetsFilter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsFilter.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsFilter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            allAssets
+        JsName:          allAssets
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsFilter.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsFilter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ALAssetsFilter
+            WithProtocols:   
+      - Name:            allPhotos
+        JsName:          allPhotos
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsFilter.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsFilter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ALAssetsFilter
+            WithProtocols:   
+      - Name:            allVideos
+        JsName:          allVideos
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsFilter.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsFilter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ALAssetsFilter
+            WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ALAssetsGroup
+    JsName:          ALAssetsGroup
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAsset:'
+        JsName:          addAsset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ALAsset
+            WithProtocols:   
+      - Name:            'enumerateAssetsAtIndexes:options:usingBlock:'
+        JsName:          enumerateAssetsAtIndexesOptionsUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSIndexSet
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NSEnumerationOptions
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAsset
+                WithProtocols:   
+              - Type:            ULong
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateAssetsUsingBlock:'
+        JsName:          enumerateAssetsUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAsset
+                WithProtocols:   
+              - Type:            ULong
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateAssetsWithOptions:usingBlock:'
+        JsName:          enumerateAssetsWithOptionsUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            NSEnumerationOptions
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAsset
+                WithProtocols:   
+              - Type:            ULong
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            numberOfAssets
+        JsName:          numberOfAssets
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Long
+      - Name:            posterImage
+        JsName:          posterImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'setAssetsFilter:'
+        JsName:          setAssetsFilter
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ALAssetsFilter
+            WithProtocols:   
+      - Name:            'valueForProperty:'
+        JsName:          valueForProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            editable
+        JsName:          editable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsGroup
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isEditable
+          JsName:          isEditable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+          Module:          
+            FullName:        AssetsLibrary.ALAssetsGroup
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ALAssetsGroupAlbum
+    JsName:          ALAssetsGroupAlbum
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ALAssetsGroupAll
+    JsName:          ALAssetsGroupAll
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4294967295'
+  - Name:            ALAssetsGroupEvent
+    JsName:          ALAssetsGroupEvent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ALAssetsGroupFaces
+    JsName:          ALAssetsGroupFaces
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            ALAssetsGroupLibrary
+    JsName:          ALAssetsGroupLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ALAssetsGroupPhotoStream
+    JsName:          ALAssetsGroupPhotoStream
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            ALAssetsGroupPropertyName
+    JsName:          ALAssetsGroupPropertyName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsGroupPropertyPersistentID
+    JsName:          ALAssetsGroupPropertyPersistentID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsGroupPropertyType
+    JsName:          ALAssetsGroupPropertyType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsGroupPropertyURL
+    JsName:          ALAssetsGroupPropertyURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsGroup.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsGroup
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsGroupSavedPhotos
+    JsName:          ALAssetsGroupSavedPhotos
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            ALAssetsLibrary
+    JsName:          ALAssetsLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAssetsGroupAlbumWithName:resultBlock:failureBlock:'
+        JsName:          addAssetsGroupAlbumWithNameResultBlockFailureBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAssetsGroup
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'assetForURL:resultBlock:failureBlock:'
+        JsName:          assetForURLResultBlockFailureBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAsset
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'enumerateGroupsWithTypes:usingBlock:failureBlock:'
+        JsName:          enumerateGroupsWithTypesUsingBlockFailureBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            ULong
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAssetsGroup
+                WithProtocols:   
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'groupForURL:resultBlock:failureBlock:'
+        JsName:          groupForURLResultBlockFailureBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ALAssetsGroup
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'videoAtPathIsCompatibleWithSavedPhotosAlbum:'
+        JsName:          videoAtPathIsCompatibleWithSavedPhotosAlbum
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            'writeImageDataToSavedPhotosAlbum:metadata:completionBlock:'
+        JsName:          writeImageDataToSavedPhotosAlbumMetadataCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'writeImageToSavedPhotosAlbum:metadata:completionBlock:'
+        JsName:          writeImageToSavedPhotosAlbumMetadataCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'writeImageToSavedPhotosAlbum:orientation:completionBlock:'
+        JsName:          writeImageToSavedPhotosAlbumOrientationCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Enum
+            Name:            ALAssetOrientation
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'writeVideoAtPathToSavedPhotosAlbum:completionBlock:'
+        JsName:          writeVideoAtPathToSavedPhotosAlbumCompletionBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            ALAuthorizationStatus
+      - Name:            disableSharedPhotoStreamsSupport
+        JsName:          disableSharedPhotoStreamsSupport
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+        Module:          
+          FullName:        AssetsLibrary.ALAssetsLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ALAssetsLibraryAccessGloballyDeniedError
+    JsName:          ALAssetsLibraryAccessGloballyDeniedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3312'
+  - Name:            ALAssetsLibraryAccessUserDeniedError
+    JsName:          ALAssetsLibraryAccessUserDeniedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3311'
+  - Name:            ALAssetsLibraryChangedNotification
+    JsName:          ALAssetsLibraryChangedNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsLibraryDataUnavailableError
+    JsName:          ALAssetsLibraryDataUnavailableError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3310'
+  - Name:            ALAssetsLibraryErrorDomain
+    JsName:          ALAssetsLibraryErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ALAssetsLibraryUnknownError
+    JsName:          ALAssetsLibraryUnknownError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            ALAssetsLibraryWriteBusyError
+    JsName:          ALAssetsLibraryWriteBusyError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3301'
+  - Name:            ALAssetsLibraryWriteDataEncodingError
+    JsName:          ALAssetsLibraryWriteDataEncodingError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3304'
+  - Name:            ALAssetsLibraryWriteDiskSpaceError
+    JsName:          ALAssetsLibraryWriteDiskSpaceError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3305'
+  - Name:            ALAssetsLibraryWriteFailedError
+    JsName:          ALAssetsLibraryWriteFailedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3300'
+  - Name:            ALAssetsLibraryWriteIncompatibleDataError
+    JsName:          ALAssetsLibraryWriteIncompatibleDataError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3303'
+  - Name:            ALAssetsLibraryWriteInvalidDataError
+    JsName:          ALAssetsLibraryWriteInvalidDataError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3302'
+  - Name:            ALAuthorizationStatus
+    JsName:          ALAuthorizationStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ALAuthorizationStatusNotDetermined: '0'
+      - ALAuthorizationStatusRestricted: '1'
+      - ALAuthorizationStatusDenied: '2'
+      - ALAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Restricted:      '1'
+      - Denied:          '2'
+      - Authorized:      '3'
+  - Name:            ALAuthorizationStatusAuthorized
+    JsName:          ALAuthorizationStatusAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ALAuthorizationStatusDenied
+    JsName:          ALAuthorizationStatusDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ALAuthorizationStatusNotDetermined
+    JsName:          ALAuthorizationStatusNotDetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ALAuthorizationStatusRestricted
+    JsName:          ALAuthorizationStatusRestricted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+    Module:          
+      FullName:        AssetsLibrary.ALAssetsLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ALErrorInvalidProperty
+    JsName:          ALErrorInvalidProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAsset.h
+    Module:          
+      FullName:        AssetsLibrary.ALAsset
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

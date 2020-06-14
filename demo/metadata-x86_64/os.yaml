@@ -1,0 +1,662 @@
+---
+Module:          
+  FullName:        os
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            OS_ACTIVITY_FLAG_DEFAULT
+    JsName:          OS_ACTIVITY_FLAG_DEFAULT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OS_ACTIVITY_FLAG_DETACHED
+    JsName:          OS_ACTIVITY_FLAG_DETACHED
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OS_ACTIVITY_FLAG_IF_NONE_PRESENT
+    JsName:          OS_ACTIVITY_FLAG_IF_NONE_PRESENT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OS_LOG_TYPE_DEBUG
+    JsName:          OS_LOG_TYPE_DEBUG
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OS_LOG_TYPE_DEFAULT
+    JsName:          OS_LOG_TYPE_DEFAULT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OS_LOG_TYPE_ERROR
+    JsName:          OS_LOG_TYPE_ERROR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            OS_LOG_TYPE_FAULT
+    JsName:          OS_LOG_TYPE_FAULT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            OS_LOG_TYPE_INFO
+    JsName:          OS_LOG_TYPE_INFO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OS_SIGNPOST_EVENT
+    JsName:          OS_SIGNPOST_EVENT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OS_SIGNPOST_INTERVAL_BEGIN
+    JsName:          OS_SIGNPOST_INTERVAL_BEGIN
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OS_SIGNPOST_INTERVAL_END
+    JsName:          OS_SIGNPOST_INTERVAL_END
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OS_os_log
+    JsName:          OS_os_log
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            __dso_handle
+    JsName:          __dso_handle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/trace_base.h
+    Module:          
+      FullName:        os.trace_base
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Struct
+      Module:          MachO.loader
+      JsName:          mach_header
+  - Name:            _os_activity_initiate
+    JsName:          _os_activity_initiate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            Enum
+        Name:            os_activity_flag_t
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            _os_activity_initiate_f
+    JsName:          _os_activity_initiate_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            Enum
+        Name:            os_activity_flag_t
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            _os_activity_label_useraction
+    JsName:          _os_activity_label_useraction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            _os_activity_set_breadcrumb
+    JsName:          _os_activity_set_breadcrumb
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            _os_activity_start
+    JsName:          _os_activity_start
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            Enum
+        Name:            os_activity_flag_t
+  - Name:            _os_log_create
+    JsName:          _os_log_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+  - Name:            _os_log_debug_impl
+    JsName:          _os_log_debug_impl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_log_type_t
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            _os_log_default
+    JsName:          _os_log_default
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _os_log_error_impl
+    JsName:          _os_log_error_impl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_log_type_t
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            _os_log_fault_impl
+    JsName:          _os_log_fault_impl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_log_type_t
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            _os_log_impl
+    JsName:          _os_log_impl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_log_type_t
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            _os_signpost_emit_with_name_impl
+    JsName:          _os_signpost_emit_with_name_impl
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_signpost_type_t
+      - Type:            ULongLong
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            os_activity_end
+    JsName:          os_activity_end
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            ULongLong
+  - Name:            ''
+    JsName:          os_activity_flag_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - OS_ACTIVITY_FLAG_DEFAULT: '0'
+      - OS_ACTIVITY_FLAG_DETACHED: '1'
+      - OS_ACTIVITY_FLAG_IF_NONE_PRESENT: '2'
+    SwiftNameFields: 
+  - Name:            os_activity_get_active
+    JsName:          os_activity_get_active
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULongLong
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            os_activity_get_identifier
+    JsName:          os_activity_get_identifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            ULongLong
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULongLong
+  - Name:            os_activity_scope_state_s
+    JsName:          os_activity_scope_state_s
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/activity.h
+    Module:          
+      FullName:        os.activity
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            opaque
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            ULongLong
+          Size:            2
+  - Name:            os_log_create
+    JsName:          os_log_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            CString
+      - Type:            CString
+  - Name:            os_log_is_debug_enabled
+    JsName:          os_log_is_debug_enabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+  - Name:            os_log_is_enabled
+    JsName:          os_log_is_enabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+  - Name:            os_log_type_enabled
+    JsName:          os_log_type_enabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Enum
+        Name:            os_log_type_t
+  - Name:            ''
+    JsName:          os_log_type_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/log.h
+    Module:          
+      FullName:        os.log
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - OS_LOG_TYPE_DEFAULT: '0'
+      - OS_LOG_TYPE_INFO: '1'
+      - OS_LOG_TYPE_DEBUG: '2'
+      - OS_LOG_TYPE_ERROR: '16'
+      - OS_LOG_TYPE_FAULT: '17'
+    SwiftNameFields: 
+  - Name:            os_signpost_enabled
+    JsName:          os_signpost_enabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+  - Name:            os_signpost_id_generate
+    JsName:          os_signpost_id_generate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+  - Name:            os_signpost_id_make_with_pointer
+    JsName:          os_signpost_id_make_with_pointer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_os_log
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            ''
+    JsName:          os_signpost_type_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/os/signpost.h
+    Module:          
+      FullName:        os.signpost
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - OS_SIGNPOST_EVENT: '0'
+      - OS_SIGNPOST_INTERVAL_BEGIN: '1'
+      - OS_SIGNPOST_INTERVAL_END: '2'
+    SwiftNameFields: 
+...

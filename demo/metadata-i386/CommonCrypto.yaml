@@ -1,0 +1,2124 @@
+---
+Module:          
+  FullName:        CommonCrypto
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            CCCalibratePBKDF
+    JsName:          CCCalibratePBKDF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            UInt
+      - Type:            ULong
+      - Type:            UInt
+  - Name:            CCCrypt
+    JsName:          CCCrypt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCCryptorCreate
+    JsName:          CCCryptorCreate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+  - Name:            CCCryptorCreateFromData
+    JsName:          CCCryptorCreateFromData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCCryptorCreateWithMode
+    JsName:          CCCryptorCreateWithMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Int
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+  - Name:            CCCryptorFinal
+    JsName:          CCCryptorFinal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCCryptorGetOutputLength
+    JsName:          CCCryptorGetOutputLength
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Bool
+  - Name:            CCCryptorRelease
+    JsName:          CCCryptorRelease
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            CCCryptorReset
+    JsName:          CCCryptorReset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            CCCryptorUpdate
+    JsName:          CCCryptorUpdate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCHmac
+    JsName:          CCHmac
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            ''
+    JsName:          CCHmacContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            ctx
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            96
+  - Name:            CCHmacFinal
+    JsName:          CCHmacFinal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonHMAC
+          JsName:          CCHmacContext
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            CCHmacInit
+    JsName:          CCHmacInit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonHMAC
+          JsName:          CCHmacContext
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            CCHmacUpdate
+    JsName:          CCHmacUpdate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonHMAC
+          JsName:          CCHmacContext
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            CCKeyDerivationPBKDF
+    JsName:          CCKeyDerivationPBKDF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            ULong
+  - Name:            CCRandomGenerateBytes
+    JsName:          CCRandomGenerateBytes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonRandom.h
+    Module:          
+      FullName:        CommonCrypto.Random
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            CCSymmetricKeyUnwrap
+    JsName:          CCSymmetricKeyUnwrap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCSymmetricKeyWrap
+    JsName:          CCSymmetricKeyWrap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            CCSymmetricUnwrappedSize
+    JsName:          CCSymmetricUnwrappedSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            UInt
+      - Type:            ULong
+  - Name:            CCSymmetricWrappedSize
+    JsName:          CCSymmetricWrappedSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            UInt
+      - Type:            ULong
+  - Name:            CC_MD2
+    JsName:          CC_MD2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_MD2state_st
+    JsName:          CC_MD2_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            num
+        Signature:       
+          Type:            Int
+      - Name:            data
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UChar
+          Size:            16
+      - Name:            cksm
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+      - Name:            state
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+  - Name:            CC_MD2_Final
+    JsName:          CC_MD2_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD2_CTX
+  - Name:            CC_MD2_Init
+    JsName:          CC_MD2_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD2_CTX
+  - Name:            CC_MD2_Update
+    JsName:          CC_MD2_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD2_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_MD4
+    JsName:          CC_MD4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_MD4state_st
+    JsName:          CC_MD4_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            A
+        Signature:       
+          Type:            UInt
+      - Name:            B
+        Signature:       
+          Type:            UInt
+      - Name:            C
+        Signature:       
+          Type:            UInt
+      - Name:            D
+        Signature:       
+          Type:            UInt
+      - Name:            Nl
+        Signature:       
+          Type:            UInt
+      - Name:            Nh
+        Signature:       
+          Type:            UInt
+      - Name:            data
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+      - Name:            num
+        Signature:       
+          Type:            UInt
+  - Name:            CC_MD4_Final
+    JsName:          CC_MD4_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD4_CTX
+  - Name:            CC_MD4_Init
+    JsName:          CC_MD4_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD4_CTX
+  - Name:            CC_MD4_Update
+    JsName:          CC_MD4_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD4_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_MD5
+    JsName:          CC_MD5
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_MD5state_st
+    JsName:          CC_MD5_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            A
+        Signature:       
+          Type:            UInt
+      - Name:            B
+        Signature:       
+          Type:            UInt
+      - Name:            C
+        Signature:       
+          Type:            UInt
+      - Name:            D
+        Signature:       
+          Type:            UInt
+      - Name:            Nl
+        Signature:       
+          Type:            UInt
+      - Name:            Nh
+        Signature:       
+          Type:            UInt
+      - Name:            data
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+      - Name:            num
+        Signature:       
+          Type:            Int
+  - Name:            CC_MD5_Final
+    JsName:          CC_MD5_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD5_CTX
+  - Name:            CC_MD5_Init
+    JsName:          CC_MD5_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD5_CTX
+  - Name:            CC_MD5_Update
+    JsName:          CC_MD5_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_MD5_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_SHA1
+    JsName:          CC_SHA1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_SHA1state_st
+    JsName:          CC_SHA1_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            h0
+        Signature:       
+          Type:            UInt
+      - Name:            h1
+        Signature:       
+          Type:            UInt
+      - Name:            h2
+        Signature:       
+          Type:            UInt
+      - Name:            h3
+        Signature:       
+          Type:            UInt
+      - Name:            h4
+        Signature:       
+          Type:            UInt
+      - Name:            Nl
+        Signature:       
+          Type:            UInt
+      - Name:            Nh
+        Signature:       
+          Type:            UInt
+      - Name:            data
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+      - Name:            num
+        Signature:       
+          Type:            Int
+  - Name:            CC_SHA1_Final
+    JsName:          CC_SHA1_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA1_CTX
+  - Name:            CC_SHA1_Init
+    JsName:          CC_SHA1_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA1_CTX
+  - Name:            CC_SHA1_Update
+    JsName:          CC_SHA1_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA1_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_SHA224
+    JsName:          CC_SHA224
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_SHA224_Final
+    JsName:          CC_SHA224_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+  - Name:            CC_SHA224_Init
+    JsName:          CC_SHA224_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+  - Name:            CC_SHA224_Update
+    JsName:          CC_SHA224_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_SHA256
+    JsName:          CC_SHA256
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_SHA256state_st
+    JsName:          CC_SHA256_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            count
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            2
+      - Name:            hash
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            8
+      - Name:            wbuf
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            UInt
+          Size:            16
+  - Name:            CC_SHA256_Final
+    JsName:          CC_SHA256_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+  - Name:            CC_SHA256_Init
+    JsName:          CC_SHA256_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+  - Name:            CC_SHA256_Update
+    JsName:          CC_SHA256_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA256_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_SHA384
+    JsName:          CC_SHA384
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_SHA384_Final
+    JsName:          CC_SHA384_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+  - Name:            CC_SHA384_Init
+    JsName:          CC_SHA384_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+  - Name:            CC_SHA384_Update
+    JsName:          CC_SHA384_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CC_SHA512
+    JsName:          CC_SHA512
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            CString
+  - Name:            CC_SHA512state_st
+    JsName:          CC_SHA512_CTX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            count
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            ULongLong
+          Size:            2
+      - Name:            hash
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            ULongLong
+          Size:            8
+      - Name:            wbuf
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            ULongLong
+          Size:            16
+  - Name:            CC_SHA512_Final
+    JsName:          CC_SHA512_Final
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+  - Name:            CC_SHA512_Init
+    JsName:          CC_SHA512_Init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+  - Name:            CC_SHA512_Update
+    JsName:          CC_SHA512_Update
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+    Module:          
+      FullName:        CommonCrypto.CommonDigest
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CommonCrypto.CommonDigest
+          JsName:          CC_SHA512_CTX
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            CCrfc3394_iv
+    JsName:          CCrfc3394_iv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            CString
+  - Name:            CCrfc3394_ivLen
+    JsName:          CCrfc3394_ivLen
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            ULong
+  - Name:            ccNoPadding
+    JsName:          ccNoPadding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ccPKCS7Padding
+    JsName:          ccPKCS7Padding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCAlgorithm3DES
+    JsName:          kCCAlgorithm3DES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCAlgorithmAES
+    JsName:          kCCAlgorithmAES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kCCAlgorithmAES128
+    JsName:          kCCAlgorithmAES128
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kCCAlgorithmBlowfish
+    JsName:          kCCAlgorithmBlowfish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            kCCAlgorithmCAST
+    JsName:          kCCAlgorithmCAST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kCCAlgorithmDES
+    JsName:          kCCAlgorithmDES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCAlgorithmRC2
+    JsName:          kCCAlgorithmRC2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kCCAlgorithmRC4
+    JsName:          kCCAlgorithmRC4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kCCAlignmentError
+    JsName:          kCCAlignmentError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4303'
+  - Name:            kCCBlockSize3DES
+    JsName:          kCCBlockSize3DES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCBlockSizeAES128
+    JsName:          kCCBlockSizeAES128
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kCCBlockSizeBlowfish
+    JsName:          kCCBlockSizeBlowfish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCBlockSizeCAST
+    JsName:          kCCBlockSizeCAST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCBlockSizeDES
+    JsName:          kCCBlockSizeDES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCBlockSizeRC2
+    JsName:          kCCBlockSizeRC2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCBufferTooSmall
+    JsName:          kCCBufferTooSmall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4301'
+  - Name:            kCCCallSequenceError
+    JsName:          kCCCallSequenceError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4309'
+  - Name:            kCCContextSize3DES
+    JsName:          kCCContextSize3DES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '496'
+  - Name:            kCCContextSizeAES128
+    JsName:          kCCContextSizeAES128
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '404'
+  - Name:            kCCContextSizeCAST
+    JsName:          kCCContextSizeCAST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '240'
+  - Name:            kCCContextSizeDES
+    JsName:          kCCContextSizeDES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '240'
+  - Name:            kCCContextSizeRC4
+    JsName:          kCCContextSizeRC4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1072'
+  - Name:            kCCDecodeError
+    JsName:          kCCDecodeError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4304'
+  - Name:            kCCDecrypt
+    JsName:          kCCDecrypt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCEncrypt
+    JsName:          kCCEncrypt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kCCHmacAlgMD5
+    JsName:          kCCHmacAlgMD5
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCHmacAlgSHA1
+    JsName:          kCCHmacAlgSHA1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kCCHmacAlgSHA224
+    JsName:          kCCHmacAlgSHA224
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kCCHmacAlgSHA256
+    JsName:          kCCHmacAlgSHA256
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCHmacAlgSHA384
+    JsName:          kCCHmacAlgSHA384
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kCCHmacAlgSHA512
+    JsName:          kCCHmacAlgSHA512
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+    Module:          
+      FullName:        CommonCrypto.CommonHMAC
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kCCInvalidKey
+    JsName:          kCCInvalidKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4311'
+  - Name:            kCCKeySize3DES
+    JsName:          kCCKeySize3DES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '24'
+  - Name:            kCCKeySizeAES128
+    JsName:          kCCKeySizeAES128
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kCCKeySizeAES192
+    JsName:          kCCKeySizeAES192
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '24'
+  - Name:            kCCKeySizeAES256
+    JsName:          kCCKeySizeAES256
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            kCCKeySizeDES
+    JsName:          kCCKeySizeDES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCKeySizeError
+    JsName:          kCCKeySizeError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4310'
+  - Name:            kCCKeySizeMaxBlowfish
+    JsName:          kCCKeySizeMaxBlowfish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '56'
+  - Name:            kCCKeySizeMaxCAST
+    JsName:          kCCKeySizeMaxCAST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kCCKeySizeMaxRC2
+    JsName:          kCCKeySizeMaxRC2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '128'
+  - Name:            kCCKeySizeMaxRC4
+    JsName:          kCCKeySizeMaxRC4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '512'
+  - Name:            kCCKeySizeMinBlowfish
+    JsName:          kCCKeySizeMinBlowfish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kCCKeySizeMinCAST
+    JsName:          kCCKeySizeMinCAST
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kCCKeySizeMinRC2
+    JsName:          kCCKeySizeMinRC2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCKeySizeMinRC4
+    JsName:          kCCKeySizeMinRC4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCMemoryFailure
+    JsName:          kCCMemoryFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4302'
+  - Name:            kCCModeCBC
+    JsName:          kCCModeCBC
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCModeCFB
+    JsName:          kCCModeCFB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kCCModeCFB8
+    JsName:          kCCModeCFB8
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            kCCModeCTR
+    JsName:          kCCModeCTR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kCCModeECB
+    JsName:          kCCModeECB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCModeOFB
+    JsName:          kCCModeOFB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            kCCModeOptionCTR_BE
+    JsName:          kCCModeOptionCTR_BE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCModeRC4
+    JsName:          kCCModeRC4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            kCCOptionECBMode
+    JsName:          kCCOptionECBMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCOptionPKCS7Padding
+    JsName:          kCCOptionPKCS7Padding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+    Module:          
+      FullName:        CommonCrypto.CommonCryptor
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCOverflow
+    JsName:          kCCOverflow
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4306'
+  - Name:            kCCPBKDF2
+    JsName:          kCCPBKDF2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCPRFHmacAlgSHA1
+    JsName:          kCCPRFHmacAlgSHA1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kCCPRFHmacAlgSHA224
+    JsName:          kCCPRFHmacAlgSHA224
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kCCPRFHmacAlgSHA256
+    JsName:          kCCPRFHmacAlgSHA256
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kCCPRFHmacAlgSHA384
+    JsName:          kCCPRFHmacAlgSHA384
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kCCPRFHmacAlgSHA512
+    JsName:          kCCPRFHmacAlgSHA512
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonKeyDerivation.h
+    Module:          
+      FullName:        CommonCrypto.CommonKeyDerivation
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kCCParamError
+    JsName:          kCCParamError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4300'
+  - Name:            kCCRNGFailure
+    JsName:          kCCRNGFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4307'
+  - Name:            kCCSuccess
+    JsName:          kCCSuccess
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kCCUnimplemented
+    JsName:          kCCUnimplemented
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4305'
+  - Name:            kCCUnspecifiedError
+    JsName:          kCCUnspecifiedError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonCryptoError.h
+    Module:          
+      FullName:        CommonCrypto.Error
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4308'
+  - Name:            kCCWRAPAES
+    JsName:          kCCWRAPAES
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/CommonCrypto/CommonSymmetricKeywrap.h
+    Module:          
+      FullName:        CommonCrypto.CommonSymmetricKeywrap
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+...

@@ -1,0 +1,197 @@
+---
+Module:          
+  FullName:        FileProviderUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         FileProviderUI
+      IsFramework:     true
+Items:           
+  - Name:            FPUIActionExtensionContext
+    JsName:          FPUIActionExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            completeRequest
+        JsName:          completeRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+        Module:          
+          FullName:        FileProviderUI.FPUIActionExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            domainIdentifier
+        JsName:          domainIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+        Module:          
+          FullName:        FileProviderUI.FPUIActionExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            domainIdentifier
+          JsName:          domainIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+          Module:          
+            FullName:        FileProviderUI.FPUIActionExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            FPUIActionExtensionViewController
+    JsName:          FPUIActionExtensionViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'prepareForActionWithIdentifier:itemIdentifiers:'
+        JsName:          prepareForActionWithIdentifierItemIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h
+        Module:          
+          FullName:        FileProviderUI.FPUIActionExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'prepareForError:'
+        JsName:          prepareForError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h
+        Module:          
+          FullName:        FileProviderUI.FPUIActionExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            extensionContext
+        JsName:          extensionContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h
+        Module:          
+          FullName:        FileProviderUI.FPUIActionExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            extensionContext
+          JsName:          extensionContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h
+          Module:          
+            FullName:        FileProviderUI.FPUIActionExtensionViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          FPUIActionExtensionContext
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            FPUIErrorDomain
+    JsName:          FPUIErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            FPUIExtensionErrorCode
+    JsName:          FPUIExtensionErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - FPUIExtensionErrorCodeUserCancelled: '0'
+      - FPUIExtensionErrorCodeFailed: '1'
+    SwiftNameFields: 
+      - UserCancelled:   '0'
+      - Failed:          '1'
+  - Name:            FPUIExtensionErrorCodeFailed
+    JsName:          FPUIExtensionErrorCodeFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            FPUIExtensionErrorCodeUserCancelled
+    JsName:          FPUIExtensionErrorCodeUserCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionContext.h
+    Module:          
+      FullName:        FileProviderUI.FPUIActionExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...

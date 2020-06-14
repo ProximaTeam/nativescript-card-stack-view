@@ -1,0 +1,138 @@
+---
+Module:          
+  FullName:        IdentityLookupUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         IdentityLookupUI
+      IsFramework:     true
+Items:           
+  - Name:            ILClassificationUIExtensionContext
+    JsName:          ILClassificationUIExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionContext.h
+    Module:          
+      FullName:        IdentityLookupUI.ILClassificationUIExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            readyForClassificationResponse
+        JsName:          readyForClassificationResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionContext.h
+        Module:          
+          FullName:        IdentityLookupUI.ILClassificationUIExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isReadyForClassificationResponse
+          JsName:          isReadyForClassificationResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionContext.h
+          Module:          
+            FullName:        IdentityLookupUI.ILClassificationUIExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setReadyForClassificationResponse:'
+          JsName:          setReadyForClassificationResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionContext.h
+          Module:          
+            FullName:        IdentityLookupUI.ILClassificationUIExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            ILClassificationUIExtensionViewController
+    JsName:          ILClassificationUIExtensionViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionViewController.h
+    Module:          
+      FullName:        IdentityLookupUI.ILClassificationUIExtensionViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'classificationResponseForRequest:'
+        JsName:          classificationResponseForRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionViewController.h
+        Module:          
+          FullName:        IdentityLookupUI.ILClassificationUIExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ILClassificationResponse
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ILClassificationRequest
+            WithProtocols:   
+      - Name:            'prepareForClassificationRequest:'
+        JsName:          prepareForClassificationRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionViewController.h
+        Module:          
+          FullName:        IdentityLookupUI.ILClassificationUIExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ILClassificationRequest
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            extensionContext
+        JsName:          extensionContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionViewController.h
+        Module:          
+          FullName:        IdentityLookupUI.ILClassificationUIExtensionViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            extensionContext
+          JsName:          extensionContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookupUI.framework/Headers/ILClassificationUIExtensionViewController.h
+          Module:          
+            FullName:        IdentityLookupUI.ILClassificationUIExtensionViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ILClassificationUIExtensionContext
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+...

@@ -1,0 +1,165 @@
+---
+Module:          
+  FullName:        TNSWidgets
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         TNSWidgets
+      IsFramework:     true
+Items:           
+  - Name:            TNSLabel
+    JsName:          TNSLabel
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+    Module:          
+      FullName:        TNSWidgets.TNSLabel
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            borderThickness
+        JsName:          borderThickness
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+        Module:          
+          FullName:        TNSWidgets.TNSLabel
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            borderThickness
+          JsName:          borderThickness
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+          Module:          
+            FullName:        TNSWidgets.TNSLabel
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+        Setter:          
+          Name:            'setBorderThickness:'
+          JsName:          setBorderThickness
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+          Module:          
+            FullName:        TNSWidgets.TNSLabel
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+      - Name:            padding
+        JsName:          padding
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+        Module:          
+          FullName:        TNSWidgets.TNSLabel
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            padding
+          JsName:          padding
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+          Module:          
+            FullName:        TNSWidgets.TNSLabel
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+        Setter:          
+          Name:            'setPadding:'
+          JsName:          setPadding
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h
+          Module:          
+            FullName:        TNSWidgets.TNSLabel
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+    StaticProperties: 
+    Protocols:       
+    Base:            UILabel
+  - Name:            TNSWidgetsVersionNumber
+    JsName:          TNSWidgetsVersionNumber
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h
+    Module:          
+      FullName:        TNSWidgets
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         TNSWidgets
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            TNSWidgetsVersionString
+    JsName:          TNSWidgetsVersionString
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h
+    Module:          
+      FullName:        TNSWidgets
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         TNSWidgets
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+  - Name:            __nslog
+    JsName:          __nslog
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSProcess.h
+    Module:          
+      FullName:        TNSWidgets.TNSProcess
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSString
+        WithProtocols:   
+  - Name:            __tns_uptime
+    JsName:          __tns_uptime
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSProcess.h
+    Module:          
+      FullName:        TNSWidgets.TNSProcess
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Double
+...

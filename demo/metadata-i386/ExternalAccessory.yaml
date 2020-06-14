@@ -1,0 +1,1365 @@
+---
+Module:          
+  FullName:        ExternalAccessory
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ExternalAccessory
+      IsFramework:     true
+Items:           
+  - Name:            EAAccessory
+    JsName:          EAAccessory
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            connected
+        JsName:          connected
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isConnected
+          JsName:          isConnected
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            connectionID
+        JsName:          connectionID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            connectionID
+          JsName:          connectionID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - EAAccessoryDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - EAAccessoryDelegate
+      - Name:            dockType
+        JsName:          dockType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dockType
+          JsName:          dockType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            firmwareRevision
+        JsName:          firmwareRevision
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            firmwareRevision
+          JsName:          firmwareRevision
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            hardwareRevision
+        JsName:          hardwareRevision
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hardwareRevision
+          JsName:          hardwareRevision
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            manufacturer
+        JsName:          manufacturer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            manufacturer
+          JsName:          manufacturer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            modelNumber
+        JsName:          modelNumber
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            modelNumber
+          JsName:          modelNumber
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            protocolStrings
+        JsName:          protocolStrings
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            protocolStrings
+          JsName:          protocolStrings
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            serialNumber
+        JsName:          serialNumber
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serialNumber
+          JsName:          serialNumber
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            EAAccessoryDelegate
+    JsName:          EAAccessoryDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'accessoryDidDisconnect:'
+        JsName:          accessoryDidDisconnect
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAAccessory
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            EAAccessoryDidConnectNotification
+    JsName:          EAAccessoryDidConnectNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            EAAccessoryDidDisconnectNotification
+    JsName:          EAAccessoryDidDisconnectNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            EAAccessoryKey
+    JsName:          EAAccessoryKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            EAAccessoryManager
+    JsName:          EAAccessoryManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            registerForLocalNotifications
+        JsName:          registerForLocalNotifications
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'showBluetoothAccessoryPickerWithNameFilter:completion:'
+        JsName:          showBluetoothAccessoryPickerWithNameFilterCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSPredicate
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            unregisterForLocalNotifications
+        JsName:          unregisterForLocalNotifications
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            sharedAccessoryManager
+        JsName:          sharedAccessoryManager
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          EAAccessoryManager
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            connectedAccessories
+        JsName:          connectedAccessories
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+        Module:          
+          FullName:        ExternalAccessory.EAAccessoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            connectedAccessories
+          JsName:          connectedAccessories
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+          Module:          
+            FullName:        ExternalAccessory.EAAccessoryManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          EAAccessory
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            EAAccessorySelectedKey
+    JsName:          EAAccessorySelectedKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            EABluetoothAccessoryPickerAlreadyConnected
+    JsName:          EABluetoothAccessoryPickerAlreadyConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EABluetoothAccessoryPickerErrorCode
+    JsName:          EABluetoothAccessoryPickerErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EABluetoothAccessoryPickerAlreadyConnected: '0'
+      - EABluetoothAccessoryPickerResultNotFound: '1'
+      - EABluetoothAccessoryPickerResultCancelled: '2'
+      - EABluetoothAccessoryPickerResultFailed: '3'
+    SwiftNameFields: 
+      - AlreadyConnected: '0'
+      - ResultNotFound:  '1'
+      - ResultCancelled: '2'
+      - ResultFailed:    '3'
+  - Name:            EABluetoothAccessoryPickerErrorDomain
+    JsName:          EABluetoothAccessoryPickerErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            EABluetoothAccessoryPickerResultCancelled
+    JsName:          EABluetoothAccessoryPickerResultCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EABluetoothAccessoryPickerResultFailed
+    JsName:          EABluetoothAccessoryPickerResultFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            EABluetoothAccessoryPickerResultNotFound
+    JsName:          EABluetoothAccessoryPickerResultNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EAConnectionIDNone
+    JsName:          EAConnectionIDNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EASession
+    JsName:          EASession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+    Module:          
+      FullName:        ExternalAccessory.EASession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAccessory:forProtocol:'
+        JsName:          initWithAccessoryForProtocol
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+        Module:          
+          FullName:        ExternalAccessory.EASession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          EAAccessory
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accessory
+        JsName:          accessory
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+        Module:          
+          FullName:        ExternalAccessory.EASession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accessory
+          JsName:          accessory
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+          Module:          
+            FullName:        ExternalAccessory.EASession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          EAAccessory
+              WithProtocols:   
+      - Name:            inputStream
+        JsName:          inputStream
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+        Module:          
+          FullName:        ExternalAccessory.EASession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            inputStream
+          JsName:          inputStream
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+          Module:          
+            FullName:        ExternalAccessory.EASession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSInputStream
+              WithProtocols:   
+      - Name:            outputStream
+        JsName:          outputStream
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+        Module:          
+          FullName:        ExternalAccessory.EASession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            outputStream
+          JsName:          outputStream
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+          Module:          
+            FullName:        ExternalAccessory.EASession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSOutputStream
+              WithProtocols:   
+      - Name:            protocolString
+        JsName:          protocolString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+        Module:          
+          FullName:        ExternalAccessory.EASession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            protocolString
+          JsName:          protocolString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+          Module:          
+            FullName:        ExternalAccessory.EASession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    3.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            EAWiFiUnconfiguredAccessory
+    JsName:          EAWiFiUnconfiguredAccessory
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            macAddress
+        JsName:          macAddress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            macAddress
+          JsName:          macAddress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            manufacturer
+        JsName:          manufacturer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            manufacturer
+          JsName:          manufacturer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            model
+        JsName:          model
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            model
+          JsName:          model
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            properties
+        JsName:          properties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            properties
+          JsName:          properties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            EAWiFiUnconfiguredAccessoryProperties
+      - Name:            ssid
+        JsName:          ssid
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            ssid
+          JsName:          ssid
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            EAWiFiUnconfiguredAccessoryBrowser
+    JsName:          EAWiFiUnconfiguredAccessoryBrowser
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'configureAccessory:withConfigurationUIOnViewController:'
+        JsName:          configureAccessoryWithConfigurationUIOnViewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessory
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UIViewController
+            WithProtocols:   
+      - Name:            'initWithDelegate:queue:'
+        JsName:          initWithDelegateQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Id
+            WithProtocols:   
+              - EAWiFiUnconfiguredAccessoryBrowserDelegate
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+      - Name:            'startSearchingForUnconfiguredAccessoriesMatchingPredicate:'
+        JsName:          startSearchingForUnconfiguredAccessoriesMatchingPredicate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSPredicate
+            WithProtocols:   
+      - Name:            stopSearchingForUnconfiguredAccessories
+        JsName:          stopSearchingForUnconfiguredAccessories
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - EAWiFiUnconfiguredAccessoryBrowserDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - EAWiFiUnconfiguredAccessoryBrowserDelegate
+      - Name:            unconfiguredAccessories
+        JsName:          unconfiguredAccessories
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            unconfiguredAccessories
+          JsName:          unconfiguredAccessories
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+          Module:          
+            FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          EAWiFiUnconfiguredAccessory
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserDelegate
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'accessoryBrowser:didFindUnconfiguredAccessories:'
+        JsName:          accessoryBrowserDidFindUnconfiguredAccessories
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessoryBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          EAWiFiUnconfiguredAccessory
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'accessoryBrowser:didFinishConfiguringAccessory:withStatus:'
+        JsName:          accessoryBrowserDidFinishConfiguringAccessoryWithStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessoryBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessory
+            WithProtocols:   
+          - Type:            Enum
+            Name:            EAWiFiUnconfiguredAccessoryConfigurationStatus
+      - Name:            'accessoryBrowser:didRemoveUnconfiguredAccessories:'
+        JsName:          accessoryBrowserDidRemoveUnconfiguredAccessories
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessoryBrowser
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          EAWiFiUnconfiguredAccessory
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'accessoryBrowser:didUpdateState:'
+        JsName:          accessoryBrowserDidUpdateState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+        Module:          
+          FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EAWiFiUnconfiguredAccessoryBrowser
+            WithProtocols:   
+          - Type:            Enum
+            Name:            EAWiFiUnconfiguredAccessoryBrowserState
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserState
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EAWiFiUnconfiguredAccessoryBrowserStateWiFiUnavailable: '0'
+      - EAWiFiUnconfiguredAccessoryBrowserStateStopped: '1'
+      - EAWiFiUnconfiguredAccessoryBrowserStateSearching: '2'
+      - EAWiFiUnconfiguredAccessoryBrowserStateConfiguring: '3'
+    SwiftNameFields: 
+      - WiFiUnavailable: '0'
+      - Stopped:         '1'
+      - Searching:       '2'
+      - Configuring:     '3'
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserStateConfiguring
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserStateConfiguring
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserStateSearching
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserStateSearching
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserStateStopped
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserStateStopped
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EAWiFiUnconfiguredAccessoryBrowserStateWiFiUnavailable
+    JsName:          EAWiFiUnconfiguredAccessoryBrowserStateWiFiUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EAWiFiUnconfiguredAccessoryConfigurationStatus
+    JsName:          EAWiFiUnconfiguredAccessoryConfigurationStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EAWiFiUnconfiguredAccessoryConfigurationStatusSuccess: '0'
+      - EAWiFiUnconfiguredAccessoryConfigurationStatusUserCancelledConfiguration: '1'
+      - EAWiFiUnconfiguredAccessoryConfigurationStatusFailed: '2'
+    SwiftNameFields: 
+      - Success:         '0'
+      - UserCancelledConfiguration: '1'
+      - Failed:          '2'
+  - Name:            EAWiFiUnconfiguredAccessoryConfigurationStatusFailed
+    JsName:          EAWiFiUnconfiguredAccessoryConfigurationStatusFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EAWiFiUnconfiguredAccessoryConfigurationStatusSuccess
+    JsName:          EAWiFiUnconfiguredAccessoryConfigurationStatusSuccess
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EAWiFiUnconfiguredAccessoryConfigurationStatusUserCancelledConfiguration
+    JsName:          EAWiFiUnconfiguredAccessoryConfigurationStatusUserCancelledConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessoryBrowser.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessoryBrowser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EAWiFiUnconfiguredAccessoryProperties
+    JsName:          EAWiFiUnconfiguredAccessoryProperties
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EAWiFiUnconfiguredAccessoryPropertySupportsAirPlay: '1'
+      - EAWiFiUnconfiguredAccessoryPropertySupportsAirPrint: '2'
+      - EAWiFiUnconfiguredAccessoryPropertySupportsHomeKit: '4'
+    SwiftNameFields: 
+      - PropertySupportsAirPlay: '1'
+      - PropertySupportsAirPrint: '2'
+      - PropertySupportsHomeKit: '4'
+  - Name:            EAWiFiUnconfiguredAccessoryPropertySupportsAirPlay
+    JsName:          EAWiFiUnconfiguredAccessoryPropertySupportsAirPlay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EAWiFiUnconfiguredAccessoryPropertySupportsAirPrint
+    JsName:          EAWiFiUnconfiguredAccessoryPropertySupportsAirPrint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EAWiFiUnconfiguredAccessoryPropertySupportsHomeKit
+    JsName:          EAWiFiUnconfiguredAccessoryPropertySupportsHomeKit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAWiFiUnconfiguredAccessory.h
+    Module:          
+      FullName:        ExternalAccessory.EAWiFiUnconfiguredAccessory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+...

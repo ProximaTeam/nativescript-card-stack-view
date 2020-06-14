@@ -1,0 +1,932 @@
+---
+Module:          
+  FullName:        EventKitUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         EventKitUI
+      IsFramework:     true
+Items:           
+  - Name:            EKCalendarChooser
+    JsName:          EKCalendarChooser
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithSelectionStyle:displayStyle:entityType:eventStore:'
+        JsName:          initWithSelectionStyleDisplayStyleEntityTypeEventStore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            EKCalendarChooserSelectionStyle
+          - Type:            Enum
+            Name:            EKCalendarChooserDisplayStyle
+          - Type:            Enum
+            Name:            EKEntityType
+          - Type:            Interface
+            JsName:          EKEventStore
+            WithProtocols:   
+      - Name:            'initWithSelectionStyle:displayStyle:eventStore:'
+        JsName:          initWithSelectionStyleDisplayStyleEventStore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            EKCalendarChooserSelectionStyle
+          - Type:            Enum
+            Name:            EKCalendarChooserDisplayStyle
+          - Type:            Interface
+            JsName:          EKEventStore
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - EKCalendarChooserDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - EKCalendarChooserDelegate
+      - Name:            selectedCalendars
+        JsName:          selectedCalendars
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            selectedCalendars
+          JsName:          selectedCalendars
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          EKCalendar
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setSelectedCalendars:'
+          JsName:          setSelectedCalendars
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          EKCalendar
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            selectionStyle
+        JsName:          selectionStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            selectionStyle
+          JsName:          selectionStyle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            EKCalendarChooserSelectionStyle
+      - Name:            showsCancelButton
+        JsName:          showsCancelButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            showsCancelButton
+          JsName:          showsCancelButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowsCancelButton:'
+          JsName:          setShowsCancelButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            showsDoneButton
+        JsName:          showsDoneButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            showsDoneButton
+          JsName:          showsDoneButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowsDoneButton:'
+          JsName:          setShowsDoneButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+          Module:          
+            FullName:        EventKitUI.EKCalendarChooser
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            EKCalendarChooserDelegate
+    JsName:          EKCalendarChooserDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'calendarChooserDidCancel:'
+        JsName:          calendarChooserDidCancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EKCalendarChooser
+            WithProtocols:   
+      - Name:            'calendarChooserDidFinish:'
+        JsName:          calendarChooserDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EKCalendarChooser
+            WithProtocols:   
+      - Name:            'calendarChooserSelectionDidChange:'
+        JsName:          calendarChooserSelectionDidChange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+        Module:          
+          FullName:        EventKitUI.EKCalendarChooser
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EKCalendarChooser
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            EKCalendarChooserDisplayAllCalendars
+    JsName:          EKCalendarChooserDisplayAllCalendars
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EKCalendarChooserDisplayStyle
+    JsName:          EKCalendarChooserDisplayStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EKCalendarChooserDisplayAllCalendars: '0'
+      - EKCalendarChooserDisplayWritableCalendarsOnly: '1'
+    SwiftNameFields: 
+      - AllCalendars:    '0'
+      - WritableCalendarsOnly: '1'
+  - Name:            EKCalendarChooserDisplayWritableCalendarsOnly
+    JsName:          EKCalendarChooserDisplayWritableCalendarsOnly
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EKCalendarChooserSelectionStyle
+    JsName:          EKCalendarChooserSelectionStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EKCalendarChooserSelectionStyleSingle: '0'
+      - EKCalendarChooserSelectionStyleMultiple: '1'
+    SwiftNameFields: 
+      - Single:          '0'
+      - Multiple:        '1'
+  - Name:            EKCalendarChooserSelectionStyleMultiple
+    JsName:          EKCalendarChooserSelectionStyleMultiple
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EKCalendarChooserSelectionStyleSingle
+    JsName:          EKCalendarChooserSelectionStyleSingle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKCalendarChooser.h
+    Module:          
+      FullName:        EventKitUI.EKCalendarChooser
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EKEventEditViewAction
+    JsName:          EKEventEditViewAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EKEventEditViewActionCanceled: '0'
+      - EKEventEditViewActionSaved: '1'
+      - EKEventEditViewActionDeleted: '2'
+      - EKEventEditViewActionCancelled: '0'
+    SwiftNameFields: 
+      - Canceled:        '0'
+      - Saved:           '1'
+      - Deleted:         '2'
+      - Cancelled:       '0'
+  - Name:            EKEventEditViewActionCanceled
+    JsName:          EKEventEditViewActionCanceled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EKEventEditViewActionCancelled
+    JsName:          EKEventEditViewActionCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EKEventEditViewActionDeleted
+    JsName:          EKEventEditViewActionDeleted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EKEventEditViewActionSaved
+    JsName:          EKEventEditViewActionSaved
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EKEventEditViewController
+    JsName:          EKEventEditViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [  ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancelEditing
+        JsName:          cancelEditing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            editViewDelegate
+        JsName:          editViewDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            editViewDelegate
+          JsName:          editViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - EKEventEditViewDelegate
+        Setter:          
+          Name:            'setEditViewDelegate:'
+          JsName:          setEditViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - EKEventEditViewDelegate
+      - Name:            event
+        JsName:          event
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            event
+          JsName:          event
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          EKEvent
+              WithProtocols:   
+        Setter:          
+          Name:            'setEvent:'
+          JsName:          setEvent
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          EKEvent
+              WithProtocols:   
+      - Name:            eventStore
+        JsName:          eventStore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            eventStore
+          JsName:          eventStore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          EKEventStore
+              WithProtocols:   
+        Setter:          
+          Name:            'setEventStore:'
+          JsName:          setEventStore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventEditViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          EKEventStore
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UINavigationController
+  - Name:            EKEventEditViewDelegate
+    JsName:          EKEventEditViewDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventEditViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'eventEditViewControllerDefaultCalendarForNewEvents:'
+        JsName:          eventEditViewControllerDefaultCalendarForNewEvents
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          EKCalendar
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          EKEventEditViewController
+            WithProtocols:   
+      - Name:            'eventEditViewController:didCompleteWithAction:'
+        JsName:          eventEditViewControllerDidCompleteWithAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventEditViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventEditViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EKEventEditViewController
+            WithProtocols:   
+          - Type:            Enum
+            Name:            EKEventEditViewAction
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            EKEventViewAction
+    JsName:          EKEventViewAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - EKEventViewActionDone: '0'
+      - EKEventViewActionResponded: '1'
+      - EKEventViewActionDeleted: '2'
+    SwiftNameFields: 
+      - Done:            '0'
+      - Responded:       '1'
+      - Deleted:         '2'
+  - Name:            EKEventViewActionDeleted
+    JsName:          EKEventViewActionDeleted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            EKEventViewActionDone
+    JsName:          EKEventViewActionDone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            EKEventViewActionResponded
+    JsName:          EKEventViewActionResponded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            EKEventViewController
+    JsName:          EKEventViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [  ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            allowsCalendarPreview
+        JsName:          allowsCalendarPreview
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsCalendarPreview
+          JsName:          allowsCalendarPreview
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsCalendarPreview:'
+          JsName:          setAllowsCalendarPreview
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsEditing
+        JsName:          allowsEditing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsEditing
+          JsName:          allowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsEditing:'
+          JsName:          setAllowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - EKEventViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - EKEventViewDelegate
+      - Name:            event
+        JsName:          event
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            event
+          JsName:          event
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          EKEvent
+              WithProtocols:   
+        Setter:          
+          Name:            'setEvent:'
+          JsName:          setEvent
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+          Module:          
+            FullName:        EventKitUI.EKEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          EKEvent
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            EKEventViewDelegate
+    JsName:          EKEventViewDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+    Module:          
+      FullName:        EventKitUI.EKEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'eventViewController:didCompleteWithAction:'
+        JsName:          eventViewControllerDidCompleteWithAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EKEventViewController.h
+        Module:          
+          FullName:        EventKitUI.EKEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          EKEventViewController
+            WithProtocols:   
+          - Type:            Enum
+            Name:            EKEventViewAction
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            EventKitUIBundle
+    JsName:          EventKitUIBundle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKitUI.framework/Headers/EventKitUIBundle.h
+    Module:          
+      FullName:        EventKitUI.EventKitUIBundle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSBundle
+        WithProtocols:   
+...

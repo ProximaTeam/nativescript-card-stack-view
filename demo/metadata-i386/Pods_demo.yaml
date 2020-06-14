@@ -1,0 +1,40 @@
+---
+Module:          
+  FullName:        Pods_demo
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         Pods_demo
+      IsFramework:     true
+Items:           
+  - Name:            Pods_demoVersionNumber
+    JsName:          Pods_demoVersionNumber
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/Pods_demo.framework/Headers/Pods-demo-umbrella.h
+    Module:          
+      FullName:        Pods_demo
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         Pods_demo
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            Pods_demoVersionString
+    JsName:          Pods_demoVersionString
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/Pods_demo.framework/Headers/Pods-demo-umbrella.h
+    Module:          
+      FullName:        Pods_demo
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         Pods_demo
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

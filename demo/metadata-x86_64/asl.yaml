@@ -1,0 +1,757 @@
+---
+Module:          
+  FullName:        asl
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            _asl_evaluate_send
+    JsName:          _asl_evaluate_send
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            asl_add_log_file
+    JsName:          asl_add_log_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            asl_add_output_file
+    JsName:          asl_add_output_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            CString
+      - Type:            CString
+      - Type:            Int
+      - Type:            Int
+  - Name:            asl_append
+    JsName:          asl_append
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_close
+    JsName:          asl_close
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_close_auxiliary_file
+    JsName:          asl_close_auxiliary_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Int
+  - Name:            asl_count
+    JsName:          asl_count
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_create_auxiliary_file
+    JsName:          asl_create_auxiliary_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            asl_decode_buffer
+    JsName:          asl_decode_buffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            asl_encode_buffer
+    JsName:          asl_encode_buffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            CString
+      - Type:            ULong
+  - Name:            asl_fetch_key_val_op
+    JsName:          asl_fetch_key_val_op
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            asl_format
+    JsName:          asl_format
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            asl_free
+    JsName:          asl_free
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_get
+    JsName:          asl_get
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            asl_get_index
+    JsName:          asl_get_index
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            asl_get_type
+    JsName:          asl_get_type
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_key
+    JsName:          asl_key
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            asl_log_auxiliary_location
+    JsName:          asl_log_auxiliary_location
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+  - Name:            asl_log_descriptor
+    JsName:          asl_log_descriptor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            Int
+      - Type:            UInt
+  - Name:            asl_match
+    JsName:          asl_match
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            UInt
+      - Type:            Int
+  - Name:            asl_new
+    JsName:          asl_new
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            asl_next
+    JsName:          asl_next
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_open
+    JsName:          asl_open
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            asl_open_from_file
+    JsName:          asl_open_from_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            CString
+      - Type:            CString
+  - Name:            asl_open_path
+    JsName:          asl_open_path
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            UInt
+  - Name:            asl_prepend
+    JsName:          asl_prepend
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_prev
+    JsName:          asl_prev
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_release
+    JsName:          asl_release
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_remove_index
+    JsName:          asl_remove_index
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            asl_remove_log_file
+    JsName:          asl_remove_log_file
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            asl_reset_iteration
+    JsName:          asl_reset_iteration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            asl_retain
+    JsName:          asl_retain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_search
+    JsName:          asl_search
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_send
+    JsName:          asl_send
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            asl_set
+    JsName:          asl_set
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+  - Name:            asl_set_filter
+    JsName:          asl_set_filter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+  - Name:            asl_set_output_file_filter
+    JsName:          asl_set_output_file_filter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Int
+      - Type:            Int
+  - Name:            asl_set_query
+    JsName:          asl_set_query
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+      - Type:            UInt
+  - Name:            asl_unset
+    JsName:          asl_unset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            aslresponse_free
+    JsName:          aslresponse_free
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            aslresponse_next
+    JsName:          aslresponse_next
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/asl.h
+    Module:          
+      FullName:        asl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+...

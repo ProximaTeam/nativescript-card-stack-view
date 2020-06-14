@@ -1,0 +1,1803 @@
+---
+Module:          
+  FullName:        Speech
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         Speech
+      IsFramework:     true
+Items:           
+  - Name:            SFAcousticFeature
+    JsName:          SFAcousticFeature
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+    Module:          
+      FullName:        Speech.SFVoiceAnalytics
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            acousticFeatureValuePerFrame
+        JsName:          acousticFeatureValuePerFrame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            acousticFeatureValuePerFrame
+          JsName:          acousticFeatureValuePerFrame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            frameDuration
+        JsName:          frameDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            frameDuration
+          JsName:          frameDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            SFSpeechAudioBufferRecognitionRequest
+    JsName:          SFSpeechAudioBufferRecognitionRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'appendAudioPCMBuffer:'
+        JsName:          appendAudioPCMBuffer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          AVAudioPCMBuffer
+            WithProtocols:   
+      - Name:            'appendAudioSampleBuffer:'
+        JsName:          appendAudioSampleBuffer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            endAudio
+        JsName:          endAudio
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            nativeAudioFormat
+        JsName:          nativeAudioFormat
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nativeAudioFormat
+          JsName:          nativeAudioFormat
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          AVAudioFormat
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            SFSpeechRecognitionRequest
+  - Name:            SFSpeechRecognitionRequest
+    JsName:          SFSpeechRecognitionRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            contextualStrings
+        JsName:          contextualStrings
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contextualStrings
+          JsName:          contextualStrings
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setContextualStrings:'
+          JsName:          setContextualStrings
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            interactionIdentifier
+        JsName:          interactionIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            interactionIdentifier
+          JsName:          interactionIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setInteractionIdentifier:'
+          JsName:          setInteractionIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            requiresOnDeviceRecognition
+        JsName:          requiresOnDeviceRecognition
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requiresOnDeviceRecognition
+          JsName:          requiresOnDeviceRecognition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setRequiresOnDeviceRecognition:'
+          JsName:          setRequiresOnDeviceRecognition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            shouldReportPartialResults
+        JsName:          shouldReportPartialResults
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldReportPartialResults
+          JsName:          shouldReportPartialResults
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShouldReportPartialResults:'
+          JsName:          setShouldReportPartialResults
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            taskHint
+        JsName:          taskHint
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            taskHint
+          JsName:          taskHint
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SFSpeechRecognitionTaskHint
+        Setter:          
+          Name:            'setTaskHint:'
+          JsName:          setTaskHint
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            SFSpeechRecognitionTaskHint
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SFSpeechRecognitionResult
+    JsName:          SFSpeechRecognitionResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionResult
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            bestTranscription
+        JsName:          bestTranscription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionResult
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bestTranscription
+          JsName:          bestTranscription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionResult
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFTranscription
+              WithProtocols:   
+      - Name:            final
+        JsName:          final
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionResult
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isFinal
+          JsName:          isFinal
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionResult
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            transcriptions
+        JsName:          transcriptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionResult
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transcriptions
+          JsName:          transcriptions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionResult
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          SFTranscription
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            SFSpeechRecognitionTask
+    JsName:          SFSpeechRecognitionTask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            finish
+        JsName:          finish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            cancelled
+        JsName:          cancelled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isCancelled
+          JsName:          isCancelled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            error
+        JsName:          error
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            error
+          JsName:          error
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            finishing
+        JsName:          finishing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isFinishing
+          JsName:          isFinishing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            state
+        JsName:          state
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            state
+          JsName:          state
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SFSpeechRecognitionTaskState
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SFSpeechRecognitionTaskDelegate
+    JsName:          SFSpeechRecognitionTaskDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'speechRecognitionDidDetectSpeech:'
+        JsName:          speechRecognitionDidDetectSpeech
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+      - Name:            'speechRecognitionTask:didFinishRecognition:'
+        JsName:          speechRecognitionTaskDidFinishRecognition
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionResult
+            WithProtocols:   
+      - Name:            'speechRecognitionTask:didFinishSuccessfully:'
+        JsName:          speechRecognitionTaskDidFinishSuccessfully
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+          - Type:            Bool
+      - Name:            'speechRecognitionTask:didHypothesizeTranscription:'
+        JsName:          speechRecognitionTaskDidHypothesizeTranscription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SFTranscription
+            WithProtocols:   
+      - Name:            'speechRecognitionTaskFinishedReadingAudio:'
+        JsName:          speechRecognitionTaskFinishedReadingAudio
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+      - Name:            'speechRecognitionTaskWasCancelled:'
+        JsName:          speechRecognitionTaskWasCancelled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SFSpeechRecognitionTaskHint
+    JsName:          SFSpeechRecognitionTaskHint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTaskHint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SFSpeechRecognitionTaskHintUnspecified: '0'
+      - SFSpeechRecognitionTaskHintDictation: '1'
+      - SFSpeechRecognitionTaskHintSearch: '2'
+      - SFSpeechRecognitionTaskHintConfirmation: '3'
+    SwiftNameFields: 
+      - Unspecified:     '0'
+      - Dictation:       '1'
+      - Search:          '2'
+      - Confirmation:    '3'
+  - Name:            SFSpeechRecognitionTaskHintConfirmation
+    JsName:          SFSpeechRecognitionTaskHintConfirmation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTaskHint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SFSpeechRecognitionTaskHintDictation
+    JsName:          SFSpeechRecognitionTaskHintDictation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTaskHint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SFSpeechRecognitionTaskHintSearch
+    JsName:          SFSpeechRecognitionTaskHintSearch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTaskHint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SFSpeechRecognitionTaskHintUnspecified
+    JsName:          SFSpeechRecognitionTaskHintUnspecified
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTaskHint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SFSpeechRecognitionTaskState
+    JsName:          SFSpeechRecognitionTaskState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SFSpeechRecognitionTaskStateStarting: '0'
+      - SFSpeechRecognitionTaskStateRunning: '1'
+      - SFSpeechRecognitionTaskStateFinishing: '2'
+      - SFSpeechRecognitionTaskStateCanceling: '3'
+      - SFSpeechRecognitionTaskStateCompleted: '4'
+    SwiftNameFields: 
+      - Starting:        '0'
+      - Running:         '1'
+      - Finishing:       '2'
+      - Canceling:       '3'
+      - Completed:       '4'
+  - Name:            SFSpeechRecognitionTaskStateCanceling
+    JsName:          SFSpeechRecognitionTaskStateCanceling
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SFSpeechRecognitionTaskStateCompleted
+    JsName:          SFSpeechRecognitionTaskStateCompleted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            SFSpeechRecognitionTaskStateFinishing
+    JsName:          SFSpeechRecognitionTaskStateFinishing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SFSpeechRecognitionTaskStateRunning
+    JsName:          SFSpeechRecognitionTaskStateRunning
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SFSpeechRecognitionTaskStateStarting
+    JsName:          SFSpeechRecognitionTaskStateStarting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SFSpeechRecognizer
+    JsName:          SFSpeechRecognizer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithLocale:'
+        JsName:          initWithLocale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSLocale
+            WithProtocols:   
+      - Name:            'recognitionTaskWithRequest:delegate:'
+        JsName:          recognitionTaskWithRequestDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionRequest
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - SFSpeechRecognitionTaskDelegate
+      - Name:            'recognitionTaskWithRequest:resultHandler:'
+        JsName:          recognitionTaskWithRequestResultHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionTask
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          SFSpeechRecognitionRequest
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          SFSpeechRecognitionResult
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            SFSpeechRecognizerAuthorizationStatus
+      - Name:            'requestAuthorization:'
+        JsName:          requestAuthorization
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            SFSpeechRecognizerAuthorizationStatus
+      - Name:            supportedLocales
+        JsName:          supportedLocales
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSLocale
+                WithProtocols:   
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            available
+        JsName:          available
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAvailable
+          JsName:          isAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            defaultTaskHint
+        JsName:          defaultTaskHint
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            defaultTaskHint
+          JsName:          defaultTaskHint
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            SFSpeechRecognitionTaskHint
+        Setter:          
+          Name:            'setDefaultTaskHint:'
+          JsName:          setDefaultTaskHint
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            SFSpeechRecognitionTaskHint
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - SFSpeechRecognizerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - SFSpeechRecognizerDelegate
+      - Name:            locale
+        JsName:          locale
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            locale
+          JsName:          locale
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSLocale
+              WithProtocols:   
+      - Name:            queue
+        JsName:          queue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            queue
+          JsName:          queue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSOperationQueue
+              WithProtocols:   
+        Setter:          
+          Name:            'setQueue:'
+          JsName:          setQueue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSOperationQueue
+              WithProtocols:   
+      - Name:            supportsOnDeviceRecognition
+        JsName:          supportsOnDeviceRecognition
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsOnDeviceRecognition
+          JsName:          supportsOnDeviceRecognition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsOnDeviceRecognition:'
+          JsName:          setSupportsOnDeviceRecognition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            SFSpeechRecognizerAuthorizationStatus
+    JsName:          SFSpeechRecognizerAuthorizationStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - SFSpeechRecognizerAuthorizationStatusNotDetermined: '0'
+      - SFSpeechRecognizerAuthorizationStatusDenied: '1'
+      - SFSpeechRecognizerAuthorizationStatusRestricted: '2'
+      - SFSpeechRecognizerAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Denied:          '1'
+      - Restricted:      '2'
+      - Authorized:      '3'
+  - Name:            SFSpeechRecognizerAuthorizationStatusAuthorized
+    JsName:          SFSpeechRecognizerAuthorizationStatusAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            SFSpeechRecognizerAuthorizationStatusDenied
+    JsName:          SFSpeechRecognizerAuthorizationStatusDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            SFSpeechRecognizerAuthorizationStatusNotDetermined
+    JsName:          SFSpeechRecognizerAuthorizationStatusNotDetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            SFSpeechRecognizerAuthorizationStatusRestricted
+    JsName:          SFSpeechRecognizerAuthorizationStatusRestricted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            SFSpeechRecognizerDelegate
+    JsName:          SFSpeechRecognizerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'speechRecognizer:availabilityDidChange:'
+        JsName:          speechRecognizerAvailabilityDidChange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          SFSpeechRecognizer
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            SFSpeechURLRecognitionRequest
+    JsName:          SFSpeechURLRecognitionRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+    Module:          
+      FullName:        Speech.SFSpeechRecognitionRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithURL:'
+        JsName:          initWithURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            URL
+        JsName:          URL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+        Module:          
+          FullName:        Speech.SFSpeechRecognitionRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URL
+          JsName:          URL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h
+          Module:          
+            FullName:        Speech.SFSpeechRecognitionRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            SFSpeechRecognitionRequest
+  - Name:            SFTranscription
+    JsName:          SFTranscription
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+    Module:          
+      FullName:        Speech.SFTranscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            averagePauseDuration
+        JsName:          averagePauseDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+        Module:          
+          FullName:        Speech.SFTranscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averagePauseDuration
+          JsName:          averagePauseDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+          Module:          
+            FullName:        Speech.SFTranscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            formattedString
+        JsName:          formattedString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+        Module:          
+          FullName:        Speech.SFTranscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            formattedString
+          JsName:          formattedString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+          Module:          
+            FullName:        Speech.SFTranscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            segments
+        JsName:          segments
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+        Module:          
+          FullName:        Speech.SFTranscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            segments
+          JsName:          segments
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+          Module:          
+            FullName:        Speech.SFTranscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          SFTranscriptionSegment
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            speakingRate
+        JsName:          speakingRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+        Module:          
+          FullName:        Speech.SFTranscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            speakingRate
+          JsName:          speakingRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h
+          Module:          
+            FullName:        Speech.SFTranscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            SFTranscriptionSegment
+    JsName:          SFTranscriptionSegment
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+    Module:          
+      FullName:        Speech.SFTranscriptionSegment
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            alternativeSubstrings
+        JsName:          alternativeSubstrings
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            alternativeSubstrings
+          JsName:          alternativeSubstrings
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            confidence
+        JsName:          confidence
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            confidence
+          JsName:          confidence
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            duration
+        JsName:          duration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            duration
+          JsName:          duration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            substring
+        JsName:          substring
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            substring
+          JsName:          substring
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            substringRange
+        JsName:          substringRange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            substringRange
+          JsName:          substringRange
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          Foundation.NSRange
+              JsName:          NSRange
+      - Name:            timestamp
+        JsName:          timestamp
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timestamp
+          JsName:          timestamp
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            voiceAnalytics
+        JsName:          voiceAnalytics
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+        Module:          
+          FullName:        Speech.SFTranscriptionSegment
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            voiceAnalytics
+          JsName:          voiceAnalytics
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h
+          Module:          
+            FullName:        Speech.SFTranscriptionSegment
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFVoiceAnalytics
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            SFVoiceAnalytics
+    JsName:          SFVoiceAnalytics
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+    Module:          
+      FullName:        Speech.SFVoiceAnalytics
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            jitter
+        JsName:          jitter
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            jitter
+          JsName:          jitter
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFAcousticFeature
+              WithProtocols:   
+      - Name:            pitch
+        JsName:          pitch
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pitch
+          JsName:          pitch
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFAcousticFeature
+              WithProtocols:   
+      - Name:            shimmer
+        JsName:          shimmer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shimmer
+          JsName:          shimmer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFAcousticFeature
+              WithProtocols:   
+      - Name:            voicing
+        JsName:          voicing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+        Module:          
+          FullName:        Speech.SFVoiceAnalytics
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            voicing
+          JsName:          voicing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/SFVoiceAnalytics.h
+          Module:          
+            FullName:        Speech.SFVoiceAnalytics
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          SFAcousticFeature
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+...

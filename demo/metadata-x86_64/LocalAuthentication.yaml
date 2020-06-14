@@ -1,0 +1,920 @@
+---
+Module:          
+  FullName:        LocalAuthentication
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         LocalAuthentication
+      IsFramework:     true
+Items:           
+  - Name:            LAAccessControlOperation
+    JsName:          LAAccessControlOperation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LAAccessControlOperationCreateItem: '0'
+      - LAAccessControlOperationUseItem: '1'
+      - LAAccessControlOperationCreateKey: '2'
+      - LAAccessControlOperationUseKeySign: '3'
+      - LAAccessControlOperationUseKeyDecrypt: '4'
+      - LAAccessControlOperationUseKeyKeyExchange: '5'
+    SwiftNameFields: 
+      - CreateItem:      '0'
+      - UseItem:         '1'
+      - CreateKey:       '2'
+      - UseKeySign:      '3'
+      - UseKeyDecrypt:   '4'
+      - UseKeyKeyExchange: '5'
+  - Name:            LAAccessControlOperationCreateItem
+    JsName:          LAAccessControlOperationCreateItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            LAAccessControlOperationCreateKey
+    JsName:          LAAccessControlOperationCreateKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            LAAccessControlOperationUseItem
+    JsName:          LAAccessControlOperationUseItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            LAAccessControlOperationUseKeyDecrypt
+    JsName:          LAAccessControlOperationUseKeyDecrypt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            LAAccessControlOperationUseKeyKeyExchange
+    JsName:          LAAccessControlOperationUseKeyKeyExchange
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            LAAccessControlOperationUseKeySign
+    JsName:          LAAccessControlOperationUseKeySign
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            LABiometryNone
+    JsName:          LABiometryNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            LABiometryType
+    JsName:          LABiometryType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LABiometryTypeNone: '0'
+      - LABiometryNone:  '0'
+      - LABiometryTypeTouchID: '1'
+      - LABiometryTypeFaceID: '2'
+    SwiftNameFields: 
+      - TypeNone:        '0'
+      - None:            '0'
+      - TypeTouchID:     '1'
+      - TypeFaceID:      '2'
+  - Name:            LABiometryTypeFaceID
+    JsName:          LABiometryTypeFaceID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            LABiometryTypeNone
+    JsName:          LABiometryTypeNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            LABiometryTypeTouchID
+    JsName:          LABiometryTypeTouchID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            LAContext
+    JsName:          LAContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'canEvaluatePolicy:error:'
+        JsName:          canEvaluatePolicyError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Enum
+            Name:            LAPolicy
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'evaluateAccessControl:operation:localizedReason:reply:'
+        JsName:          evaluateAccessControlOperationLocalizedReasonReply
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Enum
+            Name:            LAAccessControlOperation
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'evaluatePolicy:localizedReason:reply:'
+        JsName:          evaluatePolicyLocalizedReasonReply
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            LAPolicy
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            invalidate
+        JsName:          invalidate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'isCredentialSet:'
+        JsName:          isCredentialSet
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Enum
+            Name:            LACredentialType
+      - Name:            'setCredential:type:'
+        JsName:          setCredentialType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Enum
+            Name:            LACredentialType
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            biometryType
+        JsName:          biometryType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            biometryType
+          JsName:          biometryType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            LABiometryType
+      - Name:            evaluatedPolicyDomainState
+        JsName:          evaluatedPolicyDomainState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            evaluatedPolicyDomainState
+          JsName:          evaluatedPolicyDomainState
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            interactionNotAllowed
+        JsName:          interactionNotAllowed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            interactionNotAllowed
+          JsName:          interactionNotAllowed
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setInteractionNotAllowed:'
+          JsName:          setInteractionNotAllowed
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            localizedCancelTitle
+        JsName:          localizedCancelTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedCancelTitle
+          JsName:          localizedCancelTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLocalizedCancelTitle:'
+          JsName:          setLocalizedCancelTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            localizedFallbackTitle
+        JsName:          localizedFallbackTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedFallbackTitle
+          JsName:          localizedFallbackTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLocalizedFallbackTitle:'
+          JsName:          setLocalizedFallbackTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            localizedReason
+        JsName:          localizedReason
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedReason
+          JsName:          localizedReason
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLocalizedReason:'
+          JsName:          setLocalizedReason
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            maxBiometryFailures
+        JsName:          maxBiometryFailures
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maxBiometryFailures
+          JsName:          maxBiometryFailures
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+        Setter:          
+          Name:            'setMaxBiometryFailures:'
+          JsName:          setMaxBiometryFailures
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            touchIDAuthenticationAllowableReuseDuration
+        JsName:          touchIDAuthenticationAllowableReuseDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+        Module:          
+          FullName:        LocalAuthentication.LAContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            touchIDAuthenticationAllowableReuseDuration
+          JsName:          touchIDAuthenticationAllowableReuseDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setTouchIDAuthenticationAllowableReuseDuration:'
+          JsName:          setTouchIDAuthenticationAllowableReuseDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+          Module:          
+            FullName:        LocalAuthentication.LAContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            LACredentialType
+    JsName:          LACredentialType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LACredentialTypeApplicationPassword: '0'
+    SwiftNameFields: 
+      - ApplicationPassword: '0'
+  - Name:            LACredentialTypeApplicationPassword
+    JsName:          LACredentialTypeApplicationPassword
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            LAError
+    JsName:          LAError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LAErrorAuthenticationFailed: '-1'
+      - LAErrorUserCancel: '-2'
+      - LAErrorUserFallback: '-3'
+      - LAErrorSystemCancel: '-4'
+      - LAErrorPasscodeNotSet: '-5'
+      - LAErrorTouchIDNotAvailable: '-6'
+      - LAErrorTouchIDNotEnrolled: '-7'
+      - LAErrorTouchIDLockout: '-8'
+      - LAErrorAppCancel: '-9'
+      - LAErrorInvalidContext: '-10'
+      - LAErrorBiometryNotAvailable: '-6'
+      - LAErrorBiometryNotEnrolled: '-7'
+      - LAErrorBiometryLockout: '-8'
+      - LAErrorNotInteractive: '-1004'
+      - LAErrorWatchNotAvailable: '-11'
+    SwiftNameFields: 
+      - AuthenticationFailed: '-1'
+      - UserCancel:      '-2'
+      - UserFallback:    '-3'
+      - SystemCancel:    '-4'
+      - PasscodeNotSet:  '-5'
+      - TouchIDNotAvailable: '-6'
+      - TouchIDNotEnrolled: '-7'
+      - TouchIDLockout:  '-8'
+      - AppCancel:       '-9'
+      - InvalidContext:  '-10'
+      - BiometryNotAvailable: '-6'
+      - BiometryNotEnrolled: '-7'
+      - BiometryLockout: '-8'
+      - NotInteractive:  '-1004'
+      - WatchNotAvailable: '-11'
+  - Name:            LAErrorAppCancel
+    JsName:          LAErrorAppCancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-9'
+  - Name:            LAErrorAuthenticationFailed
+    JsName:          LAErrorAuthenticationFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            LAErrorBiometryLockout
+    JsName:          LAErrorBiometryLockout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-8'
+  - Name:            LAErrorBiometryNotAvailable
+    JsName:          LAErrorBiometryNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-6'
+  - Name:            LAErrorBiometryNotEnrolled
+    JsName:          LAErrorBiometryNotEnrolled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-7'
+  - Name:            LAErrorDomain
+    JsName:          LAErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            LAErrorInvalidContext
+    JsName:          LAErrorInvalidContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-10'
+  - Name:            LAErrorNotInteractive
+    JsName:          LAErrorNotInteractive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1004'
+  - Name:            LAErrorPasscodeNotSet
+    JsName:          LAErrorPasscodeNotSet
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5'
+  - Name:            LAErrorSystemCancel
+    JsName:          LAErrorSystemCancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4'
+  - Name:            LAErrorTouchIDLockout
+    JsName:          LAErrorTouchIDLockout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-8'
+  - Name:            LAErrorTouchIDNotAvailable
+    JsName:          LAErrorTouchIDNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-6'
+  - Name:            LAErrorTouchIDNotEnrolled
+    JsName:          LAErrorTouchIDNotEnrolled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-7'
+  - Name:            LAErrorUserCancel
+    JsName:          LAErrorUserCancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-2'
+  - Name:            LAErrorUserFallback
+    JsName:          LAErrorUserFallback
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAError.h
+    Module:          
+      FullName:        LocalAuthentication.LAError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3'
+  - Name:            LAPolicy
+    JsName:          LAPolicy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LAPolicyDeviceOwnerAuthenticationWithBiometrics: '1'
+      - LAPolicyDeviceOwnerAuthentication: '2'
+      - LAPolicyDeviceOwnerAuthenticationWithWatch: '3'
+      - LAPolicyDeviceOwnerAuthenticationWithBiometricsOrWatch: '4'
+    SwiftNameFields: 
+      - DeviceOwnerAuthenticationWithBiometrics: '1'
+      - DeviceOwnerAuthentication: '2'
+      - DeviceOwnerAuthenticationWithWatch: '3'
+      - DeviceOwnerAuthenticationWithBiometricsOrWatch: '4'
+  - Name:            LAPolicyDeviceOwnerAuthentication
+    JsName:          LAPolicyDeviceOwnerAuthentication
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            LAPolicyDeviceOwnerAuthenticationWithBiometrics
+    JsName:          LAPolicyDeviceOwnerAuthenticationWithBiometrics
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            LATouchIDAuthenticationMaximumAllowableReuseDuration
+    JsName:          LATouchIDAuthenticationMaximumAllowableReuseDuration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LAContext.h
+    Module:          
+      FullName:        LocalAuthentication.LAContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+...

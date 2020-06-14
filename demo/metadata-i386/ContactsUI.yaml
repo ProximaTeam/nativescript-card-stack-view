@@ -1,0 +1,922 @@
+---
+Module:          
+  FullName:        ContactsUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ContactsUI
+      IsFramework:     true
+Items:           
+  - Name:            CNContactPickerDelegate
+    JsName:          CNContactPickerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+    Module:          
+      FullName:        ContactsUI.CNContactPickerViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'contactPickerDidCancel:'
+        JsName:          contactPickerDidCancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactPickerViewController
+            WithProtocols:   
+      - Name:            'contactPicker:didSelectContact:'
+        JsName:          contactPickerDidSelectContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactPickerViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CNContact
+            WithProtocols:   
+      - Name:            'contactPicker:didSelectContactProperties:'
+        JsName:          contactPickerDidSelectContactProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactPickerViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CNContactProperty
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'contactPicker:didSelectContactProperty:'
+        JsName:          contactPickerDidSelectContactProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactPickerViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CNContactProperty
+            WithProtocols:   
+      - Name:            'contactPicker:didSelectContacts:'
+        JsName:          contactPickerDidSelectContacts
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactPickerViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CNContact
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CNContactPickerViewController
+    JsName:          CNContactPickerViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+    Module:          
+      FullName:        ContactsUI.CNContactPickerViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - CNContactPickerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - CNContactPickerDelegate
+      - Name:            displayedPropertyKeys
+        JsName:          displayedPropertyKeys
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedPropertyKeys
+          JsName:          displayedPropertyKeys
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setDisplayedPropertyKeys:'
+          JsName:          setDisplayedPropertyKeys
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            predicateForEnablingContact
+        JsName:          predicateForEnablingContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForEnablingContact
+          JsName:          predicateForEnablingContact
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForEnablingContact:'
+          JsName:          setPredicateForEnablingContact
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+      - Name:            predicateForSelectionOfContact
+        JsName:          predicateForSelectionOfContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForSelectionOfContact
+          JsName:          predicateForSelectionOfContact
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForSelectionOfContact:'
+          JsName:          setPredicateForSelectionOfContact
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+      - Name:            predicateForSelectionOfProperty
+        JsName:          predicateForSelectionOfProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactPickerViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForSelectionOfProperty
+          JsName:          predicateForSelectionOfProperty
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForSelectionOfProperty:'
+          JsName:          setPredicateForSelectionOfProperty
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactPickerViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            CNContactViewController
+    JsName:          CNContactViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+    Module:          
+      FullName:        ContactsUI.CNContactViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'highlightPropertyWithKey:identifier:'
+        JsName:          highlightPropertyWithKeyIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            descriptorForRequiredKeys
+        JsName:          descriptorForRequiredKeys
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - CNKeyDescriptor
+      - Name:            'viewControllerForContact:'
+        JsName:          viewControllerForContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          CNContact
+            WithProtocols:   
+      - Name:            'viewControllerForNewContact:'
+        JsName:          viewControllerForNewContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          CNContact
+            WithProtocols:   
+      - Name:            'viewControllerForUnknownContact:'
+        JsName:          viewControllerForUnknownContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          CNContact
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            allowsActions
+        JsName:          allowsActions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsActions
+          JsName:          allowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsActions:'
+          JsName:          setAllowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsEditing
+        JsName:          allowsEditing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsEditing
+          JsName:          allowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsEditing:'
+          JsName:          setAllowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            alternateName
+        JsName:          alternateName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            alternateName
+          JsName:          alternateName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setAlternateName:'
+          JsName:          setAlternateName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            contact
+        JsName:          contact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contact
+          JsName:          contact
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CNContact
+              WithProtocols:   
+      - Name:            contactStore
+        JsName:          contactStore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contactStore
+          JsName:          contactStore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CNContactStore
+              WithProtocols:   
+        Setter:          
+          Name:            'setContactStore:'
+          JsName:          setContactStore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CNContactStore
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - CNContactViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - CNContactViewControllerDelegate
+      - Name:            displayedPropertyKeys
+        JsName:          displayedPropertyKeys
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedPropertyKeys
+          JsName:          displayedPropertyKeys
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              WithProtocols:   
+        Setter:          
+          Name:            'setDisplayedPropertyKeys:'
+          JsName:          setDisplayedPropertyKeys
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              WithProtocols:   
+      - Name:            message
+        JsName:          message
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            message
+          JsName:          message
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setMessage:'
+          JsName:          setMessage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            parentContainer
+        JsName:          parentContainer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parentContainer
+          JsName:          parentContainer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CNContainer
+              WithProtocols:   
+        Setter:          
+          Name:            'setParentContainer:'
+          JsName:          setParentContainer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CNContainer
+              WithProtocols:   
+      - Name:            parentGroup
+        JsName:          parentGroup
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parentGroup
+          JsName:          parentGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CNGroup
+              WithProtocols:   
+        Setter:          
+          Name:            'setParentGroup:'
+          JsName:          setParentGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CNGroup
+              WithProtocols:   
+      - Name:            shouldShowLinkedContacts
+        JsName:          shouldShowLinkedContacts
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldShowLinkedContacts
+          JsName:          shouldShowLinkedContacts
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShouldShowLinkedContacts:'
+          JsName:          setShouldShowLinkedContacts
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+          Module:          
+            FullName:        ContactsUI.CNContactViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            CNContactViewControllerDelegate
+    JsName:          CNContactViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+    Module:          
+      FullName:        ContactsUI.CNContactViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'contactViewController:didCompleteWithContact:'
+        JsName:          contactViewControllerDidCompleteWithContact
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CNContactViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CNContact
+            WithProtocols:   
+      - Name:            'contactViewController:shouldPerformDefaultActionForContactProperty:'
+        JsName:          contactViewControllerShouldPerformDefaultActionForContactProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h
+        Module:          
+          FullName:        ContactsUI.CNContactViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          CNContactViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CNContactProperty
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

@@ -63,13 +63,13 @@ export abstract class TemplatedItemsComponent implements DoCheck, OnDestroy, Aft
   protected _differ: IterableDiffer<KeyedTemplate>;
   protected _templateMap: Map<string, KeyedTemplate>;
   private _selectedIndex: number;
-  @ViewChild('loader', { read: ViewContainerRef })
+  @ViewChild('loader', { read: ViewContainerRef, static: true })
   loader: ViewContainerRef;
 
   @Output()
   public setupItemView = new EventEmitter<SetupItemViewArgs>();
 
-  @ContentChild(TemplateRef)
+  @ContentChild(TemplateRef, { static: true })
   itemTemplateQuery: TemplateRef<ItemContext>;
 
   itemTemplate: TemplateRef<ItemContext>;

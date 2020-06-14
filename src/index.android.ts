@@ -51,7 +51,7 @@ export class CardStack extends CardStackCommon {
     return this.nativeView;
   }
 
-  get adapter(): android.support.v4.view.PagerAdapter {
+  get adapter(): androidx.viewpager.widget.PagerAdapter {
     return this.android.getAdapter();
   }
 
@@ -76,7 +76,6 @@ export class CardStack extends CardStackCommon {
     const containerLayout = new android.widget.LinearLayout(this._context);
     containerLayout.setLayoutParams(new android.widget.LinearLayout.LayoutParams(android.widget.LinearLayout.LayoutParams.MATCH_PARENT, android.widget.LinearLayout.LayoutParams.MATCH_PARENT));
     containerLayout.setOrientation(android.widget.LinearLayout.HORIZONTAL);
-
     this._cardStackView = new com.yuyakaido.android.cardstackview.CardStackView(this._context);
 
     return this._cardStackView;
@@ -265,7 +264,7 @@ function ensureCardStackAdapterClass() {
     return;
   }
 
-  class CardStackAdapter extends android.support.v7.widget.RecyclerView.Adapter<any> {
+  class CardStackAdapter extends androidx.recyclerview.widget.RecyclerView.Adapter<any> {
 
     private owner: WeakRef<any>;
     private items: Array<any> = [];
@@ -330,7 +329,7 @@ function ensureCardStackAdapterClass() {
 
 }
 
-class ViewHolder extends android.support.v7.widget.RecyclerView.ViewHolder {
+class ViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
   constructor(view) {
     super(view);
     return global.__native(this);

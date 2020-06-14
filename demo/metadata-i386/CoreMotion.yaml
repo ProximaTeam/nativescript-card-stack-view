@@ -1,0 +1,3455 @@
+---
+Module:          
+  FullName:        CoreMotion
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         CoreMotion
+      IsFramework:     true
+Items:           
+  - Name:            ''
+    JsName:          CMAcceleration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAccelerometer.h
+    Module:          
+      FullName:        CoreMotion.CMAccelerometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+  - Name:            CMAccelerometerData
+    JsName:          CMAccelerometerData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAccelerometer.h
+    Module:          
+      FullName:        CoreMotion.CMAccelerometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            acceleration
+        JsName:          acceleration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAccelerometer.h
+        Module:          
+          FullName:        CoreMotion.CMAccelerometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            acceleration
+          JsName:          acceleration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAccelerometer.h
+          Module:          
+            FullName:        CoreMotion.CMAccelerometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMAccelerometer
+              JsName:          CMAcceleration
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMAltimeter
+    JsName:          CMAltimeter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltimeter.h
+    Module:          
+      FullName:        CoreMotion.CMAltimeter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'startRelativeAltitudeUpdatesToQueue:withHandler:'
+        JsName:          startRelativeAltitudeUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltimeter.h
+        Module:          
+          FullName:        CoreMotion.CMAltimeter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMAltitudeData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            stopRelativeAltitudeUpdates
+        JsName:          stopRelativeAltitudeUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltimeter.h
+        Module:          
+          FullName:        CoreMotion.CMAltimeter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltimeter.h
+        Module:          
+          FullName:        CoreMotion.CMAltimeter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            CMAuthorizationStatus
+      - Name:            isRelativeAltitudeAvailable
+        JsName:          isRelativeAltitudeAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltimeter.h
+        Module:          
+          FullName:        CoreMotion.CMAltimeter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMAltitudeData
+    JsName:          CMAltitudeData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltitude.h
+    Module:          
+      FullName:        CoreMotion.CMAltitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            pressure
+        JsName:          pressure
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltitude.h
+        Module:          
+          FullName:        CoreMotion.CMAltitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pressure
+          JsName:          pressure
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltitude.h
+          Module:          
+            FullName:        CoreMotion.CMAltitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            relativeAltitude
+        JsName:          relativeAltitude
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltitude.h
+        Module:          
+          FullName:        CoreMotion.CMAltitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            relativeAltitude
+          JsName:          relativeAltitude
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAltitude.h
+          Module:          
+            FullName:        CoreMotion.CMAltitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMAttitude
+    JsName:          CMAttitude
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'multiplyByInverseOfAttitude:'
+        JsName:          multiplyByInverseOfAttitude
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CMAttitude
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            pitch
+        JsName:          pitch
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pitch
+          JsName:          pitch
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+          Module:          
+            FullName:        CoreMotion.CMAttitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            quaternion
+        JsName:          quaternion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            quaternion
+          JsName:          quaternion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+          Module:          
+            FullName:        CoreMotion.CMAttitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMAttitude
+              JsName:          CMQuaternion
+      - Name:            roll
+        JsName:          roll
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            roll
+          JsName:          roll
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+          Module:          
+            FullName:        CoreMotion.CMAttitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            rotationMatrix
+        JsName:          rotationMatrix
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rotationMatrix
+          JsName:          rotationMatrix
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+          Module:          
+            FullName:        CoreMotion.CMAttitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMAttitude
+              JsName:          CMRotationMatrix
+      - Name:            yaw
+        JsName:          yaw
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+        Module:          
+          FullName:        CoreMotion.CMAttitude
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            yaw
+          JsName:          yaw
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+          Module:          
+            FullName:        CoreMotion.CMAttitude
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CMAttitudeReferenceFrame
+    JsName:          CMAttitudeReferenceFrame
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMAttitudeReferenceFrameXArbitraryZVertical: '1'
+      - CMAttitudeReferenceFrameXArbitraryCorrectedZVertical: '2'
+      - CMAttitudeReferenceFrameXMagneticNorthZVertical: '4'
+      - CMAttitudeReferenceFrameXTrueNorthZVertical: '8'
+    SwiftNameFields: 
+      - XArbitraryZVertical: '1'
+      - XArbitraryCorrectedZVertical: '2'
+      - XMagneticNorthZVertical: '4'
+      - XTrueNorthZVertical: '8'
+  - Name:            CMAttitudeReferenceFrameXArbitraryCorrectedZVertical
+    JsName:          CMAttitudeReferenceFrameXArbitraryCorrectedZVertical
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CMAttitudeReferenceFrameXArbitraryZVertical
+    JsName:          CMAttitudeReferenceFrameXArbitraryZVertical
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CMAttitudeReferenceFrameXMagneticNorthZVertical
+    JsName:          CMAttitudeReferenceFrameXMagneticNorthZVertical
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CMAttitudeReferenceFrameXTrueNorthZVertical
+    JsName:          CMAttitudeReferenceFrameXTrueNorthZVertical
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            CMAuthorizationStatus
+    JsName:          CMAuthorizationStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAuthorization.h
+    Module:          
+      FullName:        CoreMotion.CMAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMAuthorizationStatusNotDetermined: '0'
+      - CMAuthorizationStatusRestricted: '1'
+      - CMAuthorizationStatusDenied: '2'
+      - CMAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Restricted:      '1'
+      - Denied:          '2'
+      - Authorized:      '3'
+  - Name:            CMAuthorizationStatusAuthorized
+    JsName:          CMAuthorizationStatusAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAuthorization.h
+    Module:          
+      FullName:        CoreMotion.CMAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CMAuthorizationStatusDenied
+    JsName:          CMAuthorizationStatusDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAuthorization.h
+    Module:          
+      FullName:        CoreMotion.CMAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CMAuthorizationStatusNotDetermined
+    JsName:          CMAuthorizationStatusNotDetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAuthorization.h
+    Module:          
+      FullName:        CoreMotion.CMAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CMAuthorizationStatusRestricted
+    JsName:          CMAuthorizationStatusRestricted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAuthorization.h
+    Module:          
+      FullName:        CoreMotion.CMAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ''
+    JsName:          CMCalibratedMagneticField
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            field
+        Signature:       
+          Type:            Struct
+          Module:          CoreMotion.CMMagnetometer
+          JsName:          CMMagneticField
+      - Name:            accuracy
+        Signature:       
+          Type:            Enum
+          Name:            CMMagneticFieldCalibrationAccuracy
+  - Name:            CMDeviceMotion
+    JsName:          CMDeviceMotion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            attitude
+        JsName:          attitude
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attitude
+          JsName:          attitude
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CMAttitude
+              WithProtocols:   
+      - Name:            gravity
+        JsName:          gravity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gravity
+          JsName:          gravity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMAccelerometer
+              JsName:          CMAcceleration
+      - Name:            heading
+        JsName:          heading
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            heading
+          JsName:          heading
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            magneticField
+        JsName:          magneticField
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            magneticField
+          JsName:          magneticField
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMDeviceMotion
+              JsName:          CMCalibratedMagneticField
+      - Name:            rotationRate
+        JsName:          rotationRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rotationRate
+          JsName:          rotationRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMGyro
+              JsName:          CMRotationRate
+      - Name:            userAcceleration
+        JsName:          userAcceleration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+        Module:          
+          FullName:        CoreMotion.CMDeviceMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userAcceleration
+          JsName:          userAcceleration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+          Module:          
+            FullName:        CoreMotion.CMDeviceMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMAccelerometer
+              JsName:          CMAcceleration
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMDyskineticSymptomResult
+    JsName:          CMDyskineticSymptomResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+    Module:          
+      FullName:        CoreMotion.CMMovementDisorderManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            endDate
+        JsName:          endDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            endDate
+          JsName:          endDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            percentLikely
+        JsName:          percentLikely
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentLikely
+          JsName:          percentLikely
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentUnlikely
+        JsName:          percentUnlikely
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentUnlikely
+          JsName:          percentUnlikely
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            startDate
+        JsName:          startDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            startDate
+          JsName:          startDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ''
+    JsName:          CMError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMErrorNULL:     '100'
+      - CMErrorDeviceRequiresMovement: '101'
+      - CMErrorTrueNorthNotAvailable: '102'
+      - CMErrorUnknown:  '103'
+      - CMErrorMotionActivityNotAvailable: '104'
+      - CMErrorMotionActivityNotAuthorized: '105'
+      - CMErrorMotionActivityNotEntitled: '106'
+      - CMErrorInvalidParameter: '107'
+      - CMErrorInvalidAction: '108'
+      - CMErrorNotAvailable: '109'
+      - CMErrorNotEntitled: '110'
+      - CMErrorNotAuthorized: '111'
+    SwiftNameFields: 
+      - NULL:            '100'
+      - DeviceRequiresMovement: '101'
+      - TrueNorthNotAvailable: '102'
+      - Unknown:         '103'
+      - MotionActivityNotAvailable: '104'
+      - MotionActivityNotAuthorized: '105'
+      - MotionActivityNotEntitled: '106'
+      - InvalidParameter: '107'
+      - InvalidAction:   '108'
+      - NotAvailable:    '109'
+      - NotEntitled:     '110'
+      - NotAuthorized:   '111'
+  - Name:            CMErrorDeviceRequiresMovement
+    JsName:          CMErrorDeviceRequiresMovement
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '101'
+  - Name:            CMErrorDomain
+    JsName:          CMErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMErrorDomain.h
+    Module:          
+      FullName:        CoreMotion.CMErrorDomain
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CMErrorInvalidAction
+    JsName:          CMErrorInvalidAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '108'
+  - Name:            CMErrorInvalidParameter
+    JsName:          CMErrorInvalidParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '107'
+  - Name:            CMErrorMotionActivityNotAuthorized
+    JsName:          CMErrorMotionActivityNotAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '105'
+  - Name:            CMErrorMotionActivityNotAvailable
+    JsName:          CMErrorMotionActivityNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '104'
+  - Name:            CMErrorMotionActivityNotEntitled
+    JsName:          CMErrorMotionActivityNotEntitled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '106'
+  - Name:            CMErrorNULL
+    JsName:          CMErrorNULL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '100'
+  - Name:            CMErrorNotAuthorized
+    JsName:          CMErrorNotAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '111'
+  - Name:            CMErrorNotAvailable
+    JsName:          CMErrorNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '109'
+  - Name:            CMErrorNotEntitled
+    JsName:          CMErrorNotEntitled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '110'
+  - Name:            CMErrorTrueNorthNotAvailable
+    JsName:          CMErrorTrueNorthNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '102'
+  - Name:            CMErrorUnknown
+    JsName:          CMErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMError.h
+    Module:          
+      FullName:        CoreMotion.CMError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '103'
+  - Name:            CMGyroData
+    JsName:          CMGyroData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMGyro.h
+    Module:          
+      FullName:        CoreMotion.CMGyro
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            rotationRate
+        JsName:          rotationRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMGyro.h
+        Module:          
+          FullName:        CoreMotion.CMGyro
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rotationRate
+          JsName:          rotationRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMGyro.h
+          Module:          
+            FullName:        CoreMotion.CMGyro
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMGyro
+              JsName:          CMRotationRate
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMLogItem
+    JsName:          CMLogItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMLogItem.h
+    Module:          
+      FullName:        CoreMotion.CMLogItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            timestamp
+        JsName:          timestamp
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMLogItem.h
+        Module:          
+          FullName:        CoreMotion.CMLogItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timestamp
+          JsName:          timestamp
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMLogItem.h
+          Module:          
+            FullName:        CoreMotion.CMLogItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ''
+    JsName:          CMMagneticField
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMagnetometer.h
+    Module:          
+      FullName:        CoreMotion.CMMagnetometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+  - Name:            CMMagneticFieldCalibrationAccuracy
+    JsName:          CMMagneticFieldCalibrationAccuracy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMMagneticFieldCalibrationAccuracyUncalibrated: '-1'
+      - CMMagneticFieldCalibrationAccuracyLow: '0'
+      - CMMagneticFieldCalibrationAccuracyMedium: '1'
+      - CMMagneticFieldCalibrationAccuracyHigh: '2'
+    SwiftNameFields: 
+      - Uncalibrated:    '-1'
+      - Low:             '0'
+      - Medium:          '1'
+      - High:            '2'
+  - Name:            CMMagneticFieldCalibrationAccuracyHigh
+    JsName:          CMMagneticFieldCalibrationAccuracyHigh
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CMMagneticFieldCalibrationAccuracyLow
+    JsName:          CMMagneticFieldCalibrationAccuracyLow
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CMMagneticFieldCalibrationAccuracyMedium
+    JsName:          CMMagneticFieldCalibrationAccuracyMedium
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CMMagneticFieldCalibrationAccuracyUncalibrated
+    JsName:          CMMagneticFieldCalibrationAccuracyUncalibrated
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMDeviceMotion.h
+    Module:          
+      FullName:        CoreMotion.CMDeviceMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            CMMagnetometerData
+    JsName:          CMMagnetometerData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMagnetometer.h
+    Module:          
+      FullName:        CoreMotion.CMMagnetometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            magneticField
+        JsName:          magneticField
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMagnetometer.h
+        Module:          
+          FullName:        CoreMotion.CMMagnetometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            magneticField
+          JsName:          magneticField
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMagnetometer.h
+          Module:          
+            FullName:        CoreMotion.CMMagnetometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreMotion.CMMagnetometer
+              JsName:          CMMagneticField
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMMotionActivity
+    JsName:          CMMotionActivity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            automotive
+        JsName:          automotive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            automotive
+          JsName:          automotive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            confidence
+        JsName:          confidence
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            confidence
+          JsName:          confidence
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CMMotionActivityConfidence
+      - Name:            cycling
+        JsName:          cycling
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cycling
+          JsName:          cycling
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            running
+        JsName:          running
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            running
+          JsName:          running
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            startDate
+        JsName:          startDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            startDate
+          JsName:          startDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            stationary
+        JsName:          stationary
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stationary
+          JsName:          stationary
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            unknown
+        JsName:          unknown
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            unknown
+          JsName:          unknown
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            walking
+        JsName:          walking
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            walking
+          JsName:          walking
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+          Module:          
+            FullName:        CoreMotion.CMMotionActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            CMLogItem
+  - Name:            CMMotionActivityConfidence
+    JsName:          CMMotionActivityConfidence
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMMotionActivityConfidenceLow: '0'
+      - CMMotionActivityConfidenceMedium: '1'
+      - CMMotionActivityConfidenceHigh: '2'
+    SwiftNameFields: 
+      - Low:             '0'
+      - Medium:          '1'
+      - High:            '2'
+  - Name:            CMMotionActivityConfidenceHigh
+    JsName:          CMMotionActivityConfidenceHigh
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CMMotionActivityConfidenceLow
+    JsName:          CMMotionActivityConfidenceLow
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CMMotionActivityConfidenceMedium
+    JsName:          CMMotionActivityConfidenceMedium
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivity.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CMMotionActivityManager
+    JsName:          CMMotionActivityManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+    Module:          
+      FullName:        CoreMotion.CMMotionActivityManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'queryActivityStartingFromDate:toDate:toQueue:withHandler:'
+        JsName:          queryActivityStartingFromDateToDateToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivityManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          CMMotionActivity
+                    WithProtocols:   
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startActivityUpdatesToQueue:withHandler:'
+        JsName:          startActivityUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivityManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMMotionActivity
+                WithProtocols:   
+      - Name:            stopActivityUpdates
+        JsName:          stopActivityUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivityManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivityManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            CMAuthorizationStatus
+      - Name:            isActivityAvailable
+        JsName:          isActivityAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionActivityManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionActivityManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMMotionManager
+    JsName:          CMMotionManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+    Module:          
+      FullName:        CoreMotion.CMMotionManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            startAccelerometerUpdates
+        JsName:          startAccelerometerUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startAccelerometerUpdatesToQueue:withHandler:'
+        JsName:          startAccelerometerUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMAccelerometerData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            startDeviceMotionUpdates
+        JsName:          startDeviceMotionUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startDeviceMotionUpdatesToQueue:withHandler:'
+        JsName:          startDeviceMotionUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMDeviceMotion
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startDeviceMotionUpdatesUsingReferenceFrame:'
+        JsName:          startDeviceMotionUpdatesUsingReferenceFrame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            CMAttitudeReferenceFrame
+      - Name:            'startDeviceMotionUpdatesUsingReferenceFrame:toQueue:withHandler:'
+        JsName:          startDeviceMotionUpdatesUsingReferenceFrameToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            CMAttitudeReferenceFrame
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMDeviceMotion
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            startGyroUpdates
+        JsName:          startGyroUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startGyroUpdatesToQueue:withHandler:'
+        JsName:          startGyroUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMGyroData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            startMagnetometerUpdates
+        JsName:          startMagnetometerUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startMagnetometerUpdatesToQueue:withHandler:'
+        JsName:          startMagnetometerUpdatesToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMMagnetometerData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            stopAccelerometerUpdates
+        JsName:          stopAccelerometerUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopDeviceMotionUpdates
+        JsName:          stopDeviceMotionUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopGyroUpdates
+        JsName:          stopGyroUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopMagnetometerUpdates
+        JsName:          stopMagnetometerUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            availableAttitudeReferenceFrames
+        JsName:          availableAttitudeReferenceFrames
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            CMAttitudeReferenceFrame
+    InstanceProperties: 
+      - Name:            accelerometerActive
+        JsName:          accelerometerActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAccelerometerActive
+          JsName:          isAccelerometerActive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            accelerometerAvailable
+        JsName:          accelerometerAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAccelerometerAvailable
+          JsName:          isAccelerometerAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            accelerometerData
+        JsName:          accelerometerData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accelerometerData
+          JsName:          accelerometerData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CMAccelerometerData
+              WithProtocols:   
+      - Name:            accelerometerUpdateInterval
+        JsName:          accelerometerUpdateInterval
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accelerometerUpdateInterval
+          JsName:          accelerometerUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setAccelerometerUpdateInterval:'
+          JsName:          setAccelerometerUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            attitudeReferenceFrame
+        JsName:          attitudeReferenceFrame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attitudeReferenceFrame
+          JsName:          attitudeReferenceFrame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CMAttitudeReferenceFrame
+      - Name:            deviceMotion
+        JsName:          deviceMotion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            deviceMotion
+          JsName:          deviceMotion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CMDeviceMotion
+              WithProtocols:   
+      - Name:            deviceMotionActive
+        JsName:          deviceMotionActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isDeviceMotionActive
+          JsName:          isDeviceMotionActive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            deviceMotionAvailable
+        JsName:          deviceMotionAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isDeviceMotionAvailable
+          JsName:          isDeviceMotionAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            deviceMotionUpdateInterval
+        JsName:          deviceMotionUpdateInterval
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            deviceMotionUpdateInterval
+          JsName:          deviceMotionUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setDeviceMotionUpdateInterval:'
+          JsName:          setDeviceMotionUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            gyroActive
+        JsName:          gyroActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isGyroActive
+          JsName:          isGyroActive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            gyroAvailable
+        JsName:          gyroAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isGyroAvailable
+          JsName:          isGyroAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            gyroData
+        JsName:          gyroData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gyroData
+          JsName:          gyroData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CMGyroData
+              WithProtocols:   
+      - Name:            gyroUpdateInterval
+        JsName:          gyroUpdateInterval
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gyroUpdateInterval
+          JsName:          gyroUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setGyroUpdateInterval:'
+          JsName:          setGyroUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            magnetometerActive
+        JsName:          magnetometerActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMagnetometerActive
+          JsName:          isMagnetometerActive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            magnetometerAvailable
+        JsName:          magnetometerAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMagnetometerAvailable
+          JsName:          isMagnetometerAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            magnetometerData
+        JsName:          magnetometerData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            magnetometerData
+          JsName:          magnetometerData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CMMagnetometerData
+              WithProtocols:   
+      - Name:            magnetometerUpdateInterval
+        JsName:          magnetometerUpdateInterval
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            magnetometerUpdateInterval
+          JsName:          magnetometerUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setMagnetometerUpdateInterval:'
+          JsName:          setMagnetometerUpdateInterval
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            showsDeviceMovementDisplay
+        JsName:          showsDeviceMovementDisplay
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+        Module:          
+          FullName:        CoreMotion.CMMotionManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            showsDeviceMovementDisplay
+          JsName:          showsDeviceMovementDisplay
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowsDeviceMovementDisplay:'
+          JsName:          setShowsDeviceMovementDisplay
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMotionManager.h
+          Module:          
+            FullName:        CoreMotion.CMMotionManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    5.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMPedometer
+    JsName:          CMPedometer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'queryPedometerDataFromDate:toDate:withHandler:'
+        JsName:          queryPedometerDataFromDateToDateWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMPedometerData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startPedometerEventUpdatesWithHandler:'
+        JsName:          startPedometerEventUpdatesWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMPedometerEvent
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startPedometerUpdatesFromDate:withHandler:'
+        JsName:          startPedometerUpdatesFromDateWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CMPedometerData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            stopPedometerEventUpdates
+        JsName:          stopPedometerEventUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopPedometerUpdates
+        JsName:          stopPedometerUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            CMAuthorizationStatus
+      - Name:            isCadenceAvailable
+        JsName:          isCadenceAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isDistanceAvailable
+        JsName:          isDistanceAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isFloorCountingAvailable
+        JsName:          isFloorCountingAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isPaceAvailable
+        JsName:          isPaceAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isPedometerEventTrackingAvailable
+        JsName:          isPedometerEventTrackingAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isStepCountingAvailable
+        JsName:          isStepCountingAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMPedometerData
+    JsName:          CMPedometerData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            averageActivePace
+        JsName:          averageActivePace
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averageActivePace
+          JsName:          averageActivePace
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            currentCadence
+        JsName:          currentCadence
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentCadence
+          JsName:          currentCadence
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            currentPace
+        JsName:          currentPace
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentPace
+          JsName:          currentPace
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            distance
+        JsName:          distance
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            distance
+          JsName:          distance
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            endDate
+        JsName:          endDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            endDate
+          JsName:          endDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            floorsAscended
+        JsName:          floorsAscended
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            floorsAscended
+          JsName:          floorsAscended
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            floorsDescended
+        JsName:          floorsDescended
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            floorsDescended
+          JsName:          floorsDescended
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            numberOfSteps
+        JsName:          numberOfSteps
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            numberOfSteps
+          JsName:          numberOfSteps
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            startDate
+        JsName:          startDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            startDate
+          JsName:          startDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CMPedometerEvent
+    JsName:          CMPedometerEvent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            date
+        JsName:          date
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            date
+          JsName:          date
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+        Module:          
+          FullName:        CoreMotion.CMPedometer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+          Module:          
+            FullName:        CoreMotion.CMPedometer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CMPedometerEventType
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CMPedometerEventType
+    JsName:          CMPedometerEventType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CMPedometerEventTypePause: '0'
+      - CMPedometerEventTypeResume: '1'
+    SwiftNameFields: 
+      - Pause:           '0'
+      - Resume:          '1'
+  - Name:            CMPedometerEventTypePause
+    JsName:          CMPedometerEventTypePause
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CMPedometerEventTypeResume
+    JsName:          CMPedometerEventTypeResume
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMPedometer.h
+    Module:          
+      FullName:        CoreMotion.CMPedometer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ''
+    JsName:          CMQuaternion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+      - Name:            w
+        Signature:       
+          Type:            Double
+  - Name:            CMRecordedAccelerometerData
+    JsName:          CMRecordedAccelerometerData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+    Module:          
+      FullName:        CoreMotion.CMSensorRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+          Module:          
+            FullName:        CoreMotion.CMSensorRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULongLong
+      - Name:            startDate
+        JsName:          startDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            startDate
+          JsName:          startDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+          Module:          
+            FullName:        CoreMotion.CMSensorRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CMAccelerometerData
+  - Name:            ''
+    JsName:          CMRotationMatrix
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+    Module:          
+      FullName:        CoreMotion.CMAttitude
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            m11
+        Signature:       
+          Type:            Double
+      - Name:            m12
+        Signature:       
+          Type:            Double
+      - Name:            m13
+        Signature:       
+          Type:            Double
+      - Name:            m21
+        Signature:       
+          Type:            Double
+      - Name:            m22
+        Signature:       
+          Type:            Double
+      - Name:            m23
+        Signature:       
+          Type:            Double
+      - Name:            m31
+        Signature:       
+          Type:            Double
+      - Name:            m32
+        Signature:       
+          Type:            Double
+      - Name:            m33
+        Signature:       
+          Type:            Double
+  - Name:            ''
+    JsName:          CMRotationRate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMGyro.h
+    Module:          
+      FullName:        CoreMotion.CMGyro
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+  - Name:            CMSensorDataList
+    JsName:          CMSensorDataList
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+    Module:          
+      FullName:        CoreMotion.CMSensorRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSFastEnumeration
+    Base:            NSObject
+  - Name:            CMSensorRecorder
+    JsName:          CMSensorRecorder
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+    Module:          
+      FullName:        CoreMotion.CMSensorRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'accelerometerDataFromDate:toDate:'
+        JsName:          accelerometerDataFromDateToDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          CMSensorDataList
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'recordAccelerometerForDuration:'
+        JsName:          recordAccelerometerForDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+    StaticMethods:   
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            CMAuthorizationStatus
+      - Name:            isAccelerometerRecordingAvailable
+        JsName:          isAccelerometerRecordingAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isAuthorizedForRecording
+        JsName:          isAuthorizedForRecording
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMSensorRecorder.h
+        Module:          
+          FullName:        CoreMotion.CMSensorRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMStepCounter
+    JsName:          CMStepCounter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMStepCounter.h
+    Module:          
+      FullName:        CoreMotion.CMStepCounter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'queryStepCountStartingFrom:to:toQueue:withHandler:'
+        JsName:          queryStepCountStartingFromToToQueueWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMStepCounter.h
+        Module:          
+          FullName:        CoreMotion.CMStepCounter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Int
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startStepCountingUpdatesToQueue:updateOn:withHandler:'
+        JsName:          startStepCountingUpdatesToQueueUpdateOnWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMStepCounter.h
+        Module:          
+          FullName:        CoreMotion.CMStepCounter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOperationQueue
+            WithProtocols:   
+          - Type:            Int
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Int
+              - Type:            Interface
+                JsName:          NSDate
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            stopStepCountingUpdates
+        JsName:          stopStepCountingUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMStepCounter.h
+        Module:          
+          FullName:        CoreMotion.CMStepCounter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            isStepCountingAvailable
+        JsName:          isStepCountingAvailable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMStepCounter.h
+        Module:          
+          FullName:        CoreMotion.CMStepCounter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CMTremorResult
+    JsName:          CMTremorResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+    Module:          
+      FullName:        CoreMotion.CMMovementDisorderManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            endDate
+        JsName:          endDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            endDate
+          JsName:          endDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            percentMild
+        JsName:          percentMild
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentMild
+          JsName:          percentMild
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentModerate
+        JsName:          percentModerate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentModerate
+          JsName:          percentModerate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentNone
+        JsName:          percentNone
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentNone
+          JsName:          percentNone
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentSlight
+        JsName:          percentSlight
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentSlight
+          JsName:          percentSlight
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentStrong
+        JsName:          percentStrong
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentStrong
+          JsName:          percentStrong
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            percentUnknown
+        JsName:          percentUnknown
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            percentUnknown
+          JsName:          percentUnknown
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            startDate
+        JsName:          startDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+        Module:          
+          FullName:        CoreMotion.CMMovementDisorderManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            startDate
+          JsName:          startDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMMovementDisorderManager.h
+          Module:          
+            FullName:        CoreMotion.CMMovementDisorderManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+...

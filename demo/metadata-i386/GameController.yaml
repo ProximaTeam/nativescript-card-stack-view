@@ -1,0 +1,3464 @@
+---
+Module:          
+  FullName:        GameController
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         GameController
+      IsFramework:     true
+Items:           
+  - Name:            ''
+    JsName:          GCAcceleration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+    Module:          
+      FullName:        GameController.GCMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+  - Name:            GCController
+    JsName:          GCController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            capture
+        JsName:          capture
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            controllers
+        JsName:          controllers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          GCController
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            controllerWithExtendedGamepad
+        JsName:          controllerWithExtendedGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+      - Name:            controllerWithMicroGamepad
+        JsName:          controllerWithMicroGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+      - Name:            'startWirelessControllerDiscoveryWithCompletionHandler:'
+        JsName:          startWirelessControllerDiscoveryWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+      - Name:            stopWirelessControllerDiscovery
+        JsName:          stopWirelessControllerDiscovery
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    InstanceProperties: 
+      - Name:            attachedToDevice
+        JsName:          attachedToDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAttachedToDevice
+          JsName:          isAttachedToDevice
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            controllerPausedHandler
+        JsName:          controllerPausedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controllerPausedHandler
+          JsName:          controllerPausedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCController
+                  WithProtocols:   
+        Setter:          
+          Name:            'setControllerPausedHandler:'
+          JsName:          setControllerPausedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCController
+                  WithProtocols:   
+      - Name:            extendedGamepad
+        JsName:          extendedGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            extendedGamepad
+          JsName:          extendedGamepad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCExtendedGamepad
+              WithProtocols:   
+      - Name:            gamepad
+        JsName:          gamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gamepad
+          JsName:          gamepad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCGamepad
+              WithProtocols:   
+      - Name:            handlerQueue
+        JsName:          handlerQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            handlerQueue
+          JsName:          handlerQueue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+        Setter:          
+          Name:            'setHandlerQueue:'
+          JsName:          setHandlerQueue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+      - Name:            microGamepad
+        JsName:          microGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            microGamepad
+          JsName:          microGamepad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCMicroGamepad
+              WithProtocols:   
+      - Name:            motion
+        JsName:          motion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            motion
+          JsName:          motion
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCMotion
+              WithProtocols:   
+      - Name:            playerIndex
+        JsName:          playerIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            playerIndex
+          JsName:          playerIndex
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            GCControllerPlayerIndex
+        Setter:          
+          Name:            'setPlayerIndex:'
+          JsName:          setPlayerIndex
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            GCControllerPlayerIndex
+      - Name:            productCategory
+        JsName:          productCategory
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            productCategory
+          JsName:          productCategory
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            snapshot
+        JsName:          snapshot
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isSnapshot
+          JsName:          isSnapshot
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            vendorName
+        JsName:          vendorName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+        Module:          
+          FullName:        GameController.GCController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vendorName
+          JsName:          vendorName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+          Module:          
+            FullName:        GameController.GCController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            GCControllerAxisInput
+    JsName:          GCControllerAxisInput
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+    Module:          
+      FullName:        GameController.GCControllerAxisInput
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setValue:'
+        JsName:          setValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+        Module:          
+          FullName:        GameController.GCControllerAxisInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+        Module:          
+          FullName:        GameController.GCControllerAxisInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+          Module:          
+            FullName:        GameController.GCControllerAxisInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+        Module:          
+          FullName:        GameController.GCControllerAxisInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+          Module:          
+            FullName:        GameController.GCControllerAxisInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerAxisInput
+                  WithProtocols:   
+                - Type:            Float
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerAxisInput.h
+          Module:          
+            FullName:        GameController.GCControllerAxisInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerAxisInput
+                  WithProtocols:   
+                - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            GCControllerElement
+  - Name:            GCControllerButtonInput
+    JsName:          GCControllerButtonInput
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+    Module:          
+      FullName:        GameController.GCControllerButtonInput
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setValue:'
+        JsName:          setValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+        Module:          
+          FullName:        GameController.GCControllerButtonInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            pressed
+        JsName:          pressed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+        Module:          
+          FullName:        GameController.GCControllerButtonInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPressed
+          JsName:          isPressed
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            pressedChangedHandler
+        JsName:          pressedChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+        Module:          
+          FullName:        GameController.GCControllerButtonInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pressedChangedHandler
+          JsName:          pressedChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerButtonInput
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Bool
+        Setter:          
+          Name:            'setPressedChangedHandler:'
+          JsName:          setPressedChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerButtonInput
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Bool
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+        Module:          
+          FullName:        GameController.GCControllerButtonInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+        Module:          
+          FullName:        GameController.GCControllerButtonInput
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerButtonInput
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Bool
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerButtonInput.h
+          Module:          
+            FullName:        GameController.GCControllerButtonInput
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerButtonInput
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            GCControllerElement
+  - Name:            GCControllerDidConnectNotification
+    JsName:          GCControllerDidConnectNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            GCControllerDidDisconnectNotification
+    JsName:          GCControllerDidDisconnectNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            GCControllerDirectionPad
+    JsName:          GCControllerDirectionPad
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+    Module:          
+      FullName:        GameController.GCControllerDirectionPad
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setValueForXAxis:yAxis:'
+        JsName:          setValueForXAxisYAxis
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Float
+          - Type:            Float
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            down
+        JsName:          down
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            down
+          JsName:          down
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            left
+        JsName:          left
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            left
+          JsName:          left
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            right
+        JsName:          right
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            right
+          JsName:          right
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            up
+        JsName:          up
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            up
+          JsName:          up
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerDirectionPad
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Float
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCControllerDirectionPad
+                  WithProtocols:   
+                - Type:            Float
+                - Type:            Float
+      - Name:            xAxis
+        JsName:          xAxis
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            xAxis
+          JsName:          xAxis
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerAxisInput
+              WithProtocols:   
+      - Name:            yAxis
+        JsName:          yAxis
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+        Module:          
+          FullName:        GameController.GCControllerDirectionPad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            yAxis
+          JsName:          yAxis
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerDirectionPad.h
+          Module:          
+            FullName:        GameController.GCControllerDirectionPad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerAxisInput
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            GCControllerElement
+  - Name:            GCControllerElement
+    JsName:          GCControllerElement
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerElement.h
+    Module:          
+      FullName:        GameController.GCControllerElement
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            analog
+        JsName:          analog
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerElement.h
+        Module:          
+          FullName:        GameController.GCControllerElement
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAnalog
+          JsName:          isAnalog
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerElement.h
+          Module:          
+            FullName:        GameController.GCControllerElement
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            collection
+        JsName:          collection
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerElement.h
+        Module:          
+          FullName:        GameController.GCControllerElement
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            collection
+          JsName:          collection
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCControllerElement.h
+          Module:          
+            FullName:        GameController.GCControllerElement
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerElement
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            GCControllerPlayerIndex
+    JsName:          GCControllerPlayerIndex
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - GCControllerPlayerIndexUnset: '-1'
+      - GCControllerPlayerIndex1: '0'
+      - GCControllerPlayerIndex2: '1'
+      - GCControllerPlayerIndex3: '2'
+      - GCControllerPlayerIndex4: '3'
+    SwiftNameFields: 
+      - IndexUnset:      '-1'
+      - Index1:          '0'
+      - Index2:          '1'
+      - Index3:          '2'
+      - Index4:          '3'
+  - Name:            GCControllerPlayerIndex1
+    JsName:          GCControllerPlayerIndex1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            GCControllerPlayerIndex2
+    JsName:          GCControllerPlayerIndex2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            GCControllerPlayerIndex3
+    JsName:          GCControllerPlayerIndex3
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            GCControllerPlayerIndex4
+    JsName:          GCControllerPlayerIndex4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            GCControllerPlayerIndexUnset
+    JsName:          GCControllerPlayerIndexUnset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h
+    Module:          
+      FullName:        GameController.GCController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            GCCurrentExtendedGamepadSnapshotDataVersion
+    JsName:          GCCurrentExtendedGamepadSnapshotDataVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Enum
+      Name:            GCExtendedGamepadSnapshotDataVersion
+  - Name:            GCCurrentMicroGamepadSnapshotDataVersion
+    JsName:          GCCurrentMicroGamepadSnapshotDataVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Enum
+      Name:            GCMicroGamepadSnapshotDataVersion
+  - Name:            ''
+    JsName:          GCEulerAngles
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+    Module:          
+      FullName:        GameController.GCMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            pitch
+        Signature:       
+          Type:            Double
+      - Name:            yaw
+        Signature:       
+          Type:            Double
+      - Name:            roll
+        Signature:       
+          Type:            Double
+  - Name:            GCEventViewController
+    JsName:          GCEventViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCEventViewController.h
+    Module:          
+      FullName:        GameController.GCEventViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            controllerUserInteractionEnabled
+        JsName:          controllerUserInteractionEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCEventViewController.h
+        Module:          
+          FullName:        GameController.GCEventViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controllerUserInteractionEnabled
+          JsName:          controllerUserInteractionEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCEventViewController.h
+          Module:          
+            FullName:        GameController.GCEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setControllerUserInteractionEnabled:'
+          JsName:          setControllerUserInteractionEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCEventViewController.h
+          Module:          
+            FullName:        GameController.GCEventViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            GCExtendedGamepad
+    JsName:          GCExtendedGamepad
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepad
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            saveSnapshot
+        JsName:          saveSnapshot
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCExtendedGamepadSnapshot
+            WithProtocols:   
+      - Name:            'setStateFromExtendedGamepad:'
+        JsName:          setStateFromExtendedGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          GCExtendedGamepad
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            buttonA
+        JsName:          buttonA
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonA
+          JsName:          buttonA
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonB
+        JsName:          buttonB
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonB
+          JsName:          buttonB
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonMenu
+        JsName:          buttonMenu
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonMenu
+          JsName:          buttonMenu
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonOptions
+        JsName:          buttonOptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonOptions
+          JsName:          buttonOptions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonX
+        JsName:          buttonX
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonX
+          JsName:          buttonX
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonY
+        JsName:          buttonY
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonY
+          JsName:          buttonY
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            controller
+        JsName:          controller
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controller
+          JsName:          controller
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCController
+              WithProtocols:   
+      - Name:            dpad
+        JsName:          dpad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dpad
+          JsName:          dpad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerDirectionPad
+              WithProtocols:   
+      - Name:            leftShoulder
+        JsName:          leftShoulder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            leftShoulder
+          JsName:          leftShoulder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            leftThumbstick
+        JsName:          leftThumbstick
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            leftThumbstick
+          JsName:          leftThumbstick
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerDirectionPad
+              WithProtocols:   
+      - Name:            leftThumbstickButton
+        JsName:          leftThumbstickButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            leftThumbstickButton
+          JsName:          leftThumbstickButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.1
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            leftTrigger
+        JsName:          leftTrigger
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            leftTrigger
+          JsName:          leftTrigger
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            rightShoulder
+        JsName:          rightShoulder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rightShoulder
+          JsName:          rightShoulder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            rightThumbstick
+        JsName:          rightThumbstick
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rightThumbstick
+          JsName:          rightThumbstick
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerDirectionPad
+              WithProtocols:   
+      - Name:            rightThumbstickButton
+        JsName:          rightThumbstickButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rightThumbstickButton
+          JsName:          rightThumbstickButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.1
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            rightTrigger
+        JsName:          rightTrigger
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rightTrigger
+          JsName:          rightTrigger
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCExtendedGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCExtendedGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ''
+    JsName:          GCExtendedGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Ushort
+      - Name:            size
+        Signature:       
+          Type:            Ushort
+      - Name:            dpadX
+        Signature:       
+          Type:            Float
+      - Name:            dpadY
+        Signature:       
+          Type:            Float
+      - Name:            buttonA
+        Signature:       
+          Type:            Float
+      - Name:            buttonB
+        Signature:       
+          Type:            Float
+      - Name:            buttonX
+        Signature:       
+          Type:            Float
+      - Name:            buttonY
+        Signature:       
+          Type:            Float
+      - Name:            leftShoulder
+        Signature:       
+          Type:            Float
+      - Name:            rightShoulder
+        Signature:       
+          Type:            Float
+      - Name:            leftThumbstickX
+        Signature:       
+          Type:            Float
+      - Name:            leftThumbstickY
+        Signature:       
+          Type:            Float
+      - Name:            rightThumbstickX
+        Signature:       
+          Type:            Float
+      - Name:            rightThumbstickY
+        Signature:       
+          Type:            Float
+      - Name:            leftTrigger
+        Signature:       
+          Type:            Float
+      - Name:            rightTrigger
+        Signature:       
+          Type:            Float
+  - Name:            GCExtendedGamepadSnapShotDataV100FromNSData
+    JsName:          GCExtendedGamepadSnapShotDataV100FromNSData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCExtendedGamepadSnapshot
+          JsName:          GCExtendedGamepadSnapShotDataV100
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+  - Name:            GCExtendedGamepadSnapshot
+    JsName:          GCExtendedGamepadSnapshot
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithController:snapshotData:'
+        JsName:          initWithControllerSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'initWithSnapshotData:'
+        JsName:          initWithSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            snapshotData
+        JsName:          snapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCExtendedGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            snapshotData
+          JsName:          snapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+        Setter:          
+          Name:            'setSnapshotData:'
+          JsName:          setSnapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCExtendedGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            GCExtendedGamepad
+  - Name:            ''
+    JsName:          GCExtendedGamepadSnapshotData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Ushort
+      - Name:            size
+        Signature:       
+          Type:            Ushort
+      - Name:            dpadX
+        Signature:       
+          Type:            Float
+      - Name:            dpadY
+        Signature:       
+          Type:            Float
+      - Name:            buttonA
+        Signature:       
+          Type:            Float
+      - Name:            buttonB
+        Signature:       
+          Type:            Float
+      - Name:            buttonX
+        Signature:       
+          Type:            Float
+      - Name:            buttonY
+        Signature:       
+          Type:            Float
+      - Name:            leftShoulder
+        Signature:       
+          Type:            Float
+      - Name:            rightShoulder
+        Signature:       
+          Type:            Float
+      - Name:            leftThumbstickX
+        Signature:       
+          Type:            Float
+      - Name:            leftThumbstickY
+        Signature:       
+          Type:            Float
+      - Name:            rightThumbstickX
+        Signature:       
+          Type:            Float
+      - Name:            rightThumbstickY
+        Signature:       
+          Type:            Float
+      - Name:            leftTrigger
+        Signature:       
+          Type:            Float
+      - Name:            rightTrigger
+        Signature:       
+          Type:            Float
+      - Name:            supportsClickableThumbsticks
+        Signature:       
+          Type:            Bool
+      - Name:            leftThumbstickButton
+        Signature:       
+          Type:            Bool
+      - Name:            rightThumbstickButton
+        Signature:       
+          Type:            Bool
+  - Name:            GCExtendedGamepadSnapshotDataFromNSData
+    JsName:          GCExtendedGamepadSnapshotDataFromNSData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCExtendedGamepadSnapshot
+          JsName:          GCExtendedGamepadSnapshotData
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+  - Name:            GCExtendedGamepadSnapshotDataVersion
+    JsName:          GCExtendedGamepadSnapshotDataVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - GCExtendedGamepadSnapshotDataVersion1: '256'
+      - GCExtendedGamepadSnapshotDataVersion2: '257'
+    SwiftNameFields: 
+      - Version1:        '256'
+      - Version2:        '257'
+  - Name:            GCExtendedGamepadSnapshotDataVersion1
+    JsName:          GCExtendedGamepadSnapshotDataVersion1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            GCExtendedGamepadSnapshotDataVersion2
+    JsName:          GCExtendedGamepadSnapshotDataVersion2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '257'
+  - Name:            GCGamepad
+    JsName:          GCGamepad
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+    Module:          
+      FullName:        GameController.GCGamepad
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            saveSnapshot
+        JsName:          saveSnapshot
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCGamepadSnapshot
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            buttonA
+        JsName:          buttonA
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonA
+          JsName:          buttonA
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonB
+        JsName:          buttonB
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonB
+          JsName:          buttonB
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonX
+        JsName:          buttonX
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonX
+          JsName:          buttonX
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonY
+        JsName:          buttonY
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonY
+          JsName:          buttonY
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            controller
+        JsName:          controller
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controller
+          JsName:          controller
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCController
+              WithProtocols:   
+      - Name:            dpad
+        JsName:          dpad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dpad
+          JsName:          dpad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerDirectionPad
+              WithProtocols:   
+      - Name:            leftShoulder
+        JsName:          leftShoulder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            leftShoulder
+          JsName:          leftShoulder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            rightShoulder
+        JsName:          rightShoulder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rightShoulder
+          JsName:          rightShoulder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+        Module:          
+          FullName:        GameController.GCGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h
+          Module:          
+            FullName:        GameController.GCGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ''
+    JsName:          GCGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Ushort
+      - Name:            size
+        Signature:       
+          Type:            Ushort
+      - Name:            dpadX
+        Signature:       
+          Type:            Float
+      - Name:            dpadY
+        Signature:       
+          Type:            Float
+      - Name:            buttonA
+        Signature:       
+          Type:            Float
+      - Name:            buttonB
+        Signature:       
+          Type:            Float
+      - Name:            buttonX
+        Signature:       
+          Type:            Float
+      - Name:            buttonY
+        Signature:       
+          Type:            Float
+      - Name:            leftShoulder
+        Signature:       
+          Type:            Float
+      - Name:            rightShoulder
+        Signature:       
+          Type:            Float
+  - Name:            GCGamepadSnapShotDataV100FromNSData
+    JsName:          GCGamepadSnapShotDataV100FromNSData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCGamepadSnapshot
+          JsName:          GCGamepadSnapShotDataV100
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+  - Name:            GCGamepadSnapshot
+    JsName:          GCGamepadSnapshot
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithController:snapshotData:'
+        JsName:          initWithControllerSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'initWithSnapshotData:'
+        JsName:          initWithSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            snapshotData
+        JsName:          snapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            snapshotData
+          JsName:          snapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+        Setter:          
+          Name:            'setSnapshotData:'
+          JsName:          setSnapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            GCGamepad
+  - Name:            GCMicroGamepad
+    JsName:          GCMicroGamepad
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+    Module:          
+      FullName:        GameController.GCMicroGamepad
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            saveSnapshot
+        JsName:          saveSnapshot
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          GCMicroGamepadSnapshot
+            WithProtocols:   
+      - Name:            'setStateFromMicroGamepad:'
+        JsName:          setStateFromMicroGamepad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          GCMicroGamepad
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            allowsRotation
+        JsName:          allowsRotation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsRotation
+          JsName:          allowsRotation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsRotation:'
+          JsName:          setAllowsRotation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            buttonA
+        JsName:          buttonA
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonA
+          JsName:          buttonA
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonMenu
+        JsName:          buttonMenu
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonMenu
+          JsName:          buttonMenu
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            buttonX
+        JsName:          buttonX
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buttonX
+          JsName:          buttonX
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerButtonInput
+              WithProtocols:   
+      - Name:            controller
+        JsName:          controller
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controller
+          JsName:          controller
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCController
+              WithProtocols:   
+      - Name:            dpad
+        JsName:          dpad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dpad
+          JsName:          dpad
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCControllerDirectionPad
+              WithProtocols:   
+      - Name:            reportsAbsoluteDpadValues
+        JsName:          reportsAbsoluteDpadValues
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportsAbsoluteDpadValues
+          JsName:          reportsAbsoluteDpadValues
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setReportsAbsoluteDpadValues:'
+          JsName:          setReportsAbsoluteDpadValues
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+        Module:          
+          FullName:        GameController.GCMicroGamepad
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCMicroGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepad.h
+          Module:          
+            FullName:        GameController.GCMicroGamepad
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCMicroGamepad
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          GCControllerElement
+                  WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ''
+    JsName:          GCMicroGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Ushort
+      - Name:            size
+        Signature:       
+          Type:            Ushort
+      - Name:            dpadX
+        Signature:       
+          Type:            Float
+      - Name:            dpadY
+        Signature:       
+          Type:            Float
+      - Name:            buttonA
+        Signature:       
+          Type:            Float
+      - Name:            buttonX
+        Signature:       
+          Type:            Float
+  - Name:            GCMicroGamepadSnapShotDataV100FromNSData
+    JsName:          GCMicroGamepadSnapShotDataV100FromNSData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCMicroGamepadSnapshot
+          JsName:          GCMicroGamepadSnapShotDataV100
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+  - Name:            GCMicroGamepadSnapshot
+    JsName:          GCMicroGamepadSnapshot
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithController:snapshotData:'
+        JsName:          initWithControllerSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCMicroGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          GCController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'initWithSnapshotData:'
+        JsName:          initWithSnapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCMicroGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            snapshotData
+        JsName:          snapshotData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+        Module:          
+          FullName:        GameController.GCMicroGamepadSnapshot
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            snapshotData
+          JsName:          snapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCMicroGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+        Setter:          
+          Name:            'setSnapshotData:'
+          JsName:          setSnapshotData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+          Module:          
+            FullName:        GameController.GCMicroGamepadSnapshot
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            GCMicroGamepad
+  - Name:            ''
+    JsName:          GCMicroGamepadSnapshotData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Ushort
+      - Name:            size
+        Signature:       
+          Type:            Ushort
+      - Name:            dpadX
+        Signature:       
+          Type:            Float
+      - Name:            dpadY
+        Signature:       
+          Type:            Float
+      - Name:            buttonA
+        Signature:       
+          Type:            Float
+      - Name:            buttonX
+        Signature:       
+          Type:            Float
+  - Name:            GCMicroGamepadSnapshotDataFromNSData
+    JsName:          GCMicroGamepadSnapshotDataFromNSData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCMicroGamepadSnapshot
+          JsName:          GCMicroGamepadSnapshotData
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+  - Name:            GCMicroGamepadSnapshotDataVersion
+    JsName:          GCMicroGamepadSnapshotDataVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - GCMicroGamepadSnapshotDataVersion1: '256'
+    SwiftNameFields: 
+      - Version1:        '256'
+  - Name:            GCMicroGamepadSnapshotDataVersion1
+    JsName:          GCMicroGamepadSnapshotDataVersion1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            GCMotion
+    JsName:          GCMotion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+    Module:          
+      FullName:        GameController.GCMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setAttitude:'
+        JsName:          setAttitude
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          GameController.GCMotion
+            JsName:          GCQuaternion
+      - Name:            'setGravity:'
+        JsName:          setGravity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          GameController.GCMotion
+            JsName:          GCAcceleration
+      - Name:            'setRotationRate:'
+        JsName:          setRotationRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          GameController.GCMotion
+            JsName:          GCRotationRate
+      - Name:            'setStateFromMotion:'
+        JsName:          setStateFromMotion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          GCMotion
+            WithProtocols:   
+      - Name:            'setUserAcceleration:'
+        JsName:          setUserAcceleration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          GameController.GCMotion
+            JsName:          GCAcceleration
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            attitude
+        JsName:          attitude
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attitude
+          JsName:          attitude
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          GameController.GCMotion
+              JsName:          GCQuaternion
+      - Name:            controller
+        JsName:          controller
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            controller
+          JsName:          controller
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          GCController
+              WithProtocols:   
+      - Name:            gravity
+        JsName:          gravity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gravity
+          JsName:          gravity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          GameController.GCMotion
+              JsName:          GCAcceleration
+      - Name:            hasAttitudeAndRotationRate
+        JsName:          hasAttitudeAndRotationRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hasAttitudeAndRotationRate
+          JsName:          hasAttitudeAndRotationRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            rotationRate
+        JsName:          rotationRate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rotationRate
+          JsName:          rotationRate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          GameController.GCMotion
+              JsName:          GCRotationRate
+      - Name:            userAcceleration
+        JsName:          userAcceleration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userAcceleration
+          JsName:          userAcceleration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          GameController.GCMotion
+              JsName:          GCAcceleration
+      - Name:            valueChangedHandler
+        JsName:          valueChangedHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+        Module:          
+          FullName:        GameController.GCMotion
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueChangedHandler
+          JsName:          valueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCMotion
+                  WithProtocols:   
+        Setter:          
+          Name:            'setValueChangedHandler:'
+          JsName:          setValueChangedHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+          Module:          
+            FullName:        GameController.GCMotion
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          GCMotion
+                  WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            GCQuaternion
+    JsName:          GCQuaternion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+    Module:          
+      FullName:        GameController.GCMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+      - Name:            w
+        Signature:       
+          Type:            Double
+  - Name:            ''
+    JsName:          GCRotationRate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMotion.h
+    Module:          
+      FullName:        GameController.GCMotion
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            Double
+      - Name:            y
+        Signature:       
+          Type:            Double
+      - Name:            z
+        Signature:       
+          Type:            Double
+  - Name:            NSDataFromGCExtendedGamepadSnapShotDataV100
+    JsName:          NSDataFromGCExtendedGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCExtendedGamepadSnapshot
+          JsName:          GCExtendedGamepadSnapShotDataV100
+  - Name:            NSDataFromGCExtendedGamepadSnapshotData
+    JsName:          NSDataFromGCExtendedGamepadSnapshotData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCExtendedGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCExtendedGamepadSnapshot
+          JsName:          GCExtendedGamepadSnapshotData
+  - Name:            NSDataFromGCGamepadSnapShotDataV100
+    JsName:          NSDataFromGCGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCGamepadSnapshot
+          JsName:          GCGamepadSnapShotDataV100
+  - Name:            NSDataFromGCMicroGamepadSnapShotDataV100
+    JsName:          NSDataFromGCMicroGamepadSnapShotDataV100
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCMicroGamepadSnapshot
+          JsName:          GCMicroGamepadSnapShotDataV100
+  - Name:            NSDataFromGCMicroGamepadSnapshotData
+    JsName:          NSDataFromGCMicroGamepadSnapshotData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GameController.framework/Headers/GCMicroGamepadSnapshot.h
+    Module:          
+      FullName:        GameController.GCMicroGamepadSnapshot
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSData
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          GameController.GCMicroGamepadSnapshot
+          JsName:          GCMicroGamepadSnapshotData
+...

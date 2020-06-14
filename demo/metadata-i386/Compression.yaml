@@ -1,0 +1,400 @@
+---
+Module:          
+  FullName:        Compression
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         compression
+      IsFramework:     false
+Items:           
+  - Name:            COMPRESSION_LZ4
+    JsName:          COMPRESSION_LZ4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            COMPRESSION_LZ4_RAW
+    JsName:          COMPRESSION_LZ4_RAW
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '257'
+  - Name:            COMPRESSION_LZFSE
+    JsName:          COMPRESSION_LZFSE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2049'
+  - Name:            COMPRESSION_LZMA
+    JsName:          COMPRESSION_LZMA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '774'
+  - Name:            COMPRESSION_STATUS_END
+    JsName:          COMPRESSION_STATUS_END
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            COMPRESSION_STATUS_ERROR
+    JsName:          COMPRESSION_STATUS_ERROR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            COMPRESSION_STATUS_OK
+    JsName:          COMPRESSION_STATUS_OK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            COMPRESSION_STREAM_DECODE
+    JsName:          COMPRESSION_STREAM_DECODE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            COMPRESSION_STREAM_ENCODE
+    JsName:          COMPRESSION_STREAM_ENCODE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            COMPRESSION_STREAM_FINALIZE
+    JsName:          COMPRESSION_STREAM_FINALIZE
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            COMPRESSION_ZLIB
+    JsName:          COMPRESSION_ZLIB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '517'
+  - Name:            ''
+    JsName:          compression_algorithm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - COMPRESSION_LZ4: '256'
+      - COMPRESSION_ZLIB: '517'
+      - COMPRESSION_LZMA: '774'
+      - COMPRESSION_LZ4_RAW: '257'
+      - COMPRESSION_LZFSE: '2049'
+    SwiftNameFields: 
+  - Name:            compression_decode_buffer
+    JsName:          compression_decode_buffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Enum
+        Name:            compression_algorithm
+  - Name:            compression_decode_scratch_buffer_size
+    JsName:          compression_decode_scratch_buffer_size
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Enum
+        Name:            compression_algorithm
+  - Name:            compression_encode_buffer
+    JsName:          compression_encode_buffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Enum
+        Name:            compression_algorithm
+  - Name:            compression_encode_scratch_buffer_size
+    JsName:          compression_encode_scratch_buffer_size
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Enum
+        Name:            compression_algorithm
+  - Name:            ''
+    JsName:          compression_status
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - COMPRESSION_STATUS_OK: '0'
+      - COMPRESSION_STATUS_ERROR: '-1'
+      - COMPRESSION_STATUS_END: '1'
+    SwiftNameFields: 
+  - Name:            ''
+    JsName:          compression_stream
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            dst_ptr
+        Signature:       
+          Type:            CString
+      - Name:            dst_size
+        Signature:       
+          Type:            ULong
+      - Name:            src_ptr
+        Signature:       
+          Type:            CString
+      - Name:            src_size
+        Signature:       
+          Type:            ULong
+      - Name:            state
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+  - Name:            compression_stream_destroy
+    JsName:          compression_stream_destroy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            compression_status
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Compression
+          JsName:          compression_stream
+  - Name:            ''
+    JsName:          compression_stream_flags
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - COMPRESSION_STREAM_FINALIZE: '1'
+    SwiftNameFields: 
+  - Name:            compression_stream_init
+    JsName:          compression_stream_init
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            compression_status
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Compression
+          JsName:          compression_stream
+      - Type:            Enum
+        Name:            compression_stream_operation
+      - Type:            Enum
+        Name:            compression_algorithm
+  - Name:            ''
+    JsName:          compression_stream_operation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - COMPRESSION_STREAM_ENCODE: '0'
+      - COMPRESSION_STREAM_DECODE: '1'
+    SwiftNameFields: 
+  - Name:            compression_stream_process
+    JsName:          compression_stream_process
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/compression.h
+    Module:          
+      FullName:        Compression
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         compression
+          IsFramework:     false
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            compression_status
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Compression
+          JsName:          compression_stream
+      - Type:            Int
+...

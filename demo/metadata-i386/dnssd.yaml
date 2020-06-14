@@ -1,0 +1,2271 @@
+---
+Module:          
+  FullName:        dnssd
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            CompileTimeAssertionChecks_DNS_SD
+    JsName:          CompileTimeAssertionChecks_DNS_SD
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            assert0
+        Signature:       
+          Type:            ConstantArray
+          ArrayType:       
+            Type:            Char
+          Size:            1
+  - Name:            DNSServiceAddRecord
+    JsName:          DNSServiceAddRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            DNSServiceBrowse
+    JsName:          DNSServiceBrowse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            CString
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            CString
+          - Type:            CString
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceConstructFullName
+    JsName:          DNSServiceConstructFullName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+  - Name:            DNSServiceCreateConnection
+    JsName:          DNSServiceCreateConnection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+  - Name:            DNSServiceEnumerateDomains
+    JsName:          DNSServiceEnumerateDomains
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceGetAddrInfo
+    JsName:          DNSServiceGetAddrInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            Pointer
+            PointerType:     
+              Type:            Struct
+              Module:          Darwin.POSIX.sys.socket
+              JsName:          sockaddr
+          - Type:            UInt
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceGetProperty
+    JsName:          DNSServiceGetProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            DNSServiceNATPortMappingCreate
+    JsName:          DNSServiceNATPortMappingCreate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            UInt
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Ushort
+          - Type:            Ushort
+          - Type:            UInt
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceProcessResult
+    JsName:          DNSServiceProcessResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceQueryRecord
+    JsName:          DNSServiceQueryRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            Ushort
+          - Type:            Ushort
+          - Type:            Ushort
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceReconfirmRecord
+    JsName:          DNSServiceReconfirmRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceRefDeallocate
+    JsName:          DNSServiceRefDeallocate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceRefSockFD
+    JsName:          DNSServiceRefSockFD
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceRegister
+    JsName:          DNSServiceRegister
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            CString
+          - Type:            CString
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceRegisterRecord
+    JsName:          DNSServiceRegisterRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            Int
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceRemoveRecord
+    JsName:          DNSServiceRemoveRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            DNSServiceResolve
+    JsName:          DNSServiceResolve
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            UInt
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            UInt
+          - Type:            UInt
+          - Type:            Int
+          - Type:            CString
+          - Type:            CString
+          - Type:            Ushort
+          - Type:            Ushort
+          - Type:            CString
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceSetDispatchQueue
+    JsName:          DNSServiceSetDispatchQueue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            DNSServiceSleepKeepalive
+    JsName:          DNSServiceSleepKeepalive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            UInt
+      - Type:            Int
+      - Type:            UInt
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            Int
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            DNSServiceUpdateRecord
+    JsName:          DNSServiceUpdateRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            PeerConnectionRelease
+    JsName:          PeerConnectionRelease
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            UInt
+      - Type:            CString
+      - Type:            CString
+      - Type:            CString
+  - Name:            TXTRecordContainsKey
+    JsName:          TXTRecordContainsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+  - Name:            TXTRecordGetCount
+    JsName:          TXTRecordGetCount
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            TXTRecordGetItemAtIndex
+    JsName:          TXTRecordGetItemAtIndex
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Ushort
+      - Type:            Ushort
+      - Type:            CString
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+  - Name:            TXTRecordGetValuePtr
+    JsName:          TXTRecordGetValuePtr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Ushort
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            CString
+      - Type:            CString
+  - Name:            kDNSServiceClass_IN
+    JsName:          kDNSServiceClass_IN
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kDNSServiceErr_AlreadyRegistered
+    JsName:          kDNSServiceErr_AlreadyRegistered
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65547'
+  - Name:            kDNSServiceErr_BadFlags
+    JsName:          kDNSServiceErr_BadFlags
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65543'
+  - Name:            kDNSServiceErr_BadInterfaceIndex
+    JsName:          kDNSServiceErr_BadInterfaceIndex
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65552'
+  - Name:            kDNSServiceErr_BadKey
+    JsName:          kDNSServiceErr_BadKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65561'
+  - Name:            kDNSServiceErr_BadParam
+    JsName:          kDNSServiceErr_BadParam
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65540'
+  - Name:            kDNSServiceErr_BadReference
+    JsName:          kDNSServiceErr_BadReference
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65541'
+  - Name:            kDNSServiceErr_BadSig
+    JsName:          kDNSServiceErr_BadSig
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65560'
+  - Name:            kDNSServiceErr_BadState
+    JsName:          kDNSServiceErr_BadState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65542'
+  - Name:            kDNSServiceErr_BadTime
+    JsName:          kDNSServiceErr_BadTime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65559'
+  - Name:            kDNSServiceErr_DefunctConnection
+    JsName:          kDNSServiceErr_DefunctConnection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65569'
+  - Name:            kDNSServiceErr_DoubleNAT
+    JsName:          kDNSServiceErr_DoubleNAT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65558'
+  - Name:            kDNSServiceErr_Firewall
+    JsName:          kDNSServiceErr_Firewall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65550'
+  - Name:            kDNSServiceErr_Incompatible
+    JsName:          kDNSServiceErr_Incompatible
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65551'
+  - Name:            kDNSServiceErr_Invalid
+    JsName:          kDNSServiceErr_Invalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65549'
+  - Name:            kDNSServiceErr_NATPortMappingDisabled
+    JsName:          kDNSServiceErr_NATPortMappingDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65565'
+  - Name:            kDNSServiceErr_NATPortMappingUnsupported
+    JsName:          kDNSServiceErr_NATPortMappingUnsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65564'
+  - Name:            kDNSServiceErr_NATTraversal
+    JsName:          kDNSServiceErr_NATTraversal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65557'
+  - Name:            kDNSServiceErr_NameConflict
+    JsName:          kDNSServiceErr_NameConflict
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65548'
+  - Name:            kDNSServiceErr_NoAuth
+    JsName:          kDNSServiceErr_NoAuth
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65555'
+  - Name:            kDNSServiceErr_NoError
+    JsName:          kDNSServiceErr_NoError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kDNSServiceErr_NoMemory
+    JsName:          kDNSServiceErr_NoMemory
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65539'
+  - Name:            kDNSServiceErr_NoRouter
+    JsName:          kDNSServiceErr_NoRouter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65566'
+  - Name:            kDNSServiceErr_NoSuchKey
+    JsName:          kDNSServiceErr_NoSuchKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65556'
+  - Name:            kDNSServiceErr_NoSuchName
+    JsName:          kDNSServiceErr_NoSuchName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65538'
+  - Name:            kDNSServiceErr_NoSuchRecord
+    JsName:          kDNSServiceErr_NoSuchRecord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65554'
+  - Name:            kDNSServiceErr_NotInitialized
+    JsName:          kDNSServiceErr_NotInitialized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65545'
+  - Name:            kDNSServiceErr_PollingMode
+    JsName:          kDNSServiceErr_PollingMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65567'
+  - Name:            kDNSServiceErr_Refused
+    JsName:          kDNSServiceErr_Refused
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65553'
+  - Name:            kDNSServiceErr_ServiceNotRunning
+    JsName:          kDNSServiceErr_ServiceNotRunning
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65563'
+  - Name:            kDNSServiceErr_Timeout
+    JsName:          kDNSServiceErr_Timeout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65568'
+  - Name:            kDNSServiceErr_Transient
+    JsName:          kDNSServiceErr_Transient
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65562'
+  - Name:            kDNSServiceErr_Unknown
+    JsName:          kDNSServiceErr_Unknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65537'
+  - Name:            kDNSServiceErr_Unsupported
+    JsName:          kDNSServiceErr_Unsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-65544'
+  - Name:            kDNSServiceFlagAnsweredFromCache
+    JsName:          kDNSServiceFlagAnsweredFromCache
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1073741824'
+  - Name:            kDNSServiceFlagsAdd
+    JsName:          kDNSServiceFlagsAdd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kDNSServiceFlagsAllowExpiredAnswers
+    JsName:          kDNSServiceFlagsAllowExpiredAnswers
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2147483648'
+  - Name:            kDNSServiceFlagsAllowRemoteQuery
+    JsName:          kDNSServiceFlagsAllowRemoteQuery
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '512'
+  - Name:            kDNSServiceFlagsAutoTrigger
+    JsName:          kDNSServiceFlagsAutoTrigger
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kDNSServiceFlagsBackgroundTrafficClass
+    JsName:          kDNSServiceFlagsBackgroundTrafficClass
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '524288'
+  - Name:            kDNSServiceFlagsBogus
+    JsName:          kDNSServiceFlagsBogus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2097216'
+  - Name:            kDNSServiceFlagsBrowseDomains
+    JsName:          kDNSServiceFlagsBrowseDomains
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '64'
+  - Name:            kDNSServiceFlagsDefault
+    JsName:          kDNSServiceFlagsDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kDNSServiceFlagsExpiredAnswer
+    JsName:          kDNSServiceFlagsExpiredAnswer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2147483648'
+  - Name:            kDNSServiceFlagsForce
+    JsName:          kDNSServiceFlagsForce
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2048'
+  - Name:            kDNSServiceFlagsForceMulticast
+    JsName:          kDNSServiceFlagsForceMulticast
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1024'
+  - Name:            kDNSServiceFlagsIncludeAWDL
+    JsName:          kDNSServiceFlagsIncludeAWDL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1048576'
+  - Name:            kDNSServiceFlagsIncludeP2P
+    JsName:          kDNSServiceFlagsIncludeP2P
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '131072'
+  - Name:            kDNSServiceFlagsIndeterminate
+    JsName:          kDNSServiceFlagsIndeterminate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2097280'
+  - Name:            kDNSServiceFlagsInsecure
+    JsName:          kDNSServiceFlagsInsecure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2097184'
+  - Name:            kDNSServiceFlagsKnownUnique
+    JsName:          kDNSServiceFlagsKnownUnique
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2048'
+  - Name:            kDNSServiceFlagsLongLivedQuery
+    JsName:          kDNSServiceFlagsLongLivedQuery
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+  - Name:            kDNSServiceFlagsMoreComing
+    JsName:          kDNSServiceFlagsMoreComing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kDNSServiceFlagsNoAutoRename
+    JsName:          kDNSServiceFlagsNoAutoRename
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kDNSServiceFlagsPrivateFive
+    JsName:          kDNSServiceFlagsPrivateFive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1073741824'
+  - Name:            kDNSServiceFlagsPrivateFour
+    JsName:          kDNSServiceFlagsPrivateFour
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '536870912'
+  - Name:            kDNSServiceFlagsPrivateOne
+    JsName:          kDNSServiceFlagsPrivateOne
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8192'
+  - Name:            kDNSServiceFlagsPrivateThree
+    JsName:          kDNSServiceFlagsPrivateThree
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '268435456'
+  - Name:            kDNSServiceFlagsPrivateTwo
+    JsName:          kDNSServiceFlagsPrivateTwo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '134217728'
+  - Name:            kDNSServiceFlagsRegistrationDomains
+    JsName:          kDNSServiceFlagsRegistrationDomains
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '128'
+  - Name:            kDNSServiceFlagsReturnIntermediates
+    JsName:          kDNSServiceFlagsReturnIntermediates
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4096'
+  - Name:            kDNSServiceFlagsSecure
+    JsName:          kDNSServiceFlagsSecure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2097168'
+  - Name:            kDNSServiceFlagsShareConnection
+    JsName:          kDNSServiceFlagsShareConnection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16384'
+  - Name:            kDNSServiceFlagsShared
+    JsName:          kDNSServiceFlagsShared
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kDNSServiceFlagsSuppressUnusable
+    JsName:          kDNSServiceFlagsSuppressUnusable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32768'
+  - Name:            kDNSServiceFlagsThresholdFinder
+    JsName:          kDNSServiceFlagsThresholdFinder
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '67108864'
+  - Name:            kDNSServiceFlagsThresholdOne
+    JsName:          kDNSServiceFlagsThresholdOne
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33554432'
+  - Name:            kDNSServiceFlagsThresholdReached
+    JsName:          kDNSServiceFlagsThresholdReached
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33554432'
+  - Name:            kDNSServiceFlagsTimeout
+    JsName:          kDNSServiceFlagsTimeout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '65536'
+  - Name:            kDNSServiceFlagsUnicastResponse
+    JsName:          kDNSServiceFlagsUnicastResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4194304'
+  - Name:            kDNSServiceFlagsUnique
+    JsName:          kDNSServiceFlagsUnique
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            kDNSServiceFlagsValidate
+    JsName:          kDNSServiceFlagsValidate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2097152'
+  - Name:            kDNSServiceFlagsValidateOptional
+    JsName:          kDNSServiceFlagsValidateOptional
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8388608'
+  - Name:            kDNSServiceFlagsWakeOnResolve
+    JsName:          kDNSServiceFlagsWakeOnResolve
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '262144'
+  - Name:            kDNSServiceFlagsWakeOnlyService
+    JsName:          kDNSServiceFlagsWakeOnlyService
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16777216'
+  - Name:            kDNSServiceProtocol_IPv4
+    JsName:          kDNSServiceProtocol_IPv4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kDNSServiceProtocol_IPv6
+    JsName:          kDNSServiceProtocol_IPv6
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kDNSServiceProtocol_TCP
+    JsName:          kDNSServiceProtocol_TCP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            kDNSServiceProtocol_UDP
+    JsName:          kDNSServiceProtocol_UDP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kDNSServiceType_A
+    JsName:          kDNSServiceType_A
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kDNSServiceType_A6
+    JsName:          kDNSServiceType_A6
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '38'
+  - Name:            kDNSServiceType_AAAA
+    JsName:          kDNSServiceType_AAAA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '28'
+  - Name:            kDNSServiceType_AFSDB
+    JsName:          kDNSServiceType_AFSDB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18'
+  - Name:            kDNSServiceType_ANY
+    JsName:          kDNSServiceType_ANY
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '255'
+  - Name:            kDNSServiceType_APL
+    JsName:          kDNSServiceType_APL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '42'
+  - Name:            kDNSServiceType_ATMA
+    JsName:          kDNSServiceType_ATMA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '34'
+  - Name:            kDNSServiceType_AXFR
+    JsName:          kDNSServiceType_AXFR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '252'
+  - Name:            kDNSServiceType_CERT
+    JsName:          kDNSServiceType_CERT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '37'
+  - Name:            kDNSServiceType_CNAME
+    JsName:          kDNSServiceType_CNAME
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kDNSServiceType_DHCID
+    JsName:          kDNSServiceType_DHCID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '49'
+  - Name:            kDNSServiceType_DNAME
+    JsName:          kDNSServiceType_DNAME
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '39'
+  - Name:            kDNSServiceType_DNSKEY
+    JsName:          kDNSServiceType_DNSKEY
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '48'
+  - Name:            kDNSServiceType_DS
+    JsName:          kDNSServiceType_DS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '43'
+  - Name:            kDNSServiceType_EID
+    JsName:          kDNSServiceType_EID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '31'
+  - Name:            kDNSServiceType_GID
+    JsName:          kDNSServiceType_GID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '102'
+  - Name:            kDNSServiceType_GPOS
+    JsName:          kDNSServiceType_GPOS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '27'
+  - Name:            kDNSServiceType_HINFO
+    JsName:          kDNSServiceType_HINFO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            kDNSServiceType_HIP
+    JsName:          kDNSServiceType_HIP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '55'
+  - Name:            kDNSServiceType_IPSECKEY
+    JsName:          kDNSServiceType_IPSECKEY
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '45'
+  - Name:            kDNSServiceType_ISDN
+    JsName:          kDNSServiceType_ISDN
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '20'
+  - Name:            kDNSServiceType_IXFR
+    JsName:          kDNSServiceType_IXFR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '251'
+  - Name:            kDNSServiceType_KEY
+    JsName:          kDNSServiceType_KEY
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '25'
+  - Name:            kDNSServiceType_KX
+    JsName:          kDNSServiceType_KX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '36'
+  - Name:            kDNSServiceType_LOC
+    JsName:          kDNSServiceType_LOC
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '29'
+  - Name:            kDNSServiceType_MAILA
+    JsName:          kDNSServiceType_MAILA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '254'
+  - Name:            kDNSServiceType_MAILB
+    JsName:          kDNSServiceType_MAILB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '253'
+  - Name:            kDNSServiceType_MB
+    JsName:          kDNSServiceType_MB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            kDNSServiceType_MD
+    JsName:          kDNSServiceType_MD
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kDNSServiceType_MF
+    JsName:          kDNSServiceType_MF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kDNSServiceType_MG
+    JsName:          kDNSServiceType_MG
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kDNSServiceType_MINFO
+    JsName:          kDNSServiceType_MINFO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            kDNSServiceType_MR
+    JsName:          kDNSServiceType_MR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            kDNSServiceType_MX
+    JsName:          kDNSServiceType_MX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            kDNSServiceType_NAPTR
+    JsName:          kDNSServiceType_NAPTR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '35'
+  - Name:            kDNSServiceType_NIMLOC
+    JsName:          kDNSServiceType_NIMLOC
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            kDNSServiceType_NS
+    JsName:          kDNSServiceType_NS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kDNSServiceType_NSAP
+    JsName:          kDNSServiceType_NSAP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '22'
+  - Name:            kDNSServiceType_NSAP_PTR
+    JsName:          kDNSServiceType_NSAP_PTR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '23'
+  - Name:            kDNSServiceType_NSEC
+    JsName:          kDNSServiceType_NSEC
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '47'
+  - Name:            kDNSServiceType_NSEC3
+    JsName:          kDNSServiceType_NSEC3
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '50'
+  - Name:            kDNSServiceType_NSEC3PARAM
+    JsName:          kDNSServiceType_NSEC3PARAM
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '51'
+  - Name:            kDNSServiceType_NULL
+    JsName:          kDNSServiceType_NULL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            kDNSServiceType_NXT
+    JsName:          kDNSServiceType_NXT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '30'
+  - Name:            kDNSServiceType_OPT
+    JsName:          kDNSServiceType_OPT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '41'
+  - Name:            kDNSServiceType_PTR
+    JsName:          kDNSServiceType_PTR
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            kDNSServiceType_PX
+    JsName:          kDNSServiceType_PX
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '26'
+  - Name:            kDNSServiceType_RP
+    JsName:          kDNSServiceType_RP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            kDNSServiceType_RRSIG
+    JsName:          kDNSServiceType_RRSIG
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '46'
+  - Name:            kDNSServiceType_RT
+    JsName:          kDNSServiceType_RT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '21'
+  - Name:            kDNSServiceType_SIG
+    JsName:          kDNSServiceType_SIG
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '24'
+  - Name:            kDNSServiceType_SINK
+    JsName:          kDNSServiceType_SINK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '40'
+  - Name:            kDNSServiceType_SOA
+    JsName:          kDNSServiceType_SOA
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            kDNSServiceType_SPF
+    JsName:          kDNSServiceType_SPF
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '99'
+  - Name:            kDNSServiceType_SRV
+    JsName:          kDNSServiceType_SRV
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33'
+  - Name:            kDNSServiceType_SSHFP
+    JsName:          kDNSServiceType_SSHFP
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '44'
+  - Name:            kDNSServiceType_TKEY
+    JsName:          kDNSServiceType_TKEY
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '249'
+  - Name:            kDNSServiceType_TSIG
+    JsName:          kDNSServiceType_TSIG
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '250'
+  - Name:            kDNSServiceType_TXT
+    JsName:          kDNSServiceType_TXT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kDNSServiceType_UID
+    JsName:          kDNSServiceType_UID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '101'
+  - Name:            kDNSServiceType_UINFO
+    JsName:          kDNSServiceType_UINFO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '100'
+  - Name:            kDNSServiceType_UNSPEC
+    JsName:          kDNSServiceType_UNSPEC
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '103'
+  - Name:            kDNSServiceType_WKS
+    JsName:          kDNSServiceType_WKS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            kDNSServiceType_X25
+    JsName:          kDNSServiceType_X25
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dns_sd.h
+    Module:          
+      FullName:        dnssd
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '19'
+...

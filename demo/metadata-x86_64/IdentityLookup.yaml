@@ -1,0 +1,946 @@
+---
+Module:          
+  FullName:        IdentityLookup
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         IdentityLookup
+      IsFramework:     true
+Items:           
+  - Name:            ILCallClassificationRequest
+    JsName:          ILCallClassificationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCallClassificationRequest.h
+    Module:          
+      FullName:        IdentityLookup.ILCallClassificationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            callCommunications
+        JsName:          callCommunications
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCallClassificationRequest.h
+        Module:          
+          FullName:        IdentityLookup.ILCallClassificationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callCommunications
+          JsName:          callCommunications
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCallClassificationRequest.h
+          Module:          
+            FullName:        IdentityLookup.ILCallClassificationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          ILCallCommunication
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            ILClassificationRequest
+  - Name:            ILCallCommunication
+    JsName:          ILCallCommunication
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCallCommunication.h
+    Module:          
+      FullName:        IdentityLookup.ILCallCommunication
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToCallCommunication:'
+        JsName:          isEqualToCallCommunication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCallCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILCallCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ILCallCommunication
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            ILCommunication
+  - Name:            ILClassificationAction
+    JsName:          ILClassificationAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationActions.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationActions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ILClassificationActionNone: '0'
+      - ILClassificationActionReportNotJunk: '1'
+      - ILClassificationActionReportJunk: '2'
+      - ILClassificationActionReportJunkAndBlockSender: '3'
+    SwiftNameFields: 
+      - None:            '0'
+      - ReportNotJunk:   '1'
+      - ReportJunk:      '2'
+      - ReportJunkAndBlockSender: '3'
+  - Name:            ILClassificationActionNone
+    JsName:          ILClassificationActionNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationActions.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationActions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ILClassificationActionReportJunk
+    JsName:          ILClassificationActionReportJunk
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationActions.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationActions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ILClassificationActionReportJunkAndBlockSender
+    JsName:          ILClassificationActionReportJunkAndBlockSender
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationActions.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationActions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ILClassificationActionReportNotJunk
+    JsName:          ILClassificationActionReportNotJunk
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationActions.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationActions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ILClassificationRequest
+    JsName:          ILClassificationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationRequest.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ILClassificationResponse
+    JsName:          ILClassificationResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+    Module:          
+      FullName:        IdentityLookup.ILClassificationResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithClassificationAction:'
+        JsName:          initWithClassificationAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILClassificationResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            ILClassificationAction
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            action
+        JsName:          action
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILClassificationResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            action
+          JsName:          action
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILClassificationResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ILClassificationAction
+      - Name:            userInfo
+        JsName:          userInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILClassificationResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userInfo
+          JsName:          userInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILClassificationResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setUserInfo:'
+          JsName:          setUserInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILClassificationResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            userString
+        JsName:          userString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILClassificationResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userString
+          JsName:          userString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILClassificationResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.1
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setUserString:'
+          JsName:          setUserString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILClassificationResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILClassificationResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.1
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ILCommunication
+    JsName:          ILCommunication
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+    Module:          
+      FullName:        IdentityLookup.ILCommunication
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToCommunication:'
+        JsName:          isEqualToCommunication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ILCommunication
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            dateReceived
+        JsName:          dateReceived
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dateReceived
+          JsName:          dateReceived
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+          Module:          
+            FullName:        IdentityLookup.ILCommunication
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            sender
+        JsName:          sender
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sender
+          JsName:          sender
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILCommunication.h
+          Module:          
+            FullName:        IdentityLookup.ILCommunication
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ILMessageClassificationRequest
+    JsName:          ILMessageClassificationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageClassificationRequest.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageClassificationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            messageCommunications
+        JsName:          messageCommunications
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageClassificationRequest.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageClassificationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            messageCommunications
+          JsName:          messageCommunications
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageClassificationRequest.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageClassificationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          ILMessageCommunication
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            ILClassificationRequest
+  - Name:            ILMessageCommunication
+    JsName:          ILMessageCommunication
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageCommunication.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageCommunication
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToMessageCommunication:'
+        JsName:          isEqualToMessageCommunication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ILMessageCommunication
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            messageBody
+        JsName:          messageBody
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageCommunication.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageCommunication
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            messageBody
+          JsName:          messageBody
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageCommunication.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageCommunication
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            ILCommunication
+  - Name:            ILMessageFilterAction
+    JsName:          ILMessageFilterAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterAction.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ILMessageFilterActionNone: '0'
+      - ILMessageFilterActionAllow: '1'
+      - ILMessageFilterActionFilter: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Allow:           '1'
+      - Filter:          '2'
+  - Name:            ILMessageFilterActionAllow
+    JsName:          ILMessageFilterActionAllow
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterAction.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ILMessageFilterActionFilter
+    JsName:          ILMessageFilterActionFilter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterAction.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ILMessageFilterActionNone
+    JsName:          ILMessageFilterActionNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterAction.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ILMessageFilterError
+    JsName:          ILMessageFilterError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ILMessageFilterErrorSystem: '1'
+      - ILMessageFilterErrorInvalidNetworkURL: '2'
+      - ILMessageFilterErrorNetworkURLUnauthorized: '3'
+      - ILMessageFilterErrorNetworkRequestFailed: '4'
+      - ILMessageFilterErrorRedundantNetworkDeferral: '5'
+    SwiftNameFields: 
+      - System:          '1'
+      - InvalidNetworkURL: '2'
+      - NetworkURLUnauthorized: '3'
+      - NetworkRequestFailed: '4'
+      - RedundantNetworkDeferral: '5'
+  - Name:            ILMessageFilterErrorDomain
+    JsName:          ILMessageFilterErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ILMessageFilterErrorInvalidNetworkURL
+    JsName:          ILMessageFilterErrorInvalidNetworkURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ILMessageFilterErrorNetworkRequestFailed
+    JsName:          ILMessageFilterErrorNetworkRequestFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ILMessageFilterErrorNetworkURLUnauthorized
+    JsName:          ILMessageFilterErrorNetworkURLUnauthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ILMessageFilterErrorRedundantNetworkDeferral
+    JsName:          ILMessageFilterErrorRedundantNetworkDeferral
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ILMessageFilterErrorSystem
+    JsName:          ILMessageFilterErrorSystem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterError.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ILMessageFilterExtension
+    JsName:          ILMessageFilterExtension
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterExtension.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ILMessageFilterExtensionContext
+    JsName:          ILMessageFilterExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterExtensionContext.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'deferQueryRequestToNetworkWithCompletion:'
+        JsName:          deferQueryRequestToNetworkWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterExtensionContext.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageFilterExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ILNetworkResponse
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            ILMessageFilterQueryHandling
+    JsName:          ILMessageFilterQueryHandling
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryHandling.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterQueryHandling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'handleQueryRequest:context:completion:'
+        JsName:          handleQueryRequestContextCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryHandling.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageFilterQueryHandling
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ILMessageFilterQueryRequest
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ILMessageFilterExtensionContext
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ILMessageFilterQueryResponse
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ILMessageFilterQueryRequest
+    JsName:          ILMessageFilterQueryRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryRequest.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterQueryRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            messageBody
+        JsName:          messageBody
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryRequest.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageFilterQueryRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            messageBody
+          JsName:          messageBody
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryRequest.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageFilterQueryRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            sender
+        JsName:          sender
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryRequest.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageFilterQueryRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sender
+          JsName:          sender
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryRequest.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageFilterQueryRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ILMessageFilterQueryResponse
+    JsName:          ILMessageFilterQueryResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryResponse.h
+    Module:          
+      FullName:        IdentityLookup.ILMessageFilterQueryResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            action
+        JsName:          action
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILMessageFilterQueryResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            action
+          JsName:          action
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageFilterQueryResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ILMessageFilterAction
+        Setter:          
+          Name:            'setAction:'
+          JsName:          setAction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILMessageFilterQueryResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILMessageFilterQueryResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            ILMessageFilterAction
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ILNetworkResponse
+    JsName:          ILNetworkResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILNetworkResponse.h
+    Module:          
+      FullName:        IdentityLookup.ILNetworkResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            data
+        JsName:          data
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILNetworkResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILNetworkResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            data
+          JsName:          data
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILNetworkResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILNetworkResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            urlResponse
+        JsName:          urlResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILNetworkResponse.h
+        Module:          
+          FullName:        IdentityLookup.ILNetworkResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            urlResponse
+          JsName:          urlResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IdentityLookup.framework/Headers/ILNetworkResponse.h
+          Module:          
+            FullName:        IdentityLookup.ILNetworkResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSHTTPURLResponse
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+...

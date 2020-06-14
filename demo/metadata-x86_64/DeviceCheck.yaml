@@ -1,0 +1,150 @@
+---
+Module:          
+  FullName:        DeviceCheck
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         DeviceCheck
+      IsFramework:     true
+Items:           
+  - Name:            DCDevice
+    JsName:          DCDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+    Module:          
+      FullName:        DeviceCheck.DCDevice
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'generateTokenWithCompletionHandler:'
+        JsName:          generateTokenWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+        Module:          
+          FullName:        DeviceCheck.DCDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSData
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            supported
+        JsName:          supported
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+        Module:          
+          FullName:        DeviceCheck.DCDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isSupported
+          JsName:          isSupported
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+          Module:          
+            FullName:        DeviceCheck.DCDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+      - Name:            currentDevice
+        JsName:          currentDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+        Module:          
+          FullName:        DeviceCheck.DCDevice
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentDevice
+          JsName:          currentDevice
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCDevice.h
+          Module:          
+            FullName:        DeviceCheck.DCDevice
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          DCDevice
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            DCError
+    JsName:          DCError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCError.h
+    Module:          
+      FullName:        DeviceCheck.DCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - DCErrorUnknownSystemFailure: '0'
+      - DCErrorFeatureUnsupported: '1'
+    SwiftNameFields: 
+      - UnknownSystemFailure: '0'
+      - FeatureUnsupported: '1'
+  - Name:            DCErrorDomain
+    JsName:          DCErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCError.h
+    Module:          
+      FullName:        DeviceCheck.DCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            DCErrorFeatureUnsupported
+    JsName:          DCErrorFeatureUnsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCError.h
+    Module:          
+      FullName:        DeviceCheck.DCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            DCErrorUnknownSystemFailure
+    JsName:          DCErrorUnknownSystemFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/DeviceCheck.framework/Headers/DCError.h
+    Module:          
+      FullName:        DeviceCheck.DCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...

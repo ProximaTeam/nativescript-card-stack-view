@@ -1,0 +1,215 @@
+---
+Module:          
+  FullName:        NotificationCenter
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         NotificationCenter
+      IsFramework:     true
+Items:           
+  - Name:            NCUpdateResult
+    JsName:          NCUpdateResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NCUpdateResultNewData: '0'
+      - NCUpdateResultNoData: '1'
+      - NCUpdateResultFailed: '2'
+    SwiftNameFields: 
+      - NewData:         '0'
+      - NoData:          '1'
+      - Failed:          '2'
+  - Name:            NCUpdateResultFailed
+    JsName:          NCUpdateResultFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NCUpdateResultNewData
+    JsName:          NCUpdateResultNewData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NCUpdateResultNoData
+    JsName:          NCUpdateResultNoData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NCWidgetController
+    JsName:          NCWidgetController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetController.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setHasContent:forWidgetWithBundleIdentifier:'
+        JsName:          setHasContentForWidgetWithBundleIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetController.h
+        Module:          
+          FullName:        NotificationCenter.NCWidgetController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            widgetController
+        JsName:          widgetController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetController.h
+        Module:          
+          FullName:        NotificationCenter.NCWidgetController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NCWidgetDisplayMode
+    JsName:          NCWidgetDisplayMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetTypes.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NCWidgetDisplayModeCompact: '0'
+      - NCWidgetDisplayModeExpanded: '1'
+    SwiftNameFields: 
+      - Compact:         '0'
+      - Expanded:        '1'
+  - Name:            NCWidgetDisplayModeCompact
+    JsName:          NCWidgetDisplayModeCompact
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetTypes.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NCWidgetDisplayModeExpanded
+    JsName:          NCWidgetDisplayModeExpanded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetTypes.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NCWidgetProviding
+    JsName:          NCWidgetProviding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+    Module:          
+      FullName:        NotificationCenter.NCWidgetProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'widgetActiveDisplayModeDidChange:withMaximumSize:'
+        JsName:          widgetActiveDisplayModeDidChangeWithMaximumSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+        Module:          
+          FullName:        NotificationCenter.NCWidgetProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            NCWidgetDisplayMode
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+      - Name:            'widgetMarginInsetsForProposedMarginInsets:'
+        JsName:          widgetMarginInsetsForProposedMarginInsets
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+        Module:          
+          FullName:        NotificationCenter.NCWidgetProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          UIKit.UIGeometry
+            JsName:          UIEdgeInsets
+          - Type:            Struct
+            Module:          UIKit.UIGeometry
+            JsName:          UIEdgeInsets
+      - Name:            'widgetPerformUpdateWithCompletionHandler:'
+        JsName:          widgetPerformUpdateWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h
+        Module:          
+          FullName:        NotificationCenter.NCWidgetProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            NCUpdateResult
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

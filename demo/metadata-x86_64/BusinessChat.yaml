@@ -1,0 +1,169 @@
+---
+Module:          
+  FullName:        BusinessChat
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         BusinessChat
+      IsFramework:     true
+Items:           
+  - Name:            BCChatAction
+    JsName:          BCChatAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatAction.h
+    Module:          
+      FullName:        BusinessChat.BCChatAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'openTranscript:intentParameters:'
+        JsName:          openTranscriptIntentParameters
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatAction.h
+        Module:          
+          FullName:        BusinessChat.BCChatAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            BCChatButton
+    JsName:          BCChatButton
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatButton.h
+    Module:          
+      FullName:        BusinessChat.BCChatButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithStyle:'
+        JsName:          initWithStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatButton.h
+        Module:          
+          FullName:        BusinessChat.BCChatButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.3
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            BCChatButtonStyle
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            UIControl
+  - Name:            BCChatButtonStyle
+    JsName:          BCChatButtonStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatButton.h
+    Module:          
+      FullName:        BusinessChat.BCChatButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - BCChatButtonStyleLight: '0'
+      - BCChatButtonStyleDark: '1'
+    SwiftNameFields: 
+      - Light:           '0'
+      - Dark:            '1'
+  - Name:            BCChatButtonStyleDark
+    JsName:          BCChatButtonStyleDark
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatButton.h
+    Module:          
+      FullName:        BusinessChat.BCChatButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            BCChatButtonStyleLight
+    JsName:          BCChatButtonStyleLight
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatButton.h
+    Module:          
+      FullName:        BusinessChat.BCChatButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            BCParameterNameBody
+    JsName:          BCParameterNameBody
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatAction.h
+    Module:          
+      FullName:        BusinessChat.BCChatAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            BCParameterNameGroup
+    JsName:          BCParameterNameGroup
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatAction.h
+    Module:          
+      FullName:        BusinessChat.BCChatAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            BCParameterNameIntent
+    JsName:          BCParameterNameIntent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BusinessChat.framework/Headers/BCChatAction.h
+    Module:          
+      FullName:        BusinessChat.BCChatAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

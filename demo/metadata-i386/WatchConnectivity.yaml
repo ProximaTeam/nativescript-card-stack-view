@@ -1,0 +1,1518 @@
+---
+Module:          
+  FullName:        WatchConnectivity
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         WatchConnectivity
+      IsFramework:     true
+Items:           
+  - Name:            WCErrorCode
+    JsName:          WCErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WCErrorCodeGenericError: '7001'
+      - WCErrorCodeSessionNotSupported: '7002'
+      - WCErrorCodeSessionMissingDelegate: '7003'
+      - WCErrorCodeSessionNotActivated: '7004'
+      - WCErrorCodeDeviceNotPaired: '7005'
+      - WCErrorCodeWatchAppNotInstalled: '7006'
+      - WCErrorCodeNotReachable: '7007'
+      - WCErrorCodeInvalidParameter: '7008'
+      - WCErrorCodePayloadTooLarge: '7009'
+      - WCErrorCodePayloadUnsupportedTypes: '7010'
+      - WCErrorCodeMessageReplyFailed: '7011'
+      - WCErrorCodeMessageReplyTimedOut: '7012'
+      - WCErrorCodeFileAccessDenied: '7013'
+      - WCErrorCodeDeliveryFailed: '7014'
+      - WCErrorCodeInsufficientSpace: '7015'
+      - WCErrorCodeSessionInactive: '7016'
+      - WCErrorCodeTransferTimedOut: '7017'
+      - WCErrorCodeCompanionAppNotInstalled: '7018'
+      - WCErrorCodeWatchOnlyApp: '7019'
+    SwiftNameFields: 
+      - GenericError:    '7001'
+      - SessionNotSupported: '7002'
+      - SessionMissingDelegate: '7003'
+      - SessionNotActivated: '7004'
+      - DeviceNotPaired: '7005'
+      - WatchAppNotInstalled: '7006'
+      - NotReachable:    '7007'
+      - InvalidParameter: '7008'
+      - PayloadTooLarge: '7009'
+      - PayloadUnsupportedTypes: '7010'
+      - MessageReplyFailed: '7011'
+      - MessageReplyTimedOut: '7012'
+      - FileAccessDenied: '7013'
+      - DeliveryFailed:  '7014'
+      - InsufficientSpace: '7015'
+      - SessionInactive: '7016'
+      - TransferTimedOut: '7017'
+      - CompanionAppNotInstalled: '7018'
+      - WatchOnlyApp:    '7019'
+  - Name:            WCErrorCodeCompanionAppNotInstalled
+    JsName:          WCErrorCodeCompanionAppNotInstalled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7018'
+  - Name:            WCErrorCodeDeliveryFailed
+    JsName:          WCErrorCodeDeliveryFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7014'
+  - Name:            WCErrorCodeDeviceNotPaired
+    JsName:          WCErrorCodeDeviceNotPaired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7005'
+  - Name:            WCErrorCodeFileAccessDenied
+    JsName:          WCErrorCodeFileAccessDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7013'
+  - Name:            WCErrorCodeGenericError
+    JsName:          WCErrorCodeGenericError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7001'
+  - Name:            WCErrorCodeInsufficientSpace
+    JsName:          WCErrorCodeInsufficientSpace
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7015'
+  - Name:            WCErrorCodeInvalidParameter
+    JsName:          WCErrorCodeInvalidParameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7008'
+  - Name:            WCErrorCodeMessageReplyFailed
+    JsName:          WCErrorCodeMessageReplyFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7011'
+  - Name:            WCErrorCodeMessageReplyTimedOut
+    JsName:          WCErrorCodeMessageReplyTimedOut
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7012'
+  - Name:            WCErrorCodeNotReachable
+    JsName:          WCErrorCodeNotReachable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7007'
+  - Name:            WCErrorCodePayloadTooLarge
+    JsName:          WCErrorCodePayloadTooLarge
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7009'
+  - Name:            WCErrorCodePayloadUnsupportedTypes
+    JsName:          WCErrorCodePayloadUnsupportedTypes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7010'
+  - Name:            WCErrorCodeSessionInactive
+    JsName:          WCErrorCodeSessionInactive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7016'
+  - Name:            WCErrorCodeSessionMissingDelegate
+    JsName:          WCErrorCodeSessionMissingDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7003'
+  - Name:            WCErrorCodeSessionNotActivated
+    JsName:          WCErrorCodeSessionNotActivated
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7004'
+  - Name:            WCErrorCodeSessionNotSupported
+    JsName:          WCErrorCodeSessionNotSupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7002'
+  - Name:            WCErrorCodeTransferTimedOut
+    JsName:          WCErrorCodeTransferTimedOut
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7017'
+  - Name:            WCErrorCodeWatchAppNotInstalled
+    JsName:          WCErrorCodeWatchAppNotInstalled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7006'
+  - Name:            WCErrorCodeWatchOnlyApp
+    JsName:          WCErrorCodeWatchOnlyApp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7019'
+  - Name:            WCErrorDomain
+    JsName:          WCErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCError.h
+    Module:          
+      FullName:        WatchConnectivity.WCError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            WCSession
+    JsName:          WCSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            activateSession
+        JsName:          activateSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'sendMessageData:replyHandler:errorHandler:'
+        JsName:          sendMessageDataReplyHandlerErrorHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSData
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'sendMessage:replyHandler:errorHandler:'
+        JsName:          sendMessageReplyHandlerErrorHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSDictionary
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSString
+                    WithProtocols:   
+                  - Type:            Id
+                    WithProtocols:   
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'transferCurrentComplicationUserInfo:'
+        JsName:          transferCurrentComplicationUserInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          WCSessionUserInfoTransfer
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'transferFile:metadata:'
+        JsName:          transferFileMetadata
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          WCSessionFileTransfer
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'transferUserInfo:'
+        JsName:          transferUserInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          WCSessionUserInfoTransfer
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'updateApplicationContext:error:'
+        JsName:          updateApplicationContextError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+      - Name:            isSupported
+        JsName:          isSupported
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    InstanceProperties: 
+      - Name:            activationState
+        JsName:          activationState
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            activationState
+          JsName:          activationState
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    9.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            WCSessionActivationState
+      - Name:            applicationContext
+        JsName:          applicationContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationContext
+          JsName:          applicationContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            complicationEnabled
+        JsName:          complicationEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isComplicationEnabled
+          JsName:          isComplicationEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - WCSessionDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - WCSessionDelegate
+      - Name:            hasContentPending
+        JsName:          hasContentPending
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hasContentPending
+          JsName:          hasContentPending
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            outstandingFileTransfers
+        JsName:          outstandingFileTransfers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            outstandingFileTransfers
+          JsName:          outstandingFileTransfers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          WCSessionFileTransfer
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            outstandingUserInfoTransfers
+        JsName:          outstandingUserInfoTransfers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            outstandingUserInfoTransfers
+          JsName:          outstandingUserInfoTransfers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          WCSessionUserInfoTransfer
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            paired
+        JsName:          paired
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPaired
+          JsName:          isPaired
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            reachable
+        JsName:          reachable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isReachable
+          JsName:          isReachable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            receivedApplicationContext
+        JsName:          receivedApplicationContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            receivedApplicationContext
+          JsName:          receivedApplicationContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            remainingComplicationUserInfoTransfers
+        JsName:          remainingComplicationUserInfoTransfers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            remainingComplicationUserInfoTransfers
+          JsName:          remainingComplicationUserInfoTransfers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            watchAppInstalled
+        JsName:          watchAppInstalled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isWatchAppInstalled
+          JsName:          isWatchAppInstalled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            watchDirectoryURL
+        JsName:          watchDirectoryURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            watchDirectoryURL
+          JsName:          watchDirectoryURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+      - Name:            defaultSession
+        JsName:          defaultSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            defaultSession
+          JsName:          defaultSession
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+          Module:          
+            FullName:        WatchConnectivity.WCSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          WCSession
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            WCSessionActivationState
+    JsName:          WCSessionActivationState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - WCSessionActivationStateNotActivated: '0'
+      - WCSessionActivationStateInactive: '1'
+      - WCSessionActivationStateActivated: '2'
+    SwiftNameFields: 
+      - NotActivated:    '0'
+      - Inactive:        '1'
+      - Activated:       '2'
+  - Name:            WCSessionActivationStateActivated
+    JsName:          WCSessionActivationStateActivated
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            WCSessionActivationStateInactive
+    JsName:          WCSessionActivationStateInactive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            WCSessionActivationStateNotActivated
+    JsName:          WCSessionActivationStateNotActivated
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            WCSessionDelegate
+    JsName:          WCSessionDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+    Module:          
+      FullName:        WatchConnectivity.WCSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'session:activationDidCompleteWithState:error:'
+        JsName:          sessionActivationDidCompleteWithStateError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Enum
+            Name:            WCSessionActivationState
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'sessionDidBecomeInactive:'
+        JsName:          sessionDidBecomeInactive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+      - Name:            'sessionDidDeactivate:'
+        JsName:          sessionDidDeactivate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+      - Name:            'session:didFinishFileTransfer:error:'
+        JsName:          sessionDidFinishFileTransferError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          WCSessionFileTransfer
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'session:didFinishUserInfoTransfer:error:'
+        JsName:          sessionDidFinishUserInfoTransferError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          WCSessionUserInfoTransfer
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'session:didReceiveApplicationContext:'
+        JsName:          sessionDidReceiveApplicationContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'session:didReceiveFile:'
+        JsName:          sessionDidReceiveFile
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          WCSessionFile
+            WithProtocols:   
+      - Name:            'session:didReceiveMessage:'
+        JsName:          sessionDidReceiveMessage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'session:didReceiveMessageData:'
+        JsName:          sessionDidReceiveMessageData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            'session:didReceiveMessageData:replyHandler:'
+        JsName:          sessionDidReceiveMessageDataReplyHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSData
+                WithProtocols:   
+      - Name:            'session:didReceiveMessage:replyHandler:'
+        JsName:          sessionDidReceiveMessageReplyHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSDictionary
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSString
+                    WithProtocols:   
+                  - Type:            Id
+                    WithProtocols:   
+                WithProtocols:   
+      - Name:            'session:didReceiveUserInfo:'
+        JsName:          sessionDidReceiveUserInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'sessionReachabilityDidChange:'
+        JsName:          sessionReachabilityDidChange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+      - Name:            'sessionWatchStateDidChange:'
+        JsName:          sessionWatchStateDidChange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSession.h
+        Module:          
+          FullName:        WatchConnectivity.WCSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          WCSession
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            WCSessionFile
+    JsName:          WCSessionFile
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+    Module:          
+      FullName:        WatchConnectivity.WCSessionFile
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            fileURL
+        JsName:          fileURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            fileURL
+          JsName:          fileURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionFile
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metadata
+          JsName:          metadata
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionFile
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WCSessionFileTransfer
+    JsName:          WCSessionFileTransfer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+    Module:          
+      FullName:        WatchConnectivity.WCSessionFile
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            file
+        JsName:          file
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            file
+          JsName:          file
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionFile
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          WCSessionFile
+              WithProtocols:   
+      - Name:            progress
+        JsName:          progress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            progress
+          JsName:          progress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionFile
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSProgress
+              WithProtocols:   
+      - Name:            transferring
+        JsName:          transferring
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionFile
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isTransferring
+          JsName:          isTransferring
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionFile.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionFile
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            WCSessionUserInfoTransfer
+    JsName:          WCSessionUserInfoTransfer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+    Module:          
+      FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            currentComplicationInfo
+        JsName:          currentComplicationInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isCurrentComplicationInfo
+          JsName:          isCurrentComplicationInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            transferring
+        JsName:          transferring
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isTransferring
+          JsName:          isTransferring
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            userInfo
+        JsName:          userInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+        Module:          
+          FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userInfo
+          JsName:          userInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WCSessionUserInfoTransfer.h
+          Module:          
+            FullName:        WatchConnectivity.WCSessionUserInfoTransfer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Id
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+...

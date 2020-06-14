@@ -1,0 +1,264 @@
+---
+Module:          
+  FullName:        UserNotificationsUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         UserNotificationsUI
+      IsFramework:     true
+Items:           
+  - Name:            UNNotificationContentExtension
+    JsName:          UNNotificationContentExtension
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'didReceiveNotification:'
+        JsName:          didReceiveNotification
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UNNotification
+            WithProtocols:   
+      - Name:            'didReceiveNotificationResponse:completionHandler:'
+        JsName:          didReceiveNotificationResponseCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UNNotificationResponse
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            UNNotificationContentExtensionResponseOption
+      - Name:            mediaPause
+        JsName:          mediaPause
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            mediaPlay
+        JsName:          mediaPlay
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            mediaPlayPauseButtonFrame
+        JsName:          mediaPlayPauseButtonFrame
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mediaPlayPauseButtonFrame
+          JsName:          mediaPlayPauseButtonFrame
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+          Module:          
+            FullName:        UserNotificationsUI.UNNotificationContentExtension
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+      - Name:            mediaPlayPauseButtonTintColor
+        JsName:          mediaPlayPauseButtonTintColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mediaPlayPauseButtonTintColor
+          JsName:          mediaPlayPauseButtonTintColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+          Module:          
+            FullName:        UserNotificationsUI.UNNotificationContentExtension
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            mediaPlayPauseButtonType
+        JsName:          mediaPlayPauseButtonType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+        Module:          
+          FullName:        UserNotificationsUI.UNNotificationContentExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mediaPlayPauseButtonType
+          JsName:          mediaPlayPauseButtonType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+          Module:          
+            FullName:        UserNotificationsUI.UNNotificationContentExtension
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UNNotificationContentExtensionMediaPlayPauseButtonType
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            UNNotificationContentExtensionMediaPlayPauseButtonType
+    JsName:          UNNotificationContentExtensionMediaPlayPauseButtonType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - UNNotificationContentExtensionMediaPlayPauseButtonTypeNone: '0'
+      - UNNotificationContentExtensionMediaPlayPauseButtonTypeDefault: '1'
+      - UNNotificationContentExtensionMediaPlayPauseButtonTypeOverlay: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Default:         '1'
+      - Overlay:         '2'
+  - Name:            UNNotificationContentExtensionMediaPlayPauseButtonTypeDefault
+    JsName:          UNNotificationContentExtensionMediaPlayPauseButtonTypeDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNNotificationContentExtensionMediaPlayPauseButtonTypeNone
+    JsName:          UNNotificationContentExtensionMediaPlayPauseButtonTypeNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            UNNotificationContentExtensionMediaPlayPauseButtonTypeOverlay
+    JsName:          UNNotificationContentExtensionMediaPlayPauseButtonTypeOverlay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            UNNotificationContentExtensionResponseOption
+    JsName:          UNNotificationContentExtensionResponseOption
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - UNNotificationContentExtensionResponseOptionDoNotDismiss: '0'
+      - UNNotificationContentExtensionResponseOptionDismiss: '1'
+      - UNNotificationContentExtensionResponseOptionDismissAndForwardAction: '2'
+    SwiftNameFields: 
+      - DoNotDismiss:    '0'
+      - Dismiss:         '1'
+      - DismissAndForwardAction: '2'
+  - Name:            UNNotificationContentExtensionResponseOptionDismiss
+    JsName:          UNNotificationContentExtensionResponseOptionDismiss
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            UNNotificationContentExtensionResponseOptionDismissAndForwardAction
+    JsName:          UNNotificationContentExtensionResponseOptionDismissAndForwardAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            UNNotificationContentExtensionResponseOptionDoNotDismiss
+    JsName:          UNNotificationContentExtensionResponseOptionDoNotDismiss
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h
+    Module:          
+      FullName:        UserNotificationsUI.UNNotificationContentExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...

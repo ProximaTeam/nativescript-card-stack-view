@@ -1,0 +1,2357 @@
+---
+Module:          
+  FullName:        MetalKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         MetalKit
+      IsFramework:     true
+Items:           
+  - Name:            MTKMesh
+    JsName:          MTKMesh
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithMesh:device:error:'
+        JsName:          initWithMeshDeviceError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MDLMesh
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - MTLDevice
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+      - Name:            'newMeshesFromAsset:device:sourceMeshes:error:'
+        JsName:          newMeshesFromAssetDeviceSourceMeshesError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          MTKMesh
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MDLAsset
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - MTLDevice
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          MDLMesh
+                  WithProtocols:   
+              WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setName:'
+          JsName:          setName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            submeshes
+        JsName:          submeshes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            submeshes
+          JsName:          submeshes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          MTKSubmesh
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            vertexBuffers
+        JsName:          vertexBuffers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vertexBuffers
+          JsName:          vertexBuffers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          MTKMeshBuffer
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            vertexCount
+        JsName:          vertexCount
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vertexCount
+          JsName:          vertexCount
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            vertexDescriptor
+        JsName:          vertexDescriptor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vertexDescriptor
+          JsName:          vertexDescriptor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MDLVertexDescriptor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MTKMeshBuffer
+    JsName:          MTKMeshBuffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            allocator
+        JsName:          allocator
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allocator
+          JsName:          allocator
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MTKMeshBufferAllocator
+              WithProtocols:   
+      - Name:            buffer
+        JsName:          buffer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            buffer
+          JsName:          buffer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLBuffer
+      - Name:            offset
+        JsName:          offset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            offset
+          JsName:          offset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+    StaticProperties: 
+    Protocols:       
+      - MDLMeshBuffer
+      - MDLNamed
+    Base:            NSObject
+  - Name:            MTKMeshBufferAllocator
+    JsName:          MTKMeshBufferAllocator
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithDevice:'
+        JsName:          initWithDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Id
+            WithProtocols:   
+              - MTLDevice
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            device
+        JsName:          device
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            device
+          JsName:          device
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLDevice
+    StaticProperties: 
+    Protocols:       
+      - MDLMeshBufferAllocator
+    Base:            NSObject
+  - Name:            MTKMetalVertexDescriptorFromModelIO
+    JsName:          MTKMetalVertexDescriptorFromModelIO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          MTLVertexDescriptor
+        WithProtocols:   
+      - Type:            Interface
+        JsName:          MDLVertexDescriptor
+        WithProtocols:   
+  - Name:            MTKMetalVertexDescriptorFromModelIOWithError
+    JsName:          MTKMetalVertexDescriptorFromModelIOWithError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          MTLVertexDescriptor
+        WithProtocols:   
+      - Type:            Interface
+        JsName:          MDLVertexDescriptor
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Interface
+          JsName:          NSError
+          WithProtocols:   
+  - Name:            MTKMetalVertexFormatFromModelIO
+    JsName:          MTKMetalVertexFormatFromModelIO
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            MTLVertexFormat
+      - Type:            Enum
+        Name:            MDLVertexFormat
+  - Name:            MTKModelErrorDomain
+    JsName:          MTKModelErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKModelErrorKey
+    JsName:          MTKModelErrorKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKModelIOVertexDescriptorFromMetal
+    JsName:          MTKModelIOVertexDescriptorFromMetal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          MDLVertexDescriptor
+        WithProtocols:   
+      - Type:            Interface
+        JsName:          MTLVertexDescriptor
+        WithProtocols:   
+  - Name:            MTKModelIOVertexDescriptorFromMetalWithError
+    JsName:          MTKModelIOVertexDescriptorFromMetalWithError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          MDLVertexDescriptor
+        WithProtocols:   
+      - Type:            Interface
+        JsName:          MTLVertexDescriptor
+        WithProtocols:   
+      - Type:            Pointer
+        PointerType:     
+          Type:            Interface
+          JsName:          NSError
+          WithProtocols:   
+  - Name:            MTKModelIOVertexFormatFromMetal
+    JsName:          MTKModelIOVertexFormatFromMetal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            MDLVertexFormat
+      - Type:            Enum
+        Name:            MTLVertexFormat
+  - Name:            MTKSubmesh
+    JsName:          MTKSubmesh
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+    Module:          
+      FullName:        MetalKit.MTKModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            indexBuffer
+        JsName:          indexBuffer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            indexBuffer
+          JsName:          indexBuffer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MTKMeshBuffer
+              WithProtocols:   
+      - Name:            indexCount
+        JsName:          indexCount
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            indexCount
+          JsName:          indexCount
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            indexType
+        JsName:          indexType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            indexType
+          JsName:          indexType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLIndexType
+      - Name:            mesh
+        JsName:          mesh
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mesh
+          JsName:          mesh
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MTKMesh
+              WithProtocols:   
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setName:'
+          JsName:          setName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            primitiveType
+        JsName:          primitiveType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+        Module:          
+          FullName:        MetalKit.MTKModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            primitiveType
+          JsName:          primitiveType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKModel.h
+          Module:          
+            FullName:        MetalKit.MTKModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLPrimitiveType
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MTKTextureLoader
+    JsName:          MTKTextureLoader
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithDevice:'
+        JsName:          initWithDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Id
+            WithProtocols:   
+              - MTLDevice
+      - Name:            'newTexturesWithContentsOfURLs:options:completionHandler:'
+        JsName:          newTexturesWithContentsOfURLsOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Id
+                    WithProtocols:   
+                      - MTLTexture
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTexturesWithContentsOfURLs:options:error:'
+        JsName:          newTexturesWithContentsOfURLsOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'newTexturesWithNames:scaleFactor:bundle:options:completionHandler:'
+        JsName:          newTexturesWithNamesScaleFactorBundleOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Interface
+            JsName:          NSBundle
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Id
+                    WithProtocols:   
+                      - MTLTexture
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithCGImage:options:completionHandler:'
+        JsName:          newTextureWithCGImageOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithCGImage:options:error:'
+        JsName:          newTextureWithCGImageOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - MTLTexture
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'newTextureWithContentsOfURL:options:completionHandler:'
+        JsName:          newTextureWithContentsOfURLOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithContentsOfURL:options:error:'
+        JsName:          newTextureWithContentsOfURLOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - MTLTexture
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'newTextureWithData:options:completionHandler:'
+        JsName:          newTextureWithDataOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithData:options:error:'
+        JsName:          newTextureWithDataOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - MTLTexture
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'newTextureWithMDLTexture:options:completionHandler:'
+        JsName:          newTextureWithMDLTextureOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MDLTexture
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithMDLTexture:options:error:'
+        JsName:          newTextureWithMDLTextureOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - MTLTexture
+          - Type:            Interface
+            JsName:          MDLTexture
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'newTextureWithName:scaleFactor:bundle:options:completionHandler:'
+        JsName:          newTextureWithNameScaleFactorBundleOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Interface
+            JsName:          NSBundle
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Id
+                WithProtocols:   
+                  - MTLTexture
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'newTextureWithName:scaleFactor:bundle:options:error:'
+        JsName:          newTextureWithNameScaleFactorBundleOptionsError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodOwnsReturnedCocoaObject, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - MTLTexture
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Interface
+            JsName:          NSBundle
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            device
+        JsName:          device
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+        Module:          
+          FullName:        MetalKit.MTKTextureLoader
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            device
+          JsName:          device
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+          Module:          
+            FullName:        MetalKit.MTKTextureLoader
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLDevice
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MTKTextureLoaderCubeLayoutVertical
+    JsName:          MTKTextureLoaderCubeLayoutVertical
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderErrorDomain
+    JsName:          MTKTextureLoaderErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderErrorKey
+    JsName:          MTKTextureLoaderErrorKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionAllocateMipmaps
+    JsName:          MTKTextureLoaderOptionAllocateMipmaps
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionCubeLayout
+    JsName:          MTKTextureLoaderOptionCubeLayout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionGenerateMipmaps
+    JsName:          MTKTextureLoaderOptionGenerateMipmaps
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionOrigin
+    JsName:          MTKTextureLoaderOptionOrigin
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionSRGB
+    JsName:          MTKTextureLoaderOptionSRGB
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionTextureCPUCacheMode
+    JsName:          MTKTextureLoaderOptionTextureCPUCacheMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionTextureStorageMode
+    JsName:          MTKTextureLoaderOptionTextureStorageMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOptionTextureUsage
+    JsName:          MTKTextureLoaderOptionTextureUsage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOriginBottomLeft
+    JsName:          MTKTextureLoaderOriginBottomLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOriginFlippedVertically
+    JsName:          MTKTextureLoaderOriginFlippedVertically
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKTextureLoaderOriginTopLeft
+    JsName:          MTKTextureLoaderOriginTopLeft
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKTextureLoader.h
+    Module:          
+      FullName:        MetalKit.MTKTextureLoader
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MTKView
+    JsName:          MTKView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+    Module:          
+      FullName:        MetalKit.MTKView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            draw
+        JsName:          draw
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithFrame:device:'
+        JsName:          initWithFrameDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+          - Type:            Id
+            WithProtocols:   
+              - MTLDevice
+      - Name:            releaseDrawables
+        JsName:          releaseDrawables
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            autoResizeDrawable
+        JsName:          autoResizeDrawable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            autoResizeDrawable
+          JsName:          autoResizeDrawable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAutoResizeDrawable:'
+          JsName:          setAutoResizeDrawable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            clearColor
+        JsName:          clearColor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clearColor
+          JsName:          clearColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          Metal.MTLRenderPass
+              JsName:          MTLClearColor
+        Setter:          
+          Name:            'setClearColor:'
+          JsName:          setClearColor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          Metal.MTLRenderPass
+              JsName:          MTLClearColor
+      - Name:            clearDepth
+        JsName:          clearDepth
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clearDepth
+          JsName:          clearDepth
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setClearDepth:'
+          JsName:          setClearDepth
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            clearStencil
+        JsName:          clearStencil
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clearStencil
+          JsName:          clearStencil
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setClearStencil:'
+          JsName:          setClearStencil
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            colorPixelFormat
+        JsName:          colorPixelFormat
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            colorPixelFormat
+          JsName:          colorPixelFormat
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLPixelFormat
+        Setter:          
+          Name:            'setColorPixelFormat:'
+          JsName:          setColorPixelFormat
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MTLPixelFormat
+      - Name:            currentDrawable
+        JsName:          currentDrawable
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentDrawable
+          JsName:          currentDrawable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - CAMetalDrawable
+      - Name:            currentRenderPassDescriptor
+        JsName:          currentRenderPassDescriptor
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentRenderPassDescriptor
+          JsName:          currentRenderPassDescriptor
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MTLRenderPassDescriptor
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTKViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MTKViewDelegate
+      - Name:            depthStencilAttachmentTextureUsage
+        JsName:          depthStencilAttachmentTextureUsage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            depthStencilAttachmentTextureUsage
+          JsName:          depthStencilAttachmentTextureUsage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLTextureUsage
+        Setter:          
+          Name:            'setDepthStencilAttachmentTextureUsage:'
+          JsName:          setDepthStencilAttachmentTextureUsage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MTLTextureUsage
+      - Name:            depthStencilPixelFormat
+        JsName:          depthStencilPixelFormat
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            depthStencilPixelFormat
+          JsName:          depthStencilPixelFormat
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLPixelFormat
+        Setter:          
+          Name:            'setDepthStencilPixelFormat:'
+          JsName:          setDepthStencilPixelFormat
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MTLPixelFormat
+      - Name:            depthStencilTexture
+        JsName:          depthStencilTexture
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            depthStencilTexture
+          JsName:          depthStencilTexture
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLTexture
+      - Name:            device
+        JsName:          device
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            device
+          JsName:          device
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLDevice
+        Setter:          
+          Name:            'setDevice:'
+          JsName:          setDevice
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MTLDevice
+      - Name:            drawableSize
+        JsName:          drawableSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawableSize
+          JsName:          drawableSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+        Setter:          
+          Name:            'setDrawableSize:'
+          JsName:          setDrawableSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+      - Name:            enableSetNeedsDisplay
+        JsName:          enableSetNeedsDisplay
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            enableSetNeedsDisplay
+          JsName:          enableSetNeedsDisplay
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setEnableSetNeedsDisplay:'
+          JsName:          setEnableSetNeedsDisplay
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            framebufferOnly
+        JsName:          framebufferOnly
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            framebufferOnly
+          JsName:          framebufferOnly
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setFramebufferOnly:'
+          JsName:          setFramebufferOnly
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            multisampleColorAttachmentTextureUsage
+        JsName:          multisampleColorAttachmentTextureUsage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            multisampleColorAttachmentTextureUsage
+          JsName:          multisampleColorAttachmentTextureUsage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MTLTextureUsage
+        Setter:          
+          Name:            'setMultisampleColorAttachmentTextureUsage:'
+          JsName:          setMultisampleColorAttachmentTextureUsage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MTLTextureUsage
+      - Name:            multisampleColorTexture
+        JsName:          multisampleColorTexture
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            multisampleColorTexture
+          JsName:          multisampleColorTexture
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLTexture
+      - Name:            paused
+        JsName:          paused
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPaused
+          JsName:          isPaused
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setPaused:'
+          JsName:          setPaused
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            preferredDevice
+        JsName:          preferredDevice
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredDevice
+          JsName:          preferredDevice
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MTLDevice
+      - Name:            preferredDrawableSize
+        JsName:          preferredDrawableSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredDrawableSize
+          JsName:          preferredDrawableSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGSize
+      - Name:            preferredFramesPerSecond
+        JsName:          preferredFramesPerSecond
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredFramesPerSecond
+          JsName:          preferredFramesPerSecond
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Long
+        Setter:          
+          Name:            'setPreferredFramesPerSecond:'
+          JsName:          setPreferredFramesPerSecond
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Long
+      - Name:            presentsWithTransaction
+        JsName:          presentsWithTransaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            presentsWithTransaction
+          JsName:          presentsWithTransaction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setPresentsWithTransaction:'
+          JsName:          setPresentsWithTransaction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            sampleCount
+        JsName:          sampleCount
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sampleCount
+          JsName:          sampleCount
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+        Setter:          
+          Name:            'setSampleCount:'
+          JsName:          setSampleCount
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+          Module:          
+            FullName:        MetalKit.MTKView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            ULong
+    StaticProperties: 
+    Protocols:       
+      - CALayerDelegate
+      - NSCoding
+    Base:            UIView
+  - Name:            MTKViewDelegate
+    JsName:          MTKViewDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+    Module:          
+      FullName:        MetalKit.MTKView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'drawInMTKView:'
+        JsName:          drawInMTKView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MTKView
+            WithProtocols:   
+      - Name:            'mtkView:drawableSizeWillChange:'
+        JsName:          mtkViewDrawableSizeWillChange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MTKView.h
+        Module:          
+          FullName:        MetalKit.MTKView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MTKView
+            WithProtocols:   
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

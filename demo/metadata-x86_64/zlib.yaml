@@ -1,0 +1,1747 @@
+---
+Module:          
+  FullName:        zlib
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         z
+      IsFramework:     false
+Items:           
+  - Name:            adler32
+    JsName:          adler32
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            CString
+      - Type:            UInt
+  - Name:            adler32_combine
+    JsName:          adler32_combine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            Long
+  - Name:            adler32_z
+    JsName:          adler32_z
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+  - Name:            compress
+    JsName:          compress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+  - Name:            compress2
+    JsName:          compress2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+      - Type:            Int
+  - Name:            compressBound
+    JsName:          compressBound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+  - Name:            crc32
+    JsName:          crc32
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            CString
+      - Type:            UInt
+  - Name:            crc32_combine
+    JsName:          crc32_combine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            Long
+  - Name:            crc32_z
+    JsName:          crc32_z
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+  - Name:            deflate
+    JsName:          deflate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+  - Name:            deflateBound
+    JsName:          deflateBound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            ULong
+  - Name:            deflateCopy
+    JsName:          deflateCopy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            deflateEnd
+    JsName:          deflateEnd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            deflateGetDictionary
+    JsName:          deflateGetDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            deflateInit2_
+    JsName:          deflateInit2_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            CString
+      - Type:            Int
+  - Name:            deflateInit_
+    JsName:          deflateInit_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            CString
+      - Type:            Int
+  - Name:            deflateParams
+    JsName:          deflateParams
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            Int
+  - Name:            deflatePending
+    JsName:          deflatePending
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            deflatePrime
+    JsName:          deflatePrime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            Int
+  - Name:            deflateReset
+    JsName:          deflateReset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            deflateResetKeep
+    JsName:          deflateResetKeep
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            deflateSetDictionary
+    JsName:          deflateSetDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            CString
+      - Type:            UInt
+  - Name:            deflateSetHeader
+    JsName:          deflateSetHeader
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gz_header
+  - Name:            deflateTune
+    JsName:          deflateTune
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+      - Type:            Int
+  - Name:            get_crc_table
+    JsName:          get_crc_table
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            gzFile_s
+    JsName:          gzFile_s
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            have
+        Signature:       
+          Type:            UInt
+      - Name:            next
+        Signature:       
+          Type:            CString
+      - Name:            pos
+        Signature:       
+          Type:            LongLong
+  - Name:            gz_header_s
+    JsName:          gz_header
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            text
+        Signature:       
+          Type:            Int
+      - Name:            time
+        Signature:       
+          Type:            ULong
+      - Name:            xflags
+        Signature:       
+          Type:            Int
+      - Name:            os
+        Signature:       
+          Type:            Int
+      - Name:            extra
+        Signature:       
+          Type:            CString
+      - Name:            extra_len
+        Signature:       
+          Type:            UInt
+      - Name:            extra_max
+        Signature:       
+          Type:            UInt
+      - Name:            name
+        Signature:       
+          Type:            CString
+      - Name:            name_max
+        Signature:       
+          Type:            UInt
+      - Name:            comment
+        Signature:       
+          Type:            CString
+      - Name:            comm_max
+        Signature:       
+          Type:            UInt
+      - Name:            hcrc
+        Signature:       
+          Type:            Int
+      - Name:            done
+        Signature:       
+          Type:            Int
+  - Name:            gzbuffer
+    JsName:          gzbuffer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            UInt
+  - Name:            gzclearerr
+    JsName:          gzclearerr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzclose
+    JsName:          gzclose
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzclose_r
+    JsName:          gzclose_r
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzclose_w
+    JsName:          gzclose_w
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzdirect
+    JsName:          gzdirect
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzdopen
+    JsName:          gzdopen
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Int
+      - Type:            CString
+  - Name:            gzeof
+    JsName:          gzeof
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzerror
+    JsName:          gzerror
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            gzflush
+    JsName:          gzflush
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Int
+  - Name:            gzfread
+    JsName:          gzfread
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzfwrite
+    JsName:          gzfwrite
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzgetc
+    JsName:          gzgetc
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzgetc_
+    JsName:          gzgetc_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzgets
+    JsName:          gzgets
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            CString
+      - Type:            Int
+  - Name:            gzoffset
+    JsName:          gzoffset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzopen
+    JsName:          gzopen
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            CString
+      - Type:            CString
+  - Name:            gzputc
+    JsName:          gzputc
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Int
+  - Name:            gzputs
+    JsName:          gzputs
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            CString
+  - Name:            gzread
+    JsName:          gzread
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            gzrewind
+    JsName:          gzrewind
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzseek
+    JsName:          gzseek
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Long
+      - Type:            Int
+  - Name:            gzsetparams
+    JsName:          gzsetparams
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Int
+      - Type:            Int
+  - Name:            gztell
+    JsName:          gztell
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzungetc
+    JsName:          gzungetc
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+  - Name:            gzwrite
+    JsName:          gzwrite
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gzFile_s
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            UInt
+  - Name:            inflate
+    JsName:          inflate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+  - Name:            inflateBack
+    JsName:          inflateBack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            UInt
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Int
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            CString
+          - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            inflateBackEnd
+    JsName:          inflateBackEnd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateBackInit_
+    JsName:          inflateBackInit_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            CString
+      - Type:            CString
+      - Type:            Int
+  - Name:            inflateCodesUsed
+    JsName:          inflateCodesUsed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateCopy
+    JsName:          inflateCopy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateEnd
+    JsName:          inflateEnd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateGetDictionary
+    JsName:          inflateGetDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+  - Name:            inflateGetHeader
+    JsName:          inflateGetHeader
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          gz_header
+  - Name:            inflateInit2_
+    JsName:          inflateInit2_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            CString
+      - Type:            Int
+  - Name:            inflateInit_
+    JsName:          inflateInit_
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            CString
+      - Type:            Int
+  - Name:            inflateMark
+    JsName:          inflateMark
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflatePrime
+    JsName:          inflatePrime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+      - Type:            Int
+  - Name:            inflateReset
+    JsName:          inflateReset
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateReset2
+    JsName:          inflateReset2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+  - Name:            inflateResetKeep
+    JsName:          inflateResetKeep
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateSetDictionary
+    JsName:          inflateSetDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            CString
+      - Type:            UInt
+  - Name:            inflateSync
+    JsName:          inflateSync
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateSyncPoint
+    JsName:          inflateSyncPoint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+  - Name:            inflateUndermine
+    JsName:          inflateUndermine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+  - Name:            inflateValidate
+    JsName:          inflateValidate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          zlib
+          JsName:          z_stream
+      - Type:            Int
+  - Name:            uncompress
+    JsName:          uncompress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+      - Type:            CString
+      - Type:            ULong
+  - Name:            uncompress2
+    JsName:          uncompress2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+      - Type:            CString
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            zError
+    JsName:          zError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Int
+  - Name:            z_stream_s
+    JsName:          z_stream
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            next_in
+        Signature:       
+          Type:            CString
+      - Name:            avail_in
+        Signature:       
+          Type:            UInt
+      - Name:            total_in
+        Signature:       
+          Type:            ULong
+      - Name:            next_out
+        Signature:       
+          Type:            CString
+      - Name:            avail_out
+        Signature:       
+          Type:            UInt
+      - Name:            total_out
+        Signature:       
+          Type:            ULong
+      - Name:            msg
+        Signature:       
+          Type:            CString
+      - Name:            state
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            zalloc
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            UInt
+            - Type:            UInt
+      - Name:            zfree
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            opaque
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            data_type
+        Signature:       
+          Type:            Int
+      - Name:            adler
+        Signature:       
+          Type:            ULong
+      - Name:            reserved
+        Signature:       
+          Type:            ULong
+  - Name:            zlibCompileFlags
+    JsName:          zlibCompileFlags
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            zlibVersion
+    JsName:          zlibVersion
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/zlib.h
+    Module:          
+      FullName:        zlib
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         z
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+...

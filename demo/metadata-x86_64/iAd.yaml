@@ -1,0 +1,1257 @@
+---
+Module:          
+  FullName:        iAd
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         iAd
+      IsFramework:     true
+Items:           
+  - Name:            ADAdType
+    JsName:          ADAdType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ADAdTypeBanner:  '0'
+      - ADAdTypeMediumRectangle: '1'
+    SwiftNameFields: 
+      - Banner:          '0'
+      - MediumRectangle: '1'
+  - Name:            ADAdTypeBanner
+    JsName:          ADAdTypeBanner
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ADAdTypeMediumRectangle
+    JsName:          ADAdTypeMediumRectangle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ADBannerContentSizeIdentifier320x50
+    JsName:          ADBannerContentSizeIdentifier320x50
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+    Module:          
+      FullName:        iAd.ADBannerView_Deprecated
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADBannerContentSizeIdentifier480x32
+    JsName:          ADBannerContentSizeIdentifier480x32
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+    Module:          
+      FullName:        iAd.ADBannerView_Deprecated
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADBannerContentSizeIdentifierLandscape
+    JsName:          ADBannerContentSizeIdentifierLandscape
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+    Module:          
+      FullName:        iAd.ADBannerView_Deprecated
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADBannerContentSizeIdentifierPortrait
+    JsName:          ADBannerContentSizeIdentifierPortrait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+    Module:          
+      FullName:        iAd.ADBannerView_Deprecated
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADBannerView
+    JsName:          ADBannerView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancelBannerViewAction
+        JsName:          cancelBannerViewAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithAdType:'
+        JsName:          initWithAdType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            ADAdType
+    StaticMethods:   
+      - Name:            'sizeFromBannerContentSizeIdentifier:'
+        JsName:          sizeFromBannerContentSizeIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+        Module:          
+          FullName:        iAd.ADBannerView_Deprecated
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            adType
+        JsName:          adType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    6.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            adType
+          JsName:          adType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    6.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ADAdType
+      - Name:            advertisingSection
+        JsName:          advertisingSection
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            advertisingSection
+          JsName:          advertisingSection
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setAdvertisingSection:'
+          JsName:          setAdvertisingSection
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            bannerLoaded
+        JsName:          bannerLoaded
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isBannerLoaded
+          JsName:          isBannerLoaded
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            bannerViewActionInProgress
+        JsName:          bannerViewActionInProgress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isBannerViewActionInProgress
+          JsName:          isBannerViewActionInProgress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ADBannerViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+          Module:          
+            FullName:        iAd.ADBannerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ADBannerViewDelegate
+      - Name:            currentContentSizeIdentifier
+        JsName:          currentContentSizeIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+        Module:          
+          FullName:        iAd.ADBannerView_Deprecated
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentContentSizeIdentifier
+          JsName:          currentContentSizeIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+          Module:          
+            FullName:        iAd.ADBannerView_Deprecated
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCurrentContentSizeIdentifier:'
+          JsName:          setCurrentContentSizeIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+          Module:          
+            FullName:        iAd.ADBannerView_Deprecated
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            requiredContentSizeIdentifiers
+        JsName:          requiredContentSizeIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+        Module:          
+          FullName:        iAd.ADBannerView_Deprecated
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requiredContentSizeIdentifiers
+          JsName:          requiredContentSizeIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+          Module:          
+            FullName:        iAd.ADBannerView_Deprecated
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSSet
+              WithProtocols:   
+        Setter:          
+          Name:            'setRequiredContentSizeIdentifiers:'
+          JsName:          setRequiredContentSizeIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h
+          Module:          
+            FullName:        iAd.ADBannerView_Deprecated
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSSet
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            ADBannerViewDelegate
+    JsName:          ADBannerViewDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'bannerViewActionDidFinish:'
+        JsName:          bannerViewActionDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADBannerView
+            WithProtocols:   
+      - Name:            'bannerViewActionShouldBegin:willLeaveApplication:'
+        JsName:          bannerViewActionShouldBeginWillLeaveApplication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ADBannerView
+            WithProtocols:   
+          - Type:            Bool
+      - Name:            'bannerView:didFailToReceiveAdWithError:'
+        JsName:          bannerViewDidFailToReceiveAdWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADBannerView
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'bannerViewDidLoadAd:'
+        JsName:          bannerViewDidLoadAd
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADBannerView
+            WithProtocols:   
+      - Name:            'bannerViewWillLoadAd:'
+        JsName:          bannerViewWillLoadAd
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+        Module:          
+          FullName:        iAd.ADBannerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADBannerView
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ADClampedBannerSize
+    JsName:          ADClampedBannerSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          CoreGraphics.CGGeometry
+        JsName:          CGSize
+      - Type:            Struct
+        Module:          CoreGraphics.CGGeometry
+        JsName:          CGSize
+  - Name:            ADClient
+    JsName:          ADClient
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addClientToSegments:replaceExisting:'
+        JsName:          addClientToSegmentsReplaceExisting
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+        Module:          
+          FullName:        iAd.ADClient
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Bool
+      - Name:            'determineAppInstallationAttributionWithCompletionHandler:'
+        JsName:          determineAppInstallationAttributionWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+        Module:          
+          FullName:        iAd.ADClient
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+      - Name:            'lookupAdConversionDetails:'
+        JsName:          lookupAdConversionDetails
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+        Module:          
+          FullName:        iAd.ADClient
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSDate
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSDate
+                WithProtocols:   
+      - Name:            'requestAttributionDetailsWithBlock:'
+        JsName:          requestAttributionDetailsWithBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+        Module:          
+          FullName:        iAd.ADClient
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSDictionary
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSString
+                    WithProtocols:   
+                  - Type:            Interface
+                    JsName:          NSObject
+                    WithProtocols:   
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+      - Name:            sharedClient
+        JsName:          sharedClient
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+        Module:          
+          FullName:        iAd.ADClient
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.1
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ADClient
+            WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ADClientError
+    JsName:          ADClientError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ADClientErrorUnknown: '0'
+      - ADClientErrorLimitAdTracking: '1'
+      - ADClientErrorMissingData: '2'
+      - ADClientErrorCorruptResponse: '3'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - LimitAdTracking: '1'
+      - MissingData:     '2'
+      - CorruptResponse: '3'
+  - Name:            ADClientErrorCorruptResponse
+    JsName:          ADClientErrorCorruptResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ADClientErrorDomain
+    JsName:          ADClientErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADClientErrorLimitAdTracking
+    JsName:          ADClientErrorLimitAdTracking
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ADClientErrorMissingData
+    JsName:          ADClientErrorMissingData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ADClientErrorUnknown
+    JsName:          ADClientErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADClient.h
+    Module:          
+      FullName:        iAd.ADClient
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ADError
+    JsName:          ADError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ADErrorUnknown:  '0'
+      - ADErrorServerFailure: '1'
+      - ADErrorLoadingThrottled: '2'
+      - ADErrorInventoryUnavailable: '3'
+      - ADErrorConfigurationError: '4'
+      - ADErrorBannerVisibleWithoutContent: '5'
+      - ADErrorApplicationInactive: '6'
+      - ADErrorAdUnloaded: '7'
+      - ADErrorAssetLoadFailure: '8'
+      - ADErrorAdResponseValidateFailure: '9'
+      - ADErrorAdAssetLoadPending: '10'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - ServerFailure:   '1'
+      - LoadingThrottled: '2'
+      - InventoryUnavailable: '3'
+      - ConfigurationError: '4'
+      - BannerVisibleWithoutContent: '5'
+      - ApplicationInactive: '6'
+      - AdUnloaded:      '7'
+      - AssetLoadFailure: '8'
+      - AdResponseValidateFailure: '9'
+      - AdAssetLoadPending: '10'
+  - Name:            ADErrorAdAssetLoadPending
+    JsName:          ADErrorAdAssetLoadPending
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            ADErrorAdResponseValidateFailure
+    JsName:          ADErrorAdResponseValidateFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            ADErrorAdUnloaded
+    JsName:          ADErrorAdUnloaded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            ADErrorApplicationInactive
+    JsName:          ADErrorApplicationInactive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            ADErrorAssetLoadFailure
+    JsName:          ADErrorAssetLoadFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            ADErrorBannerVisibleWithoutContent
+    JsName:          ADErrorBannerVisibleWithoutContent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ADErrorConfigurationError
+    JsName:          ADErrorConfigurationError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ADErrorDomain
+    JsName:          ADErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ADErrorInventoryUnavailable
+    JsName:          ADErrorInventoryUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ADErrorLoadingThrottled
+    JsName:          ADErrorLoadingThrottled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ADErrorServerFailure
+    JsName:          ADErrorServerFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ADErrorUnknown
+    JsName:          ADErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+    Module:          
+      FullName:        iAd.ADBannerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ADInterstitialAd
+    JsName:          ADInterstitialAd
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+    Module:          
+      FullName:        iAd.ADInterstitialAd
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancelAction
+        JsName:          cancelAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'presentFromViewController:'
+        JsName:          presentFromViewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIViewController
+            WithProtocols:   
+      - Name:            'presentInView:'
+        JsName:          presentInView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          UIView
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            actionInProgress
+        JsName:          actionInProgress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isActionInProgress
+          JsName:          isActionInProgress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+          Module:          
+            FullName:        iAd.ADInterstitialAd
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+          Module:          
+            FullName:        iAd.ADInterstitialAd
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ADInterstitialAdDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+          Module:          
+            FullName:        iAd.ADInterstitialAd
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ADInterstitialAdDelegate
+      - Name:            loaded
+        JsName:          loaded
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isLoaded
+          JsName:          isLoaded
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+          Module:          
+            FullName:        iAd.ADInterstitialAd
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ADInterstitialAdDelegate
+    JsName:          ADInterstitialAdDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+    Module:          
+      FullName:        iAd.ADInterstitialAd
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'interstitialAdActionDidFinish:'
+        JsName:          interstitialAdActionDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+      - Name:            'interstitialAdActionShouldBegin:willLeaveApplication:'
+        JsName:          interstitialAdActionShouldBeginWillLeaveApplication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+          - Type:            Bool
+      - Name:            'interstitialAd:didFailWithError:'
+        JsName:          interstitialAdDidFailWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'interstitialAdDidLoad:'
+        JsName:          interstitialAdDidLoad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+      - Name:            'interstitialAdDidUnload:'
+        JsName:          interstitialAdDidUnload
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+      - Name:            'interstitialAdWillLoad:'
+        JsName:          interstitialAdWillLoad
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ADInterstitialAdPresentationViewController
+    JsName:          ADInterstitialAdPresentationViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+    Module:          
+      FullName:        iAd.ADInterstitialAd
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initForInterstitialAd:'
+        JsName:          initForInterstitialAd
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          ADInterstitialAd
+            WithProtocols:   
+      - Name:            'shouldTestVisibilityAtPoint:'
+        JsName:          shouldTestVisibilityAtPoint
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h
+        Module:          
+          FullName:        iAd.ADInterstitialAd
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGPoint
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            ADInterstitialPresentationPolicy
+    JsName:          ADInterstitialPresentationPolicy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/UIViewControlleriAdAdditions.h
+    Module:          
+      FullName:        iAd.UIViewControlleriAdAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ADInterstitialPresentationPolicyNone: '0'
+      - ADInterstitialPresentationPolicyAutomatic: '1'
+      - ADInterstitialPresentationPolicyManual: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Automatic:       '1'
+      - Manual:          '2'
+  - Name:            ADInterstitialPresentationPolicyAutomatic
+    JsName:          ADInterstitialPresentationPolicyAutomatic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/UIViewControlleriAdAdditions.h
+    Module:          
+      FullName:        iAd.UIViewControlleriAdAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ADInterstitialPresentationPolicyManual
+    JsName:          ADInterstitialPresentationPolicyManual
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/UIViewControlleriAdAdditions.h
+    Module:          
+      FullName:        iAd.UIViewControlleriAdAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ADInterstitialPresentationPolicyNone
+    JsName:          ADInterstitialPresentationPolicyNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/iAd.framework/Headers/UIViewControlleriAdAdditions.h
+    Module:          
+      FullName:        iAd.UIViewControlleriAdAdditions
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...

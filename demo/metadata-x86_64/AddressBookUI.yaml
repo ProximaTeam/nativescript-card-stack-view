@@ -1,0 +1,1702 @@
+---
+Module:          
+  FullName:        AddressBookUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AddressBookUI
+      IsFramework:     true
+Items:           
+  - Name:            ABCreateStringWithAddressDictionary
+    JsName:          ABCreateStringWithAddressDictionary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABAddressFormatting.h
+    Module:          
+      FullName:        AddressBookUI.ABAddressFormatting
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSString
+        WithProtocols:   
+      - Type:            Interface
+        JsName:          NSDictionary
+        WithProtocols:   
+      - Type:            Bool
+  - Name:            ABNewPersonViewController
+    JsName:          ABNewPersonViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABNewPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            newPersonViewDelegate
+        JsName:          newPersonViewDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - ABNewPersonViewControllerDelegate
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            addressBook
+        JsName:          addressBook
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            addressBook
+          JsName:          addressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setAddressBook:'
+          JsName:          setAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            displayedPerson
+        JsName:          displayedPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedPerson
+          JsName:          displayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setDisplayedPerson:'
+          JsName:          setDisplayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            newPersonViewDelegate
+        JsName:          newPersonViewDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            newPersonViewDelegate
+          JsName:          newPersonViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ABNewPersonViewControllerDelegate
+        Setter:          
+          Name:            'setNewPersonViewDelegate:'
+          JsName:          setNewPersonViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ABNewPersonViewControllerDelegate
+      - Name:            parentGroup
+        JsName:          parentGroup
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parentGroup
+          JsName:          parentGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setParentGroup:'
+          JsName:          setParentGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABNewPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            ABNewPersonViewControllerDelegate
+    JsName:          ABNewPersonViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABNewPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'newPersonViewController:didCompleteWithNewPerson:'
+        JsName:          newPersonViewControllerDidCompleteWithNewPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABNewPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ABNewPersonViewController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ABPeoplePickerNavigationController
+    JsName:          ABPeoplePickerNavigationController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            addressBook
+        JsName:          addressBook
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            addressBook
+          JsName:          addressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setAddressBook:'
+          JsName:          setAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            displayedProperties
+        JsName:          displayedProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedProperties
+          JsName:          displayedProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setDisplayedProperties:'
+          JsName:          setDisplayedProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            peoplePickerDelegate
+        JsName:          peoplePickerDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            peoplePickerDelegate
+          JsName:          peoplePickerDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ABPeoplePickerNavigationControllerDelegate
+        Setter:          
+          Name:            'setPeoplePickerDelegate:'
+          JsName:          setPeoplePickerDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ABPeoplePickerNavigationControllerDelegate
+      - Name:            predicateForEnablingPerson
+        JsName:          predicateForEnablingPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForEnablingPerson
+          JsName:          predicateForEnablingPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForEnablingPerson:'
+          JsName:          setPredicateForEnablingPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+      - Name:            predicateForSelectionOfPerson
+        JsName:          predicateForSelectionOfPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForSelectionOfPerson
+          JsName:          predicateForSelectionOfPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForSelectionOfPerson:'
+          JsName:          setPredicateForSelectionOfPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+      - Name:            predicateForSelectionOfProperty
+        JsName:          predicateForSelectionOfProperty
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            predicateForSelectionOfProperty
+          JsName:          predicateForSelectionOfProperty
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+        Setter:          
+          Name:            'setPredicateForSelectionOfProperty:'
+          JsName:          setPredicateForSelectionOfProperty
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+          Module:          
+            FullName:        AddressBookUI.ABPeoplePickerNavigationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    8.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSPredicate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UINavigationController
+  - Name:            ABPeoplePickerNavigationControllerDelegate
+    JsName:          ABPeoplePickerNavigationControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'peoplePickerNavigationControllerDidCancel:'
+        JsName:          peoplePickerNavigationControllerDidCancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ABPeoplePickerNavigationController
+            WithProtocols:   
+      - Name:            'peoplePickerNavigationController:didSelectPerson:'
+        JsName:          peoplePickerNavigationControllerDidSelectPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ABPeoplePickerNavigationController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'peoplePickerNavigationController:didSelectPerson:property:identifier:'
+        JsName:          peoplePickerNavigationControllerDidSelectPersonPropertyIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    8.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ABPeoplePickerNavigationController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Int
+          - Type:            Int
+      - Name:            'peoplePickerNavigationController:shouldContinueAfterSelectingPerson:'
+        JsName:          peoplePickerNavigationControllerShouldContinueAfterSelectingPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    2.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ABPeoplePickerNavigationController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'peoplePickerNavigationController:shouldContinueAfterSelectingPerson:property:identifier:'
+        JsName:          peoplePickerNavigationControllerShouldContinueAfterSelectingPersonPropertyIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+        Module:          
+          FullName:        AddressBookUI.ABPeoplePickerNavigationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    2.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ABPeoplePickerNavigationController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Int
+          - Type:            Int
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ABPersonBirthdayProperty
+    JsName:          ABPersonBirthdayProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonDatesProperty
+    JsName:          ABPersonDatesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonDepartmentNameProperty
+    JsName:          ABPersonDepartmentNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonEmailAddressesProperty
+    JsName:          ABPersonEmailAddressesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonFamilyNameProperty
+    JsName:          ABPersonFamilyNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonGivenNameProperty
+    JsName:          ABPersonGivenNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonInstantMessageAddressesProperty
+    JsName:          ABPersonInstantMessageAddressesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonJobTitleProperty
+    JsName:          ABPersonJobTitleProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonMiddleNameProperty
+    JsName:          ABPersonMiddleNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonNamePrefixProperty
+    JsName:          ABPersonNamePrefixProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonNameSuffixProperty
+    JsName:          ABPersonNameSuffixProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonNicknameProperty
+    JsName:          ABPersonNicknameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonNoteProperty
+    JsName:          ABPersonNoteProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonOrganizationNameProperty
+    JsName:          ABPersonOrganizationNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPhoneNumbersProperty
+    JsName:          ABPersonPhoneNumbersProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPhoneticFamilyNameProperty
+    JsName:          ABPersonPhoneticFamilyNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPhoneticGivenNameProperty
+    JsName:          ABPersonPhoneticGivenNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPhoneticMiddleNameProperty
+    JsName:          ABPersonPhoneticMiddleNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPostalAddressesProperty
+    JsName:          ABPersonPostalAddressesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonPreviousFamilyNameProperty
+    JsName:          ABPersonPreviousFamilyNameProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonRelatedNamesProperty
+    JsName:          ABPersonRelatedNamesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonSocialProfilesProperty
+    JsName:          ABPersonSocialProfilesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonUrlAddressesProperty
+    JsName:          ABPersonUrlAddressesProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+    Module:          
+      FullName:        AddressBookUI.ABPeoplePickerNavigationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ABPersonViewController
+    JsName:          ABPersonViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setHighlightedItemForProperty:withIdentifier:'
+        JsName:          setHighlightedItemForPropertyWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Int
+          - Type:            Int
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            addressBook
+        JsName:          addressBook
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            addressBook
+          JsName:          addressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setAddressBook:'
+          JsName:          setAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            allowsActions
+        JsName:          allowsActions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsActions
+          JsName:          allowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsActions:'
+          JsName:          setAllowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsEditing
+        JsName:          allowsEditing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsEditing
+          JsName:          allowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsEditing:'
+          JsName:          setAllowsEditing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            displayedPerson
+        JsName:          displayedPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedPerson
+          JsName:          displayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setDisplayedPerson:'
+          JsName:          setDisplayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            displayedProperties
+        JsName:          displayedProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedProperties
+          JsName:          displayedProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setDisplayedProperties:'
+          JsName:          setDisplayedProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            personViewDelegate
+        JsName:          personViewDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            personViewDelegate
+          JsName:          personViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ABPersonViewControllerDelegate
+        Setter:          
+          Name:            'setPersonViewDelegate:'
+          JsName:          setPersonViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ABPersonViewControllerDelegate
+      - Name:            shouldShowLinkedPeople
+        JsName:          shouldShowLinkedPeople
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    4.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldShowLinkedPeople
+          JsName:          shouldShowLinkedPeople
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShouldShowLinkedPeople:'
+          JsName:          setShouldShowLinkedPeople
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    4.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - UIViewControllerRestoration
+    Base:            UIViewController
+  - Name:            ABPersonViewControllerDelegate
+    JsName:          ABPersonViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'personViewController:shouldPerformDefaultActionForPerson:property:identifier:'
+        JsName:          personViewControllerShouldPerformDefaultActionForPersonPropertyIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ABPersonViewController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Int
+          - Type:            Int
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ABUnknownPersonViewController
+    JsName:          ABUnknownPersonViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABUnknownPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            addressBook
+        JsName:          addressBook
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            addressBook
+          JsName:          addressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setAddressBook:'
+          JsName:          setAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            allowsActions
+        JsName:          allowsActions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsActions
+          JsName:          allowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsActions:'
+          JsName:          setAllowsActions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsAddingToAddressBook
+        JsName:          allowsAddingToAddressBook
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsAddingToAddressBook
+          JsName:          allowsAddingToAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsAddingToAddressBook:'
+          JsName:          setAllowsAddingToAddressBook
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            alternateName
+        JsName:          alternateName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            alternateName
+          JsName:          alternateName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setAlternateName:'
+          JsName:          setAlternateName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            displayedPerson
+        JsName:          displayedPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayedPerson
+          JsName:          displayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+        Setter:          
+          Name:            'setDisplayedPerson:'
+          JsName:          setDisplayedPerson
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            message
+        JsName:          message
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            message
+          JsName:          message
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setMessage:'
+          JsName:          setMessage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            unknownPersonViewDelegate
+        JsName:          unknownPersonViewDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            unknownPersonViewDelegate
+          JsName:          unknownPersonViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ABUnknownPersonViewControllerDelegate
+        Setter:          
+          Name:            'setUnknownPersonViewDelegate:'
+          JsName:          setUnknownPersonViewDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+          Module:          
+            FullName:        AddressBookUI.ABUnknownPersonViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ABUnknownPersonViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            ABUnknownPersonViewControllerDelegate
+    JsName:          ABUnknownPersonViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+    Module:          
+      FullName:        AddressBookUI.ABUnknownPersonViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'unknownPersonViewController:didResolveToPerson:'
+        JsName:          unknownPersonViewControllerDidResolveToPerson
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ABUnknownPersonViewController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+      - Name:            'unknownPersonViewController:shouldPerformDefaultActionForPerson:property:identifier:'
+        JsName:          unknownPersonViewControllerShouldPerformDefaultActionForPersonPropertyIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABUnknownPersonViewController.h
+        Module:          
+          FullName:        AddressBookUI.ABUnknownPersonViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    3.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          ABUnknownPersonViewController
+            WithProtocols:   
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Int
+          - Type:            Int
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

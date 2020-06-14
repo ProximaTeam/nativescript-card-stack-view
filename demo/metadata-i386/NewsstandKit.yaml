@@ -1,0 +1,571 @@
+---
+Module:          
+  FullName:        NewsstandKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         NewsstandKit
+      IsFramework:     true
+Items:           
+  - Name:            NKAssetDownload
+    JsName:          NKAssetDownload
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+    Module:          
+      FullName:        NewsstandKit.NKAssetDownload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'downloadWithDelegate:'
+        JsName:          downloadWithDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+        Module:          
+          FullName:        NewsstandKit.NKAssetDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSURLConnection
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - NSURLConnectionDownloadDelegate
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+        Module:          
+          FullName:        NewsstandKit.NKAssetDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+          Module:          
+            FullName:        NewsstandKit.NKAssetDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            issue
+        JsName:          issue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+        Module:          
+          FullName:        NewsstandKit.NKAssetDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            issue
+          JsName:          issue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+          Module:          
+            FullName:        NewsstandKit.NKAssetDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NKIssue
+              WithProtocols:   
+      - Name:            URLRequest
+        JsName:          URLRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+        Module:          
+          FullName:        NewsstandKit.NKAssetDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URLRequest
+          JsName:          URLRequest
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+          Module:          
+            FullName:        NewsstandKit.NKAssetDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURLRequest
+              WithProtocols:   
+      - Name:            userInfo
+        JsName:          userInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+        Module:          
+          FullName:        NewsstandKit.NKAssetDownload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userInfo
+          JsName:          userInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+          Module:          
+            FullName:        NewsstandKit.NKAssetDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              WithProtocols:   
+        Setter:          
+          Name:            'setUserInfo:'
+          JsName:          setUserInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h
+          Module:          
+            FullName:        NewsstandKit.NKAssetDownload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDictionary
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NKIssue
+    JsName:          NKIssue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAssetWithRequest:'
+        JsName:          addAssetWithRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NKAssetDownload
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURLRequest
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            contentURL
+        JsName:          contentURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentURL
+          JsName:          contentURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+          Module:          
+            FullName:        NewsstandKit.NKIssue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            date
+        JsName:          date
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            date
+          JsName:          date
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+          Module:          
+            FullName:        NewsstandKit.NKIssue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            downloadingAssets
+        JsName:          downloadingAssets
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloadingAssets
+          JsName:          downloadingAssets
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+          Module:          
+            FullName:        NewsstandKit.NKIssue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NKAssetDownload
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            name
+        JsName:          name
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            name
+          JsName:          name
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+          Module:          
+            FullName:        NewsstandKit.NKIssue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            status
+        JsName:          status
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+        Module:          
+          FullName:        NewsstandKit.NKIssue
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            status
+          JsName:          status
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+          Module:          
+            FullName:        NewsstandKit.NKIssue
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            NKIssueContentStatus
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NKIssueContentStatus
+    JsName:          NKIssueContentStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NKIssueContentStatusNone: '0'
+      - NKIssueContentStatusDownloading: '1'
+      - NKIssueContentStatusAvailable: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Downloading:     '1'
+      - Available:       '2'
+  - Name:            NKIssueContentStatusAvailable
+    JsName:          NKIssueContentStatusAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NKIssueContentStatusDownloading
+    JsName:          NKIssueContentStatusDownloading
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NKIssueContentStatusNone
+    JsName:          NKIssueContentStatusNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NKIssueDownloadCompletedNotification
+    JsName:          NKIssueDownloadCompletedNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h
+    Module:          
+      FullName:        NewsstandKit.NKIssue
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NKLibrary
+    JsName:          NKLibrary
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+    Module:          
+      FullName:        NewsstandKit.NKLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addIssueWithName:date:'
+        JsName:          addIssueWithNameDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NKIssue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'issueWithName:'
+        JsName:          issueWithName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NKIssue
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'removeIssue:'
+        JsName:          removeIssue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NKIssue
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            sharedLibrary
+        JsName:          sharedLibrary
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NKLibrary
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            currentlyReadingIssue
+        JsName:          currentlyReadingIssue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentlyReadingIssue
+          JsName:          currentlyReadingIssue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+          Module:          
+            FullName:        NewsstandKit.NKLibrary
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NKIssue
+              WithProtocols:   
+        Setter:          
+          Name:            'setCurrentlyReadingIssue:'
+          JsName:          setCurrentlyReadingIssue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+          Module:          
+            FullName:        NewsstandKit.NKLibrary
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NKIssue
+              WithProtocols:   
+      - Name:            downloadingAssets
+        JsName:          downloadingAssets
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            downloadingAssets
+          JsName:          downloadingAssets
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+          Module:          
+            FullName:        NewsstandKit.NKLibrary
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NKAssetDownload
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            issues
+        JsName:          issues
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+        Module:          
+          FullName:        NewsstandKit.NKLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            issues
+          JsName:          issues
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h
+          Module:          
+            FullName:        NewsstandKit.NKLibrary
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NKIssue
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+...

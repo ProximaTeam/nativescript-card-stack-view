@@ -1,0 +1,636 @@
+---
+Module:          
+  FullName:        QuickLook
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         QuickLook
+      IsFramework:     true
+Items:           
+  - Name:            QLPreviewController
+    JsName:          QLPreviewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            refreshCurrentPreviewItem
+        JsName:          refreshCurrentPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            reloadData
+        JsName:          reloadData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            'canPreviewItem:'
+        JsName:          canPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+    InstanceProperties: 
+      - Name:            currentPreviewItem
+        JsName:          currentPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentPreviewItem
+          JsName:          currentPreviewItem
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - QLPreviewItem
+      - Name:            currentPreviewItemIndex
+        JsName:          currentPreviewItemIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentPreviewItemIndex
+          JsName:          currentPreviewItemIndex
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Long
+        Setter:          
+          Name:            'setCurrentPreviewItemIndex:'
+          JsName:          setCurrentPreviewItemIndex
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Long
+      - Name:            dataSource
+        JsName:          dataSource
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dataSource
+          JsName:          dataSource
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - QLPreviewControllerDataSource
+        Setter:          
+          Name:            'setDataSource:'
+          JsName:          setDataSource
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - QLPreviewControllerDataSource
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - QLPreviewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+          Module:          
+            FullName:        QuickLook.QLPreviewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - QLPreviewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            QLPreviewControllerDataSource
+    JsName:          QLPreviewControllerDataSource
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'numberOfPreviewItemsInPreviewController:'
+        JsName:          numberOfPreviewItemsInPreviewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Long
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+      - Name:            'previewController:previewItemAtIndex:'
+        JsName:          previewControllerPreviewItemAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Long
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+  - Name:            QLPreviewControllerDelegate
+    JsName:          QLPreviewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'previewControllerDidDismiss:'
+        JsName:          previewControllerDidDismiss
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+      - Name:            'previewController:didSaveEditedCopyOfPreviewItem:atURL:'
+        JsName:          previewControllerDidSaveEditedCopyOfPreviewItemAtURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            'previewController:didUpdateContentsOfPreviewItem:'
+        JsName:          previewControllerDidUpdateContentsOfPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+      - Name:            'previewController:editingModeForPreviewItem:'
+        JsName:          previewControllerEditingModeForPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            QLPreviewItemEditingMode
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+      - Name:            'previewController:frameForPreviewItem:inSourceView:'
+        JsName:          previewControllerFrameForPreviewItemInSourceView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+      - Name:            'previewController:shouldOpenURL:forPreviewItem:'
+        JsName:          previewControllerShouldOpenURLForPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+      - Name:            'previewController:transitionImageForPreviewItem:contentRect:'
+        JsName:          previewControllerTransitionImageForPreviewItemContentRect
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+          - Type:            Pointer
+            PointerType:     
+              Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGRect
+      - Name:            'previewController:transitionViewForPreviewItem:'
+        JsName:          previewControllerTransitionViewForPreviewItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIView
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+          - Type:            Id
+            WithProtocols:   
+              - QLPreviewItem
+      - Name:            'previewControllerWillDismiss:'
+        JsName:          previewControllerWillDismiss
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          QLPreviewController
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            QLPreviewItem
+    JsName:          QLPreviewItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewItem.h
+    Module:          
+      FullName:        QuickLook.QLPreviewItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            previewItemTitle
+        JsName:          previewItemTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewItem.h
+        Module:          
+          FullName:        QuickLook.QLPreviewItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            previewItemTitle
+          JsName:          previewItemTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewItem.h
+          Module:          
+            FullName:        QuickLook.QLPreviewItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            previewItemURL
+        JsName:          previewItemURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewItem.h
+        Module:          
+          FullName:        QuickLook.QLPreviewItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            previewItemURL
+          JsName:          previewItemURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewItem.h
+          Module:          
+            FullName:        QuickLook.QLPreviewItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            QLPreviewItemEditingMode
+    JsName:          QLPreviewItemEditingMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - QLPreviewItemEditingModeDisabled: '0'
+      - QLPreviewItemEditingModeUpdateContents: '1'
+      - QLPreviewItemEditingModeCreateCopy: '2'
+    SwiftNameFields: 
+      - Disabled:        '0'
+      - UpdateContents:  '1'
+      - CreateCopy:      '2'
+  - Name:            QLPreviewItemEditingModeCreateCopy
+    JsName:          QLPreviewItemEditingModeCreateCopy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            QLPreviewItemEditingModeDisabled
+    JsName:          QLPreviewItemEditingModeDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            QLPreviewItemEditingModeUpdateContents
+    JsName:          QLPreviewItemEditingModeUpdateContents
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            QLPreviewingController
+    JsName:          QLPreviewingController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewingController.h
+    Module:          
+      FullName:        QuickLook.QLPreviewingController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'preparePreviewOfFileAtURL:completionHandler:'
+        JsName:          preparePreviewOfFileAtURLCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewingController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'preparePreviewOfSearchableItemWithIdentifier:queryString:completionHandler:'
+        JsName:          preparePreviewOfSearchableItemWithIdentifierQueryStringCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QLPreviewingController.h
+        Module:          
+          FullName:        QuickLook.QLPreviewingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...

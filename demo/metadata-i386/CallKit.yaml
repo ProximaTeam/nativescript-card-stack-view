@@ -1,0 +1,3517 @@
+---
+Module:          
+  FullName:        CallKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         CallKit
+      IsFramework:     true
+Items:           
+  - Name:            CXAction
+    JsName:          CXAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+    Module:          
+      FullName:        CallKit.CXAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            fail
+        JsName:          fail
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+        Module:          
+          FullName:        CallKit.CXAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            fulfill
+        JsName:          fulfill
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+        Module:          
+          FullName:        CallKit.CXAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            complete
+        JsName:          complete
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+        Module:          
+          FullName:        CallKit.CXAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isComplete
+          JsName:          isComplete
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+          Module:          
+            FullName:        CallKit.CXAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            timeoutDate
+        JsName:          timeoutDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+        Module:          
+          FullName:        CallKit.CXAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeoutDate
+          JsName:          timeoutDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+          Module:          
+            FullName:        CallKit.CXAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            UUID
+        JsName:          UUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+        Module:          
+          FullName:        CallKit.CXAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            UUID
+          JsName:          UUID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAction.h
+          Module:          
+            FullName:        CallKit.CXAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CXAnswerCallAction
+    JsName:          CXAnswerCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAnswerCallAction.h
+    Module:          
+      FullName:        CallKit.CXAnswerCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'fulfillWithDateConnected:'
+        JsName:          fulfillWithDateConnected
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXAnswerCallAction.h
+        Module:          
+          FullName:        CallKit.CXAnswerCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXCall
+    JsName:          CXCall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+    Module:          
+      FullName:        CallKit.CXCall
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'isEqualToCall:'
+        JsName:          isEqualToCall
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          CXCall
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            hasConnected
+        JsName:          hasConnected
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hasConnected
+          JsName:          hasConnected
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+          Module:          
+            FullName:        CallKit.CXCall
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            hasEnded
+        JsName:          hasEnded
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hasEnded
+          JsName:          hasEnded
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+          Module:          
+            FullName:        CallKit.CXCall
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            onHold
+        JsName:          onHold
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isOnHold
+          JsName:          isOnHold
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+          Module:          
+            FullName:        CallKit.CXCall
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            outgoing
+        JsName:          outgoing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isOutgoing
+          JsName:          isOutgoing
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+          Module:          
+            FullName:        CallKit.CXCall
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            UUID
+        JsName:          UUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+        Module:          
+          FullName:        CallKit.CXCall
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            UUID
+          JsName:          UUID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCall.h
+          Module:          
+            FullName:        CallKit.CXCall
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CXCallAction
+    JsName:          CXCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallAction.h
+    Module:          
+      FullName:        CallKit.CXCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithCallUUID:'
+        JsName:          initWithCallUUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallAction.h
+        Module:          
+          FullName:        CallKit.CXCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            callUUID
+        JsName:          callUUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallAction.h
+        Module:          
+          FullName:        CallKit.CXCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callUUID
+          JsName:          callUUID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallAction.h
+          Module:          
+            FullName:        CallKit.CXCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CXAction
+  - Name:            CXCallController
+    JsName:          CXCallController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+    Module:          
+      FullName:        CallKit.CXCallController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithQueue:'
+        JsName:          initWithQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+        Module:          
+          FullName:        CallKit.CXCallController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+      - Name:            'requestTransaction:completion:'
+        JsName:          requestTransactionCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+        Module:          
+          FullName:        CallKit.CXCallController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXTransaction
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestTransactionWithAction:completion:'
+        JsName:          requestTransactionWithActionCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+        Module:          
+          FullName:        CallKit.CXCallController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXAction
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestTransactionWithActions:completion:'
+        JsName:          requestTransactionWithActionsCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+        Module:          
+          FullName:        CallKit.CXCallController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CXAction
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            callObserver
+        JsName:          callObserver
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+        Module:          
+          FullName:        CallKit.CXCallController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callObserver
+          JsName:          callObserver
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h
+          Module:          
+            FullName:        CallKit.CXCallController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CXCallObserver
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CXCallDirectoryEnabledStatus
+    JsName:          CXCallDirectoryEnabledStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXCallDirectoryEnabledStatusUnknown: '0'
+      - CXCallDirectoryEnabledStatusDisabled: '1'
+      - CXCallDirectoryEnabledStatusEnabled: '2'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - Disabled:        '1'
+      - Enabled:         '2'
+  - Name:            CXCallDirectoryEnabledStatusDisabled
+    JsName:          CXCallDirectoryEnabledStatusDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXCallDirectoryEnabledStatusEnabled
+    JsName:          CXCallDirectoryEnabledStatusEnabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXCallDirectoryEnabledStatusUnknown
+    JsName:          CXCallDirectoryEnabledStatusUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CXCallDirectoryExtensionContext
+    JsName:          CXCallDirectoryExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addBlockingEntryWithNextSequentialPhoneNumber:'
+        JsName:          addBlockingEntryWithNextSequentialPhoneNumber
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            LongLong
+      - Name:            'addIdentificationEntryWithNextSequentialPhoneNumber:label:'
+        JsName:          addIdentificationEntryWithNextSequentialPhoneNumberLabel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            LongLong
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'completeRequestWithCompletionHandler:'
+        JsName:          completeRequestWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+      - Name:            removeAllBlockingEntries
+        JsName:          removeAllBlockingEntries
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            removeAllIdentificationEntries
+        JsName:          removeAllIdentificationEntries
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'removeBlockingEntryWithPhoneNumber:'
+        JsName:          removeBlockingEntryWithPhoneNumber
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            LongLong
+      - Name:            'removeIdentificationEntryWithPhoneNumber:'
+        JsName:          removeIdentificationEntryWithPhoneNumber
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            LongLong
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+          Module:          
+            FullName:        CallKit.CXCallDirectoryExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - CXCallDirectoryExtensionContextDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+          Module:          
+            FullName:        CallKit.CXCallDirectoryExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - CXCallDirectoryExtensionContextDelegate
+      - Name:            incremental
+        JsName:          incremental
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isIncremental
+          JsName:          isIncremental
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+          Module:          
+            FullName:        CallKit.CXCallDirectoryExtensionContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            CXCallDirectoryExtensionContextDelegate
+    JsName:          CXCallDirectoryExtensionContextDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'requestFailedForExtensionContext:withError:'
+        JsName:          requestFailedForExtensionContextWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXCallDirectoryExtensionContext
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CXCallDirectoryManager
+    JsName:          CXCallDirectoryManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'getEnabledStatusForExtensionWithIdentifier:completionHandler:'
+        JsName:          getEnabledStatusForExtensionWithIdentifierCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            CXCallDirectoryEnabledStatus
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'reloadExtensionWithIdentifier:completionHandler:'
+        JsName:          reloadExtensionWithIdentifierCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+      - Name:            sharedInstance
+        JsName:          sharedInstance
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sharedInstance
+          JsName:          sharedInstance
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h
+          Module:          
+            FullName:        CallKit.CXCallDirectoryManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CXCallDirectoryManager
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            CXCallDirectoryPhoneNumberMax
+    JsName:          CXCallDirectoryPhoneNumberMax
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectory.h
+    Module:          
+      FullName:        CallKit.CXCallDirectory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            LongLong
+    Value:           '9223372036854775806'
+  - Name:            CXCallDirectoryProvider
+    JsName:          CXCallDirectoryProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryProvider.h
+    Module:          
+      FullName:        CallKit.CXCallDirectoryProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'beginRequestWithExtensionContext:'
+        JsName:          beginRequestWithExtensionContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryProvider.h
+        Module:          
+          FullName:        CallKit.CXCallDirectoryProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXCallDirectoryExtensionContext
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSExtensionRequestHandling
+    Base:            NSObject
+  - Name:            CXCallEndedReason
+    JsName:          CXCallEndedReason
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXCallEndedReasonFailed: '1'
+      - CXCallEndedReasonRemoteEnded: '2'
+      - CXCallEndedReasonUnanswered: '3'
+      - CXCallEndedReasonAnsweredElsewhere: '4'
+      - CXCallEndedReasonDeclinedElsewhere: '5'
+    SwiftNameFields: 
+      - Failed:          '1'
+      - RemoteEnded:     '2'
+      - Unanswered:      '3'
+      - AnsweredElsewhere: '4'
+      - DeclinedElsewhere: '5'
+  - Name:            CXCallEndedReasonAnsweredElsewhere
+    JsName:          CXCallEndedReasonAnsweredElsewhere
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CXCallEndedReasonDeclinedElsewhere
+    JsName:          CXCallEndedReasonDeclinedElsewhere
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CXCallEndedReasonFailed
+    JsName:          CXCallEndedReasonFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXCallEndedReasonRemoteEnded
+    JsName:          CXCallEndedReasonRemoteEnded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXCallEndedReasonUnanswered
+    JsName:          CXCallEndedReasonUnanswered
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXCallObserver
+    JsName:          CXCallObserver
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+    Module:          
+      FullName:        CallKit.CXCallObserver
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setDelegate:queue:'
+        JsName:          setDelegateQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+        Module:          
+          FullName:        CallKit.CXCallObserver
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - CXCallObserverDelegate
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            calls
+        JsName:          calls
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+        Module:          
+          FullName:        CallKit.CXCallObserver
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            calls
+          JsName:          calls
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+          Module:          
+            FullName:        CallKit.CXCallObserver
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CXCall
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CXCallObserverDelegate
+    JsName:          CXCallObserverDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+    Module:          
+      FullName:        CallKit.CXCallObserver
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'callObserver:callChanged:'
+        JsName:          callObserverCallChanged
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h
+        Module:          
+          FullName:        CallKit.CXCallObserver
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXCallObserver
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXCall
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CXCallUpdate
+    JsName:          CXCallUpdate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+    Module:          
+      FullName:        CallKit.CXCallUpdate
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            hasVideo
+        JsName:          hasVideo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hasVideo
+          JsName:          hasVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setHasVideo:'
+          JsName:          setHasVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            localizedCallerName
+        JsName:          localizedCallerName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedCallerName
+          JsName:          localizedCallerName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLocalizedCallerName:'
+          JsName:          setLocalizedCallerName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            remoteHandle
+        JsName:          remoteHandle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            remoteHandle
+          JsName:          remoteHandle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CXHandle
+              WithProtocols:   
+        Setter:          
+          Name:            'setRemoteHandle:'
+          JsName:          setRemoteHandle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CXHandle
+              WithProtocols:   
+      - Name:            supportsDTMF
+        JsName:          supportsDTMF
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsDTMF
+          JsName:          supportsDTMF
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsDTMF:'
+          JsName:          setSupportsDTMF
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            supportsGrouping
+        JsName:          supportsGrouping
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsGrouping
+          JsName:          supportsGrouping
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsGrouping:'
+          JsName:          setSupportsGrouping
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            supportsHolding
+        JsName:          supportsHolding
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsHolding
+          JsName:          supportsHolding
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsHolding:'
+          JsName:          setSupportsHolding
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            supportsUngrouping
+        JsName:          supportsUngrouping
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+        Module:          
+          FullName:        CallKit.CXCallUpdate
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsUngrouping
+          JsName:          supportsUngrouping
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsUngrouping:'
+          JsName:          setSupportsUngrouping
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h
+          Module:          
+            FullName:        CallKit.CXCallUpdate
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            CXEndCallAction
+    JsName:          CXEndCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXEndCallAction.h
+    Module:          
+      FullName:        CallKit.CXEndCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'fulfillWithDateEnded:'
+        JsName:          fulfillWithDateEnded
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXEndCallAction.h
+        Module:          
+          FullName:        CallKit.CXEndCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXErrorCode
+    JsName:          CXErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXErrorCodeUnknownError: '0'
+      - CXErrorCodeUnentitled: '1'
+      - CXErrorCodeInvalidArgument: '2'
+    SwiftNameFields: 
+      - UnknownError:    '0'
+      - Unentitled:      '1'
+      - InvalidArgument: '2'
+  - Name:            CXErrorCodeCallDirectoryManagerError
+    JsName:          CXErrorCodeCallDirectoryManagerError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXErrorCodeCallDirectoryManagerErrorUnknown: '0'
+      - CXErrorCodeCallDirectoryManagerErrorNoExtensionFound: '1'
+      - CXErrorCodeCallDirectoryManagerErrorLoadingInterrupted: '2'
+      - CXErrorCodeCallDirectoryManagerErrorEntriesOutOfOrder: '3'
+      - CXErrorCodeCallDirectoryManagerErrorDuplicateEntries: '4'
+      - CXErrorCodeCallDirectoryManagerErrorMaximumEntriesExceeded: '5'
+      - CXErrorCodeCallDirectoryManagerErrorExtensionDisabled: '6'
+      - CXErrorCodeCallDirectoryManagerErrorCurrentlyLoading: '7'
+      - CXErrorCodeCallDirectoryManagerErrorUnexpectedIncrementalRemoval: '8'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - NoExtensionFound: '1'
+      - LoadingInterrupted: '2'
+      - EntriesOutOfOrder: '3'
+      - DuplicateEntries: '4'
+      - MaximumEntriesExceeded: '5'
+      - ExtensionDisabled: '6'
+      - CurrentlyLoading: '7'
+      - UnexpectedIncrementalRemoval: '8'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorCurrentlyLoading
+    JsName:          CXErrorCodeCallDirectoryManagerErrorCurrentlyLoading
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorDuplicateEntries
+    JsName:          CXErrorCodeCallDirectoryManagerErrorDuplicateEntries
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorEntriesOutOfOrder
+    JsName:          CXErrorCodeCallDirectoryManagerErrorEntriesOutOfOrder
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorExtensionDisabled
+    JsName:          CXErrorCodeCallDirectoryManagerErrorExtensionDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorLoadingInterrupted
+    JsName:          CXErrorCodeCallDirectoryManagerErrorLoadingInterrupted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorMaximumEntriesExceeded
+    JsName:          CXErrorCodeCallDirectoryManagerErrorMaximumEntriesExceeded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorNoExtensionFound
+    JsName:          CXErrorCodeCallDirectoryManagerErrorNoExtensionFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorUnexpectedIncrementalRemoval
+    JsName:          CXErrorCodeCallDirectoryManagerErrorUnexpectedIncrementalRemoval
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            CXErrorCodeCallDirectoryManagerErrorUnknown
+    JsName:          CXErrorCodeCallDirectoryManagerErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CXErrorCodeIncomingCallError
+    JsName:          CXErrorCodeIncomingCallError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXErrorCodeIncomingCallErrorUnknown: '0'
+      - CXErrorCodeIncomingCallErrorUnentitled: '1'
+      - CXErrorCodeIncomingCallErrorCallUUIDAlreadyExists: '2'
+      - CXErrorCodeIncomingCallErrorFilteredByDoNotDisturb: '3'
+      - CXErrorCodeIncomingCallErrorFilteredByBlockList: '4'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - Unentitled:      '1'
+      - CallUUIDAlreadyExists: '2'
+      - FilteredByDoNotDisturb: '3'
+      - FilteredByBlockList: '4'
+  - Name:            CXErrorCodeIncomingCallErrorCallUUIDAlreadyExists
+    JsName:          CXErrorCodeIncomingCallErrorCallUUIDAlreadyExists
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXErrorCodeIncomingCallErrorFilteredByBlockList
+    JsName:          CXErrorCodeIncomingCallErrorFilteredByBlockList
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CXErrorCodeIncomingCallErrorFilteredByDoNotDisturb
+    JsName:          CXErrorCodeIncomingCallErrorFilteredByDoNotDisturb
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXErrorCodeIncomingCallErrorUnentitled
+    JsName:          CXErrorCodeIncomingCallErrorUnentitled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXErrorCodeIncomingCallErrorUnknown
+    JsName:          CXErrorCodeIncomingCallErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CXErrorCodeInvalidArgument
+    JsName:          CXErrorCodeInvalidArgument
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXErrorCodeRequestTransactionError
+    JsName:          CXErrorCodeRequestTransactionError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXErrorCodeRequestTransactionErrorUnknown: '0'
+      - CXErrorCodeRequestTransactionErrorUnentitled: '1'
+      - CXErrorCodeRequestTransactionErrorUnknownCallProvider: '2'
+      - CXErrorCodeRequestTransactionErrorEmptyTransaction: '3'
+      - CXErrorCodeRequestTransactionErrorUnknownCallUUID: '4'
+      - CXErrorCodeRequestTransactionErrorCallUUIDAlreadyExists: '5'
+      - CXErrorCodeRequestTransactionErrorInvalidAction: '6'
+      - CXErrorCodeRequestTransactionErrorMaximumCallGroupsReached: '7'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - Unentitled:      '1'
+      - UnknownCallProvider: '2'
+      - EmptyTransaction: '3'
+      - UnknownCallUUID: '4'
+      - CallUUIDAlreadyExists: '5'
+      - InvalidAction:   '6'
+      - MaximumCallGroupsReached: '7'
+  - Name:            CXErrorCodeRequestTransactionErrorCallUUIDAlreadyExists
+    JsName:          CXErrorCodeRequestTransactionErrorCallUUIDAlreadyExists
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CXErrorCodeRequestTransactionErrorEmptyTransaction
+    JsName:          CXErrorCodeRequestTransactionErrorEmptyTransaction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXErrorCodeRequestTransactionErrorInvalidAction
+    JsName:          CXErrorCodeRequestTransactionErrorInvalidAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            CXErrorCodeRequestTransactionErrorMaximumCallGroupsReached
+    JsName:          CXErrorCodeRequestTransactionErrorMaximumCallGroupsReached
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            CXErrorCodeRequestTransactionErrorUnentitled
+    JsName:          CXErrorCodeRequestTransactionErrorUnentitled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXErrorCodeRequestTransactionErrorUnknown
+    JsName:          CXErrorCodeRequestTransactionErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CXErrorCodeRequestTransactionErrorUnknownCallProvider
+    JsName:          CXErrorCodeRequestTransactionErrorUnknownCallProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXErrorCodeRequestTransactionErrorUnknownCallUUID
+    JsName:          CXErrorCodeRequestTransactionErrorUnknownCallUUID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CXErrorCodeUnentitled
+    JsName:          CXErrorCodeUnentitled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXErrorCodeUnknownError
+    JsName:          CXErrorCodeUnknownError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CXErrorDomain
+    JsName:          CXErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CXErrorDomainCallDirectoryManager
+    JsName:          CXErrorDomainCallDirectoryManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CXErrorDomainIncomingCall
+    JsName:          CXErrorDomainIncomingCall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CXErrorDomainRequestTransaction
+    JsName:          CXErrorDomainRequestTransaction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXError.h
+    Module:          
+      FullName:        CallKit.CXError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CXHandle
+    JsName:          CXHandle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+    Module:          
+      FullName:        CallKit.CXHandle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithType:value:'
+        JsName:          initWithTypeValue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+        Module:          
+          FullName:        CallKit.CXHandle
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            CXHandleType
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'isEqualToHandle:'
+        JsName:          isEqualToHandle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+        Module:          
+          FullName:        CallKit.CXHandle
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          CXHandle
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+        Module:          
+          FullName:        CallKit.CXHandle
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+          Module:          
+            FullName:        CallKit.CXHandle
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CXHandleType
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+        Module:          
+          FullName:        CallKit.CXHandle
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+          Module:          
+            FullName:        CallKit.CXHandle
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CXHandleType
+    JsName:          CXHandleType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+    Module:          
+      FullName:        CallKit.CXHandle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXHandleTypeGeneric: '1'
+      - CXHandleTypePhoneNumber: '2'
+      - CXHandleTypeEmailAddress: '3'
+    SwiftNameFields: 
+      - Generic:         '1'
+      - PhoneNumber:     '2'
+      - EmailAddress:    '3'
+  - Name:            CXHandleTypeEmailAddress
+    JsName:          CXHandleTypeEmailAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+    Module:          
+      FullName:        CallKit.CXHandle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXHandleTypeGeneric
+    JsName:          CXHandleTypeGeneric
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+    Module:          
+      FullName:        CallKit.CXHandle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXHandleTypePhoneNumber
+    JsName:          CXHandleTypePhoneNumber
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h
+    Module:          
+      FullName:        CallKit.CXHandle
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXPlayDTMFCallAction
+    JsName:          CXPlayDTMFCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+    Module:          
+      FullName:        CallKit.CXPlayDTMFCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithCallUUID:digits:type:'
+        JsName:          initWithCallUUIDDigitsType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+        Module:          
+          FullName:        CallKit.CXPlayDTMFCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            CXPlayDTMFCallActionType
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            digits
+        JsName:          digits
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+        Module:          
+          FullName:        CallKit.CXPlayDTMFCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            digits
+          JsName:          digits
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+          Module:          
+            FullName:        CallKit.CXPlayDTMFCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setDigits:'
+          JsName:          setDigits
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+          Module:          
+            FullName:        CallKit.CXPlayDTMFCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+        Module:          
+          FullName:        CallKit.CXPlayDTMFCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+          Module:          
+            FullName:        CallKit.CXPlayDTMFCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CXPlayDTMFCallActionType
+        Setter:          
+          Name:            'setType:'
+          JsName:          setType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+          Module:          
+            FullName:        CallKit.CXPlayDTMFCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            CXPlayDTMFCallActionType
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXPlayDTMFCallActionType
+    JsName:          CXPlayDTMFCallActionType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+    Module:          
+      FullName:        CallKit.CXPlayDTMFCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CXPlayDTMFCallActionTypeSingleTone: '1'
+      - CXPlayDTMFCallActionTypeSoftPause: '2'
+      - CXPlayDTMFCallActionTypeHardPause: '3'
+    SwiftNameFields: 
+      - SingleTone:      '1'
+      - SoftPause:       '2'
+      - HardPause:       '3'
+  - Name:            CXPlayDTMFCallActionTypeHardPause
+    JsName:          CXPlayDTMFCallActionTypeHardPause
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+    Module:          
+      FullName:        CallKit.CXPlayDTMFCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CXPlayDTMFCallActionTypeSingleTone
+    JsName:          CXPlayDTMFCallActionTypeSingleTone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+    Module:          
+      FullName:        CallKit.CXPlayDTMFCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CXPlayDTMFCallActionTypeSoftPause
+    JsName:          CXPlayDTMFCallActionTypeSoftPause
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h
+    Module:          
+      FullName:        CallKit.CXPlayDTMFCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CXProvider
+    JsName:          CXProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithConfiguration:'
+        JsName:          initWithConfiguration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          CXProviderConfiguration
+            WithProtocols:   
+      - Name:            invalidate
+        JsName:          invalidate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'pendingCallActionsOfClass:withCallUUID:'
+        JsName:          pendingCallActionsOfClassWithCallUUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CXCallAction
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Class
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+      - Name:            'reportCallWithUUID:endedAtDate:reason:'
+        JsName:          reportCallWithUUIDEndedAtDateReason
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+          - Type:            Enum
+            Name:            CXCallEndedReason
+      - Name:            'reportCallWithUUID:updated:'
+        JsName:          reportCallWithUUIDUpdated
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXCallUpdate
+            WithProtocols:   
+      - Name:            'reportNewIncomingCallWithUUID:update:completion:'
+        JsName:          reportNewIncomingCallWithUUIDUpdateCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXCallUpdate
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'reportOutgoingCallWithUUID:connectedAtDate:'
+        JsName:          reportOutgoingCallWithUUIDConnectedAtDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'reportOutgoingCallWithUUID:startedConnectingAtDate:'
+        JsName:          reportOutgoingCallWithUUIDStartedConnectingAtDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'setDelegate:queue:'
+        JsName:          setDelegateQueue
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - CXProviderDelegate
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            configuration
+        JsName:          configuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            configuration
+          JsName:          configuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+          Module:          
+            FullName:        CallKit.CXProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CXProviderConfiguration
+              WithProtocols:   
+        Setter:          
+          Name:            'setConfiguration:'
+          JsName:          setConfiguration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+          Module:          
+            FullName:        CallKit.CXProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CXProviderConfiguration
+              WithProtocols:   
+      - Name:            pendingTransactions
+        JsName:          pendingTransactions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pendingTransactions
+          JsName:          pendingTransactions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+          Module:          
+            FullName:        CallKit.CXProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CXTransaction
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            CXProviderConfiguration
+    JsName:          CXProviderConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+    Module:          
+      FullName:        CallKit.CXProviderConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithLocalizedName:'
+        JsName:          initWithLocalizedName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            iconTemplateImageData
+        JsName:          iconTemplateImageData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            iconTemplateImageData
+          JsName:          iconTemplateImageData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+        Setter:          
+          Name:            'setIconTemplateImageData:'
+          JsName:          setIconTemplateImageData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            includesCallsInRecents
+        JsName:          includesCallsInRecents
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            includesCallsInRecents
+          JsName:          includesCallsInRecents
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIncludesCallsInRecents:'
+          JsName:          setIncludesCallsInRecents
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            localizedName
+        JsName:          localizedName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedName
+          JsName:          localizedName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            maximumCallGroups
+        JsName:          maximumCallGroups
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumCallGroups
+          JsName:          maximumCallGroups
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setMaximumCallGroups:'
+          JsName:          setMaximumCallGroups
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            maximumCallsPerCallGroup
+        JsName:          maximumCallsPerCallGroup
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumCallsPerCallGroup
+          JsName:          maximumCallsPerCallGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setMaximumCallsPerCallGroup:'
+          JsName:          setMaximumCallsPerCallGroup
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            ringtoneSound
+        JsName:          ringtoneSound
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            ringtoneSound
+          JsName:          ringtoneSound
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setRingtoneSound:'
+          JsName:          setRingtoneSound
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            supportedHandleTypes
+        JsName:          supportedHandleTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportedHandleTypes
+          JsName:          supportedHandleTypes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setSupportedHandleTypes:'
+          JsName:          setSupportedHandleTypes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            supportsVideo
+        JsName:          supportsVideo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+        Module:          
+          FullName:        CallKit.CXProviderConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsVideo
+          JsName:          supportsVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSupportsVideo:'
+          JsName:          setSupportsVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h
+          Module:          
+            FullName:        CallKit.CXProviderConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            CXProviderDelegate
+    JsName:          CXProviderDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+    Module:          
+      FullName:        CallKit.CXProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'provider:didActivateAudioSession:'
+        JsName:          providerDidActivateAudioSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          AVAudioSession
+            WithProtocols:   
+      - Name:            'providerDidBegin:'
+        JsName:          providerDidBegin
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+      - Name:            'provider:didDeactivateAudioSession:'
+        JsName:          providerDidDeactivateAudioSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          AVAudioSession
+            WithProtocols:   
+      - Name:            'providerDidReset:'
+        JsName:          providerDidReset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+      - Name:            'provider:executeTransaction:'
+        JsName:          providerExecuteTransaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXTransaction
+            WithProtocols:   
+      - Name:            'provider:performAnswerCallAction:'
+        JsName:          providerPerformAnswerCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXAnswerCallAction
+            WithProtocols:   
+      - Name:            'provider:performEndCallAction:'
+        JsName:          providerPerformEndCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXEndCallAction
+            WithProtocols:   
+      - Name:            'provider:performPlayDTMFCallAction:'
+        JsName:          providerPerformPlayDTMFCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXPlayDTMFCallAction
+            WithProtocols:   
+      - Name:            'provider:performSetGroupCallAction:'
+        JsName:          providerPerformSetGroupCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXSetGroupCallAction
+            WithProtocols:   
+      - Name:            'provider:performSetHeldCallAction:'
+        JsName:          providerPerformSetHeldCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXSetHeldCallAction
+            WithProtocols:   
+      - Name:            'provider:performSetMutedCallAction:'
+        JsName:          providerPerformSetMutedCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXSetMutedCallAction
+            WithProtocols:   
+      - Name:            'provider:performStartCallAction:'
+        JsName:          providerPerformStartCallAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXStartCallAction
+            WithProtocols:   
+      - Name:            'provider:timedOutPerformingAction:'
+        JsName:          providerTimedOutPerformingAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h
+        Module:          
+          FullName:        CallKit.CXProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXProvider
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXAction
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CXSetGroupCallAction
+    JsName:          CXSetGroupCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h
+    Module:          
+      FullName:        CallKit.CXSetGroupCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithCallUUID:callUUIDToGroupWith:'
+        JsName:          initWithCallUUIDCallUUIDToGroupWith
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetGroupCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            callUUIDToGroupWith
+        JsName:          callUUIDToGroupWith
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetGroupCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callUUIDToGroupWith
+          JsName:          callUUIDToGroupWith
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetGroupCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+        Setter:          
+          Name:            'setCallUUIDToGroupWith:'
+          JsName:          setCallUUIDToGroupWith
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetGroupCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXSetHeldCallAction
+    JsName:          CXSetHeldCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h
+    Module:          
+      FullName:        CallKit.CXSetHeldCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithCallUUID:onHold:'
+        JsName:          initWithCallUUIDOnHold
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetHeldCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            onHold
+        JsName:          onHold
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetHeldCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isOnHold
+          JsName:          isOnHold
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetHeldCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setOnHold:'
+          JsName:          setOnHold
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetHeldCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXSetMutedCallAction
+    JsName:          CXSetMutedCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h
+    Module:          
+      FullName:        CallKit.CXSetMutedCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithCallUUID:muted:'
+        JsName:          initWithCallUUIDMuted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetMutedCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            muted
+        JsName:          muted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h
+        Module:          
+          FullName:        CallKit.CXSetMutedCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMuted
+          JsName:          isMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetMutedCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setMuted:'
+          JsName:          setMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h
+          Module:          
+            FullName:        CallKit.CXSetMutedCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXStartCallAction
+    JsName:          CXStartCallAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+    Module:          
+      FullName:        CallKit.CXStartCallAction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'fulfillWithDateStarted:'
+        JsName:          fulfillWithDateStarted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+        Module:          
+          FullName:        CallKit.CXStartCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'initWithCallUUID:handle:'
+        JsName:          initWithCallUUIDHandle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+        Module:          
+          FullName:        CallKit.CXStartCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CXHandle
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            contactIdentifier
+        JsName:          contactIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+        Module:          
+          FullName:        CallKit.CXStartCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contactIdentifier
+          JsName:          contactIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setContactIdentifier:'
+          JsName:          setContactIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            handle
+        JsName:          handle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+        Module:          
+          FullName:        CallKit.CXStartCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            handle
+          JsName:          handle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CXHandle
+              WithProtocols:   
+        Setter:          
+          Name:            'setHandle:'
+          JsName:          setHandle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CXHandle
+              WithProtocols:   
+      - Name:            video
+        JsName:          video
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+        Module:          
+          FullName:        CallKit.CXStartCallAction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isVideo
+          JsName:          isVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setVideo:'
+          JsName:          setVideo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h
+          Module:          
+            FullName:        CallKit.CXStartCallAction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            CXCallAction
+  - Name:            CXTransaction
+    JsName:          CXTransaction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+    Module:          
+      FullName:        CallKit.CXTransaction
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAction:'
+        JsName:          addAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CXAction
+            WithProtocols:   
+      - Name:            'initWithAction:'
+        JsName:          initWithAction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          CXAction
+            WithProtocols:   
+      - Name:            'initWithActions:'
+        JsName:          initWithActions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          CXAction
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            actions
+        JsName:          actions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            actions
+          JsName:          actions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+          Module:          
+            FullName:        CallKit.CXTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CXAction
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            complete
+        JsName:          complete
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isComplete
+          JsName:          isComplete
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+          Module:          
+            FullName:        CallKit.CXTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            UUID
+        JsName:          UUID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+        Module:          
+          FullName:        CallKit.CXTransaction
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            UUID
+          JsName:          UUID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h
+          Module:          
+            FullName:        CallKit.CXTransaction
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+...

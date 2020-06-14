@@ -1,0 +1,2117 @@
+---
+Module:          
+  FullName:        ClassKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ClassKit
+      IsFramework:     true
+Items:           
+  - Name:            CLSActivity
+    JsName:          CLSActivity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+    Module:          
+      FullName:        ClassKit.CLSActivity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addAdditionalActivityItem:'
+        JsName:          addAdditionalActivityItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CLSActivityItem
+            WithProtocols:   
+      - Name:            'addProgressRangeFromStart:toEnd:'
+        JsName:          addProgressRangeFromStartToEnd
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Double
+          - Type:            Double
+      - Name:            start
+        JsName:          start
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stop
+        JsName:          stop
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            additionalActivityItems
+        JsName:          additionalActivityItems
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            additionalActivityItems
+          JsName:          additionalActivityItems
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          CLSActivityItem
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            duration
+        JsName:          duration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            duration
+          JsName:          duration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            primaryActivityItem
+        JsName:          primaryActivityItem
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            primaryActivityItem
+          JsName:          primaryActivityItem
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSActivityItem
+              WithProtocols:   
+        Setter:          
+          Name:            'setPrimaryActivityItem:'
+          JsName:          setPrimaryActivityItem
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          CLSActivityItem
+              WithProtocols:   
+      - Name:            progress
+        JsName:          progress
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            progress
+          JsName:          progress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setProgress:'
+          JsName:          setProgress
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            started
+        JsName:          started
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isStarted
+          JsName:          isStarted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSObject
+  - Name:            CLSActivityItem
+    JsName:          CLSActivityItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+    Module:          
+      FullName:        ClassKit.CLSActivityItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+        Module:          
+          FullName:        ClassKit.CLSActivityItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+          Module:          
+            FullName:        ClassKit.CLSActivityItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            title
+        JsName:          title
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+        Module:          
+          FullName:        ClassKit.CLSActivityItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            title
+          JsName:          title
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+          Module:          
+            FullName:        ClassKit.CLSActivityItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTitle:'
+          JsName:          setTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h
+          Module:          
+            FullName:        ClassKit.CLSActivityItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSObject
+  - Name:            CLSBinaryItem
+    JsName:          CLSBinaryItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:title:type:'
+        JsName:          initWithIdentifierTitleType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+        Module:          
+          FullName:        ClassKit.CLSBinaryItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            CLSBinaryValueType
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            value
+        JsName:          value
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+        Module:          
+          FullName:        ClassKit.CLSBinaryItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            value
+          JsName:          value
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+          Module:          
+            FullName:        ClassKit.CLSBinaryItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setValue:'
+          JsName:          setValue
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+          Module:          
+            FullName:        ClassKit.CLSBinaryItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            valueType
+        JsName:          valueType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+        Module:          
+          FullName:        ClassKit.CLSBinaryItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            valueType
+          JsName:          valueType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+          Module:          
+            FullName:        ClassKit.CLSBinaryItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CLSBinaryValueType
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSActivityItem
+  - Name:            CLSBinaryValueType
+    JsName:          CLSBinaryValueType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CLSBinaryValueTypeTrueFalse: '0'
+      - CLSBinaryValueTypePassFail: '1'
+      - CLSBinaryValueTypeYesNo: '2'
+      - CLSBinaryValueTypeCorrectIncorrect: '3'
+    SwiftNameFields: 
+      - TrueFalse:       '0'
+      - PassFail:        '1'
+      - YesNo:           '2'
+      - CorrectIncorrect: '3'
+  - Name:            CLSBinaryValueTypeCorrectIncorrect
+    JsName:          CLSBinaryValueTypeCorrectIncorrect
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLSBinaryValueTypePassFail
+    JsName:          CLSBinaryValueTypePassFail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLSBinaryValueTypeTrueFalse
+    JsName:          CLSBinaryValueTypeTrueFalse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLSBinaryValueTypeYesNo
+    JsName:          CLSBinaryValueTypeYesNo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h
+    Module:          
+      FullName:        ClassKit.CLSBinaryItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLSContext
+    JsName:          CLSContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            becomeActive
+        JsName:          becomeActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithType:identifier:title:'
+        JsName:          initWithTypeIdentifierTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            CLSContextType
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            resignActive
+        JsName:          resignActive
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'addChildContext:'
+        JsName:          addChildContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CLSContext
+            WithProtocols:   
+      - Name:            'descendantMatchingIdentifierPath:completion:'
+        JsName:          descendantMatchingIdentifierPathCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          CLSContext
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            removeFromParent
+        JsName:          removeFromParent
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            createNewActivity
+        JsName:          createNewActivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          CLSActivity
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            active
+        JsName:          active
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isActive
+          JsName:          isActive
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            displayOrder
+        JsName:          displayOrder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayOrder
+          JsName:          displayOrder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+        Setter:          
+          Name:            'setDisplayOrder:'
+          JsName:          setDisplayOrder
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Int
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            title
+        JsName:          title
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            title
+          JsName:          title
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTitle:'
+          JsName:          setTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            topic
+        JsName:          topic
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            topic
+          JsName:          topic
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTopic:'
+          JsName:          setTopic
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            CLSContextType
+      - Name:            universalLinkURL
+        JsName:          universalLinkURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.4
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            universalLinkURL
+          JsName:          universalLinkURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.4
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setUniversalLinkURL:'
+          JsName:          setUniversalLinkURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.4
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            parent
+        JsName:          parent
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+        Module:          
+          FullName:        ClassKit.CLSContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            parent
+          JsName:          parent
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+          Module:          
+            FullName:        ClassKit.CLSContext
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSContext
+              WithProtocols:   
+      - Name:            currentActivity
+        JsName:          currentActivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+        Module:          
+          FullName:        ClassKit.CLSActivity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            currentActivity
+          JsName:          currentActivity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h
+          Module:          
+            FullName:        ClassKit.CLSActivity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSActivity
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSObject
+  - Name:            CLSContextProvider
+    JsName:          CLSContextProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContextProvider.h
+    Module:          
+      FullName:        ClassKit.CLSContextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'updateDescendantsOfContext:completion:'
+        JsName:          updateDescendantsOfContextCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContextProvider.h
+        Module:          
+          FullName:        ClassKit.CLSContextProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CLSContext
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+  - Name:            CLSContextTopicArtsAndMusic
+    JsName:          CLSContextTopicArtsAndMusic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicComputerScienceAndEngineering
+    JsName:          CLSContextTopicComputerScienceAndEngineering
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicHealthAndFitness
+    JsName:          CLSContextTopicHealthAndFitness
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicLiteracyAndWriting
+    JsName:          CLSContextTopicLiteracyAndWriting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicMath
+    JsName:          CLSContextTopicMath
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicScience
+    JsName:          CLSContextTopicScience
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicSocialScience
+    JsName:          CLSContextTopicSocialScience
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextTopicWorldLanguage
+    JsName:          CLSContextTopicWorldLanguage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSContextType
+    JsName:          CLSContextType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CLSContextTypeNone: '0'
+      - CLSContextTypeApp: '1'
+      - CLSContextTypeChapter: '2'
+      - CLSContextTypeSection: '3'
+      - CLSContextTypeLevel: '4'
+      - CLSContextTypePage: '5'
+      - CLSContextTypeTask: '6'
+      - CLSContextTypeChallenge: '7'
+      - CLSContextTypeQuiz: '8'
+      - CLSContextTypeExercise: '9'
+      - CLSContextTypeLesson: '10'
+      - CLSContextTypeBook: '11'
+      - CLSContextTypeGame: '12'
+      - CLSContextTypeDocument: '13'
+      - CLSContextTypeAudio: '14'
+      - CLSContextTypeVideo: '15'
+    SwiftNameFields: 
+      - None:            '0'
+      - App:             '1'
+      - Chapter:         '2'
+      - Section:         '3'
+      - Level:           '4'
+      - Page:            '5'
+      - Task:            '6'
+      - Challenge:       '7'
+      - Quiz:            '8'
+      - Exercise:        '9'
+      - Lesson:          '10'
+      - Book:            '11'
+      - Game:            '12'
+      - Document:        '13'
+      - Audio:           '14'
+      - Video:           '15'
+  - Name:            CLSContextTypeApp
+    JsName:          CLSContextTypeApp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLSContextTypeAudio
+    JsName:          CLSContextTypeAudio
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            CLSContextTypeBook
+    JsName:          CLSContextTypeBook
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            CLSContextTypeChallenge
+    JsName:          CLSContextTypeChallenge
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            CLSContextTypeChapter
+    JsName:          CLSContextTypeChapter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLSContextTypeDocument
+    JsName:          CLSContextTypeDocument
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            CLSContextTypeExercise
+    JsName:          CLSContextTypeExercise
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            CLSContextTypeGame
+    JsName:          CLSContextTypeGame
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            CLSContextTypeLesson
+    JsName:          CLSContextTypeLesson
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            CLSContextTypeLevel
+    JsName:          CLSContextTypeLevel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CLSContextTypeNone
+    JsName:          CLSContextTypeNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLSContextTypePage
+    JsName:          CLSContextTypePage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CLSContextTypeQuiz
+    JsName:          CLSContextTypeQuiz
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            CLSContextTypeSection
+    JsName:          CLSContextTypeSection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLSContextTypeTask
+    JsName:          CLSContextTypeTask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            CLSContextTypeVideo
+    JsName:          CLSContextTypeVideo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h
+    Module:          
+      FullName:        ClassKit.CLSContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            CLSDataStore
+    JsName:          CLSDataStore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+    Module:          
+      FullName:        ClassKit.CLSDataStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'completeAllAssignedActivitiesMatching:'
+        JsName:          completeAllAssignedActivitiesMatching
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'saveWithCompletion:'
+        JsName:          saveWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'contextsMatchingIdentifierPath:completion:'
+        JsName:          contextsMatchingIdentifierPathCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          CLSContext
+                    WithProtocols:   
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'contextsMatchingPredicate:completion:'
+        JsName:          contextsMatchingPredicateCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSPredicate
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          CLSContext
+                    WithProtocols:   
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'removeContext:'
+        JsName:          removeContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          CLSContext
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            activeContext
+        JsName:          activeContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            activeContext
+          JsName:          activeContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSContext
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - CLSDataStoreDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - CLSDataStoreDelegate
+      - Name:            mainAppContext
+        JsName:          mainAppContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mainAppContext
+          JsName:          mainAppContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSContext
+              WithProtocols:   
+      - Name:            runningActivity
+        JsName:          runningActivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            runningActivity
+          JsName:          runningActivity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSActivity
+              WithProtocols:   
+    StaticProperties: 
+      - Name:            shared
+        JsName:          shared
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shared
+          JsName:          shared
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+          Module:          
+            FullName:        ClassKit.CLSDataStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          CLSDataStore
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            CLSDataStoreDelegate
+    JsName:          CLSDataStoreDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+    Module:          
+      FullName:        ClassKit.CLSDataStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'createContextForIdentifier:parentContext:parentIdentifierPath:'
+        JsName:          createContextForIdentifierParentContextParentIdentifierPath
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h
+        Module:          
+          FullName:        ClassKit.CLSDataStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          CLSContext
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          CLSContext
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            CLSErrorCode
+    JsName:          CLSErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CLSErrorCodeNone: '0'
+      - CLSErrorCodeClassKitUnavailable: '1'
+      - CLSErrorCodeInvalidArgument: '2'
+      - CLSErrorCodeInvalidModification: '3'
+      - CLSErrorCodeAuthorizationDenied: '4'
+      - CLSErrorCodeDatabaseInaccessible: '5'
+      - CLSErrorCodeLimits: '6'
+      - CLSErrorCodeInvalidCreate: '7'
+      - CLSErrorCodeInvalidUpdate: '8'
+      - CLSErrorCodePartialFailure: '9'
+    SwiftNameFields: 
+      - None:            '0'
+      - ClassKitUnavailable: '1'
+      - InvalidArgument: '2'
+      - InvalidModification: '3'
+      - AuthorizationDenied: '4'
+      - DatabaseInaccessible: '5'
+      - Limits:          '6'
+      - InvalidCreate:   '7'
+      - InvalidUpdate:   '8'
+      - PartialFailure:  '9'
+  - Name:            CLSErrorCodeAuthorizationDenied
+    JsName:          CLSErrorCodeAuthorizationDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CLSErrorCodeClassKitUnavailable
+    JsName:          CLSErrorCodeClassKitUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLSErrorCodeDatabaseInaccessible
+    JsName:          CLSErrorCodeDatabaseInaccessible
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CLSErrorCodeDomain
+    JsName:          CLSErrorCodeDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSErrorCodeInvalidArgument
+    JsName:          CLSErrorCodeInvalidArgument
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLSErrorCodeInvalidCreate
+    JsName:          CLSErrorCodeInvalidCreate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            CLSErrorCodeInvalidModification
+    JsName:          CLSErrorCodeInvalidModification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLSErrorCodeInvalidUpdate
+    JsName:          CLSErrorCodeInvalidUpdate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            CLSErrorCodeLimits
+    JsName:          CLSErrorCodeLimits
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            CLSErrorCodeNone
+    JsName:          CLSErrorCodeNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLSErrorCodePartialFailure
+    JsName:          CLSErrorCodePartialFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            CLSErrorObjectKey
+    JsName:          CLSErrorObjectKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSErrorUnderlyingErrorsKey
+    JsName:          CLSErrorUnderlyingErrorsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSObject
+    JsName:          CLSObject
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h
+    Module:          
+      FullName:        ClassKit.CLSObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            dateCreated
+        JsName:          dateCreated
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h
+        Module:          
+          FullName:        ClassKit.CLSObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dateCreated
+          JsName:          dateCreated
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h
+          Module:          
+            FullName:        ClassKit.CLSObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            dateLastModified
+        JsName:          dateLastModified
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h
+        Module:          
+          FullName:        ClassKit.CLSObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dateLastModified
+          JsName:          dateLastModified
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h
+          Module:          
+            FullName:        ClassKit.CLSObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            CLSPredicateKeyPathDateCreated
+    JsName:          CLSPredicateKeyPathDateCreated
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSPredicateKeyPathIdentifier
+    JsName:          CLSPredicateKeyPathIdentifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSPredicateKeyPathParent
+    JsName:          CLSPredicateKeyPathParent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSPredicateKeyPathTitle
+    JsName:          CLSPredicateKeyPathTitle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSPredicateKeyPathTopic
+    JsName:          CLSPredicateKeyPathTopic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSPredicateKeyPathUniversalLinkURL
+    JsName:          CLSPredicateKeyPathUniversalLinkURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h
+    Module:          
+      FullName:        ClassKit.CLSDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            CLSQuantityItem
+    JsName:          CLSQuantityItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h
+    Module:          
+      FullName:        ClassKit.CLSQuantityItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:title:'
+        JsName:          initWithIdentifierTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h
+        Module:          
+          FullName:        ClassKit.CLSQuantityItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            quantity
+        JsName:          quantity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h
+        Module:          
+          FullName:        ClassKit.CLSQuantityItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            quantity
+          JsName:          quantity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h
+          Module:          
+            FullName:        ClassKit.CLSQuantityItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setQuantity:'
+          JsName:          setQuantity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h
+          Module:          
+            FullName:        ClassKit.CLSQuantityItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSActivityItem
+  - Name:            CLSScoreItem
+    JsName:          CLSScoreItem
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+    Module:          
+      FullName:        ClassKit.CLSScoreItem
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:title:score:maxScore:'
+        JsName:          initWithIdentifierTitleScoreMaxScore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+        Module:          
+          FullName:        ClassKit.CLSScoreItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Double
+          - Type:            Double
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            maxScore
+        JsName:          maxScore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+        Module:          
+          FullName:        ClassKit.CLSScoreItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maxScore
+          JsName:          maxScore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+          Module:          
+            FullName:        ClassKit.CLSScoreItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setMaxScore:'
+          JsName:          setMaxScore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+          Module:          
+            FullName:        ClassKit.CLSScoreItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            score
+        JsName:          score
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+        Module:          
+          FullName:        ClassKit.CLSScoreItem
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            score
+          JsName:          score
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+          Module:          
+            FullName:        ClassKit.CLSScoreItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setScore:'
+          JsName:          setScore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h
+          Module:          
+            FullName:        ClassKit.CLSScoreItem
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            CLSActivityItem
+...

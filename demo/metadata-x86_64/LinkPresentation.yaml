@@ -1,0 +1,611 @@
+---
+Module:          
+  FullName:        LinkPresentation
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         LinkPresentation
+      IsFramework:     true
+Items:           
+  - Name:            LPErrorCode
+    JsName:          LPErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - LPErrorUnknown:  '1'
+      - LPErrorMetadataFetchFailed: '2'
+      - LPErrorMetadataFetchCancelled: '3'
+      - LPErrorMetadataFetchTimedOut: '4'
+    SwiftNameFields: 
+      - Unknown:         '1'
+      - MetadataFetchFailed: '2'
+      - MetadataFetchCancelled: '3'
+      - MetadataFetchTimedOut: '4'
+  - Name:            LPErrorDomain
+    JsName:          LPErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            LPErrorMetadataFetchCancelled
+    JsName:          LPErrorMetadataFetchCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            LPErrorMetadataFetchFailed
+    JsName:          LPErrorMetadataFetchFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            LPErrorMetadataFetchTimedOut
+    JsName:          LPErrorMetadataFetchTimedOut
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            LPErrorUnknown
+    JsName:          LPErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPError.h
+    Module:          
+      FullName:        LinkPresentation.LPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            LPLinkMetadata
+    JsName:          LPLinkMetadata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+    Module:          
+      FullName:        LinkPresentation.LPLinkMetadata
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            iconProvider
+        JsName:          iconProvider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            iconProvider
+          JsName:          iconProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+        Setter:          
+          Name:            'setIconProvider:'
+          JsName:          setIconProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+      - Name:            imageProvider
+        JsName:          imageProvider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            imageProvider
+          JsName:          imageProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+        Setter:          
+          Name:            'setImageProvider:'
+          JsName:          setImageProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+      - Name:            originalURL
+        JsName:          originalURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            originalURL
+          JsName:          originalURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setOriginalURL:'
+          JsName:          setOriginalURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            remoteVideoURL
+        JsName:          remoteVideoURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            remoteVideoURL
+          JsName:          remoteVideoURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setRemoteVideoURL:'
+          JsName:          setRemoteVideoURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            title
+        JsName:          title
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            title
+          JsName:          title
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTitle:'
+          JsName:          setTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            URL
+        JsName:          URL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URL
+          JsName:          URL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setURL:'
+          JsName:          setURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            videoProvider
+        JsName:          videoProvider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            videoProvider
+          JsName:          videoProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+        Setter:          
+          Name:            'setVideoProvider:'
+          JsName:          setVideoProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkMetadata.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSItemProvider
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            LPLinkView
+    JsName:          LPLinkView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+    Module:          
+      FullName:        LinkPresentation.LPLinkView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithMetadata:'
+        JsName:          initWithMetadata
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          LPLinkMetadata
+            WithProtocols:   
+      - Name:            'initWithURL:'
+        JsName:          initWithURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+        Module:          
+          FullName:        LinkPresentation.LPLinkView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metadata
+          JsName:          metadata
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          LPLinkMetadata
+              WithProtocols:   
+        Setter:          
+          Name:            'setMetadata:'
+          JsName:          setMetadata
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPLinkView.h
+          Module:          
+            FullName:        LinkPresentation.LPLinkView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          LPLinkMetadata
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            LPMetadataProvider
+    JsName:          LPMetadataProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+    Module:          
+      FullName:        LinkPresentation.LPMetadataProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+        Module:          
+          FullName:        LinkPresentation.LPMetadataProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startFetchingMetadataForURL:completionHandler:'
+        JsName:          startFetchingMetadataForURLCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+        Module:          
+          FullName:        LinkPresentation.LPMetadataProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          LPLinkMetadata
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            shouldFetchSubresources
+        JsName:          shouldFetchSubresources
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+        Module:          
+          FullName:        LinkPresentation.LPMetadataProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldFetchSubresources
+          JsName:          shouldFetchSubresources
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+          Module:          
+            FullName:        LinkPresentation.LPMetadataProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShouldFetchSubresources:'
+          JsName:          setShouldFetchSubresources
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+          Module:          
+            FullName:        LinkPresentation.LPMetadataProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            timeout
+        JsName:          timeout
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+        Module:          
+          FullName:        LinkPresentation.LPMetadataProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeout
+          JsName:          timeout
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+          Module:          
+            FullName:        LinkPresentation.LPMetadataProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setTimeout:'
+          JsName:          setTimeout
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/LinkPresentation.framework/Headers/LPMetadataProvider.h
+          Module:          
+            FullName:        LinkPresentation.LPMetadataProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+...

@@ -1,0 +1,84 @@
+---
+Module:          
+  FullName:        HealthKitUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         HealthKitUI
+      IsFramework:     true
+Items:           
+  - Name:            HKActivityRingView
+    JsName:          HKActivityRingView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h
+    Module:          
+      FullName:        HealthKitUI.HKActivityRingView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setActivitySummary:animated:'
+        JsName:          setActivitySummaryAnimated
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h
+        Module:          
+          FullName:        HealthKitUI.HKActivityRingView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          HKActivitySummary
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            activitySummary
+        JsName:          activitySummary
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h
+        Module:          
+          FullName:        HealthKitUI.HKActivityRingView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            activitySummary
+          JsName:          activitySummary
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h
+          Module:          
+            FullName:        HealthKitUI.HKActivityRingView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          HKActivitySummary
+              WithProtocols:   
+        Setter:          
+          Name:            'setActivitySummary:'
+          JsName:          setActivitySummary
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h
+          Module:          
+            FullName:        HealthKitUI.HKActivityRingView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          HKActivitySummary
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+...

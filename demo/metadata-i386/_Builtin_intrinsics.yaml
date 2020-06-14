@@ -1,0 +1,298 @@
+---
+Module:          
+  FullName:        _Builtin_intrinsics
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            __loadu_si64
+    JsName:          __loadu_si64
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __v
+        Signature:       
+          Type:            LongLong
+  - Name:            __mm_load1_pd_struct
+    JsName:          __mm_load1_pd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_load1_ps_struct
+    JsName:          __mm_load1_ps_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Float
+  - Name:            __mm_load_sd_struct
+    JsName:          __mm_load_sd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_load_ss_struct
+    JsName:          __mm_load_ss_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Float
+  - Name:            __mm_loadh_pd_struct
+    JsName:          __mm_loadh_pd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_loadl_epi64_struct
+    JsName:          __mm_loadl_epi64_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            LongLong
+  - Name:            __mm_loadl_pd_struct
+    JsName:          __mm_loadl_pd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_store_sd_struct
+    JsName:          __mm_store_sd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_store_ss_struct
+    JsName:          __mm_store_ss_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Float
+  - Name:            __mm_storeh_pd_struct
+    JsName:          __mm_storeh_pd_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_storeh_pd_struct
+    JsName:          __mm_storeh_pd_structStruct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            Double
+  - Name:            __mm_storel_epi64_struct
+    JsName:          __mm_storel_epi64_struct
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            __u
+        Signature:       
+          Type:            LongLong
+  - Name:            _mm_clflush
+    JsName:          _mm_clflush
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            _mm_getcsr
+    JsName:          _mm_getcsr
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+  - Name:            _mm_lfence
+    JsName:          _mm_lfence
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            _mm_mfence
+    JsName:          _mm_mfence
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            _mm_pause
+    JsName:          _mm_pause
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/emmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse2
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            _mm_setcsr
+    JsName:          _mm_setcsr
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            UInt
+  - Name:            _mm_sfence
+    JsName:          _mm_sfence
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/xmmintrin.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.sse
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            posix_memalign
+    JsName:          posix_memalign
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/internal/metadata-generator/bin/../lib/clang/4.0.0/include/mm_malloc.h
+    Module:          
+      FullName:        _Builtin_intrinsics.intel.mm_malloc
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            ULong
+      - Type:            ULong
+...

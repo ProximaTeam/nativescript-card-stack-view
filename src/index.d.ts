@@ -35,7 +35,7 @@ export declare class CardStack extends CardStackCommon {
 }
 
 
-declare class CardStackPagerAdapterClassInner extends android.support.v4.view.PagerAdapter {
+declare class CardStackPagerAdapterClassInner extends androidx.viewpager.widget.PagerAdapter {
   private owner;
 
   constructor(owner: WeakRef<CardStack>);
@@ -55,7 +55,7 @@ declare class CardStackPagerAdapterClassInner extends android.support.v4.view.Pa
   restoreState(state: any, loader: any): void;
 }
 
-declare class CardStackPageChangedListener extends android.support.v4.view.ViewPager.SimpleOnPageChangeListener {
+declare class CardStackPageChangedListener extends androidx.viewpager.widget.ViewPager.SimpleOnPageChangeListener {
   private owner;
 
   constructor(owner: WeakRef<CardStack>);

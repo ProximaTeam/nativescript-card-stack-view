@@ -1,0 +1,2145 @@
+---
+Module:          
+  FullName:        ReplayKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ReplayKit
+      IsFramework:     true
+Items:           
+  - Name:            RPApplicationInfoBundleIdentifierKey
+    JsName:          RPApplicationInfoBundleIdentifierKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            RPBroadcastActivityViewController
+    JsName:          RPBroadcastActivityViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcast
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'loadBroadcastActivityViewControllerWithHandler:'
+        JsName:          loadBroadcastActivityViewControllerWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          RPBroadcastActivityViewController
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'loadBroadcastActivityViewControllerWithPreferredExtension:handler:'
+        JsName:          loadBroadcastActivityViewControllerWithPreferredExtensionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          RPBroadcastActivityViewController
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - RPBroadcastActivityViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - RPBroadcastActivityViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            RPBroadcastActivityViewControllerDelegate
+    JsName:          RPBroadcastActivityViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcast
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'broadcastActivityViewController:didFinishWithBroadcastController:error:'
+        JsName:          broadcastActivityViewControllerDidFinishWithBroadcastControllerError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPBroadcastActivityViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          RPBroadcastController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            RPBroadcastConfiguration
+    JsName:          RPBroadcastConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            clipDuration
+        JsName:          clipDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            clipDuration
+          JsName:          clipDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcastConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setClipDuration:'
+          JsName:          setClipDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcastConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            videoCompressionProperties
+        JsName:          videoCompressionProperties
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            videoCompressionProperties
+          JsName:          videoCompressionProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcastConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSObject
+                  WithProtocols:   
+                    - NSCoding
+                    - NSSecureCoding
+              WithProtocols:   
+        Setter:          
+          Name:            'setVideoCompressionProperties:'
+          JsName:          setVideoCompressionProperties
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcastConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSObject
+                  WithProtocols:   
+                    - NSCoding
+                    - NSSecureCoding
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCoding
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            RPBroadcastController
+    JsName:          RPBroadcastController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcast
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'finishBroadcastWithHandler:'
+        JsName:          finishBroadcastWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            pauseBroadcast
+        JsName:          pauseBroadcast
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            resumeBroadcast
+        JsName:          resumeBroadcast
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'startBroadcastWithHandler:'
+        JsName:          startBroadcastWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            broadcastExtensionBundleID
+        JsName:          broadcastExtensionBundleID
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            broadcastExtensionBundleID
+          JsName:          broadcastExtensionBundleID
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            broadcasting
+        JsName:          broadcasting
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isBroadcasting
+          JsName:          isBroadcasting
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            broadcastURL
+        JsName:          broadcastURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            broadcastURL
+          JsName:          broadcastURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - RPBroadcastControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - RPBroadcastControllerDelegate
+      - Name:            paused
+        JsName:          paused
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPaused
+          JsName:          isPaused
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            serviceInfo
+        JsName:          serviceInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serviceInfo
+          JsName:          serviceInfo
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSObject
+                  WithProtocols:   
+                    - NSCoding
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            RPBroadcastControllerDelegate
+    JsName:          RPBroadcastControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcast
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'broadcastController:didFinishWithError:'
+        JsName:          broadcastControllerDidFinishWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPBroadcastController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'broadcastController:didUpdateBroadcastURL:'
+        JsName:          broadcastControllerDidUpdateBroadcastURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPBroadcastController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            'broadcastController:didUpdateServiceInfo:'
+        JsName:          broadcastControllerDidUpdateServiceInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPBroadcastController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSObject
+                WithProtocols:   
+                  - NSCoding
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            RPBroadcastHandler
+    JsName:          RPBroadcastHandler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'updateBroadcastURL:'
+        JsName:          updateBroadcastURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+      - Name:            'updateServiceInfo:'
+        JsName:          updateServiceInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSObject
+                WithProtocols:   
+                  - NSCoding
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSExtensionRequestHandling
+    Base:            NSObject
+  - Name:            RPBroadcastMP4ClipHandler
+    JsName:          RPBroadcastMP4ClipHandler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'finishedProcessingMP4ClipWithUpdatedBroadcastConfiguration:error:'
+        JsName:          finishedProcessingMP4ClipWithUpdatedBroadcastConfigurationError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPBroadcastConfiguration
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'processMP4ClipWithURL:setupInfo:finished:'
+        JsName:          processMP4ClipWithURLSetupInfoFinished
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSObject
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            RPBroadcastHandler
+  - Name:            RPBroadcastSampleHandler
+    JsName:          RPBroadcastSampleHandler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'broadcastAnnotatedWithApplicationInfo:'
+        JsName:          broadcastAnnotatedWithApplicationInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+      - Name:            broadcastFinished
+        JsName:          broadcastFinished
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            broadcastPaused
+        JsName:          broadcastPaused
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            broadcastResumed
+        JsName:          broadcastResumed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'broadcastStartedWithSetupInfo:'
+        JsName:          broadcastStartedWithSetupInfo
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSObject
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'finishBroadcastWithError:'
+        JsName:          finishBroadcastWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'processSampleBuffer:withType:'
+        JsName:          processSampleBufferWithType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcastExtension
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Enum
+            Name:            RPSampleBufferType
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            RPBroadcastHandler
+  - Name:            RPCameraPosition
+    JsName:          RPCameraPosition
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+    Module:          
+      FullName:        ReplayKit.RPScreenRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - RPCameraPositionFront: '1'
+      - RPCameraPositionBack: '2'
+    SwiftNameFields: 
+      - Front:           '1'
+      - Back:            '2'
+  - Name:            RPCameraPositionBack
+    JsName:          RPCameraPositionBack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+    Module:          
+      FullName:        ReplayKit.RPScreenRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            RPCameraPositionFront
+    JsName:          RPCameraPositionFront
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+    Module:          
+      FullName:        ReplayKit.RPScreenRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            RPPreviewViewController
+    JsName:          RPPreviewViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+    Module:          
+      FullName:        ReplayKit.RPPreviewViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            previewControllerDelegate
+        JsName:          previewControllerDelegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+        Module:          
+          FullName:        ReplayKit.RPPreviewViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            previewControllerDelegate
+          JsName:          previewControllerDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+          Module:          
+            FullName:        ReplayKit.RPPreviewViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - RPPreviewViewControllerDelegate
+        Setter:          
+          Name:            'setPreviewControllerDelegate:'
+          JsName:          setPreviewControllerDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+          Module:          
+            FullName:        ReplayKit.RPPreviewViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - RPPreviewViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            RPPreviewViewControllerDelegate
+    JsName:          RPPreviewViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+    Module:          
+      FullName:        ReplayKit.RPPreviewViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'previewControllerDidFinish:'
+        JsName:          previewControllerDidFinish
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+        Module:          
+          FullName:        ReplayKit.RPPreviewViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPPreviewViewController
+            WithProtocols:   
+      - Name:            'previewController:didFinishWithActivityTypes:'
+        JsName:          previewControllerDidFinishWithActivityTypes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+        Module:          
+          FullName:        ReplayKit.RPPreviewViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPPreviewViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            RPPreviewViewControllerMode
+    JsName:          RPPreviewViewControllerMode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+    Module:          
+      FullName:        ReplayKit.RPPreviewViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - RPPreviewViewControllerModePreview: '0'
+      - RPPreviewViewControllerModeShare: '1'
+    SwiftNameFields: 
+      - Preview:         '0'
+      - Share:           '1'
+  - Name:            RPPreviewViewControllerModePreview
+    JsName:          RPPreviewViewControllerModePreview
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+    Module:          
+      FullName:        ReplayKit.RPPreviewViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            RPPreviewViewControllerModeShare
+    JsName:          RPPreviewViewControllerModeShare
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h
+    Module:          
+      FullName:        ReplayKit.RPPreviewViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            RPRecordingErrorActivePhoneCall
+    JsName:          RPRecordingErrorActivePhoneCall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5811'
+  - Name:            RPRecordingErrorAttemptToStartInRecordingState
+    JsName:          RPRecordingErrorAttemptToStartInRecordingState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5830'
+  - Name:            RPRecordingErrorAttemptToStopNonRecording
+    JsName:          RPRecordingErrorAttemptToStopNonRecording
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5829'
+  - Name:            RPRecordingErrorBroadcastInvalidSession
+    JsName:          RPRecordingErrorBroadcastInvalidSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5808'
+  - Name:            RPRecordingErrorBroadcastSetupFailed
+    JsName:          RPRecordingErrorBroadcastSetupFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5819'
+  - Name:            RPRecordingErrorCarPlay
+    JsName:          RPRecordingErrorCarPlay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5813'
+  - Name:            RPRecordingErrorCode
+    JsName:          RPRecordingErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - RPRecordingErrorUnknown: '-5800'
+      - RPRecordingErrorUserDeclined: '-5801'
+      - RPRecordingErrorDisabled: '-5802'
+      - RPRecordingErrorFailedToStart: '-5803'
+      - RPRecordingErrorFailed: '-5804'
+      - RPRecordingErrorInsufficientStorage: '-5805'
+      - RPRecordingErrorInterrupted: '-5806'
+      - RPRecordingErrorContentResize: '-5807'
+      - RPRecordingErrorBroadcastInvalidSession: '-5808'
+      - RPRecordingErrorSystemDormancy: '-5809'
+      - RPRecordingErrorEntitlements: '-5810'
+      - RPRecordingErrorActivePhoneCall: '-5811'
+      - RPRecordingErrorFailedToSave: '-5812'
+      - RPRecordingErrorCarPlay: '-5813'
+      - RPRecordingErrorFailedApplicationConnectionInvalid: '-5814'
+      - RPRecordingErrorFailedApplicationConnectionInterrupted: '-5815'
+      - RPRecordingErrorFailedNoMatchingApplicationContext: '-5816'
+      - RPRecordingErrorFailedMediaServicesFailure: '-5817'
+      - RPRecordingErrorVideoMixingFailure: '-5818'
+      - RPRecordingErrorBroadcastSetupFailed: '-5819'
+      - RPRecordingErrorFailedToObtainURL: '-5820'
+      - RPRecordingErrorFailedIncorrectTimeStamps: '-5821'
+      - RPRecordingErrorFailedToProcessFirstSample: '-5822'
+      - RPRecordingErrorFailedAssetWriterFailedToSave: '-5823'
+      - RPRecordingErrorFailedNoAssetWriter: '-5824'
+      - RPRecordingErrorFailedAssetWriterInWrongState: '-5825'
+      - RPRecordingErrorFailedAssetWriterExportFailed: '-5826'
+      - RPRecordingErrorFailedToRemoveFile: '-5827'
+      - RPRecordingErrorFailedAssetWriterExportCanceled: '-5828'
+      - RPRecordingErrorAttemptToStopNonRecording: '-5829'
+      - RPRecordingErrorAttemptToStartInRecordingState: '-5830'
+      - RPRecordingErrorPhotoFailure: '-5831'
+      - RPRecordingErrorRecordingInvalidSession: '-5832'
+      - RPRecordingErrorFailedToStartCaptureStack: '-5833'
+      - RPRecordingErrorCodeSuccessful: '0'
+    SwiftNameFields: 
+      - Unknown:         '-5800'
+      - UserDeclined:    '-5801'
+      - Disabled:        '-5802'
+      - FailedToStart:   '-5803'
+      - Failed:          '-5804'
+      - InsufficientStorage: '-5805'
+      - Interrupted:     '-5806'
+      - ContentResize:   '-5807'
+      - BroadcastInvalidSession: '-5808'
+      - SystemDormancy:  '-5809'
+      - Entitlements:    '-5810'
+      - ActivePhoneCall: '-5811'
+      - FailedToSave:    '-5812'
+      - CarPlay:         '-5813'
+      - FailedApplicationConnectionInvalid: '-5814'
+      - FailedApplicationConnectionInterrupted: '-5815'
+      - FailedNoMatchingApplicationContext: '-5816'
+      - FailedMediaServicesFailure: '-5817'
+      - VideoMixingFailure: '-5818'
+      - BroadcastSetupFailed: '-5819'
+      - FailedToObtainURL: '-5820'
+      - FailedIncorrectTimeStamps: '-5821'
+      - FailedToProcessFirstSample: '-5822'
+      - FailedAssetWriterFailedToSave: '-5823'
+      - FailedNoAssetWriter: '-5824'
+      - FailedAssetWriterInWrongState: '-5825'
+      - FailedAssetWriterExportFailed: '-5826'
+      - FailedToRemoveFile: '-5827'
+      - FailedAssetWriterExportCanceled: '-5828'
+      - AttemptToStopNonRecording: '-5829'
+      - AttemptToStartInRecordingState: '-5830'
+      - PhotoFailure:    '-5831'
+      - RecordingInvalidSession: '-5832'
+      - FailedToStartCaptureStack: '-5833'
+      - CodeSuccessful:  '0'
+  - Name:            RPRecordingErrorCodeSuccessful
+    JsName:          RPRecordingErrorCodeSuccessful
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            RPRecordingErrorContentResize
+    JsName:          RPRecordingErrorContentResize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5807'
+  - Name:            RPRecordingErrorDisabled
+    JsName:          RPRecordingErrorDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5802'
+  - Name:            RPRecordingErrorDomain
+    JsName:          RPRecordingErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            RPRecordingErrorEntitlements
+    JsName:          RPRecordingErrorEntitlements
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5810'
+  - Name:            RPRecordingErrorFailed
+    JsName:          RPRecordingErrorFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5804'
+  - Name:            RPRecordingErrorFailedApplicationConnectionInterrupted
+    JsName:          RPRecordingErrorFailedApplicationConnectionInterrupted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5815'
+  - Name:            RPRecordingErrorFailedApplicationConnectionInvalid
+    JsName:          RPRecordingErrorFailedApplicationConnectionInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5814'
+  - Name:            RPRecordingErrorFailedAssetWriterExportCanceled
+    JsName:          RPRecordingErrorFailedAssetWriterExportCanceled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5828'
+  - Name:            RPRecordingErrorFailedAssetWriterExportFailed
+    JsName:          RPRecordingErrorFailedAssetWriterExportFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5826'
+  - Name:            RPRecordingErrorFailedAssetWriterFailedToSave
+    JsName:          RPRecordingErrorFailedAssetWriterFailedToSave
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5823'
+  - Name:            RPRecordingErrorFailedAssetWriterInWrongState
+    JsName:          RPRecordingErrorFailedAssetWriterInWrongState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5825'
+  - Name:            RPRecordingErrorFailedIncorrectTimeStamps
+    JsName:          RPRecordingErrorFailedIncorrectTimeStamps
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5821'
+  - Name:            RPRecordingErrorFailedMediaServicesFailure
+    JsName:          RPRecordingErrorFailedMediaServicesFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5817'
+  - Name:            RPRecordingErrorFailedNoAssetWriter
+    JsName:          RPRecordingErrorFailedNoAssetWriter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5824'
+  - Name:            RPRecordingErrorFailedNoMatchingApplicationContext
+    JsName:          RPRecordingErrorFailedNoMatchingApplicationContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5816'
+  - Name:            RPRecordingErrorFailedToObtainURL
+    JsName:          RPRecordingErrorFailedToObtainURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5820'
+  - Name:            RPRecordingErrorFailedToProcessFirstSample
+    JsName:          RPRecordingErrorFailedToProcessFirstSample
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5822'
+  - Name:            RPRecordingErrorFailedToRemoveFile
+    JsName:          RPRecordingErrorFailedToRemoveFile
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5827'
+  - Name:            RPRecordingErrorFailedToSave
+    JsName:          RPRecordingErrorFailedToSave
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5812'
+  - Name:            RPRecordingErrorFailedToStart
+    JsName:          RPRecordingErrorFailedToStart
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5803'
+  - Name:            RPRecordingErrorFailedToStartCaptureStack
+    JsName:          RPRecordingErrorFailedToStartCaptureStack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5833'
+  - Name:            RPRecordingErrorInsufficientStorage
+    JsName:          RPRecordingErrorInsufficientStorage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5805'
+  - Name:            RPRecordingErrorInterrupted
+    JsName:          RPRecordingErrorInterrupted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5806'
+  - Name:            RPRecordingErrorPhotoFailure
+    JsName:          RPRecordingErrorPhotoFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5831'
+  - Name:            RPRecordingErrorRecordingInvalidSession
+    JsName:          RPRecordingErrorRecordingInvalidSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5832'
+  - Name:            RPRecordingErrorSystemDormancy
+    JsName:          RPRecordingErrorSystemDormancy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5809'
+  - Name:            RPRecordingErrorUnknown
+    JsName:          RPRecordingErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5800'
+  - Name:            RPRecordingErrorUserDeclined
+    JsName:          RPRecordingErrorUserDeclined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5801'
+  - Name:            RPRecordingErrorVideoMixingFailure
+    JsName:          RPRecordingErrorVideoMixingFailure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h
+    Module:          
+      FullName:        ReplayKit.RPError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5818'
+  - Name:            RPSampleBufferType
+    JsName:          RPSampleBufferType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - RPSampleBufferTypeVideo: '1'
+      - RPSampleBufferTypeAudioApp: '2'
+      - RPSampleBufferTypeAudioMic: '3'
+    SwiftNameFields: 
+      - Video:           '1'
+      - AudioApp:        '2'
+      - AudioMic:        '3'
+  - Name:            RPSampleBufferTypeAudioApp
+    JsName:          RPSampleBufferTypeAudioApp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            RPSampleBufferTypeAudioMic
+    JsName:          RPSampleBufferTypeAudioMic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            RPSampleBufferTypeVideo
+    JsName:          RPSampleBufferTypeVideo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            RPScreenRecorder
+    JsName:          RPScreenRecorder
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+    Module:          
+      FullName:        ReplayKit.RPScreenRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'discardRecordingWithHandler:'
+        JsName:          discardRecordingWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+      - Name:            'startCaptureWithHandler:completionHandler:'
+        JsName:          startCaptureWithHandlerCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            BridgedInterface
+                Name:            id
+                BridgedTo:       id
+              - Type:            Enum
+                Name:            RPSampleBufferType
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startRecordingWithHandler:'
+        JsName:          startRecordingWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'startRecordingWithMicrophoneEnabled:handler:'
+        JsName:          startRecordingWithMicrophoneEnabledHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'stopCaptureWithHandler:'
+        JsName:          stopCaptureWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'stopRecordingWithHandler:'
+        JsName:          stopRecordingWithHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          RPPreviewViewController
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+      - Name:            sharedRecorder
+        JsName:          sharedRecorder
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          RPScreenRecorder
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            available
+        JsName:          available
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAvailable
+          JsName:          isAvailable
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            cameraEnabled
+        JsName:          cameraEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isCameraEnabled
+          JsName:          isCameraEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCameraEnabled:'
+          JsName:          setCameraEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            cameraPosition
+        JsName:          cameraPosition
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cameraPosition
+          JsName:          cameraPosition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            RPCameraPosition
+        Setter:          
+          Name:            'setCameraPosition:'
+          JsName:          setCameraPosition
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            RPCameraPosition
+      - Name:            cameraPreviewView
+        JsName:          cameraPreviewView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cameraPreviewView
+          JsName:          cameraPreviewView
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - RPScreenRecorderDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - RPScreenRecorderDelegate
+      - Name:            microphoneEnabled
+        JsName:          microphoneEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMicrophoneEnabled
+          JsName:          isMicrophoneEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setMicrophoneEnabled:'
+          JsName:          setMicrophoneEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            recording
+        JsName:          recording
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isRecording
+          JsName:          isRecording
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+          Module:          
+            FullName:        ReplayKit.RPScreenRecorder
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            RPScreenRecorderDelegate
+    JsName:          RPScreenRecorderDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+    Module:          
+      FullName:        ReplayKit.RPScreenRecorder
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'screenRecorderDidChangeAvailability:'
+        JsName:          screenRecorderDidChangeAvailability
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPScreenRecorder
+            WithProtocols:   
+      - Name:            'screenRecorder:didStopRecordingWithError:previewViewController:'
+        JsName:          screenRecorderDidStopRecordingWithErrorPreviewViewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    9.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPScreenRecorder
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          RPPreviewViewController
+            WithProtocols:   
+      - Name:            'screenRecorder:didStopRecordingWithPreviewViewController:error:'
+        JsName:          screenRecorderDidStopRecordingWithPreviewViewControllerError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h
+        Module:          
+          FullName:        ReplayKit.RPScreenRecorder
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          RPScreenRecorder
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          RPPreviewViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            RPSystemBroadcastPickerView
+    JsName:          RPSystemBroadcastPickerView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcast
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            preferredExtension
+        JsName:          preferredExtension
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredExtension
+          JsName:          preferredExtension
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setPreferredExtension:'
+          JsName:          setPreferredExtension
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            showsMicrophoneButton
+        JsName:          showsMicrophoneButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+        Module:          
+          FullName:        ReplayKit.RPBroadcast
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            showsMicrophoneButton
+          JsName:          showsMicrophoneButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowsMicrophoneButton:'
+          JsName:          setShowsMicrophoneButton
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h
+          Module:          
+            FullName:        ReplayKit.RPBroadcast
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSCoding
+    Base:            UIView
+  - Name:            RPVideoSampleOrientationKey
+    JsName:          RPVideoSampleOrientationKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h
+    Module:          
+      FullName:        ReplayKit.RPBroadcastExtension
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

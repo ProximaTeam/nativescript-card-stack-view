@@ -1,0 +1,565 @@
+---
+Module:          
+  FullName:        BackgroundTasks
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         BackgroundTasks
+      IsFramework:     true
+Items:           
+  - Name:            BGAppRefreshTask
+    JsName:          BGAppRefreshTask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+    Module:          
+      FullName:        BackgroundTasks.BGTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            BGTask
+  - Name:            BGAppRefreshTaskRequest
+    JsName:          BGAppRefreshTaskRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:'
+        JsName:          initWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            BGTaskRequest
+  - Name:            BGProcessingTask
+    JsName:          BGProcessingTask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+    Module:          
+      FullName:        BackgroundTasks.BGTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            BGTask
+  - Name:            BGProcessingTaskRequest
+    JsName:          BGProcessingTaskRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:'
+        JsName:          initWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            requiresExternalPower
+        JsName:          requiresExternalPower
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requiresExternalPower
+          JsName:          requiresExternalPower
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setRequiresExternalPower:'
+          JsName:          setRequiresExternalPower
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            requiresNetworkConnectivity
+        JsName:          requiresNetworkConnectivity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requiresNetworkConnectivity
+          JsName:          requiresNetworkConnectivity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setRequiresNetworkConnectivity:'
+          JsName:          setRequiresNetworkConnectivity
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            BGTaskRequest
+  - Name:            BGTask
+    JsName:          BGTask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+    Module:          
+      FullName:        BackgroundTasks.BGTask
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setTaskCompletedWithSuccess:'
+        JsName:          setTaskCompletedWithSuccess
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+        Module:          
+          FullName:        BackgroundTasks.BGTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            expirationHandler
+        JsName:          expirationHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+        Module:          
+          FullName:        BackgroundTasks.BGTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            expirationHandler
+          JsName:          expirationHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+          Module:          
+            FullName:        BackgroundTasks.BGTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+        Setter:          
+          Name:            'setExpirationHandler:'
+          JsName:          setExpirationHandler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+          Module:          
+            FullName:        BackgroundTasks.BGTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+        Module:          
+          FullName:        BackgroundTasks.BGTask
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTask.h
+          Module:          
+            FullName:        BackgroundTasks.BGTask
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            BGTaskRequest
+    JsName:          BGTaskRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            earliestBeginDate
+        JsName:          earliestBeginDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            earliestBeginDate
+          JsName:          earliestBeginDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+        Setter:          
+          Name:            'setEarliestBeginDate:'
+          JsName:          setEarliestBeginDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskRequest.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            BGTaskScheduler
+    JsName:          BGTaskScheduler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancelAllTaskRequests
+        JsName:          cancelAllTaskRequests
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'cancelTaskRequestWithIdentifier:'
+        JsName:          cancelTaskRequestWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'getPendingTaskRequestsWithCompletionHandler:'
+        JsName:          getPendingTaskRequestsWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          BGTaskRequest
+                    WithProtocols:   
+                WithProtocols:   
+      - Name:            'registerForTaskWithIdentifier:usingQueue:launchHandler:'
+        JsName:          registerForTaskWithIdentifierUsingQueueLaunchHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [  ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          BGTask
+                WithProtocols:   
+      - Name:            'submitTaskRequest:error:'
+        JsName:          submitTaskRequestError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          BGTaskRequest
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+      - Name:            sharedScheduler
+        JsName:          sharedScheduler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+        Module:          
+          FullName:        BackgroundTasks.BGTaskScheduler
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sharedScheduler
+          JsName:          sharedScheduler
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+          Module:          
+            FullName:        BackgroundTasks.BGTaskScheduler
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          BGTaskScheduler
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            BGTaskSchedulerErrorCode
+    JsName:          BGTaskSchedulerErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - BGTaskSchedulerErrorCodeUnavailable: '1'
+      - BGTaskSchedulerErrorCodeTooManyPendingTaskRequests: '2'
+      - BGTaskSchedulerErrorCodeNotPermitted: '3'
+    SwiftNameFields: 
+      - Unavailable:     '1'
+      - TooManyPendingTaskRequests: '2'
+      - NotPermitted:    '3'
+  - Name:            BGTaskSchedulerErrorCodeNotPermitted
+    JsName:          BGTaskSchedulerErrorCodeNotPermitted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            BGTaskSchedulerErrorCodeTooManyPendingTaskRequests
+    JsName:          BGTaskSchedulerErrorCodeTooManyPendingTaskRequests
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            BGTaskSchedulerErrorCodeUnavailable
+    JsName:          BGTaskSchedulerErrorCodeUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            BGTaskSchedulerErrorDomain
+    JsName:          BGTaskSchedulerErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/BackgroundTasks.framework/Headers/BGTaskScheduler.h
+    Module:          
+      FullName:        BackgroundTasks.BGTaskScheduler
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

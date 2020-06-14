@@ -1,0 +1,3356 @@
+---
+Module:          
+  FullName:        AuthenticationServices
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AuthenticationServices
+      IsFramework:     true
+Items:           
+  - Name:            ASAuthorization
+    JsName:          ASAuthorization
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            credential
+        JsName:          credential
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorization
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            credential
+          JsName:          credential
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorization
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationCredential
+      - Name:            provider
+        JsName:          provider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorization
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            provider
+          JsName:          provider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorization
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationProvider
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASAuthorizationAppleIDButton
+    JsName:          ASAuthorizationAppleIDButton
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAuthorizationButtonType:authorizationButtonStyle:'
+        JsName:          initWithAuthorizationButtonTypeAuthorizationButtonStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            ASAuthorizationAppleIDButtonType
+          - Type:            Enum
+            Name:            ASAuthorizationAppleIDButtonStyle
+    StaticMethods:   
+      - Name:            'buttonWithType:style:'
+        JsName:          buttonWithTypeStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            ASAuthorizationAppleIDButtonType
+          - Type:            Enum
+            Name:            ASAuthorizationAppleIDButtonStyle
+    InstanceProperties: 
+      - Name:            cornerRadius
+        JsName:          cornerRadius
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cornerRadius
+          JsName:          cornerRadius
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setCornerRadius:'
+          JsName:          setCornerRadius
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            UIControl
+  - Name:            ASAuthorizationAppleIDButtonStyle
+    JsName:          ASAuthorizationAppleIDButtonStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASAuthorizationAppleIDButtonStyleWhite: '0'
+      - ASAuthorizationAppleIDButtonStyleWhiteOutline: '1'
+      - ASAuthorizationAppleIDButtonStyleBlack: '2'
+    SwiftNameFields: 
+      - White:           '0'
+      - WhiteOutline:    '1'
+      - Black:           '2'
+  - Name:            ASAuthorizationAppleIDButtonStyleBlack
+    JsName:          ASAuthorizationAppleIDButtonStyleBlack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASAuthorizationAppleIDButtonStyleWhite
+    JsName:          ASAuthorizationAppleIDButtonStyleWhite
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASAuthorizationAppleIDButtonStyleWhiteOutline
+    JsName:          ASAuthorizationAppleIDButtonStyleWhiteOutline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASAuthorizationAppleIDButtonType
+    JsName:          ASAuthorizationAppleIDButtonType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASAuthorizationAppleIDButtonTypeSignIn: '0'
+      - ASAuthorizationAppleIDButtonTypeContinue: '1'
+      - ASAuthorizationAppleIDButtonTypeSignUp: '2'
+      - ASAuthorizationAppleIDButtonTypeDefault: '0'
+    SwiftNameFields: 
+      - SignIn:          '0'
+      - Continue:        '1'
+      - SignUp:          '2'
+      - Default:         '0'
+  - Name:            ASAuthorizationAppleIDButtonTypeContinue
+    JsName:          ASAuthorizationAppleIDButtonTypeContinue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASAuthorizationAppleIDButtonTypeDefault
+    JsName:          ASAuthorizationAppleIDButtonTypeDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASAuthorizationAppleIDButtonTypeSignIn
+    JsName:          ASAuthorizationAppleIDButtonTypeSignIn
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASAuthorizationAppleIDButtonTypeSignUp
+    JsName:          ASAuthorizationAppleIDButtonTypeSignUp
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDButton.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASAuthorizationAppleIDCredential
+    JsName:          ASAuthorizationAppleIDCredential
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            authorizationCode
+        JsName:          authorizationCode
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizationCode
+          JsName:          authorizationCode
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            authorizedScopes
+        JsName:          authorizedScopes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizedScopes
+          JsName:          authorizedScopes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            email
+        JsName:          email
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            email
+          JsName:          email
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            fullName
+        JsName:          fullName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            fullName
+          JsName:          fullName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSPersonNameComponents
+              WithProtocols:   
+      - Name:            identityToken
+        JsName:          identityToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identityToken
+          JsName:          identityToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            realUserStatus
+        JsName:          realUserStatus
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            realUserStatus
+          JsName:          realUserStatus
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ASUserDetectionStatus
+      - Name:            state
+        JsName:          state
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            state
+          JsName:          state
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            user
+        JsName:          user
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            user
+          JsName:          user
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationCredential
+    Base:            NSObject
+  - Name:            ASAuthorizationAppleIDProvider
+    JsName:          ASAuthorizationAppleIDProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            createRequest
+        JsName:          createRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ASAuthorizationAppleIDRequest
+            WithProtocols:   
+      - Name:            'getCredentialStateForUserID:completion:'
+        JsName:          getCredentialStateForUserIDCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            ASAuthorizationAppleIDProviderCredentialState
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationProvider
+    Base:            NSObject
+  - Name:            ASAuthorizationAppleIDProviderCredentialAuthorized
+    JsName:          ASAuthorizationAppleIDProviderCredentialAuthorized
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASAuthorizationAppleIDProviderCredentialNotFound
+    JsName:          ASAuthorizationAppleIDProviderCredentialNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASAuthorizationAppleIDProviderCredentialRevoked
+    JsName:          ASAuthorizationAppleIDProviderCredentialRevoked
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASAuthorizationAppleIDProviderCredentialRevokedNotification
+    JsName:          ASAuthorizationAppleIDProviderCredentialRevokedNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationAppleIDProviderCredentialState
+    JsName:          ASAuthorizationAppleIDProviderCredentialState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASAuthorizationAppleIDProviderCredentialRevoked: '0'
+      - ASAuthorizationAppleIDProviderCredentialAuthorized: '1'
+      - ASAuthorizationAppleIDProviderCredentialNotFound: '2'
+      - ASAuthorizationAppleIDProviderCredentialTransferred: '3'
+    SwiftNameFields: 
+      - Revoked:         '0'
+      - Authorized:      '1'
+      - NotFound:        '2'
+      - Transferred:     '3'
+  - Name:            ASAuthorizationAppleIDProviderCredentialTransferred
+    JsName:          ASAuthorizationAppleIDProviderCredentialTransferred
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ASAuthorizationAppleIDRequest
+    JsName:          ASAuthorizationAppleIDRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            user
+        JsName:          user
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationAppleIDRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            user
+          JsName:          user
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setUser:'
+          JsName:          setUser
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationAppleIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            ASAuthorizationOpenIDRequest
+  - Name:            ASAuthorizationController
+    JsName:          ASAuthorizationController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAuthorizationRequests:'
+        JsName:          initWithAuthorizationRequests
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          ASAuthorizationRequest
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            performRequests
+        JsName:          performRequests
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            authorizationRequests
+        JsName:          authorizationRequests
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizationRequests
+          JsName:          authorizationRequests
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          ASAuthorizationRequest
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationControllerDelegate
+      - Name:            presentationContextProvider
+        JsName:          presentationContextProvider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            presentationContextProvider
+          JsName:          presentationContextProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationControllerPresentationContextProviding
+        Setter:          
+          Name:            'setPresentationContextProvider:'
+          JsName:          setPresentationContextProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationControllerPresentationContextProviding
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASAuthorizationControllerDelegate
+    JsName:          ASAuthorizationControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'authorizationController:didCompleteWithAuthorization:'
+        JsName:          authorizationControllerDidCompleteWithAuthorization
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASAuthorizationController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ASAuthorization
+            WithProtocols:   
+      - Name:            'authorizationController:didCompleteWithError:'
+        JsName:          authorizationControllerDidCompleteWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASAuthorizationController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ASAuthorizationControllerPresentationContextProviding
+    JsName:          ASAuthorizationControllerPresentationContextProviding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'presentationAnchorForAuthorizationController:'
+        JsName:          presentationAnchorForAuthorizationController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationController.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIWindow
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ASAuthorizationController
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ASAuthorizationCredential
+    JsName:          ASAuthorizationCredential
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSObjectProtocol
+      - NSSecureCoding
+  - Name:            ASAuthorizationError
+    JsName:          ASAuthorizationError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASAuthorizationErrorUnknown: '1000'
+      - ASAuthorizationErrorCanceled: '1001'
+      - ASAuthorizationErrorInvalidResponse: '1002'
+      - ASAuthorizationErrorNotHandled: '1003'
+      - ASAuthorizationErrorFailed: '1004'
+    SwiftNameFields: 
+      - Unknown:         '1000'
+      - Canceled:        '1001'
+      - InvalidResponse: '1002'
+      - NotHandled:      '1003'
+      - Failed:          '1004'
+  - Name:            ASAuthorizationErrorCanceled
+    JsName:          ASAuthorizationErrorCanceled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1001'
+  - Name:            ASAuthorizationErrorDomain
+    JsName:          ASAuthorizationErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationErrorFailed
+    JsName:          ASAuthorizationErrorFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1004'
+  - Name:            ASAuthorizationErrorInvalidResponse
+    JsName:          ASAuthorizationErrorInvalidResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1002'
+  - Name:            ASAuthorizationErrorNotHandled
+    JsName:          ASAuthorizationErrorNotHandled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1003'
+  - Name:            ASAuthorizationErrorUnknown
+    JsName:          ASAuthorizationErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationError.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1000'
+  - Name:            ASAuthorizationOpenIDRequest
+    JsName:          ASAuthorizationOpenIDRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            nonce
+        JsName:          nonce
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nonce
+          JsName:          nonce
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setNonce:'
+          JsName:          setNonce
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            requestedOperation
+        JsName:          requestedOperation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requestedOperation
+          JsName:          requestedOperation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setRequestedOperation:'
+          JsName:          setRequestedOperation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            requestedScopes
+        JsName:          requestedScopes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requestedScopes
+          JsName:          requestedScopes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setRequestedScopes:'
+          JsName:          setRequestedScopes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            state
+        JsName:          state
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            state
+          JsName:          state
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setState:'
+          JsName:          setState
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            ASAuthorizationRequest
+  - Name:            ASAuthorizationOperationImplicit
+    JsName:          ASAuthorizationOperationImplicit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationOperationLogin
+    JsName:          ASAuthorizationOperationLogin
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationOperationLogout
+    JsName:          ASAuthorizationOperationLogout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationOperationRefresh
+    JsName:          ASAuthorizationOperationRefresh
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationOpenIDRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationOpenIDRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationPasswordProvider
+    JsName:          ASAuthorizationPasswordProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationPasswordProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationPasswordProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            createRequest
+        JsName:          createRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationPasswordProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationPasswordProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ASAuthorizationPasswordRequest
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationProvider
+    Base:            NSObject
+  - Name:            ASAuthorizationPasswordRequest
+    JsName:          ASAuthorizationPasswordRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationPasswordRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationPasswordRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            ASAuthorizationRequest
+  - Name:            ASAuthorizationProvider
+    JsName:          ASAuthorizationProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ASAuthorizationProviderExtensionAuthorizationRequest
+    JsName:          ASAuthorizationProviderExtensionAuthorizationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            complete
+        JsName:          complete
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'completeWithError:'
+        JsName:          completeWithError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+      - Name:            'completeWithHTTPAuthorizationHeaders:'
+        JsName:          completeWithHTTPAuthorizationHeaders
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'completeWithHTTPResponse:httpBody:'
+        JsName:          completeWithHTTPResponseHttpBody
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSHTTPURLResponse
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+      - Name:            doNotHandle
+        JsName:          doNotHandle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'presentAuthorizationViewControllerWithCompletion:'
+        JsName:          presentAuthorizationViewControllerWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            authorizationOptions
+        JsName:          authorizationOptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizationOptions
+          JsName:          authorizationOptions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              WithProtocols:   
+      - Name:            callerBundleIdentifier
+        JsName:          callerBundleIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callerBundleIdentifier
+          JsName:          callerBundleIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            extensionData
+        JsName:          extensionData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            extensionData
+          JsName:          extensionData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              WithProtocols:   
+      - Name:            httpBody
+        JsName:          httpBody
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            httpBody
+          JsName:          httpBody
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            httpHeaders
+        JsName:          httpHeaders
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            httpHeaders
+          JsName:          httpHeaders
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            realm
+        JsName:          realm
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            realm
+          JsName:          realm
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            requestedOperation
+        JsName:          requestedOperation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            requestedOperation
+          JsName:          requestedOperation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            url
+        JsName:          url
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            url
+          JsName:          url
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASAuthorizationProviderExtensionAuthorizationRequestHandler
+    JsName:          ASAuthorizationProviderExtensionAuthorizationRequestHandler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'beginAuthorizationWithRequest:'
+        JsName:          beginAuthorizationWithRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASAuthorizationProviderExtensionAuthorizationRequest
+            WithProtocols:   
+      - Name:            'cancelAuthorizationWithRequest:'
+        JsName:          cancelAuthorizationWithRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationProviderExtensionAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationProviderExtensionAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASAuthorizationProviderExtensionAuthorizationRequest
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ASAuthorizationRequest
+    JsName:          ASAuthorizationRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            provider
+        JsName:          provider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            provider
+          JsName:          provider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASAuthorizationProvider
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ASAuthorizationScopeEmail
+    JsName:          ASAuthorizationScopeEmail
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationScopeFullName
+    JsName:          ASAuthorizationScopeFullName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorization.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorization
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASAuthorizationSingleSignOnCredential
+    JsName:          ASAuthorizationSingleSignOnCredential
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accessToken
+        JsName:          accessToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accessToken
+          JsName:          accessToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            authenticatedResponse
+        JsName:          authenticatedResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authenticatedResponse
+          JsName:          authenticatedResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSHTTPURLResponse
+              WithProtocols:   
+      - Name:            authorizedScopes
+        JsName:          authorizedScopes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizedScopes
+          JsName:          authorizedScopes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            identityToken
+        JsName:          identityToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identityToken
+          JsName:          identityToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            state
+        JsName:          state
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            state
+          JsName:          state
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationCredential
+    Base:            NSObject
+  - Name:            ASAuthorizationSingleSignOnProvider
+    JsName:          ASAuthorizationSingleSignOnProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            createRequest
+        JsName:          createRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ASAuthorizationSingleSignOnRequest
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'authorizationProviderWithIdentityProviderURL:'
+        JsName:          authorizationProviderWithIdentityProviderURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            canPerformAuthorization
+        JsName:          canPerformAuthorization
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            canPerformAuthorization
+          JsName:          canPerformAuthorization
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            url
+        JsName:          url
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            url
+          JsName:          url
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnProvider.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnProvider
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationProvider
+    Base:            NSObject
+  - Name:            ASAuthorizationSingleSignOnRequest
+    JsName:          ASAuthorizationSingleSignOnRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnRequest.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationSingleSignOnRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            authorizationOptions
+        JsName:          authorizationOptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnRequest.h
+        Module:          
+          FullName:        AuthenticationServices.ASAuthorizationSingleSignOnRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizationOptions
+          JsName:          authorizationOptions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSURLQueryItem
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setAuthorizationOptions:'
+          JsName:          setAuthorizationOptions
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationSingleSignOnRequest.h
+          Module:          
+            FullName:        AuthenticationServices.ASAuthorizationSingleSignOnRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSURLQueryItem
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            ASAuthorizationOpenIDRequest
+  - Name:            ASCredentialIdentityStore
+    JsName:          ASCredentialIdentityStore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'getCredentialIdentityStoreStateWithCompletion:'
+        JsName:          getCredentialIdentityStoreStateWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          ASCredentialIdentityStoreState
+                WithProtocols:   
+      - Name:            'removeAllCredentialIdentitiesWithCompletion:'
+        JsName:          removeAllCredentialIdentitiesWithCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'removeCredentialIdentities:completion:'
+        JsName:          removeCredentialIdentitiesCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          ASPasswordCredentialIdentity
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'replaceCredentialIdentitiesWithIdentities:completion:'
+        JsName:          replaceCredentialIdentitiesWithIdentitiesCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          ASPasswordCredentialIdentity
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'saveCredentialIdentities:completion:'
+        JsName:          saveCredentialIdentitiesCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          ASPasswordCredentialIdentity
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+      - Name:            sharedStore
+        JsName:          sharedStore
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sharedStore
+          JsName:          sharedStore
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialIdentityStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ASCredentialIdentityStore
+              WithProtocols:   
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASCredentialIdentityStoreErrorCode
+    JsName:          ASCredentialIdentityStoreErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASCredentialIdentityStoreErrorCodeInternalError: '0'
+      - ASCredentialIdentityStoreErrorCodeStoreDisabled: '1'
+      - ASCredentialIdentityStoreErrorCodeStoreBusy: '2'
+    SwiftNameFields: 
+      - InternalError:   '0'
+      - StoreDisabled:   '1'
+      - StoreBusy:       '2'
+  - Name:            ASCredentialIdentityStoreErrorCodeInternalError
+    JsName:          ASCredentialIdentityStoreErrorCodeInternalError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASCredentialIdentityStoreErrorCodeStoreBusy
+    JsName:          ASCredentialIdentityStoreErrorCodeStoreBusy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASCredentialIdentityStoreErrorCodeStoreDisabled
+    JsName:          ASCredentialIdentityStoreErrorCodeStoreDisabled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASCredentialIdentityStoreErrorDomain
+    JsName:          ASCredentialIdentityStoreErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStore.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASCredentialIdentityStoreState
+    JsName:          ASCredentialIdentityStoreState
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStoreState.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialIdentityStoreState
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            enabled
+        JsName:          enabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStoreState.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStoreState
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isEnabled
+          JsName:          isEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStoreState.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialIdentityStoreState
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            supportsIncrementalUpdates
+        JsName:          supportsIncrementalUpdates
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStoreState.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialIdentityStoreState
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportsIncrementalUpdates
+          JsName:          supportsIncrementalUpdates
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialIdentityStoreState.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialIdentityStoreState
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASCredentialProviderExtensionContext
+    JsName:          ASCredentialProviderExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            completeExtensionConfigurationRequest
+        JsName:          completeExtensionConfigurationRequest
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'completeRequestWithSelectedCredential:completionHandler:'
+        JsName:          completeRequestWithSelectedCredentialCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASPasswordCredential
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            ASCredentialProviderViewController
+    JsName:          ASCredentialProviderViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'prepareCredentialListForServiceIdentifiers:'
+        JsName:          prepareCredentialListForServiceIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          ASCredentialServiceIdentifier
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            prepareInterfaceForExtensionConfiguration
+        JsName:          prepareInterfaceForExtensionConfiguration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'prepareInterfaceToProvideCredentialForIdentity:'
+        JsName:          prepareInterfaceToProvideCredentialForIdentity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASPasswordCredentialIdentity
+            WithProtocols:   
+      - Name:            'provideCredentialWithoutUserInteractionForIdentity:'
+        JsName:          provideCredentialWithoutUserInteractionForIdentity
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ASPasswordCredentialIdentity
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            extensionContext
+        JsName:          extensionContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialProviderViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            extensionContext
+          JsName:          extensionContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderViewController.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialProviderViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ASCredentialProviderExtensionContext
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            ASCredentialServiceIdentifier
+    JsName:          ASCredentialServiceIdentifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithIdentifier:type:'
+        JsName:          initWithIdentifierType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            ASCredentialServiceIdentifierType
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+        Module:          
+          FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+          Module:          
+            FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ASCredentialServiceIdentifierType
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ASCredentialServiceIdentifierType
+    JsName:          ASCredentialServiceIdentifierType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASCredentialServiceIdentifierTypeDomain: '0'
+      - ASCredentialServiceIdentifierTypeURL: '1'
+    SwiftNameFields: 
+      - Domain:          '0'
+      - URL:             '1'
+  - Name:            ASCredentialServiceIdentifierTypeDomain
+    JsName:          ASCredentialServiceIdentifierTypeDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASCredentialServiceIdentifierTypeURL
+    JsName:          ASCredentialServiceIdentifierTypeURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialServiceIdentifier.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialServiceIdentifier
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASExtensionErrorCode
+    JsName:          ASExtensionErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASExtensionErrorCodeFailed: '0'
+      - ASExtensionErrorCodeUserCanceled: '1'
+      - ASExtensionErrorCodeUserInteractionRequired: '100'
+      - ASExtensionErrorCodeCredentialIdentityNotFound: '101'
+    SwiftNameFields: 
+      - Failed:          '0'
+      - UserCanceled:    '1'
+      - UserInteractionRequired: '100'
+      - CredentialIdentityNotFound: '101'
+  - Name:            ASExtensionErrorCodeCredentialIdentityNotFound
+    JsName:          ASExtensionErrorCodeCredentialIdentityNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '101'
+  - Name:            ASExtensionErrorCodeFailed
+    JsName:          ASExtensionErrorCodeFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASExtensionErrorCodeUserCanceled
+    JsName:          ASExtensionErrorCodeUserCanceled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASExtensionErrorCodeUserInteractionRequired
+    JsName:          ASExtensionErrorCodeUserInteractionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '100'
+  - Name:            ASExtensionErrorDomain
+    JsName:          ASExtensionErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASCredentialProviderExtensionContext.h
+    Module:          
+      FullName:        AuthenticationServices.ASCredentialProviderExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ASPasswordCredential
+    JsName:          ASPasswordCredential
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASPasswordCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithUser:password:'
+        JsName:          initWithUserPassword
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'credentialWithUser:password:'
+        JsName:          credentialWithUserPassword
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            password
+        JsName:          password
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            password
+          JsName:          password
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            user
+        JsName:          user
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            user
+          JsName:          user
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredential.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - ASAuthorizationCredential
+    Base:            NSObject
+  - Name:            ASPasswordCredentialIdentity
+    JsName:          ASPasswordCredentialIdentity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+    Module:          
+      FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithServiceIdentifier:user:recordIdentifier:'
+        JsName:          initWithServiceIdentifierUserRecordIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          ASCredentialServiceIdentifier
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'identityWithServiceIdentifier:user:recordIdentifier:'
+        JsName:          identityWithServiceIdentifierUserRecordIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          ASCredentialServiceIdentifier
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            rank
+        JsName:          rank
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rank
+          JsName:          rank
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+        Setter:          
+          Name:            'setRank:'
+          JsName:          setRank
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Int
+      - Name:            recordIdentifier
+        JsName:          recordIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            recordIdentifier
+          JsName:          recordIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            serviceIdentifier
+        JsName:          serviceIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            serviceIdentifier
+          JsName:          serviceIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ASCredentialServiceIdentifier
+              WithProtocols:   
+      - Name:            user
+        JsName:          user
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+        Module:          
+          FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            user
+          JsName:          user
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASPasswordCredentialIdentity.h
+          Module:          
+            FullName:        AuthenticationServices.ASPasswordCredentialIdentity
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            ASUserDetectionStatus
+    JsName:          ASUserDetectionStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASUserDetectionStatusUnsupported: '0'
+      - ASUserDetectionStatusUnknown: '1'
+      - ASUserDetectionStatusLikelyReal: '2'
+    SwiftNameFields: 
+      - Unsupported:     '0'
+      - Unknown:         '1'
+      - LikelyReal:      '2'
+  - Name:            ASUserDetectionStatusLikelyReal
+    JsName:          ASUserDetectionStatusLikelyReal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASUserDetectionStatusUnknown
+    JsName:          ASUserDetectionStatusUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASUserDetectionStatusUnsupported
+    JsName:          ASUserDetectionStatusUnsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAuthorizationAppleIDCredential.h
+    Module:          
+      FullName:        AuthenticationServices.ASAuthorizationAppleIDCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ASWebAuthenticationPresentationContextProviding
+    JsName:          ASWebAuthenticationPresentationContextProviding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'presentationAnchorForWebAuthenticationSession:'
+        JsName:          presentationAnchorForWebAuthenticationSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIWindow
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ASWebAuthenticationSession
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            ASWebAuthenticationSession
+    JsName:          ASWebAuthenticationSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithURL:callbackURLScheme:completionHandler:'
+        JsName:          initWithURLCallbackURLSchemeCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSURL
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            start
+        JsName:          start
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            prefersEphemeralWebBrowserSession
+        JsName:          prefersEphemeralWebBrowserSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            prefersEphemeralWebBrowserSession
+          JsName:          prefersEphemeralWebBrowserSession
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+          Module:          
+            FullName:        AuthenticationServices.ASWebAuthenticationSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setPrefersEphemeralWebBrowserSession:'
+          JsName:          setPrefersEphemeralWebBrowserSession
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+          Module:          
+            FullName:        AuthenticationServices.ASWebAuthenticationSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            presentationContextProvider
+        JsName:          presentationContextProvider
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+        Module:          
+          FullName:        AuthenticationServices.ASWebAuthenticationSession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            presentationContextProvider
+          JsName:          presentationContextProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+          Module:          
+            FullName:        AuthenticationServices.ASWebAuthenticationSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - ASWebAuthenticationPresentationContextProviding
+        Setter:          
+          Name:            'setPresentationContextProvider:'
+          JsName:          setPresentationContextProvider
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+          Module:          
+            FullName:        AuthenticationServices.ASWebAuthenticationSession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - ASWebAuthenticationPresentationContextProviding
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ASWebAuthenticationSessionErrorCode
+    JsName:          ASWebAuthenticationSessionErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ASWebAuthenticationSessionErrorCodeCanceledLogin: '1'
+      - ASWebAuthenticationSessionErrorCodePresentationContextNotProvided: '2'
+      - ASWebAuthenticationSessionErrorCodePresentationContextInvalid: '3'
+    SwiftNameFields: 
+      - CanceledLogin:   '1'
+      - PresentationContextNotProvided: '2'
+      - PresentationContextInvalid: '3'
+  - Name:            ASWebAuthenticationSessionErrorCodeCanceledLogin
+    JsName:          ASWebAuthenticationSessionErrorCodeCanceledLogin
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ASWebAuthenticationSessionErrorCodePresentationContextInvalid
+    JsName:          ASWebAuthenticationSessionErrorCodePresentationContextInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ASWebAuthenticationSessionErrorCodePresentationContextNotProvided
+    JsName:          ASWebAuthenticationSessionErrorCodePresentationContextNotProvided
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ASWebAuthenticationSessionErrorDomain
+    JsName:          ASWebAuthenticationSessionErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASWebAuthenticationSession.h
+    Module:          
+      FullName:        AuthenticationServices.ASWebAuthenticationSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

@@ -1,0 +1,273 @@
+---
+Module:          
+  FullName:        MediaToolbox
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         MediaToolbox
+      IsFramework:     true
+Items:           
+  - Name:            ''
+    JsName:          MTAudioProcessingTapCallbacks
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Int
+      - Name:            clientInfo
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            init
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Pointer
+                PointerType:     
+                  Type:            Void
+      - Name:            finalize
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            prepare
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+            - Type:            Long
+            - Type:            Pointer
+              PointerType:     
+                Type:            Struct
+                Module:          CoreAudioTypes.CoreAudioBaseTypes
+                JsName:          AudioStreamBasicDescription
+      - Name:            unprepare
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+      - Name:            process
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            BridgedInterface
+              Name:            id
+              BridgedTo:       id
+            - Type:            Long
+            - Type:            UInt
+            - Type:            Pointer
+              PointerType:     
+                Type:            Struct
+                Module:          CoreAudioTypes.CoreAudioBaseTypes
+                JsName:          AudioBufferList
+            - Type:            Pointer
+              PointerType:     
+                Type:            Long
+            - Type:            Pointer
+              PointerType:     
+                Type:            UInt
+  - Name:            MTAudioProcessingTapCreate
+    JsName:          MTAudioProcessingTapCreate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          MediaToolbox.MTAudioProcessingTap
+          JsName:          MTAudioProcessingTapCallbacks
+      - Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            BridgedInterface
+          Name:            id
+          BridgedTo:       id
+  - Name:            MTAudioProcessingTapGetSourceAudio
+    JsName:          MTAudioProcessingTapGetSourceAudio
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CoreAudioTypes.CoreAudioBaseTypes
+          JsName:          AudioBufferList
+      - Type:            Pointer
+        PointerType:     
+          Type:            UInt
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          CoreMedia.CMTimeRange
+          JsName:          CMTimeRange
+      - Type:            Pointer
+        PointerType:     
+          Type:            Long
+  - Name:            MTAudioProcessingTapGetStorage
+    JsName:          MTAudioProcessingTapGetStorage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+  - Name:            MTAudioProcessingTapGetTypeID
+    JsName:          MTAudioProcessingTapGetTypeID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            MTCopyLocalizedNameForMediaSubType
+    JsName:          MTCopyLocalizedNameForMediaSubType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTFormatNames.h
+    Module:          
+      FullName:        MediaToolbox.MTFormatNames
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+      - Type:            ULong
+      - Type:            ULong
+  - Name:            MTCopyLocalizedNameForMediaType
+    JsName:          MTCopyLocalizedNameForMediaType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTFormatNames.h
+    Module:          
+      FullName:        MediaToolbox.MTFormatNames
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+      - Type:            ULong
+  - Name:            kMTAudioProcessingTapCallbacksVersion_0
+    JsName:          kMTAudioProcessingTapCallbacksVersion_0
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMTAudioProcessingTapCreationFlag_PostEffects
+    JsName:          kMTAudioProcessingTapCreationFlag_PostEffects
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kMTAudioProcessingTapCreationFlag_PreEffects
+    JsName:          kMTAudioProcessingTapCreationFlag_PreEffects
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMTAudioProcessingTapFlag_EndOfStream
+    JsName:          kMTAudioProcessingTapFlag_EndOfStream
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '512'
+  - Name:            kMTAudioProcessingTapFlag_StartOfStream
+    JsName:          kMTAudioProcessingTapFlag_StartOfStream
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h
+    Module:          
+      FullName:        MediaToolbox.MTAudioProcessingTap
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '256'
+...

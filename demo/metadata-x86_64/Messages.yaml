@@ -1,0 +1,2283 @@
+---
+Module:          
+  FullName:        Messages
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         Messages
+      IsFramework:     true
+Items:           
+  - Name:            MSConversation
+    JsName:          MSConversation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+    Module:          
+      FullName:        Messages.MSConversation
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'insertAttachment:withAlternateFilename:completionHandler:'
+        JsName:          insertAttachmentWithAlternateFilenameCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'insertMessage:completionHandler:'
+        JsName:          insertMessageCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'insertSticker:completionHandler:'
+        JsName:          insertStickerCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSSticker
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'insertText:completionHandler:'
+        JsName:          insertTextCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'sendAttachment:withAlternateFilename:completionHandler:'
+        JsName:          sendAttachmentWithAlternateFilenameCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'sendMessage:completionHandler:'
+        JsName:          sendMessageCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'sendSticker:completionHandler:'
+        JsName:          sendStickerCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSSticker
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'sendText:completionHandler:'
+        JsName:          sendTextCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            localParticipantIdentifier
+        JsName:          localParticipantIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localParticipantIdentifier
+          JsName:          localParticipantIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+          Module:          
+            FullName:        Messages.MSConversation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+      - Name:            remoteParticipantIdentifiers
+        JsName:          remoteParticipantIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            remoteParticipantIdentifiers
+          JsName:          remoteParticipantIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+          Module:          
+            FullName:        Messages.MSConversation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSUUID
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            selectedMessage
+        JsName:          selectedMessage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+        Module:          
+          FullName:        Messages.MSConversation
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            selectedMessage
+          JsName:          selectedMessage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSConversation.h
+          Module:          
+            FullName:        Messages.MSConversation
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSMessage
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MSMessage
+    JsName:          MSMessage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+    Module:          
+      FullName:        Messages.MSMessage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithSession:'
+        JsName:          initWithSession
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MSSession
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            error
+        JsName:          error
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            error
+          JsName:          error
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+        Setter:          
+          Name:            'setError:'
+          JsName:          setError
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            layout
+        JsName:          layout
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            layout
+          JsName:          layout
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSMessageLayout
+              WithProtocols:   
+        Setter:          
+          Name:            'setLayout:'
+          JsName:          setLayout
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          MSMessageLayout
+              WithProtocols:   
+      - Name:            pending
+        JsName:          pending
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPending
+          JsName:          isPending
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            senderParticipantIdentifier
+        JsName:          senderParticipantIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            senderParticipantIdentifier
+          JsName:          senderParticipantIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+      - Name:            session
+        JsName:          session
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            session
+          JsName:          session
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSSession
+              WithProtocols:   
+      - Name:            shouldExpire
+        JsName:          shouldExpire
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldExpire
+          JsName:          shouldExpire
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShouldExpire:'
+          JsName:          setShouldExpire
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            summaryText
+        JsName:          summaryText
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            summaryText
+          JsName:          summaryText
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setSummaryText:'
+          JsName:          setSummaryText
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            URL
+        JsName:          URL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+        Module:          
+          FullName:        Messages.MSMessage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URL
+          JsName:          URL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setURL:'
+          JsName:          setURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessage.h
+          Module:          
+            FullName:        Messages.MSMessage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MSMessageErrorCode
+    JsName:          MSMessageErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MSMessageErrorCodeUnknown: '-1'
+      - MSMessageErrorCodeFileNotFound: '1'
+      - MSMessageErrorCodeFileUnreadable: '2'
+      - MSMessageErrorCodeImproperFileType: '3'
+      - MSMessageErrorCodeImproperFileURL: '4'
+      - MSMessageErrorCodeStickerFileImproperFileAttributes: '5'
+      - MSMessageErrorCodeStickerFileImproperFileSize: '6'
+      - MSMessageErrorCodeStickerFileImproperFileFormat: '7'
+      - MSMessageErrorCodeURLExceedsMaxSize: '8'
+      - MSMessageErrorCodeSendWithoutRecentInteraction: '9'
+      - MSMessageErrorCodeSendWhileNotVisible: '10'
+      - MSMessageErrorCodeAPIUnavailableInPresentationContext: '11'
+    SwiftNameFields: 
+      - Unknown:         '-1'
+      - FileNotFound:    '1'
+      - FileUnreadable:  '2'
+      - ImproperFileType: '3'
+      - ImproperFileURL: '4'
+      - StickerFileImproperFileAttributes: '5'
+      - StickerFileImproperFileSize: '6'
+      - StickerFileImproperFileFormat: '7'
+      - URLExceedsMaxSize: '8'
+      - SendWithoutRecentInteraction: '9'
+      - SendWhileNotVisible: '10'
+      - APIUnavailableInPresentationContext: '11'
+  - Name:            MSMessageErrorCodeAPIUnavailableInPresentationContext
+    JsName:          MSMessageErrorCodeAPIUnavailableInPresentationContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            MSMessageErrorCodeFileNotFound
+    JsName:          MSMessageErrorCodeFileNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MSMessageErrorCodeFileUnreadable
+    JsName:          MSMessageErrorCodeFileUnreadable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MSMessageErrorCodeImproperFileType
+    JsName:          MSMessageErrorCodeImproperFileType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            MSMessageErrorCodeImproperFileURL
+    JsName:          MSMessageErrorCodeImproperFileURL
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            MSMessageErrorCodeSendWhileNotVisible
+    JsName:          MSMessageErrorCodeSendWhileNotVisible
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            MSMessageErrorCodeSendWithoutRecentInteraction
+    JsName:          MSMessageErrorCodeSendWithoutRecentInteraction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            MSMessageErrorCodeStickerFileImproperFileAttributes
+    JsName:          MSMessageErrorCodeStickerFileImproperFileAttributes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            MSMessageErrorCodeStickerFileImproperFileFormat
+    JsName:          MSMessageErrorCodeStickerFileImproperFileFormat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            MSMessageErrorCodeStickerFileImproperFileSize
+    JsName:          MSMessageErrorCodeStickerFileImproperFileSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            MSMessageErrorCodeURLExceedsMaxSize
+    JsName:          MSMessageErrorCodeURLExceedsMaxSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            MSMessageErrorCodeUnknown
+    JsName:          MSMessageErrorCodeUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            MSMessageLayout
+    JsName:          MSMessageLayout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageLayout.h
+    Module:          
+      FullName:        Messages.MSMessageLayout
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            MSMessageLiveLayout
+    JsName:          MSMessageLiveLayout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageLiveLayout.h
+    Module:          
+      FullName:        Messages.MSMessageLiveLayout
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAlternateLayout:'
+        JsName:          initWithAlternateLayout
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageLiveLayout.h
+        Module:          
+          FullName:        Messages.MSMessageLiveLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MSMessageTemplateLayout
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            alternateLayout
+        JsName:          alternateLayout
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageLiveLayout.h
+        Module:          
+          FullName:        Messages.MSMessageLiveLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            alternateLayout
+          JsName:          alternateLayout
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageLiveLayout.h
+          Module:          
+            FullName:        Messages.MSMessageLiveLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSMessageTemplateLayout
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            MSMessageLayout
+  - Name:            MSMessageTemplateLayout
+    JsName:          MSMessageTemplateLayout
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+    Module:          
+      FullName:        Messages.MSMessageTemplateLayout
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            caption
+        JsName:          caption
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            caption
+          JsName:          caption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCaption:'
+          JsName:          setCaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            image
+        JsName:          image
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            image
+          JsName:          image
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setImage:'
+          JsName:          setImage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+      - Name:            imageSubtitle
+        JsName:          imageSubtitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            imageSubtitle
+          JsName:          imageSubtitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setImageSubtitle:'
+          JsName:          setImageSubtitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            imageTitle
+        JsName:          imageTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            imageTitle
+          JsName:          imageTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setImageTitle:'
+          JsName:          setImageTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            mediaFileURL
+        JsName:          mediaFileURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mediaFileURL
+          JsName:          mediaFileURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+        Setter:          
+          Name:            'setMediaFileURL:'
+          JsName:          setMediaFileURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            subcaption
+        JsName:          subcaption
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            subcaption
+          JsName:          subcaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setSubcaption:'
+          JsName:          setSubcaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            trailingCaption
+        JsName:          trailingCaption
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            trailingCaption
+          JsName:          trailingCaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTrailingCaption:'
+          JsName:          setTrailingCaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            trailingSubcaption
+        JsName:          trailingSubcaption
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+        Module:          
+          FullName:        Messages.MSMessageTemplateLayout
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            trailingSubcaption
+          JsName:          trailingSubcaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setTrailingSubcaption:'
+          JsName:          setTrailingSubcaption
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageTemplateLayout.h
+          Module:          
+            FullName:        Messages.MSMessageTemplateLayout
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            MSMessageLayout
+  - Name:            MSMessagesAppPresentationContext
+    JsName:          MSMessagesAppPresentationContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MSMessagesAppPresentationContextMessages: '0'
+      - MSMessagesAppPresentationContextMedia: '1'
+    SwiftNameFields: 
+      - Messages:        '0'
+      - Media:           '1'
+  - Name:            MSMessagesAppPresentationContextMedia
+    JsName:          MSMessagesAppPresentationContextMedia
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MSMessagesAppPresentationContextMessages
+    JsName:          MSMessagesAppPresentationContextMessages
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MSMessagesAppPresentationStyle
+    JsName:          MSMessagesAppPresentationStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MSMessagesAppPresentationStyleCompact: '0'
+      - MSMessagesAppPresentationStyleExpanded: '1'
+      - MSMessagesAppPresentationStyleTranscript: '2'
+    SwiftNameFields: 
+      - Compact:         '0'
+      - Expanded:        '1'
+      - Transcript:      '2'
+  - Name:            MSMessagesAppPresentationStyleCompact
+    JsName:          MSMessagesAppPresentationStyleCompact
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MSMessagesAppPresentationStyleExpanded
+    JsName:          MSMessagesAppPresentationStyleExpanded
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MSMessagesAppPresentationStyleTranscript
+    JsName:          MSMessagesAppPresentationStyleTranscript
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MSMessagesAppTranscriptPresentation
+    JsName:          MSMessagesAppTranscriptPresentation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'contentSizeThatFits:'
+        JsName:          contentSizeThatFits
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGSize
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+  - Name:            MSMessagesAppViewController
+    JsName:          MSMessagesAppViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+    Module:          
+      FullName:        Messages.MSMessagesAppViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'didBecomeActiveWithConversation:'
+        JsName:          didBecomeActiveWithConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didResignActiveWithConversation:'
+        JsName:          didResignActiveWithConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'requestPresentationStyle:'
+        JsName:          requestPresentationStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            MSMessagesAppPresentationStyle
+      - Name:            'willBecomeActiveWithConversation:'
+        JsName:          willBecomeActiveWithConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'willResignActiveWithConversation:'
+        JsName:          willResignActiveWithConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didCancelSendingMessage:conversation:'
+        JsName:          didCancelSendingMessageConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didReceiveMessage:conversation:'
+        JsName:          didReceiveMessageConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didSelectMessage:conversation:'
+        JsName:          didSelectMessageConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didStartSendingMessage:conversation:'
+        JsName:          didStartSendingMessageConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'didTransitionToPresentationStyle:'
+        JsName:          didTransitionToPresentationStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            MSMessagesAppPresentationStyle
+      - Name:            dismiss
+        JsName:          dismiss
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'willSelectMessage:conversation:'
+        JsName:          willSelectMessageConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          MSMessage
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSConversation
+            WithProtocols:   
+      - Name:            'willTransitionToPresentationStyle:'
+        JsName:          willTransitionToPresentationStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            MSMessagesAppPresentationStyle
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            activeConversation
+        JsName:          activeConversation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            activeConversation
+          JsName:          activeConversation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+          Module:          
+            FullName:        Messages.MSMessagesAppViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSConversation
+              WithProtocols:   
+      - Name:            presentationContext
+        JsName:          presentationContext
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            presentationContext
+          JsName:          presentationContext
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+          Module:          
+            FullName:        Messages.MSMessagesAppViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MSMessagesAppPresentationContext
+      - Name:            presentationStyle
+        JsName:          presentationStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+        Module:          
+          FullName:        Messages.MSMessagesAppViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            presentationStyle
+          JsName:          presentationStyle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessagesAppViewController.h
+          Module:          
+            FullName:        Messages.MSMessagesAppViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MSMessagesAppPresentationStyle
+    StaticProperties: 
+    Protocols:       
+      - MSMessagesAppTranscriptPresentation
+    Base:            UIViewController
+  - Name:            MSMessagesErrorDomain
+    JsName:          MSMessagesErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            MSSession
+    JsName:          MSSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSession.h
+    Module:          
+      FullName:        Messages.MSSession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MSSticker
+    JsName:          MSSticker
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+    Module:          
+      FullName:        Messages.MSSticker
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithContentsOfFileURL:localizedDescription:error:'
+        JsName:          initWithContentsOfFileURLLocalizedDescriptionError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+        Module:          
+          FullName:        Messages.MSSticker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            imageFileURL
+        JsName:          imageFileURL
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+        Module:          
+          FullName:        Messages.MSSticker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            imageFileURL
+          JsName:          imageFileURL
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+          Module:          
+            FullName:        Messages.MSSticker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSURL
+              WithProtocols:   
+      - Name:            localizedDescription
+        JsName:          localizedDescription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+        Module:          
+          FullName:        Messages.MSSticker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedDescription
+          JsName:          localizedDescription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSSticker.h
+          Module:          
+            FullName:        Messages.MSSticker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MSStickerBrowserView
+    JsName:          MSStickerBrowserView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithFrame:stickerSize:'
+        JsName:          initWithFrameStickerSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+          - Type:            Enum
+            Name:            MSStickerSize
+      - Name:            reloadData
+        JsName:          reloadData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'setContentOffset:animated:'
+        JsName:          setContentOffsetAnimated
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGPoint
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            contentInset
+        JsName:          contentInset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentInset
+          JsName:          contentInset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+        Setter:          
+          Name:            'setContentInset:'
+          JsName:          setContentInset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          UIKit.UIGeometry
+              JsName:          UIEdgeInsets
+      - Name:            contentOffset
+        JsName:          contentOffset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            contentOffset
+          JsName:          contentOffset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGPoint
+        Setter:          
+          Name:            'setContentOffset:'
+          JsName:          setContentOffset
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGPoint
+      - Name:            dataSource
+        JsName:          dataSource
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dataSource
+          JsName:          dataSource
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MSStickerBrowserViewDataSource
+        Setter:          
+          Name:            'setDataSource:'
+          JsName:          setDataSource
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MSStickerBrowserViewDataSource
+      - Name:            stickerSize
+        JsName:          stickerSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stickerSize
+          JsName:          stickerSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MSStickerSize
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            MSStickerBrowserViewController
+    JsName:          MSStickerBrowserViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithStickerSize:'
+        JsName:          initWithStickerSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            MSStickerSize
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            stickerBrowserView
+        JsName:          stickerBrowserView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stickerBrowserView
+          JsName:          stickerBrowserView
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSStickerBrowserView
+              WithProtocols:   
+      - Name:            stickerSize
+        JsName:          stickerSize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stickerSize
+          JsName:          stickerSize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewController.h
+          Module:          
+            FullName:        Messages.MSStickerBrowserViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MSStickerSize
+    StaticProperties: 
+    Protocols:       
+      - MSStickerBrowserViewDataSource
+    Base:            UIViewController
+  - Name:            MSStickerBrowserViewDataSource
+    JsName:          MSStickerBrowserViewDataSource
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewDataSource.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserViewDataSource
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'numberOfStickersInStickerBrowserView:'
+        JsName:          numberOfStickersInStickerBrowserView
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewDataSource.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserViewDataSource
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Long
+          - Type:            Interface
+            JsName:          MSStickerBrowserView
+            WithProtocols:   
+      - Name:            'stickerBrowserView:stickerAtIndex:'
+        JsName:          stickerBrowserViewStickerAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserViewDataSource.h
+        Module:          
+          FullName:        Messages.MSStickerBrowserViewDataSource
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          MSSticker
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          MSStickerBrowserView
+            WithProtocols:   
+          - Type:            Long
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MSStickerSize
+    JsName:          MSStickerSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MSStickerSizeSmall: '0'
+      - MSStickerSizeRegular: '1'
+      - MSStickerSizeLarge: '2'
+    SwiftNameFields: 
+      - Small:           '0'
+      - Regular:         '1'
+      - Large:           '2'
+  - Name:            MSStickerSizeLarge
+    JsName:          MSStickerSizeLarge
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MSStickerSizeRegular
+    JsName:          MSStickerSizeRegular
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MSStickerSizeSmall
+    JsName:          MSStickerSizeSmall
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerBrowserView.h
+    Module:          
+      FullName:        Messages.MSStickerBrowserView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MSStickerView
+    JsName:          MSStickerView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+    Module:          
+      FullName:        Messages.MSStickerView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithFrame:sticker:'
+        JsName:          initWithFrameSticker
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+          - Type:            Interface
+            JsName:          MSSticker
+            WithProtocols:   
+      - Name:            isAnimating
+        JsName:          isAnimating
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            startAnimating
+        JsName:          startAnimating
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopAnimating
+        JsName:          stopAnimating
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            animationDuration
+        JsName:          animationDuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            animationDuration
+          JsName:          animationDuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+          Module:          
+            FullName:        Messages.MSStickerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            sticker
+        JsName:          sticker
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+        Module:          
+          FullName:        Messages.MSStickerView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sticker
+          JsName:          sticker
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+          Module:          
+            FullName:        Messages.MSStickerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          MSSticker
+              WithProtocols:   
+        Setter:          
+          Name:            'setSticker:'
+          JsName:          setSticker
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSStickerView.h
+          Module:          
+            FullName:        Messages.MSStickerView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          MSSticker
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            MSStickersErrorDomain
+    JsName:          MSStickersErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Messages.framework/Headers/MSMessageError.h
+    Module:          
+      FullName:        Messages.MSMessageError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

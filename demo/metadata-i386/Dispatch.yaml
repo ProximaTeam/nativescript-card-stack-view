@@ -1,0 +1,2729 @@
+---
+Module:          
+  FullName:        Dispatch
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            DISPATCH_AUTORELEASE_FREQUENCY_INHERIT
+    JsName:          DISPATCH_AUTORELEASE_FREQUENCY_INHERIT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            DISPATCH_AUTORELEASE_FREQUENCY_NEVER
+    JsName:          DISPATCH_AUTORELEASE_FREQUENCY_NEVER
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            DISPATCH_AUTORELEASE_FREQUENCY_WORK_ITEM
+    JsName:          DISPATCH_AUTORELEASE_FREQUENCY_WORK_ITEM
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            DISPATCH_BLOCK_ASSIGN_CURRENT
+    JsName:          DISPATCH_BLOCK_ASSIGN_CURRENT
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            DISPATCH_BLOCK_BARRIER
+    JsName:          DISPATCH_BLOCK_BARRIER
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            DISPATCH_BLOCK_DETACHED
+    JsName:          DISPATCH_BLOCK_DETACHED
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            DISPATCH_BLOCK_ENFORCE_QOS_CLASS
+    JsName:          DISPATCH_BLOCK_ENFORCE_QOS_CLASS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            DISPATCH_BLOCK_INHERIT_QOS_CLASS
+    JsName:          DISPATCH_BLOCK_INHERIT_QOS_CLASS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            DISPATCH_BLOCK_NO_QOS_CLASS
+    JsName:          DISPATCH_BLOCK_NO_QOS_CLASS
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            DISPATCH_WALLTIME_NOW
+    JsName:          DISPATCH_WALLTIME_NOW
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/time.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18446744073709551614'
+  - Name:            OS_dispatch_data
+    JsName:          OS_dispatch_data
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_group
+    JsName:          OS_dispatch_group
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_io
+    JsName:          OS_dispatch_io
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_object
+    JsName:          OS_dispatch_object
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            OS_dispatch_queue
+    JsName:          OS_dispatch_queue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_queue_attr
+    JsName:          OS_dispatch_queue_attr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_queue_concurrent
+    JsName:          OS_dispatch_queue_concurrent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_queue
+  - Name:            OS_dispatch_queue_global
+    JsName:          OS_dispatch_queue_global
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_queue
+  - Name:            OS_dispatch_queue_main
+    JsName:          OS_dispatch_queue_main
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_queue_serial
+  - Name:            OS_dispatch_queue_serial
+    JsName:          OS_dispatch_queue_serial
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_queue
+  - Name:            OS_dispatch_semaphore
+    JsName:          OS_dispatch_semaphore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/semaphore.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_source
+    JsName:          OS_dispatch_source
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_object
+  - Name:            OS_dispatch_workloop
+    JsName:          OS_dispatch_workloop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/workloop.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - OS_dispatch_queue
+  - Name:            _dispatch_data_destructor_free
+    JsName:          _dispatch_data_destructor_free
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Block
+      Signature:       
+        - Type:            Void
+  - Name:            _dispatch_data_destructor_munmap
+    JsName:          _dispatch_data_destructor_munmap
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Block
+      Signature:       
+        - Type:            Void
+  - Name:            _dispatch_data_empty
+    JsName:          _dispatch_data_empty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_main_q
+    JsName:          _dispatch_main_q
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_queue_attr_concurrent
+    JsName:          _dispatch_queue_attr_concurrent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_data_add
+    JsName:          _dispatch_source_type_data_add
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_data_or
+    JsName:          _dispatch_source_type_data_or
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_data_replace
+    JsName:          _dispatch_source_type_data_replace
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_mach_recv
+    JsName:          _dispatch_source_type_mach_recv
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_mach_send
+    JsName:          _dispatch_source_type_mach_send
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_memorypressure
+    JsName:          _dispatch_source_type_memorypressure
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_proc
+    JsName:          _dispatch_source_type_proc
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_read
+    JsName:          _dispatch_source_type_read
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_signal
+    JsName:          _dispatch_source_type_signal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_timer
+    JsName:          _dispatch_source_type_timer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_vnode
+    JsName:          _dispatch_source_type_vnode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            _dispatch_source_type_write
+    JsName:          _dispatch_source_type_write
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Void
+  - Name:            dispatch_activate
+    JsName:          dispatch_activate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_after
+    JsName:          dispatch_after
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            ULongLong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_after_f
+    JsName:          dispatch_after_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            ULongLong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_apply
+    JsName:          dispatch_apply
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            ULong
+  - Name:            dispatch_apply_f
+    JsName:          dispatch_apply_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            ULong
+  - Name:            dispatch_assert_queue
+    JsName:          dispatch_assert_queue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_assert_queue_barrier
+    JsName:          dispatch_assert_queue_barrier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_assert_queue_not
+    JsName:          dispatch_assert_queue_not
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_async
+    JsName:          dispatch_async
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_async_and_wait
+    JsName:          dispatch_async_and_wait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_async_and_wait_f
+    JsName:          dispatch_async_and_wait_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_async_f
+    JsName:          dispatch_async_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            ''
+    JsName:          dispatch_autorelease_frequency_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - DISPATCH_AUTORELEASE_FREQUENCY_INHERIT: '0'
+      - DISPATCH_AUTORELEASE_FREQUENCY_WORK_ITEM: '1'
+      - DISPATCH_AUTORELEASE_FREQUENCY_NEVER: '2'
+    SwiftNameFields: 
+  - Name:            dispatch_barrier_async
+    JsName:          dispatch_barrier_async
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_barrier_async_and_wait
+    JsName:          dispatch_barrier_async_and_wait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_barrier_async_and_wait_f
+    JsName:          dispatch_barrier_async_and_wait_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_barrier_async_f
+    JsName:          dispatch_barrier_async_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_barrier_sync
+    JsName:          dispatch_barrier_sync
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_barrier_sync_f
+    JsName:          dispatch_barrier_sync_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_block_cancel
+    JsName:          dispatch_block_cancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_block_create
+    JsName:          dispatch_block_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+      - Type:            Enum
+        Name:            dispatch_block_flags_t
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_block_create_with_qos_class
+    JsName:          dispatch_block_create_with_qos_class
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+      - Type:            Enum
+        Name:            dispatch_block_flags_t
+      - Type:            Enum
+        Name:            qos_class_t
+      - Type:            Int
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            ''
+    JsName:          dispatch_block_flags_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - DISPATCH_BLOCK_BARRIER: '1'
+      - DISPATCH_BLOCK_DETACHED: '2'
+      - DISPATCH_BLOCK_ASSIGN_CURRENT: '4'
+      - DISPATCH_BLOCK_NO_QOS_CLASS: '8'
+      - DISPATCH_BLOCK_INHERIT_QOS_CLASS: '16'
+      - DISPATCH_BLOCK_ENFORCE_QOS_CLASS: '32'
+    SwiftNameFields: 
+  - Name:            dispatch_block_notify
+    JsName:          dispatch_block_notify
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_block_perform
+    JsName:          dispatch_block_perform
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Enum
+        Name:            dispatch_block_flags_t
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_block_testcancel
+    JsName:          dispatch_block_testcancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_block_wait
+    JsName:          dispatch_block_wait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/block.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+      - Type:            ULongLong
+  - Name:            dispatch_data_apply
+    JsName:          dispatch_data_apply
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Block
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_data
+          - Type:            ULong
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+          - Type:            ULong
+  - Name:            dispatch_data_copy_region
+    JsName:          dispatch_data_copy_region
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            ULong
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            dispatch_data_create
+    JsName:          dispatch_data_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_data_create_concat
+    JsName:          dispatch_data_create_concat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+  - Name:            dispatch_data_create_map
+    JsName:          dispatch_data_create_map
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Pointer
+        PointerType:     
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            ULong
+  - Name:            dispatch_data_create_subrange
+    JsName:          dispatch_data_create_subrange
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            ULong
+      - Type:            ULong
+  - Name:            dispatch_data_get_size
+    JsName:          dispatch_data_get_size
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/data.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+  - Name:            dispatch_get_context
+    JsName:          dispatch_get_context
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_get_current_queue
+    JsName:          dispatch_get_current_queue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_get_global_queue
+    JsName:          dispatch_get_global_queue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_global
+      - Type:            Long
+      - Type:            ULong
+  - Name:            dispatch_get_specific
+    JsName:          dispatch_get_specific
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            dispatch_group_async
+    JsName:          dispatch_group_async
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_group_async_f
+    JsName:          dispatch_group_async_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_group_create
+    JsName:          dispatch_group_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+  - Name:            dispatch_group_enter
+    JsName:          dispatch_group_enter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+  - Name:            dispatch_group_leave
+    JsName:          dispatch_group_leave
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+  - Name:            dispatch_group_notify
+    JsName:          dispatch_group_notify
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_group_notify_f
+    JsName:          dispatch_group_notify_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_group_wait
+    JsName:          dispatch_group_wait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/group.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_group
+      - Type:            ULongLong
+  - Name:            dispatch_io_barrier
+    JsName:          dispatch_io_barrier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_io_close
+    JsName:          dispatch_io_close
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+  - Name:            dispatch_io_create
+    JsName:          dispatch_io_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+      - Type:            Int
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Int
+  - Name:            dispatch_io_create_with_io
+    JsName:          dispatch_io_create_with_io
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Int
+  - Name:            dispatch_io_create_with_path
+    JsName:          dispatch_io_create_with_path
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+      - Type:            CString
+      - Type:            Int
+      - Type:            Ushort
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Int
+  - Name:            dispatch_io_get_descriptor
+    JsName:          dispatch_io_get_descriptor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+  - Name:            dispatch_io_read
+    JsName:          dispatch_io_read
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            LongLong
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_data
+          - Type:            Int
+  - Name:            dispatch_io_set_high_water
+    JsName:          dispatch_io_set_high_water
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+  - Name:            dispatch_io_set_interval
+    JsName:          dispatch_io_set_interval
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULongLong
+      - Type:            ULong
+  - Name:            dispatch_io_set_low_water
+    JsName:          dispatch_io_set_low_water
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            ULong
+  - Name:            dispatch_io_write
+    JsName:          dispatch_io_write
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_io
+      - Type:            LongLong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_data
+          - Type:            Int
+  - Name:            dispatch_main
+    JsName:          dispatch_main
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+  - Name:            dispatch_once
+    JsName:          dispatch_once
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/once.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Long
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_once_f
+    JsName:          dispatch_once_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/once.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Long
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_queue_attr_make_initially_inactive
+    JsName:          dispatch_queue_attr_make_initially_inactive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+  - Name:            dispatch_queue_attr_make_with_autorelease_frequency
+    JsName:          dispatch_queue_attr_make_with_autorelease_frequency
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Enum
+        Name:            dispatch_autorelease_frequency_t
+  - Name:            dispatch_queue_attr_make_with_qos_class
+    JsName:          dispatch_queue_attr_make_with_qos_class
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Enum
+        Name:            qos_class_t
+      - Type:            Int
+  - Name:            dispatch_queue_create
+    JsName:          dispatch_queue_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            CString
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+  - Name:            dispatch_queue_create_with_target
+    JsName:          dispatch_queue_create_with_target
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            CString
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue_attr
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_queue_get_label
+    JsName:          dispatch_queue_get_label
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_queue_get_qos_class
+    JsName:          dispatch_queue_get_qos_class
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            qos_class_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Int
+  - Name:            dispatch_queue_get_specific
+    JsName:          dispatch_queue_get_specific
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            dispatch_queue_set_specific
+    JsName:          dispatch_queue_set_specific
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_read
+    JsName:          dispatch_read
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_data
+          - Type:            Int
+  - Name:            dispatch_release
+    JsName:          dispatch_release
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_resume
+    JsName:          dispatch_resume
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_retain
+    JsName:          dispatch_retain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_semaphore_create
+    JsName:          dispatch_semaphore_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/semaphore.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_semaphore
+      - Type:            Long
+  - Name:            dispatch_semaphore_signal
+    JsName:          dispatch_semaphore_signal
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/semaphore.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_semaphore
+  - Name:            dispatch_semaphore_wait
+    JsName:          dispatch_semaphore_wait
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/semaphore.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_semaphore
+      - Type:            ULongLong
+  - Name:            dispatch_set_context
+    JsName:          dispatch_set_context
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+  - Name:            dispatch_set_finalizer_f
+    JsName:          dispatch_set_finalizer_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_set_qos_class_floor
+    JsName:          dispatch_set_qos_class_floor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+      - Type:            Enum
+        Name:            qos_class_t
+      - Type:            Int
+  - Name:            dispatch_set_target_queue
+    JsName:          dispatch_set_target_queue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_source_cancel
+    JsName:          dispatch_source_cancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+  - Name:            dispatch_source_create
+    JsName:          dispatch_source_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            dispatch_source_get_data
+    JsName:          dispatch_source_get_data
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+  - Name:            dispatch_source_get_handle
+    JsName:          dispatch_source_get_handle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+  - Name:            dispatch_source_get_mask
+    JsName:          dispatch_source_get_mask
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+  - Name:            dispatch_source_merge_data
+    JsName:          dispatch_source_merge_data
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            ULong
+  - Name:            dispatch_source_set_cancel_handler
+    JsName:          dispatch_source_set_cancel_handler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_source_set_cancel_handler_f
+    JsName:          dispatch_source_set_cancel_handler_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_source_set_event_handler
+    JsName:          dispatch_source_set_event_handler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_source_set_event_handler_f
+    JsName:          dispatch_source_set_event_handler_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_source_set_registration_handler
+    JsName:          dispatch_source_set_registration_handler
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_source_set_registration_handler_f
+    JsName:          dispatch_source_set_registration_handler_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_source_set_timer
+    JsName:          dispatch_source_set_timer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+      - Type:            ULongLong
+      - Type:            ULongLong
+      - Type:            ULongLong
+  - Name:            dispatch_source_testcancel
+    JsName:          dispatch_source_testcancel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/source.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Long
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_source
+  - Name:            dispatch_suspend
+    JsName:          dispatch_suspend
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/object.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_object
+  - Name:            dispatch_sync
+    JsName:          dispatch_sync
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+  - Name:            dispatch_sync_f
+    JsName:          dispatch_sync_f
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/queue.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+  - Name:            dispatch_time
+    JsName:          dispatch_time
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/time.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            ULongLong
+      - Type:            LongLong
+  - Name:            dispatch_walltime
+    JsName:          dispatch_walltime
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/time.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULongLong
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Darwin.POSIX.sys.types._timespec
+          JsName:          timespec
+      - Type:            LongLong
+  - Name:            dispatch_workloop_create
+    JsName:          dispatch_workloop_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/workloop.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_workloop
+      - Type:            CString
+  - Name:            dispatch_workloop_create_inactive
+    JsName:          dispatch_workloop_create_inactive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/workloop.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_workloop
+      - Type:            CString
+  - Name:            dispatch_workloop_set_autorelease_frequency
+    JsName:          dispatch_workloop_set_autorelease_frequency
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/workloop.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_workloop
+      - Type:            Enum
+        Name:            dispatch_autorelease_frequency_t
+  - Name:            dispatch_write
+    JsName:          dispatch_write
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/dispatch/io.h
+    Module:          
+      FullName:        Dispatch
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Int
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_data
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+      - Type:            Block
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSObject
+            WithProtocols:   
+              - OS_dispatch_data
+          - Type:            Int
+...

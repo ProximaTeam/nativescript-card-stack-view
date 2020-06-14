@@ -1,0 +1,1580 @@
+---
+Module:          
+  FullName:        AppleTextureEncoder
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ate
+      IsFramework:     false
+Items:           
+  - Name:            OS_at_encoder
+    JsName:          OS_at_encoder
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            at_alpha_count
+    JsName:          at_alpha_count
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            at_alpha_not_premultiplied
+    JsName:          at_alpha_not_premultiplied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            at_alpha_opaque
+    JsName:          at_alpha_opaque
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            at_alpha_premultiplied
+    JsName:          at_alpha_premultiplied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ''
+    JsName:          at_alpha_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - at_alpha_not_premultiplied: '0'
+      - at_alpha_opaque: '1'
+      - at_alpha_premultiplied: '2'
+      - at_alpha_count:  '3'
+    SwiftNameFields: 
+  - Name:            at_block_buffer_t
+    JsName:          at_block_buffer_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            blocks
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            rowBytes
+        Signature:       
+          Type:            ULong
+      - Name:            sliceBytes
+        Signature:       
+          Type:            ULong
+  - Name:            at_block_format_astc_10x10_hdr
+    JsName:          at_block_format_astc_10x10_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '28'
+  - Name:            at_block_format_astc_10x10_ldr
+    JsName:          at_block_format_astc_10x10_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            at_block_format_astc_10x5_hdr
+    JsName:          at_block_format_astc_10x5_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '25'
+  - Name:            at_block_format_astc_10x5_ldr
+    JsName:          at_block_format_astc_10x5_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            at_block_format_astc_10x6_hdr
+    JsName:          at_block_format_astc_10x6_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '26'
+  - Name:            at_block_format_astc_10x6_ldr
+    JsName:          at_block_format_astc_10x6_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            at_block_format_astc_10x8_hdr
+    JsName:          at_block_format_astc_10x8_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '27'
+  - Name:            at_block_format_astc_10x8_ldr
+    JsName:          at_block_format_astc_10x8_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            at_block_format_astc_12x10_hdr
+    JsName:          at_block_format_astc_12x10_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '29'
+  - Name:            at_block_format_astc_12x10_ldr
+    JsName:          at_block_format_astc_12x10_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            at_block_format_astc_12x12_hdr
+    JsName:          at_block_format_astc_12x12_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '30'
+  - Name:            at_block_format_astc_12x12_ldr
+    JsName:          at_block_format_astc_12x12_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            at_block_format_astc_4x4_hdr
+    JsName:          at_block_format_astc_4x4_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            at_block_format_astc_4x4_ldr
+    JsName:          at_block_format_astc_4x4_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            at_block_format_astc_5x4_hdr
+    JsName:          at_block_format_astc_5x4_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18'
+  - Name:            at_block_format_astc_5x4_ldr
+    JsName:          at_block_format_astc_5x4_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            at_block_format_astc_5x5_hdr
+    JsName:          at_block_format_astc_5x5_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '19'
+  - Name:            at_block_format_astc_5x5_ldr
+    JsName:          at_block_format_astc_5x5_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            at_block_format_astc_6x5_hdr
+    JsName:          at_block_format_astc_6x5_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '20'
+  - Name:            at_block_format_astc_6x5_ldr
+    JsName:          at_block_format_astc_6x5_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            at_block_format_astc_6x6_hdr
+    JsName:          at_block_format_astc_6x6_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '21'
+  - Name:            at_block_format_astc_6x6_ldr
+    JsName:          at_block_format_astc_6x6_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            at_block_format_astc_8x5_hdr
+    JsName:          at_block_format_astc_8x5_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '22'
+  - Name:            at_block_format_astc_8x5_ldr
+    JsName:          at_block_format_astc_8x5_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            at_block_format_astc_8x6_hdr
+    JsName:          at_block_format_astc_8x6_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '23'
+  - Name:            at_block_format_astc_8x6_ldr
+    JsName:          at_block_format_astc_8x6_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            at_block_format_astc_8x8_hdr
+    JsName:          at_block_format_astc_8x8_hdr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '24'
+  - Name:            at_block_format_astc_8x8_ldr
+    JsName:          at_block_format_astc_8x8_ldr
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            at_block_format_bc1
+    JsName:          at_block_format_bc1
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '33'
+  - Name:            at_block_format_bc2
+    JsName:          at_block_format_bc2
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '34'
+  - Name:            at_block_format_bc3
+    JsName:          at_block_format_bc3
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '35'
+  - Name:            at_block_format_bc4
+    JsName:          at_block_format_bc4
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '36'
+  - Name:            at_block_format_bc4s
+    JsName:          at_block_format_bc4s
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '37'
+  - Name:            at_block_format_bc5
+    JsName:          at_block_format_bc5
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '38'
+  - Name:            at_block_format_bc5s
+    JsName:          at_block_format_bc5s
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '39'
+  - Name:            at_block_format_bc6
+    JsName:          at_block_format_bc6
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '40'
+  - Name:            at_block_format_bc6u
+    JsName:          at_block_format_bc6u
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '41'
+  - Name:            at_block_format_bc7
+    JsName:          at_block_format_bc7
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '42'
+  - Name:            at_block_format_count
+    JsName:          at_block_format_count
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '43'
+  - Name:            at_block_format_invalid
+    JsName:          at_block_format_invalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ''
+    JsName:          at_block_format_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - at_block_format_invalid: '0'
+      - at_block_format_astc_4x4_ldr: '1'
+      - at_block_format_astc_5x4_ldr: '2'
+      - at_block_format_astc_5x5_ldr: '3'
+      - at_block_format_astc_6x5_ldr: '4'
+      - at_block_format_astc_6x6_ldr: '5'
+      - at_block_format_astc_8x5_ldr: '6'
+      - at_block_format_astc_8x6_ldr: '7'
+      - at_block_format_astc_8x8_ldr: '8'
+      - at_block_format_astc_10x5_ldr: '9'
+      - at_block_format_astc_10x6_ldr: '10'
+      - at_block_format_astc_10x8_ldr: '11'
+      - at_block_format_astc_10x10_ldr: '12'
+      - at_block_format_astc_12x10_ldr: '13'
+      - at_block_format_astc_12x12_ldr: '14'
+      - at_block_format_astc_4x4_hdr: '17'
+      - at_block_format_astc_5x4_hdr: '18'
+      - at_block_format_astc_5x5_hdr: '19'
+      - at_block_format_astc_6x5_hdr: '20'
+      - at_block_format_astc_6x6_hdr: '21'
+      - at_block_format_astc_8x5_hdr: '22'
+      - at_block_format_astc_8x6_hdr: '23'
+      - at_block_format_astc_8x8_hdr: '24'
+      - at_block_format_astc_10x5_hdr: '25'
+      - at_block_format_astc_10x6_hdr: '26'
+      - at_block_format_astc_10x8_hdr: '27'
+      - at_block_format_astc_10x10_hdr: '28'
+      - at_block_format_astc_12x10_hdr: '29'
+      - at_block_format_astc_12x12_hdr: '30'
+      - at_block_format_bc1: '33'
+      - at_block_format_bc2: '34'
+      - at_block_format_bc3: '35'
+      - at_block_format_bc4: '36'
+      - at_block_format_bc4s: '37'
+      - at_block_format_bc5: '38'
+      - at_block_format_bc5s: '39'
+      - at_block_format_bc6: '40'
+      - at_block_format_bc6u: '41'
+      - at_block_format_bc7: '42'
+      - at_block_format_count: '43'
+    SwiftNameFields: 
+  - Name:            at_block_format_to_MTLPixelFormat
+    JsName:          at_block_format_to_MTLPixelFormat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            Enum
+        Name:            at_block_format_t
+  - Name:            at_encoder_compress_texels
+    JsName:          at_encoder_compress_texels
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_texel_region_t
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_block_buffer_t
+      - Type:            Float
+      - Type:            Enum
+        Name:            at_flags_t
+  - Name:            at_encoder_create
+    JsName:          at_encoder_create
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Enum
+        Name:            at_texel_format_t
+      - Type:            Enum
+        Name:            at_alpha_t
+      - Type:            Enum
+        Name:            at_block_format_t
+      - Type:            Enum
+        Name:            at_alpha_t
+      - Type:            Pointer
+        PointerType:     
+          Type:            Float
+  - Name:            at_encoder_decompress_texels
+    JsName:          at_encoder_decompress_texels
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            at_error_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_block_buffer_t
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_texel_region_t
+      - Type:            Enum
+        Name:            at_flags_t
+  - Name:            at_encoder_get_block_address
+    JsName:          at_encoder_get_block_address
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Struct
+        Module:          AppleTextureEncoder
+        JsName:          at_size_t
+      - Type:            Struct
+        Module:          AppleTextureEncoder
+        JsName:          at_size_t
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_block_buffer_t
+  - Name:            at_encoder_get_block_alpha
+    JsName:          at_encoder_get_block_alpha
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            at_alpha_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_block_counts
+    JsName:          at_encoder_get_block_counts
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          AppleTextureEncoder
+        JsName:          at_size_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Struct
+        Module:          AppleTextureEncoder
+        JsName:          at_size_t
+  - Name:            at_encoder_get_block_dimensions
+    JsName:          at_encoder_get_block_dimensions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          AppleTextureEncoder
+        JsName:          at_size_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_block_format
+    JsName:          at_encoder_get_block_format
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            at_block_format_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_block_size
+    JsName:          at_encoder_get_block_size
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_texel_alpha
+    JsName:          at_encoder_get_texel_alpha
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            at_alpha_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_texel_format
+    JsName:          at_encoder_get_texel_format
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            at_texel_format_t
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+  - Name:            at_encoder_get_version
+    JsName:          at_encoder_get_version
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+  - Name:            at_encoder_is_compression_monolithic
+    JsName:          at_encoder_is_compression_monolithic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Enum
+        Name:            at_flags_t
+  - Name:            at_encoder_is_decompression_monolithic
+    JsName:          at_encoder_is_decompression_monolithic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_at_encoder
+      - Type:            Enum
+        Name:            at_flags_t
+  - Name:            at_error_hdr_block_format_required
+    JsName:          at_error_hdr_block_format_required
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5'
+  - Name:            at_error_invalid_flag
+    JsName:          at_error_invalid_flag
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-4'
+  - Name:            at_error_invalid_parameter
+    JsName:          at_error_invalid_parameter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            at_error_invalid_source_data
+    JsName:          at_error_invalid_source_data
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-3'
+  - Name:            at_error_operation_unsupported
+    JsName:          at_error_operation_unsupported
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-2'
+  - Name:            at_error_success
+    JsName:          at_error_success
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ''
+    JsName:          at_error_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - at_error_success: '0'
+      - at_error_invalid_parameter: '-1'
+      - at_error_operation_unsupported: '-2'
+      - at_error_invalid_source_data: '-3'
+      - at_error_invalid_flag: '-4'
+      - at_error_hdr_block_format_required: '-5'
+    SwiftNameFields: 
+  - Name:            at_flags_default
+    JsName:          at_flags_default
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            at_flags_disable_multithreading
+    JsName:          at_flags_disable_multithreading
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            at_flags_flip_texel_region_vertically
+    JsName:          at_flags_flip_texel_region_vertically
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            at_flags_print_debug_info
+    JsName:          at_flags_print_debug_info
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            at_flags_skip_error_calculation
+    JsName:          at_flags_skip_error_calculation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            at_flags_skip_parameter_checking
+    JsName:          at_flags_skip_parameter_checking
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            at_flags_srgb_linear_texels
+    JsName:          at_flags_srgb_linear_texels
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            ''
+    JsName:          at_flags_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - at_flags_default: '0'
+      - at_flags_skip_parameter_checking: '1'
+      - at_flags_print_debug_info: '2'
+      - at_flags_disable_multithreading: '4'
+      - at_flags_skip_error_calculation: '8'
+      - at_flags_flip_texel_region_vertically: '16'
+      - at_flags_srgb_linear_texels: '32'
+      - at_flags_weight_channels_equally: '64'
+    SwiftNameFields: 
+  - Name:            at_flags_weight_channels_equally
+    JsName:          at_flags_weight_channels_equally
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '64'
+  - Name:            at_size_t
+    JsName:          at_size_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            x
+        Signature:       
+          Type:            UInt
+      - Name:            y
+        Signature:       
+          Type:            UInt
+      - Name:            z
+        Signature:       
+          Type:            UInt
+  - Name:            at_texel_format_bgra8_unorm
+    JsName:          at_texel_format_bgra8_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            at_texel_format_count
+    JsName:          at_texel_format_count
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            at_texel_format_invalid
+    JsName:          at_texel_format_invalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            at_texel_format_l16_float
+    JsName:          at_texel_format_l16_float
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            at_texel_format_l16_unorm
+    JsName:          at_texel_format_l16_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            at_texel_format_l8_unorm
+    JsName:          at_texel_format_l8_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            at_texel_format_la16_float
+    JsName:          at_texel_format_la16_float
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            at_texel_format_la16_unorm
+    JsName:          at_texel_format_la16_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            at_texel_format_la8_unorm
+    JsName:          at_texel_format_la8_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            at_texel_format_rgba16_float
+    JsName:          at_texel_format_rgba16_float
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            at_texel_format_rgba16_unorm
+    JsName:          at_texel_format_rgba16_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            at_texel_format_rgba8_unorm
+    JsName:          at_texel_format_rgba8_unorm
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ''
+    JsName:          at_texel_format_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - at_texel_format_invalid: '0'
+      - at_texel_format_l8_unorm: '1'
+      - at_texel_format_l16_unorm: '2'
+      - at_texel_format_la8_unorm: '3'
+      - at_texel_format_la16_unorm: '4'
+      - at_texel_format_rgba8_unorm: '5'
+      - at_texel_format_bgra8_unorm: '6'
+      - at_texel_format_rgba16_unorm: '7'
+      - at_texel_format_l16_float: '8'
+      - at_texel_format_la16_float: '9'
+      - at_texel_format_rgba16_float: '10'
+      - at_texel_format_count: '11'
+    SwiftNameFields: 
+  - Name:            at_texel_format_to_MTLPixelFormat
+    JsName:          at_texel_format_to_MTLPixelFormat
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            UInt
+      - Type:            Enum
+        Name:            at_texel_format_t
+  - Name:            at_texel_region_t
+    JsName:          at_texel_region_t
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/AppleTextureEncoder.h
+    Module:          
+      FullName:        AppleTextureEncoder
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         ate
+          IsFramework:     false
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            texels
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            validSize
+        Signature:       
+          Type:            Struct
+          Module:          AppleTextureEncoder
+          JsName:          at_size_t
+      - Name:            rowBytes
+        Signature:       
+          Type:            ULong
+      - Name:            sliceBytes
+        Signature:       
+          Type:            ULong
+...

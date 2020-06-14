@@ -1,0 +1,919 @@
+---
+Module:          
+  FullName:        IntentsUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         IntentsUI
+      IsFramework:     true
+Items:           
+  - Name:            INUIAddVoiceShortcutButton
+    JsName:          INUIAddVoiceShortcutButton
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithStyle:'
+        JsName:          initWithStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            INUIAddVoiceShortcutButtonStyle
+      - Name:            'setStyle:'
+        JsName:          setStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            INUIAddVoiceShortcutButtonStyle
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            cornerRadius
+        JsName:          cornerRadius
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cornerRadius
+          JsName:          cornerRadius
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setCornerRadius:'
+          JsName:          setCornerRadius
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - INUIAddVoiceShortcutButtonDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - INUIAddVoiceShortcutButtonDelegate
+      - Name:            shortcut
+        JsName:          shortcut
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shortcut
+          JsName:          shortcut
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          INShortcut
+              WithProtocols:   
+        Setter:          
+          Name:            'setShortcut:'
+          JsName:          setShortcut
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          INShortcut
+              WithProtocols:   
+      - Name:            style
+        JsName:          style
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            style
+          JsName:          style
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutButton
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            INUIAddVoiceShortcutButtonStyle
+    StaticProperties: 
+    Protocols:       
+    Base:            UIButton
+  - Name:            INUIAddVoiceShortcutButtonDelegate
+    JsName:          INUIAddVoiceShortcutButtonDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'presentAddVoiceShortcutViewController:forAddVoiceShortcutButton:'
+        JsName:          presentAddVoiceShortcutViewControllerForAddVoiceShortcutButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIAddVoiceShortcutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          INUIAddVoiceShortcutButton
+            WithProtocols:   
+      - Name:            'presentEditVoiceShortcutViewController:forAddVoiceShortcutButton:'
+        JsName:          presentEditVoiceShortcutViewControllerForAddVoiceShortcutButton
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutButton
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIEditVoiceShortcutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          INUIAddVoiceShortcutButton
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            INUIAddVoiceShortcutButtonStyle
+    JsName:          INUIAddVoiceShortcutButtonStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - INUIAddVoiceShortcutButtonStyleWhite: '0'
+      - INUIAddVoiceShortcutButtonStyleWhiteOutline: '1'
+      - INUIAddVoiceShortcutButtonStyleBlack: '2'
+      - INUIAddVoiceShortcutButtonStyleBlackOutline: '3'
+      - INUIAddVoiceShortcutButtonStyleAutomatic: '4'
+      - INUIAddVoiceShortcutButtonStyleAutomaticOutline: '5'
+    SwiftNameFields: 
+      - White:           '0'
+      - WhiteOutline:    '1'
+      - Black:           '2'
+      - BlackOutline:    '3'
+      - Automatic:       '4'
+      - AutomaticOutline: '5'
+  - Name:            INUIAddVoiceShortcutButtonStyleAutomatic
+    JsName:          INUIAddVoiceShortcutButtonStyleAutomatic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            INUIAddVoiceShortcutButtonStyleAutomaticOutline
+    JsName:          INUIAddVoiceShortcutButtonStyleAutomaticOutline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            INUIAddVoiceShortcutButtonStyleBlack
+    JsName:          INUIAddVoiceShortcutButtonStyleBlack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            INUIAddVoiceShortcutButtonStyleBlackOutline
+    JsName:          INUIAddVoiceShortcutButtonStyleBlackOutline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            INUIAddVoiceShortcutButtonStyleWhite
+    JsName:          INUIAddVoiceShortcutButtonStyleWhite
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            INUIAddVoiceShortcutButtonStyleWhiteOutline
+    JsName:          INUIAddVoiceShortcutButtonStyleWhiteOutline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutButton.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutButton
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            INUIAddVoiceShortcutViewController
+    JsName:          INUIAddVoiceShortcutViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithShortcut:'
+        JsName:          initWithShortcut
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          INShortcut
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - INUIAddVoiceShortcutViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+          Module:          
+            FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - INUIAddVoiceShortcutViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            INUIAddVoiceShortcutViewControllerDelegate
+    JsName:          INUIAddVoiceShortcutViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+    Module:          
+      FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'addVoiceShortcutViewControllerDidCancel:'
+        JsName:          addVoiceShortcutViewControllerDidCancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIAddVoiceShortcutViewController
+            WithProtocols:   
+      - Name:            'addVoiceShortcutViewController:didFinishWithVoiceShortcut:error:'
+        JsName:          addVoiceShortcutViewControllerDidFinishWithVoiceShortcutError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIAddVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIAddVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIAddVoiceShortcutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          INVoiceShortcut
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            INUIEditVoiceShortcutViewController
+    JsName:          INUIEditVoiceShortcutViewController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+    Module:          
+      FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithVoiceShortcut:'
+        JsName:          initWithVoiceShortcut
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          INVoiceShortcut
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+          Module:          
+            FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - INUIEditVoiceShortcutViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+          Module:          
+            FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - INUIEditVoiceShortcutViewControllerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            INUIEditVoiceShortcutViewControllerDelegate
+    JsName:          INUIEditVoiceShortcutViewControllerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+    Module:          
+      FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'editVoiceShortcutViewControllerDidCancel:'
+        JsName:          editVoiceShortcutViewControllerDidCancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIEditVoiceShortcutViewController
+            WithProtocols:   
+      - Name:            'editVoiceShortcutViewController:didDeleteVoiceShortcutWithIdentifier:'
+        JsName:          editVoiceShortcutViewControllerDidDeleteVoiceShortcutWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIEditVoiceShortcutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSUUID
+            WithProtocols:   
+      - Name:            'editVoiceShortcutViewController:didUpdateVoiceShortcut:error:'
+        JsName:          editVoiceShortcutViewControllerDidUpdateVoiceShortcutError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIEditVoiceShortcutViewController.h
+        Module:          
+          FullName:        IntentsUI.INUIEditVoiceShortcutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INUIEditVoiceShortcutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          INVoiceShortcut
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            INUIHostedViewContext
+    JsName:          INUIHostedViewContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - INUIHostedViewContextSiriSnippet: '0'
+      - INUIHostedViewContextMapsCard: '1'
+    SwiftNameFields: 
+      - SiriSnippet:     '0'
+      - MapsCard:        '1'
+  - Name:            INUIHostedViewContextMapsCard
+    JsName:          INUIHostedViewContextMapsCard
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            INUIHostedViewContextSiriSnippet
+    JsName:          INUIHostedViewContextSiriSnippet
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            INUIHostedViewControlling
+    JsName:          INUIHostedViewControlling
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'configureViewForParameters:ofInteraction:interactiveBehavior:context:completion:'
+        JsName:          configureViewForParametersOfInteractionInteractiveBehaviorContextCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+        Module:          
+          FullName:        IntentsUI.INUIHostedViewControlling
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSSet
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          INParameter
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          INInteraction
+            WithProtocols:   
+          - Type:            Enum
+            Name:            INUIInteractiveBehavior
+          - Type:            Enum
+            Name:            INUIHostedViewContext
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSSet
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          INParameter
+                    WithProtocols:   
+                WithProtocols:   
+              - Type:            Struct
+                Module:          CoreGraphics.CGGeometry
+                JsName:          CGSize
+      - Name:            'configureWithInteraction:context:completion:'
+        JsName:          configureWithInteractionContextCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+        Module:          
+          FullName:        IntentsUI.INUIHostedViewControlling
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          INInteraction
+            WithProtocols:   
+          - Type:            Enum
+            Name:            INUIHostedViewContext
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Struct
+                Module:          CoreGraphics.CGGeometry
+                JsName:          CGSize
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            INUIHostedViewSiriProviding
+    JsName:          INUIHostedViewSiriProviding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewSiriProviding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            displaysMap
+        JsName:          displaysMap
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+        Module:          
+          FullName:        IntentsUI.INUIHostedViewSiriProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displaysMap
+          JsName:          displaysMap
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+          Module:          
+            FullName:        IntentsUI.INUIHostedViewSiriProviding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            displaysMessage
+        JsName:          displaysMessage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+        Module:          
+          FullName:        IntentsUI.INUIHostedViewSiriProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displaysMessage
+          JsName:          displaysMessage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+          Module:          
+            FullName:        IntentsUI.INUIHostedViewSiriProviding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            displaysPaymentTransaction
+        JsName:          displaysPaymentTransaction
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+        Module:          
+          FullName:        IntentsUI.INUIHostedViewSiriProviding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displaysPaymentTransaction
+          JsName:          displaysPaymentTransaction
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h
+          Module:          
+            FullName:        IntentsUI.INUIHostedViewSiriProviding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            INUIInteractiveBehavior
+    JsName:          INUIInteractiveBehavior
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - INUIInteractiveBehaviorNone: '0'
+      - INUIInteractiveBehaviorNextView: '1'
+      - INUIInteractiveBehaviorLaunch: '2'
+      - INUIInteractiveBehaviorGenericAction: '3'
+    SwiftNameFields: 
+      - None:            '0'
+      - NextView:        '1'
+      - Launch:          '2'
+      - GenericAction:   '3'
+  - Name:            INUIInteractiveBehaviorGenericAction
+    JsName:          INUIInteractiveBehaviorGenericAction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            INUIInteractiveBehaviorLaunch
+    JsName:          INUIInteractiveBehaviorLaunch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            INUIInteractiveBehaviorNextView
+    JsName:          INUIInteractiveBehaviorNextView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            INUIInteractiveBehaviorNone
+    JsName:          INUIInteractiveBehaviorNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h
+    Module:          
+      FullName:        IntentsUI.INUIHostedViewControlling
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            IntentsUIVersionNumber
+    JsName:          IntentsUIVersionNumber
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/IntentsUI.h
+    Module:          
+      FullName:        IntentsUI
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         IntentsUI
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            IntentsUIVersionString
+    JsName:          IntentsUIVersionString
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/IntentsUI.framework/Headers/IntentsUI.h
+    Module:          
+      FullName:        IntentsUI
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         IntentsUI
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

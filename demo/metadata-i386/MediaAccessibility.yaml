@@ -1,0 +1,778 @@
+---
+Module:          
+  FullName:        MediaAccessibility
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         MediaAccessibility
+      IsFramework:     true
+Items:           
+  - Name:            MAAudibleMediaCopyPreferredCharacteristics
+    JsName:          MAAudibleMediaCopyPreferredCharacteristics
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAAudibleMedia.h
+    Module:          
+      FullName:        MediaAccessibility.MAAudibleMedia
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+  - Name:            MACaptionAppearanceAddSelectedLanguage
+    JsName:          MACaptionAppearanceAddSelectedLanguage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            MACaptionAppearanceBehavior
+    JsName:          MACaptionAppearanceBehavior
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kMACaptionAppearanceBehaviorUseValue: '0'
+      - kMACaptionAppearanceBehaviorUseContentIfAvailable: '1'
+    SwiftNameFields: 
+  - Name:            MACaptionAppearanceCopyBackgroundColor
+    JsName:          MACaptionAppearanceCopyBackgroundColor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceCopyFontDescriptorForStyle
+    JsName:          MACaptionAppearanceCopyFontDescriptorForStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            UIFontDescriptor
+        BridgedTo:       UIFontDescriptor
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+      - Type:            Enum
+        Name:            MACaptionAppearanceFontStyle
+  - Name:            MACaptionAppearanceCopyForegroundColor
+    JsName:          MACaptionAppearanceCopyForegroundColor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics
+    JsName:          MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+  - Name:            MACaptionAppearanceCopySelectedLanguages
+    JsName:          MACaptionAppearanceCopySelectedLanguages
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+  - Name:            MACaptionAppearanceCopyWindowColor
+    JsName:          MACaptionAppearanceCopyWindowColor
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionReturnsUnmanaged ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceDidDisplayCaptions
+    JsName:          MACaptionAppearanceDidDisplayCaptions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+  - Name:            MACaptionAppearanceDisplayType
+    JsName:          MACaptionAppearanceDisplayType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kMACaptionAppearanceDisplayTypeForcedOnly: '0'
+      - kMACaptionAppearanceDisplayTypeAutomatic: '1'
+      - kMACaptionAppearanceDisplayTypeAlwaysOn: '2'
+    SwiftNameFields: 
+  - Name:            MACaptionAppearanceDomain
+    JsName:          MACaptionAppearanceDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kMACaptionAppearanceDomainDefault: '0'
+      - kMACaptionAppearanceDomainUser: '1'
+    SwiftNameFields: 
+  - Name:            MACaptionAppearanceFontStyle
+    JsName:          MACaptionAppearanceFontStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kMACaptionAppearanceFontStyleDefault: '0'
+      - kMACaptionAppearanceFontStyleMonospacedWithSerif: '1'
+      - kMACaptionAppearanceFontStyleProportionalWithSerif: '2'
+      - kMACaptionAppearanceFontStyleMonospacedWithoutSerif: '3'
+      - kMACaptionAppearanceFontStyleProportionalWithoutSerif: '4'
+      - kMACaptionAppearanceFontStyleCasual: '5'
+      - kMACaptionAppearanceFontStyleCursive: '6'
+      - kMACaptionAppearanceFontStyleSmallCapital: '7'
+    SwiftNameFields: 
+  - Name:            MACaptionAppearanceGetBackgroundOpacity
+    JsName:          MACaptionAppearanceGetBackgroundOpacity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceGetDisplayType
+    JsName:          MACaptionAppearanceGetDisplayType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            MACaptionAppearanceDisplayType
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+  - Name:            MACaptionAppearanceGetForegroundOpacity
+    JsName:          MACaptionAppearanceGetForegroundOpacity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceGetRelativeCharacterSize
+    JsName:          MACaptionAppearanceGetRelativeCharacterSize
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceGetTextEdgeStyle
+    JsName:          MACaptionAppearanceGetTextEdgeStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            MACaptionAppearanceTextEdgeStyle
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceGetWindowOpacity
+    JsName:          MACaptionAppearanceGetWindowOpacity
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceGetWindowRoundedCornerRadius
+    JsName:          MACaptionAppearanceGetWindowRoundedCornerRadius
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Float
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            MACaptionAppearanceBehavior
+  - Name:            MACaptionAppearanceSetDisplayType
+    JsName:          MACaptionAppearanceSetDisplayType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Enum
+        Name:            MACaptionAppearanceDomain
+      - Type:            Enum
+        Name:            MACaptionAppearanceDisplayType
+  - Name:            MACaptionAppearanceTextEdgeStyle
+    JsName:          MACaptionAppearanceTextEdgeStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kMACaptionAppearanceTextEdgeStyleUndefined: '0'
+      - kMACaptionAppearanceTextEdgeStyleNone: '1'
+      - kMACaptionAppearanceTextEdgeStyleRaised: '2'
+      - kMACaptionAppearanceTextEdgeStyleDepressed: '3'
+      - kMACaptionAppearanceTextEdgeStyleUniform: '4'
+      - kMACaptionAppearanceTextEdgeStyleDropShadow: '5'
+    SwiftNameFields: 
+  - Name:            MAImageCaptioningCopyCaption
+    JsName:          MAImageCaptioningCopyCaption
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAImageCaptioning.h
+    Module:          
+      FullName:        MediaAccessibility.MAImageCaptioning
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+      - Type:            BridgedInterface
+        Name:            NSURL
+        BridgedTo:       NSURL
+      - Type:            Pointer
+        PointerType:     
+          Type:            BridgedInterface
+          Name:            NSError
+          BridgedTo:       NSError
+  - Name:            MAImageCaptioningCopyMetadataTagPath
+    JsName:          MAImageCaptioningCopyMetadataTagPath
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAImageCaptioning.h
+    Module:          
+      FullName:        MediaAccessibility.MAImageCaptioning
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            MAImageCaptioningSetCaption
+    JsName:          MAImageCaptioningSetCaption
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAImageCaptioning.h
+    Module:          
+      FullName:        MediaAccessibility.MAImageCaptioning
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            NSURL
+        BridgedTo:       NSURL
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+      - Type:            Pointer
+        PointerType:     
+          Type:            BridgedInterface
+          Name:            NSError
+          BridgedTo:       NSError
+  - Name:            MAMediaCharacteristicDescribesMusicAndSoundForAccessibility
+    JsName:          MAMediaCharacteristicDescribesMusicAndSoundForAccessibility
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            MAMediaCharacteristicDescribesVideoForAccessibility
+    JsName:          MAMediaCharacteristicDescribesVideoForAccessibility
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAAudibleMedia.h
+    Module:          
+      FullName:        MediaAccessibility.MAAudibleMedia
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            MAMediaCharacteristicTranscribesSpokenDialogForAccessibility
+    JsName:          MAMediaCharacteristicTranscribesSpokenDialogForAccessibility
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kMAAudibleMediaSettingsChangedNotification
+    JsName:          kMAAudibleMediaSettingsChangedNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MAAudibleMedia.h
+    Module:          
+      FullName:        MediaAccessibility.MAAudibleMedia
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kMACaptionAppearanceBehaviorUseContentIfAvailable
+    JsName:          kMACaptionAppearanceBehaviorUseContentIfAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMACaptionAppearanceBehaviorUseValue
+    JsName:          kMACaptionAppearanceBehaviorUseValue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMACaptionAppearanceDisplayTypeAlwaysOn
+    JsName:          kMACaptionAppearanceDisplayTypeAlwaysOn
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kMACaptionAppearanceDisplayTypeAutomatic
+    JsName:          kMACaptionAppearanceDisplayTypeAutomatic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMACaptionAppearanceDisplayTypeForcedOnly
+    JsName:          kMACaptionAppearanceDisplayTypeForcedOnly
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMACaptionAppearanceDomainDefault
+    JsName:          kMACaptionAppearanceDomainDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMACaptionAppearanceDomainUser
+    JsName:          kMACaptionAppearanceDomainUser
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMACaptionAppearanceFontStyleCasual
+    JsName:          kMACaptionAppearanceFontStyleCasual
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kMACaptionAppearanceFontStyleCursive
+    JsName:          kMACaptionAppearanceFontStyleCursive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            kMACaptionAppearanceFontStyleDefault
+    JsName:          kMACaptionAppearanceFontStyleDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMACaptionAppearanceFontStyleMonospacedWithSerif
+    JsName:          kMACaptionAppearanceFontStyleMonospacedWithSerif
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMACaptionAppearanceFontStyleMonospacedWithoutSerif
+    JsName:          kMACaptionAppearanceFontStyleMonospacedWithoutSerif
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kMACaptionAppearanceFontStyleProportionalWithSerif
+    JsName:          kMACaptionAppearanceFontStyleProportionalWithSerif
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kMACaptionAppearanceFontStyleProportionalWithoutSerif
+    JsName:          kMACaptionAppearanceFontStyleProportionalWithoutSerif
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kMACaptionAppearanceFontStyleSmallCapital
+    JsName:          kMACaptionAppearanceFontStyleSmallCapital
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            kMACaptionAppearanceSettingsChangedNotification
+    JsName:          kMACaptionAppearanceSettingsChangedNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kMACaptionAppearanceTextEdgeStyleDepressed
+    JsName:          kMACaptionAppearanceTextEdgeStyleDepressed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kMACaptionAppearanceTextEdgeStyleDropShadow
+    JsName:          kMACaptionAppearanceTextEdgeStyleDropShadow
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kMACaptionAppearanceTextEdgeStyleNone
+    JsName:          kMACaptionAppearanceTextEdgeStyleNone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kMACaptionAppearanceTextEdgeStyleRaised
+    JsName:          kMACaptionAppearanceTextEdgeStyleRaised
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kMACaptionAppearanceTextEdgeStyleUndefined
+    JsName:          kMACaptionAppearanceTextEdgeStyleUndefined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kMACaptionAppearanceTextEdgeStyleUniform
+    JsName:          kMACaptionAppearanceTextEdgeStyleUniform
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h
+    Module:          
+      FullName:        MediaAccessibility.MACaptionAppearance
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+...

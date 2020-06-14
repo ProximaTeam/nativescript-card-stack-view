@@ -1,0 +1,470 @@
+---
+Module:          
+  FullName:        PhotosUI
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         PhotosUI
+      IsFramework:     true
+Items:           
+  - Name:            PHContentEditingController
+    JsName:          PHContentEditingController
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+    Module:          
+      FullName:        PhotosUI.PHContentEditingController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            cancelContentEditing
+        JsName:          cancelContentEditing
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+        Module:          
+          FullName:        PhotosUI.PHContentEditingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'canHandleAdjustmentData:'
+        JsName:          canHandleAdjustmentData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+        Module:          
+          FullName:        PhotosUI.PHContentEditingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          PHAdjustmentData
+            WithProtocols:   
+      - Name:            'finishContentEditingWithCompletionHandler:'
+        JsName:          finishContentEditingWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+        Module:          
+          FullName:        PhotosUI.PHContentEditingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          PHContentEditingOutput
+                WithProtocols:   
+      - Name:            'startContentEditingWithInput:placeholderImage:'
+        JsName:          startContentEditingWithInputPlaceholderImage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+        Module:          
+          FullName:        PhotosUI.PHContentEditingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PHContentEditingInput
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            shouldShowCancelConfirmation
+        JsName:          shouldShowCancelConfirmation
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+        Module:          
+          FullName:        PhotosUI.PHContentEditingController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            shouldShowCancelConfirmation
+          JsName:          shouldShowCancelConfirmation
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h
+          Module:          
+            FullName:        PhotosUI.PHContentEditingController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            PHEditingExtensionContext
+    JsName:          PHEditingExtensionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHEditingExtensionContext.h
+    Module:          
+      FullName:        PhotosUI.PHEditingExtensionContext
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    8
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSExtensionContext
+  - Name:            PHLivePhotoBadgeOptions
+    JsName:          PHLivePhotoBadgeOptions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - PHLivePhotoBadgeOptionsOverContent: '1'
+      - PHLivePhotoBadgeOptionsLiveOff: '2'
+    SwiftNameFields: 
+      - OverContent:     '1'
+      - LiveOff:         '2'
+  - Name:            PHLivePhotoBadgeOptionsLiveOff
+    JsName:          PHLivePhotoBadgeOptionsLiveOff
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            PHLivePhotoBadgeOptionsOverContent
+    JsName:          PHLivePhotoBadgeOptionsOverContent
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            PHLivePhotoView
+    JsName:          PHLivePhotoView
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'startPlaybackWithStyle:'
+        JsName:          startPlaybackWithStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Enum
+            Name:            PHLivePhotoViewPlaybackStyle
+      - Name:            stopPlayback
+        JsName:          stopPlayback
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            'livePhotoBadgeImageWithOptions:'
+        JsName:          livePhotoBadgeImageWithOptions
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIImage
+            WithProtocols:   
+          - Type:            Enum
+            Name:            PHLivePhotoBadgeOptions
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - PHLivePhotoViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - PHLivePhotoViewDelegate
+      - Name:            livePhoto
+        JsName:          livePhoto
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            livePhoto
+          JsName:          livePhoto
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          PHLivePhoto
+              WithProtocols:   
+        Setter:          
+          Name:            'setLivePhoto:'
+          JsName:          setLivePhoto
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          PHLivePhoto
+              WithProtocols:   
+      - Name:            muted
+        JsName:          muted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isMuted
+          JsName:          isMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setMuted:'
+          JsName:          setMuted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            playbackGestureRecognizer
+        JsName:          playbackGestureRecognizer
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            playbackGestureRecognizer
+          JsName:          playbackGestureRecognizer
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+          Module:          
+            FullName:        PhotosUI.PHLivePhotoView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIGestureRecognizer
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            PHLivePhotoViewDelegate
+    JsName:          PHLivePhotoViewDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'livePhotoView:didEndPlaybackWithStyle:'
+        JsName:          livePhotoViewDidEndPlaybackWithStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PHLivePhotoView
+            WithProtocols:   
+          - Type:            Enum
+            Name:            PHLivePhotoViewPlaybackStyle
+      - Name:            'livePhotoView:willBeginPlaybackWithStyle:'
+        JsName:          livePhotoViewWillBeginPlaybackWithStyle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+        Module:          
+          FullName:        PhotosUI.PHLivePhotoView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          PHLivePhotoView
+            WithProtocols:   
+          - Type:            Enum
+            Name:            PHLivePhotoViewPlaybackStyle
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            PHLivePhotoViewPlaybackStyle
+    JsName:          PHLivePhotoViewPlaybackStyle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - PHLivePhotoViewPlaybackStyleUndefined: '0'
+      - PHLivePhotoViewPlaybackStyleFull: '1'
+      - PHLivePhotoViewPlaybackStyleHint: '2'
+    SwiftNameFields: 
+      - Undefined:       '0'
+      - Full:            '1'
+      - Hint:            '2'
+  - Name:            PHLivePhotoViewPlaybackStyleFull
+    JsName:          PHLivePhotoViewPlaybackStyleFull
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            PHLivePhotoViewPlaybackStyleHint
+    JsName:          PHLivePhotoViewPlaybackStyleHint
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            PHLivePhotoViewPlaybackStyleUndefined
+    JsName:          PHLivePhotoViewPlaybackStyleUndefined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h
+    Module:          
+      FullName:        PhotosUI.PHLivePhotoView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...

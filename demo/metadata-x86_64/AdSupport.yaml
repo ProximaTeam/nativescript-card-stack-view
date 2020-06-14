@@ -1,0 +1,89 @@
+---
+Module:          
+  FullName:        AdSupport
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AdSupport
+      IsFramework:     true
+Items:           
+  - Name:            ASIdentifierManager
+    JsName:          ASIdentifierManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+    Module:          
+      FullName:        AdSupport.ASIdentifierManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            sharedManager
+        JsName:          sharedManager
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+        Module:          
+          FullName:        AdSupport.ASIdentifierManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ASIdentifierManager
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            advertisingIdentifier
+        JsName:          advertisingIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+        Module:          
+          FullName:        AdSupport.ASIdentifierManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            advertisingIdentifier
+          JsName:          advertisingIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+          Module:          
+            FullName:        AdSupport.ASIdentifierManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSUUID
+              WithProtocols:   
+      - Name:            advertisingTrackingEnabled
+        JsName:          advertisingTrackingEnabled
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+        Module:          
+          FullName:        AdSupport.ASIdentifierManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isAdvertisingTrackingEnabled
+          JsName:          isAdvertisingTrackingEnabled
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AdSupport.framework/Headers/ASIdentifierManager.h
+          Module:          
+            FullName:        AdSupport.ASIdentifierManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+...

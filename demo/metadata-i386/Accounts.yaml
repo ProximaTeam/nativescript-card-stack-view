@@ -1,0 +1,1210 @@
+---
+Module:          
+  FullName:        Accounts
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         Accounts
+      IsFramework:     true
+Items:           
+  - Name:            ACAccount
+    JsName:          ACAccount
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+    Module:          
+      FullName:        Accounts.ACAccount
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithAccountType:'
+        JsName:          initWithAccountType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          ACAccountType
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accountDescription
+        JsName:          accountDescription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountDescription
+          JsName:          accountDescription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setAccountDescription:'
+          JsName:          setAccountDescription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            accountType
+        JsName:          accountType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountType
+          JsName:          accountType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ACAccountType
+              WithProtocols:   
+        Setter:          
+          Name:            'setAccountType:'
+          JsName:          setAccountType
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          ACAccountType
+              WithProtocols:   
+      - Name:            credential
+        JsName:          credential
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            credential
+          JsName:          credential
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          ACAccountCredential
+              WithProtocols:   
+        Setter:          
+          Name:            'setCredential:'
+          JsName:          setCredential
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          ACAccountCredential
+              WithProtocols:   
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            userFullName
+        JsName:          userFullName
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    7.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            userFullName
+          JsName:          userFullName
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    7.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            username
+        JsName:          username
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+        Module:          
+          FullName:        Accounts.ACAccount
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            username
+          JsName:          username
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setUsername:'
+          JsName:          setUsername
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccount.h
+          Module:          
+            FullName:        Accounts.ACAccount
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ACAccountCredential
+    JsName:          ACAccountCredential
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+    Module:          
+      FullName:        Accounts.ACAccountCredential
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithOAuth2Token:refreshToken:expiryDate:'
+        JsName:          initWithOAuth2TokenRefreshTokenExpiryDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+        Module:          
+          FullName:        Accounts.ACAccountCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDate
+            WithProtocols:   
+      - Name:            'initWithOAuthToken:tokenSecret:'
+        JsName:          initWithOAuthTokenTokenSecret
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+        Module:          
+          FullName:        Accounts.ACAccountCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            oauthToken
+        JsName:          oauthToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+        Module:          
+          FullName:        Accounts.ACAccountCredential
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            oauthToken
+          JsName:          oauthToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+          Module:          
+            FullName:        Accounts.ACAccountCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setOauthToken:'
+          JsName:          setOauthToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountCredential.h
+          Module:          
+            FullName:        Accounts.ACAccountCredential
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ACAccountCredentialRenewResult
+    JsName:          ACAccountCredentialRenewResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ACAccountCredentialRenewResultRenewed: '0'
+      - ACAccountCredentialRenewResultRejected: '1'
+      - ACAccountCredentialRenewResultFailed: '2'
+    SwiftNameFields: 
+      - Renewed:         '0'
+      - Rejected:        '1'
+      - Failed:          '2'
+  - Name:            ACAccountCredentialRenewResultFailed
+    JsName:          ACAccountCredentialRenewResultFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ACAccountCredentialRenewResultRejected
+    JsName:          ACAccountCredentialRenewResultRejected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ACAccountCredentialRenewResultRenewed
+    JsName:          ACAccountCredentialRenewResultRenewed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ACAccountStore
+    JsName:          ACAccountStore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'accountsWithAccountType:'
+        JsName:          accountsWithAccountType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          ACAccountType
+            WithProtocols:   
+      - Name:            'accountTypeWithAccountTypeIdentifier:'
+        JsName:          accountTypeWithAccountTypeIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ACAccountType
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'accountWithIdentifier:'
+        JsName:          accountWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          ACAccount
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'removeAccount:withCompletionHandler:'
+        JsName:          removeAccountWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ACAccount
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'renewCredentialsForAccount:completion:'
+        JsName:          renewCredentialsForAccountCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ACAccount
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            ACAccountCredentialRenewResult
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestAccessToAccountsWithType:options:completion:'
+        JsName:          requestAccessToAccountsWithTypeOptionsCompletion
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ACAccountType
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSDictionary
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'requestAccessToAccountsWithType:withCompletionHandler:'
+        JsName:          requestAccessToAccountsWithTypeWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    5.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ACAccountType
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'saveAccount:withCompletionHandler:'
+        JsName:          saveAccountWithCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          ACAccount
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accounts
+        JsName:          accounts
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+        Module:          
+          FullName:        Accounts.ACAccountStore
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accounts
+          JsName:          accounts
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+          Module:          
+            FullName:        Accounts.ACAccountStore
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ACAccountStoreDidChangeNotification
+    JsName:          ACAccountStoreDidChangeNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountStore.h
+    Module:          
+      FullName:        Accounts.ACAccountStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACAccountType
+    JsName:          ACAccountType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accessGranted
+        JsName:          accessGranted
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+        Module:          
+          FullName:        Accounts.ACAccountType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accessGranted
+          JsName:          accessGranted
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+          Module:          
+            FullName:        Accounts.ACAccountType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            accountTypeDescription
+        JsName:          accountTypeDescription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+        Module:          
+          FullName:        Accounts.ACAccountType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountTypeDescription
+          JsName:          accountTypeDescription
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+          Module:          
+            FullName:        Accounts.ACAccountType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+        Module:          
+          FullName:        Accounts.ACAccountType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+          Module:          
+            FullName:        Accounts.ACAccountType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            ACAccountTypeIdentifierFacebook
+    JsName:          ACAccountTypeIdentifierFacebook
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACAccountTypeIdentifierSinaWeibo
+    JsName:          ACAccountTypeIdentifierSinaWeibo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACAccountTypeIdentifierTencentWeibo
+    JsName:          ACAccountTypeIdentifierTencentWeibo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACAccountTypeIdentifierTwitter
+    JsName:          ACAccountTypeIdentifierTwitter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACErrorAccessDeniedByProtectionPolicy
+    JsName:          ACErrorAccessDeniedByProtectionPolicy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            ACErrorAccessInfoInvalid
+    JsName:          ACErrorAccessInfoInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            ACErrorAccountAlreadyExists
+    JsName:          ACErrorAccountAlreadyExists
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ACErrorAccountAuthenticationFailed
+    JsName:          ACErrorAccountAuthenticationFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ACErrorAccountMissingRequiredProperty
+    JsName:          ACErrorAccountMissingRequiredProperty
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ACErrorAccountNotFound
+    JsName:          ACErrorAccountNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            ACErrorAccountTypeInvalid
+    JsName:          ACErrorAccountTypeInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ACErrorClientPermissionDenied
+    JsName:          ACErrorClientPermissionDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            ACErrorCode
+    JsName:          ACErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ACErrorUnknown:  '1'
+      - ACErrorAccountMissingRequiredProperty: '2'
+      - ACErrorAccountAuthenticationFailed: '3'
+      - ACErrorAccountTypeInvalid: '4'
+      - ACErrorAccountAlreadyExists: '5'
+      - ACErrorAccountNotFound: '6'
+      - ACErrorPermissionDenied: '7'
+      - ACErrorAccessInfoInvalid: '8'
+      - ACErrorClientPermissionDenied: '9'
+      - ACErrorAccessDeniedByProtectionPolicy: '10'
+      - ACErrorCredentialNotFound: '11'
+      - ACErrorFetchCredentialFailed: '12'
+      - ACErrorStoreCredentialFailed: '13'
+      - ACErrorRemoveCredentialFailed: '14'
+      - ACErrorUpdatingNonexistentAccount: '15'
+      - ACErrorInvalidClientBundleID: '16'
+      - ACErrorDeniedByPlugin: '17'
+      - ACErrorCoreDataSaveFailed: '18'
+      - ACErrorFailedSerializingAccountInfo: '19'
+      - ACErrorInvalidCommand: '20'
+      - ACErrorMissingTransportMessageID: '21'
+      - ACErrorCredentialItemNotFound: '22'
+      - ACErrorCredentialItemNotExpired: '23'
+    SwiftNameFields: 
+      - Unknown:         '1'
+      - AccountMissingRequiredProperty: '2'
+      - AccountAuthenticationFailed: '3'
+      - AccountTypeInvalid: '4'
+      - AccountAlreadyExists: '5'
+      - AccountNotFound: '6'
+      - PermissionDenied: '7'
+      - AccessInfoInvalid: '8'
+      - ClientPermissionDenied: '9'
+      - AccessDeniedByProtectionPolicy: '10'
+      - CredentialNotFound: '11'
+      - FetchCredentialFailed: '12'
+      - StoreCredentialFailed: '13'
+      - RemoveCredentialFailed: '14'
+      - UpdatingNonexistentAccount: '15'
+      - InvalidClientBundleID: '16'
+      - DeniedByPlugin:  '17'
+      - CoreDataSaveFailed: '18'
+      - FailedSerializingAccountInfo: '19'
+      - InvalidCommand:  '20'
+      - MissingTransportMessageID: '21'
+      - CredentialItemNotFound: '22'
+      - CredentialItemNotExpired: '23'
+  - Name:            ACErrorCoreDataSaveFailed
+    JsName:          ACErrorCoreDataSaveFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '18'
+  - Name:            ACErrorCredentialItemNotExpired
+    JsName:          ACErrorCredentialItemNotExpired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '23'
+  - Name:            ACErrorCredentialItemNotFound
+    JsName:          ACErrorCredentialItemNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '22'
+  - Name:            ACErrorCredentialNotFound
+    JsName:          ACErrorCredentialNotFound
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            ACErrorDeniedByPlugin
+    JsName:          ACErrorDeniedByPlugin
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            ACErrorDomain
+    JsName:          ACErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    5.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACErrorFailedSerializingAccountInfo
+    JsName:          ACErrorFailedSerializingAccountInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '19'
+  - Name:            ACErrorFetchCredentialFailed
+    JsName:          ACErrorFetchCredentialFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            ACErrorInvalidClientBundleID
+    JsName:          ACErrorInvalidClientBundleID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            ACErrorInvalidCommand
+    JsName:          ACErrorInvalidCommand
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '20'
+  - Name:            ACErrorMissingTransportMessageID
+    JsName:          ACErrorMissingTransportMessageID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '21'
+  - Name:            ACErrorPermissionDenied
+    JsName:          ACErrorPermissionDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            ACErrorRemoveCredentialFailed
+    JsName:          ACErrorRemoveCredentialFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            ACErrorStoreCredentialFailed
+    JsName:          ACErrorStoreCredentialFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            ACErrorUnknown
+    JsName:          ACErrorUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ACErrorUpdatingNonexistentAccount
+    JsName:          ACErrorUpdatingNonexistentAccount
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACError.h
+    Module:          
+      FullName:        Accounts.ACError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            ACFacebookAppIdKey
+    JsName:          ACFacebookAppIdKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACFacebookAudienceEveryone
+    JsName:          ACFacebookAudienceEveryone
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACFacebookAudienceFriends
+    JsName:          ACFacebookAudienceFriends
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACFacebookAudienceKey
+    JsName:          ACFacebookAudienceKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACFacebookAudienceOnlyMe
+    JsName:          ACFacebookAudienceOnlyMe
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACFacebookPermissionsKey
+    JsName:          ACFacebookPermissionsKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    6.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            ACTencentWeiboAppIdKey
+    JsName:          ACTencentWeiboAppIdKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accounts.framework/Headers/ACAccountType.h
+    Module:          
+      FullName:        Accounts.ACAccountType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    7.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+...

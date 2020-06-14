@@ -1,0 +1,60 @@
+---
+Module:          
+  FullName:        libkern
+  IsPartOfFramework: false
+  IsSystemModule:  true
+  Libraries:       
+Items:           
+  - Name:            sys_cache_control
+    JsName:          sys_cache_control
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/libkern/OSCacheControl.h
+    Module:          
+      FullName:        libkern.OSCacheControl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+      - Type:            Int
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            sys_dcache_flush
+    JsName:          sys_dcache_flush
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/libkern/OSCacheControl.h
+    Module:          
+      FullName:        libkern.OSCacheControl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+  - Name:            sys_icache_invalidate
+    JsName:          sys_icache_invalidate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/libkern/OSCacheControl.h
+    Module:          
+      FullName:        libkern.OSCacheControl
+      IsPartOfFramework: false
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Void
+      - Type:            ULong
+...

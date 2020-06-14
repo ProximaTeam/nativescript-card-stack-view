@@ -205,19 +205,22 @@ export class CardStack extends CardStackCommon {
       card.removeFromSuperview();
     });
 
-    for (let i = this.selectedIndex; i < this.selectedIndex + this.visibleCount; i++) {
-      const item = this.items.getItem(i);
-      if (item) {
-        this._createCard(item, i - this.selectedIndex, i);
+    setTimeout(() => {
+      for (let i = this.selectedIndex; i < this.selectedIndex + this.visibleCount; i++) {
+        const item = this.items.getItem(i);
+        if (item) {
+          this._createCard(item, i - this.selectedIndex, i);
+        }
       }
-    }
 
-    this.notify({
-      eventName: CardStackCommon.rewoundEvent,
-      object: fromObject({
-        position: this.selectedIndex
-      })
-    });
+      this.notify({
+        eventName: CardStackCommon.rewoundEvent,
+        object: fromObject({
+          position: this.selectedIndex
+        })
+      });
+    }, 20);
+
 
   }
 

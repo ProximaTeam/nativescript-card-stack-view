@@ -1,0 +1,1354 @@
+---
+Module:          
+  FullName:        SystemConfiguration
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         SystemConfiguration
+      IsFramework:     true
+Items:           
+  - Name:            CNCopyCurrentNetworkInfo
+    JsName:          CNCopyCurrentNetworkInfo
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSDictionary
+        BridgedTo:       NSDictionary
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            CNCopySupportedInterfaces
+    JsName:          CNCopySupportedInterfaces
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+  - Name:            CNMarkPortalOffline
+    JsName:          CNMarkPortalOffline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            CNMarkPortalOnline
+    JsName:          CNMarkPortalOnline
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            CNSetSupportedSSIDs
+    JsName:          CNSetSupportedSSIDs
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            NSArray
+        BridgedTo:       NSArray
+  - Name:            SCCopyLastError
+    JsName:          SCCopyLastError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            NSError
+        BridgedTo:       NSError
+  - Name:            ''
+    JsName:          SCDynamicStoreContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCDynamicStore.h
+    Module:          
+      FullName:        SystemConfiguration.SCDynamicStore
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Long
+      - Name:            info
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            retain
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            release
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            copyDescription
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            NSString
+              BridgedTo:       NSString
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+  - Name:            SCError
+    JsName:          SCError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Int
+  - Name:            SCErrorString
+    JsName:          SCErrorString
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            CString
+      - Type:            Int
+  - Name:            ''
+    JsName:          SCNetworkConnectionContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Long
+      - Name:            info
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            retain
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            release
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            copyDescription
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            NSString
+              BridgedTo:       NSString
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+  - Name:            SCNetworkConnectionPPPStatus
+    JsName:          SCNetworkConnectionPPPStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kSCNetworkConnectionPPPDisconnected: '0'
+      - kSCNetworkConnectionPPPInitializing: '1'
+      - kSCNetworkConnectionPPPConnectingLink: '2'
+      - kSCNetworkConnectionPPPDialOnTraffic: '3'
+      - kSCNetworkConnectionPPPNegotiatingLink: '4'
+      - kSCNetworkConnectionPPPAuthenticating: '5'
+      - kSCNetworkConnectionPPPWaitingForCallBack: '6'
+      - kSCNetworkConnectionPPPNegotiatingNetwork: '7'
+      - kSCNetworkConnectionPPPConnected: '8'
+      - kSCNetworkConnectionPPPTerminating: '9'
+      - kSCNetworkConnectionPPPDisconnectingLink: '10'
+      - kSCNetworkConnectionPPPHoldingLinkOff: '11'
+      - kSCNetworkConnectionPPPSuspended: '12'
+      - kSCNetworkConnectionPPPWaitingForRedial: '13'
+    SwiftNameFields: 
+  - Name:            SCNetworkConnectionStatus
+    JsName:          SCNetworkConnectionStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kSCNetworkConnectionInvalid: '-1'
+      - kSCNetworkConnectionDisconnected: '0'
+      - kSCNetworkConnectionConnecting: '1'
+      - kSCNetworkConnectionConnected: '2'
+      - kSCNetworkConnectionDisconnecting: '3'
+    SwiftNameFields: 
+  - Name:            ''
+    JsName:          SCNetworkReachabilityContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Long
+      - Name:            info
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            retain
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            release
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            copyDescription
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            NSString
+              BridgedTo:       NSString
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+  - Name:            SCNetworkReachabilityCreateWithAddress
+    JsName:          SCNetworkReachabilityCreateWithAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Darwin.POSIX.sys.socket
+          JsName:          sockaddr
+  - Name:            SCNetworkReachabilityCreateWithAddressPair
+    JsName:          SCNetworkReachabilityCreateWithAddressPair
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Darwin.POSIX.sys.socket
+          JsName:          sockaddr
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          Darwin.POSIX.sys.socket
+          JsName:          sockaddr
+  - Name:            SCNetworkReachabilityCreateWithName
+    JsName:          SCNetworkReachabilityCreateWithName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable, FunctionOwnsReturnedCocoaObject ]
+    Type:            Function
+    Signature:       
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            CString
+  - Name:            SCNetworkReachabilityFlags
+    JsName:          SCNetworkReachabilityFlags
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kSCNetworkReachabilityFlagsTransientConnection: '1'
+      - kSCNetworkReachabilityFlagsReachable: '2'
+      - kSCNetworkReachabilityFlagsConnectionRequired: '4'
+      - kSCNetworkReachabilityFlagsConnectionOnTraffic: '8'
+      - kSCNetworkReachabilityFlagsInterventionRequired: '16'
+      - kSCNetworkReachabilityFlagsConnectionOnDemand: '32'
+      - kSCNetworkReachabilityFlagsIsLocalAddress: '65536'
+      - kSCNetworkReachabilityFlagsIsDirect: '131072'
+      - kSCNetworkReachabilityFlagsIsWWAN: '262144'
+      - kSCNetworkReachabilityFlagsConnectionAutomatic: '8'
+    SwiftNameFields: 
+  - Name:            SCNetworkReachabilityGetFlags
+    JsName:          SCNetworkReachabilityGetFlags
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Pointer
+        PointerType:     
+          Type:            Enum
+          Name:            SCNetworkReachabilityFlags
+  - Name:            SCNetworkReachabilityGetTypeID
+    JsName:          SCNetworkReachabilityGetTypeID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            ULong
+  - Name:            SCNetworkReachabilityScheduleWithRunLoop
+    JsName:          SCNetworkReachabilityScheduleWithRunLoop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            SCNetworkReachabilitySetCallback
+    JsName:          SCNetworkReachabilitySetCallback
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            FunctionPointer
+        Signature:       
+          - Type:            Void
+          - Type:            BridgedInterface
+            Name:            id
+            BridgedTo:       id
+          - Type:            Enum
+            Name:            SCNetworkReachabilityFlags
+          - Type:            Pointer
+            PointerType:     
+              Type:            Void
+      - Type:            Pointer
+        PointerType:     
+          Type:            Struct
+          Module:          SystemConfiguration.SCNetworkReachability
+          JsName:          SCNetworkReachabilityContext
+  - Name:            SCNetworkReachabilitySetDispatchQueue
+    JsName:          SCNetworkReachabilitySetDispatchQueue
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            Interface
+        JsName:          NSObject
+        WithProtocols:   
+          - OS_dispatch_queue
+  - Name:            SCNetworkReachabilityUnscheduleFromRunLoop
+    JsName:          SCNetworkReachabilityUnscheduleFromRunLoop
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            id
+        BridgedTo:       id
+      - Type:            BridgedInterface
+        Name:            NSString
+        BridgedTo:       NSString
+  - Name:            ''
+    JsName:          SCPreferencesContext
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCPreferences.h
+    Module:          
+      FullName:        SystemConfiguration.SCPreferences
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Struct
+    Fields:          
+      - Name:            version
+        Signature:       
+          Type:            Long
+      - Name:            info
+        Signature:       
+          Type:            Pointer
+          PointerType:     
+            Type:            Void
+      - Name:            retain
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            release
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            Void
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+      - Name:            copyDescription
+        Signature:       
+          Type:            FunctionPointer
+          Signature:       
+            - Type:            BridgedInterface
+              Name:            NSString
+              BridgedTo:       NSString
+            - Type:            Pointer
+              PointerType:     
+                Type:            Void
+  - Name:            SCPreferencesNotification
+    JsName:          SCPreferencesNotification
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCPreferences.h
+    Module:          
+      FullName:        SystemConfiguration.SCPreferences
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - kSCPreferencesNotificationCommit: '1'
+      - kSCPreferencesNotificationApply: '2'
+    SwiftNameFields: 
+  - Name:            kCFErrorDomainSystemConfiguration
+    JsName:          kCFErrorDomainSystemConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kCNNetworkInfoKeyBSSID
+    JsName:          kCNNetworkInfoKeyBSSID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kCNNetworkInfoKeySSID
+    JsName:          kCNNetworkInfoKeySSID
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kCNNetworkInfoKeySSIDData
+    JsName:          kCNNetworkInfoKeySSIDData
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/CaptiveNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.CaptiveNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    4.1
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            kSCBondStatusLinkInvalid
+    JsName:          kSCBondStatusLinkInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kSCBondStatusNoPartner
+    JsName:          kSCBondStatusNoPartner
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kSCBondStatusNotInActiveGroup
+    JsName:          kSCBondStatusNotInActiveGroup
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kSCBondStatusOK
+    JsName:          kSCBondStatusOK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kSCBondStatusUnknown
+    JsName:          kSCBondStatusUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '999'
+  - Name:            kSCNetworkConnectionConnected
+    JsName:          kSCNetworkConnectionConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kSCNetworkConnectionConnecting
+    JsName:          kSCNetworkConnectionConnecting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kSCNetworkConnectionDisconnected
+    JsName:          kSCNetworkConnectionDisconnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kSCNetworkConnectionDisconnecting
+    JsName:          kSCNetworkConnectionDisconnecting
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kSCNetworkConnectionInvalid
+    JsName:          kSCNetworkConnectionInvalid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-1'
+  - Name:            kSCNetworkConnectionPPPAuthenticating
+    JsName:          kSCNetworkConnectionPPPAuthenticating
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            kSCNetworkConnectionPPPConnected
+    JsName:          kSCNetworkConnectionPPPConnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kSCNetworkConnectionPPPConnectingLink
+    JsName:          kSCNetworkConnectionPPPConnectingLink
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kSCNetworkConnectionPPPDialOnTraffic
+    JsName:          kSCNetworkConnectionPPPDialOnTraffic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            kSCNetworkConnectionPPPDisconnected
+    JsName:          kSCNetworkConnectionPPPDisconnected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kSCNetworkConnectionPPPDisconnectingLink
+    JsName:          kSCNetworkConnectionPPPDisconnectingLink
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            kSCNetworkConnectionPPPHoldingLinkOff
+    JsName:          kSCNetworkConnectionPPPHoldingLinkOff
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            kSCNetworkConnectionPPPInitializing
+    JsName:          kSCNetworkConnectionPPPInitializing
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kSCNetworkConnectionPPPNegotiatingLink
+    JsName:          kSCNetworkConnectionPPPNegotiatingLink
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kSCNetworkConnectionPPPNegotiatingNetwork
+    JsName:          kSCNetworkConnectionPPPNegotiatingNetwork
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            kSCNetworkConnectionPPPSuspended
+    JsName:          kSCNetworkConnectionPPPSuspended
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            kSCNetworkConnectionPPPTerminating
+    JsName:          kSCNetworkConnectionPPPTerminating
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            kSCNetworkConnectionPPPWaitingForCallBack
+    JsName:          kSCNetworkConnectionPPPWaitingForCallBack
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            kSCNetworkConnectionPPPWaitingForRedial
+    JsName:          kSCNetworkConnectionPPPWaitingForRedial
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkConnection.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkConnection
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            kSCNetworkFlagsConnectionAutomatic
+    JsName:          kSCNetworkFlagsConnectionAutomatic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kSCNetworkFlagsConnectionRequired
+    JsName:          kSCNetworkFlagsConnectionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kSCNetworkFlagsInterventionRequired
+    JsName:          kSCNetworkFlagsInterventionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kSCNetworkFlagsIsDirect
+    JsName:          kSCNetworkFlagsIsDirect
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '131072'
+  - Name:            kSCNetworkFlagsIsLocalAddress
+    JsName:          kSCNetworkFlagsIsLocalAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '65536'
+  - Name:            kSCNetworkFlagsReachable
+    JsName:          kSCNetworkFlagsReachable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kSCNetworkFlagsTransientConnection
+    JsName:          kSCNetworkFlagsTransientConnection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetwork
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kSCNetworkReachabilityFlagsConnectionAutomatic
+    JsName:          kSCNetworkReachabilityFlagsConnectionAutomatic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kSCNetworkReachabilityFlagsConnectionOnDemand
+    JsName:          kSCNetworkReachabilityFlagsConnectionOnDemand
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    3.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            kSCNetworkReachabilityFlagsConnectionOnTraffic
+    JsName:          kSCNetworkReachabilityFlagsConnectionOnTraffic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            kSCNetworkReachabilityFlagsConnectionRequired
+    JsName:          kSCNetworkReachabilityFlagsConnectionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            kSCNetworkReachabilityFlagsInterventionRequired
+    JsName:          kSCNetworkReachabilityFlagsInterventionRequired
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            kSCNetworkReachabilityFlagsIsDirect
+    JsName:          kSCNetworkReachabilityFlagsIsDirect
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '131072'
+  - Name:            kSCNetworkReachabilityFlagsIsLocalAddress
+    JsName:          kSCNetworkReachabilityFlagsIsLocalAddress
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '65536'
+  - Name:            kSCNetworkReachabilityFlagsIsWWAN
+    JsName:          kSCNetworkReachabilityFlagsIsWWAN
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    2.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '262144'
+  - Name:            kSCNetworkReachabilityFlagsReachable
+    JsName:          kSCNetworkReachabilityFlagsReachable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            kSCNetworkReachabilityFlagsTransientConnection
+    JsName:          kSCNetworkReachabilityFlagsTransientConnection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+    Module:          
+      FullName:        SystemConfiguration.SCNetworkReachability
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            kSCStatusAccessError
+    JsName:          kSCStatusAccessError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1003'
+  - Name:            kSCStatusFailed
+    JsName:          kSCStatusFailed
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1001'
+  - Name:            kSCStatusInvalidArgument
+    JsName:          kSCStatusInvalidArgument
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1002'
+  - Name:            kSCStatusKeyExists
+    JsName:          kSCStatusKeyExists
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1005'
+  - Name:            kSCStatusLocked
+    JsName:          kSCStatusLocked
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1006'
+  - Name:            kSCStatusMaxLink
+    JsName:          kSCStatusMaxLink
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3006'
+  - Name:            kSCStatusNeedLock
+    JsName:          kSCStatusNeedLock
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1007'
+  - Name:            kSCStatusNoConfigFile
+    JsName:          kSCStatusNoConfigFile
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3003'
+  - Name:            kSCStatusNoKey
+    JsName:          kSCStatusNoKey
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1004'
+  - Name:            kSCStatusNoLink
+    JsName:          kSCStatusNoLink
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3004'
+  - Name:            kSCStatusNoPrefsSession
+    JsName:          kSCStatusNoPrefsSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3001'
+  - Name:            kSCStatusNoStoreServer
+    JsName:          kSCStatusNoStoreServer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2002'
+  - Name:            kSCStatusNoStoreSession
+    JsName:          kSCStatusNoStoreSession
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2001'
+  - Name:            kSCStatusNotifierActive
+    JsName:          kSCStatusNotifierActive
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2003'
+  - Name:            kSCStatusOK
+    JsName:          kSCStatusOK
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            kSCStatusPrefsBusy
+    JsName:          kSCStatusPrefsBusy
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3002'
+  - Name:            kSCStatusReachabilityUnknown
+    JsName:          kSCStatusReachabilityUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4001'
+  - Name:            kSCStatusStale
+    JsName:          kSCStatusStale
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+    Module:          
+      FullName:        SystemConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         SystemConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3005'
+...

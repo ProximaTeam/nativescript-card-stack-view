@@ -1,0 +1,1585 @@
+---
+Module:          
+  FullName:        VideoSubscriberAccount
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         VideoSubscriberAccount
+      IsFramework:     true
+Items:           
+  - Name:            VSAccountAccessStatus
+    JsName:          VSAccountAccessStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - VSAccountAccessStatusNotDetermined: '0'
+      - VSAccountAccessStatusRestricted: '1'
+      - VSAccountAccessStatusDenied: '2'
+      - VSAccountAccessStatusGranted: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Restricted:      '1'
+      - Denied:          '2'
+      - Granted:         '3'
+  - Name:            VSAccountAccessStatusDenied
+    JsName:          VSAccountAccessStatusDenied
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            VSAccountAccessStatusGranted
+    JsName:          VSAccountAccessStatusGranted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            VSAccountAccessStatusNotDetermined
+    JsName:          VSAccountAccessStatusNotDetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            VSAccountAccessStatusRestricted
+    JsName:          VSAccountAccessStatusRestricted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            VSAccountManager
+    JsName:          VSAccountManager
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'checkAccessStatusWithOptions:completionHandler:'
+        JsName:          checkAccessStatusWithOptionsCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Id
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            VSAccountAccessStatus
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+      - Name:            'enqueueAccountMetadataRequest:completionHandler:'
+        JsName:          enqueueAccountMetadataRequestCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          VSAccountManagerResult
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          VSAccountMetadataRequest
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          VSAccountMetadata
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - VSAccountManagerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - VSAccountManagerDelegate
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSAccountManagerDelegate
+    JsName:          VSAccountManagerDelegate
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'accountManager:dismissViewController:'
+        JsName:          accountManagerDismissViewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          VSAccountManager
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UIViewController
+            WithProtocols:   
+      - Name:            'accountManager:presentViewController:'
+        JsName:          accountManagerPresentViewController
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          VSAccountManager
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          UIViewController
+            WithProtocols:   
+      - Name:            'accountManager:shouldAuthenticateAccountProviderWithIdentifier:'
+        JsName:          accountManagerShouldAuthenticateAccountProviderWithIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          VSAccountManager
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            VSAccountManagerResult
+    JsName:          VSAccountManagerResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManagerResult.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManagerResult
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cancel
+        JsName:          cancel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManagerResult.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountManagerResult
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSAccountMetadata
+    JsName:          VSAccountMetadata
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountMetadata
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accountProviderIdentifier
+        JsName:          accountProviderIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountProviderIdentifier
+          JsName:          accountProviderIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            accountProviderResponse
+        JsName:          accountProviderResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountProviderResponse
+          JsName:          accountProviderResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          VSAccountProviderResponse
+              WithProtocols:   
+      - Name:            authenticationExpirationDate
+        JsName:          authenticationExpirationDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authenticationExpirationDate
+          JsName:          authenticationExpirationDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            SAMLAttributeQueryResponse
+        JsName:          SAMLAttributeQueryResponse
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            SAMLAttributeQueryResponse
+          JsName:          SAMLAttributeQueryResponse
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            verificationData
+        JsName:          verificationData
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadata
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            verificationData
+          JsName:          verificationData
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadata.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadata
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSAccountMetadataRequest
+    JsName:          VSAccountMetadataRequest
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accountProviderAuthenticationToken
+        JsName:          accountProviderAuthenticationToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accountProviderAuthenticationToken
+          JsName:          accountProviderAuthenticationToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setAccountProviderAuthenticationToken:'
+          JsName:          setAccountProviderAuthenticationToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            attributeNames
+        JsName:          attributeNames
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attributeNames
+          JsName:          attributeNames
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setAttributeNames:'
+          JsName:          setAttributeNames
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            channelIdentifier
+        JsName:          channelIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            channelIdentifier
+          JsName:          channelIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setChannelIdentifier:'
+          JsName:          setChannelIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            featuredAccountProviderIdentifiers
+        JsName:          featuredAccountProviderIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            featuredAccountProviderIdentifiers
+          JsName:          featuredAccountProviderIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setFeaturedAccountProviderIdentifiers:'
+          JsName:          setFeaturedAccountProviderIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            forceAuthentication
+        JsName:          forceAuthentication
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            forceAuthentication
+          JsName:          forceAuthentication
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setForceAuthentication:'
+          JsName:          setForceAuthentication
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            includeAccountProviderIdentifier
+        JsName:          includeAccountProviderIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            includeAccountProviderIdentifier
+          JsName:          includeAccountProviderIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIncludeAccountProviderIdentifier:'
+          JsName:          setIncludeAccountProviderIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            includeAuthenticationExpirationDate
+        JsName:          includeAuthenticationExpirationDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            includeAuthenticationExpirationDate
+          JsName:          includeAuthenticationExpirationDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setIncludeAuthenticationExpirationDate:'
+          JsName:          setIncludeAuthenticationExpirationDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            interruptionAllowed
+        JsName:          interruptionAllowed
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isInterruptionAllowed
+          JsName:          isInterruptionAllowed
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setInterruptionAllowed:'
+          JsName:          setInterruptionAllowed
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            localizedVideoTitle
+        JsName:          localizedVideoTitle
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedVideoTitle
+          JsName:          localizedVideoTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLocalizedVideoTitle:'
+          JsName:          setLocalizedVideoTitle
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            supportedAccountProviderIdentifiers
+        JsName:          supportedAccountProviderIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportedAccountProviderIdentifiers
+          JsName:          supportedAccountProviderIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setSupportedAccountProviderIdentifiers:'
+          JsName:          setSupportedAccountProviderIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            supportedAuthenticationSchemes
+        JsName:          supportedAuthenticationSchemes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    10.2
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportedAuthenticationSchemes
+          JsName:          supportedAuthenticationSchemes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setSupportedAuthenticationSchemes:'
+          JsName:          setSupportedAuthenticationSchemes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    10.2
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            verificationToken
+        JsName:          verificationToken
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            verificationToken
+          JsName:          verificationToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setVerificationToken:'
+          JsName:          setVerificationToken
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountMetadataRequest.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountMetadataRequest
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSAccountProviderAuthenticationSchemeAPI
+    JsName:          VSAccountProviderAuthenticationSchemeAPI
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSAccountProviderAuthenticationSchemeSAML
+    JsName:          VSAccountProviderAuthenticationSchemeSAML
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSAccountProviderResponse
+    JsName:          VSAccountProviderResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            authenticationScheme
+        JsName:          authenticationScheme
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authenticationScheme
+          JsName:          authenticationScheme
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            body
+        JsName:          body
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            body
+          JsName:          body
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            status
+        JsName:          status
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            status
+          JsName:          status
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountProviderResponse.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSAccountProviderResponse
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSCheckAccessOptionPrompt
+    JsName:          VSCheckAccessOptionPrompt
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSErrorCode
+    JsName:          VSErrorCode
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - VSErrorCodeAccessNotGranted: '0'
+      - VSErrorCodeUnsupportedProvider: '1'
+      - VSErrorCodeUserCancelled: '2'
+      - VSErrorCodeServiceTemporarilyUnavailable: '3'
+      - VSErrorCodeProviderRejected: '4'
+      - VSErrorCodeInvalidVerificationToken: '5'
+      - VSErrorCodeRejected: '6'
+    SwiftNameFields: 
+      - AccessNotGranted: '0'
+      - UnsupportedProvider: '1'
+      - UserCancelled:   '2'
+      - ServiceTemporarilyUnavailable: '3'
+      - ProviderRejected: '4'
+      - InvalidVerificationToken: '5'
+      - Rejected:        '6'
+  - Name:            VSErrorCodeAccessNotGranted
+    JsName:          VSErrorCodeAccessNotGranted
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            VSErrorCodeInvalidVerificationToken
+    JsName:          VSErrorCodeInvalidVerificationToken
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            VSErrorCodeProviderRejected
+    JsName:          VSErrorCodeProviderRejected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            VSErrorCodeRejected
+    JsName:          VSErrorCodeRejected
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            VSErrorCodeServiceTemporarilyUnavailable
+    JsName:          VSErrorCodeServiceTemporarilyUnavailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            VSErrorCodeUnsupportedProvider
+    JsName:          VSErrorCodeUnsupportedProvider
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            VSErrorCodeUserCancelled
+    JsName:          VSErrorCodeUserCancelled
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            VSErrorDomain
+    JsName:          VSErrorDomain
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSErrorInfoKeyAccountProviderResponse
+    JsName:          VSErrorInfoKeyAccountProviderResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSErrorInfoKeySAMLResponse
+    JsName:          VSErrorInfoKeySAMLResponse
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSErrorInfoKeySAMLResponseStatus
+    JsName:          VSErrorInfoKeySAMLResponseStatus
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSErrorInfoKeyUnsupportedProviderIdentifier
+    JsName:          VSErrorInfoKeyUnsupportedProviderIdentifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VideoSubscriberAccountErrors.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VideoSubscriberAccountErrors
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    10.3
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSOpenTVProviderSettingsURLString
+    JsName:          VSOpenTVProviderSettingsURLString
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSAccountManager.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSAccountManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            VSSubscription
+    JsName:          VSSubscription
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            accessLevel
+        JsName:          accessLevel
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            accessLevel
+          JsName:          accessLevel
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            VSSubscriptionAccessLevel
+        Setter:          
+          Name:            'setAccessLevel:'
+          JsName:          setAccessLevel
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            VSSubscriptionAccessLevel
+      - Name:            billingIdentifier
+        JsName:          billingIdentifier
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    11.3
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            billingIdentifier
+          JsName:          billingIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setBillingIdentifier:'
+          JsName:          setBillingIdentifier
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    11.3
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            expirationDate
+        JsName:          expirationDate
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            expirationDate
+          JsName:          expirationDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+        Setter:          
+          Name:            'setExpirationDate:'
+          JsName:          setExpirationDate
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDate
+              WithProtocols:   
+      - Name:            tierIdentifiers
+        JsName:          tierIdentifiers
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscription
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            tierIdentifiers
+          JsName:          tierIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setTierIdentifiers:'
+          JsName:          setTierIdentifiers
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+          Module:          
+            FullName:        VideoSubscriberAccount.VSSubscription
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            VSSubscriptionAccessLevel
+    JsName:          VSSubscriptionAccessLevel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - VSSubscriptionAccessLevelUnknown: '0'
+      - VSSubscriptionAccessLevelFreeWithAccount: '1'
+      - VSSubscriptionAccessLevelPaid: '2'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - FreeWithAccount: '1'
+      - Paid:            '2'
+  - Name:            VSSubscriptionAccessLevelFreeWithAccount
+    JsName:          VSSubscriptionAccessLevelFreeWithAccount
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            VSSubscriptionAccessLevelPaid
+    JsName:          VSSubscriptionAccessLevelPaid
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            VSSubscriptionAccessLevelUnknown
+    JsName:          VSSubscriptionAccessLevelUnknown
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscription.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscription
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            VSSubscriptionRegistrationCenter
+    JsName:          VSSubscriptionRegistrationCenter
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscriptionRegistrationCenter.h
+    Module:          
+      FullName:        VideoSubscriberAccount.VSSubscriptionRegistrationCenter
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    11.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setCurrentSubscription:'
+        JsName:          setCurrentSubscription
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscriptionRegistrationCenter.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscriptionRegistrationCenter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          VSSubscription
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            defaultSubscriptionRegistrationCenter
+        JsName:          defaultSubscriptionRegistrationCenter
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers/VSSubscriptionRegistrationCenter.h
+        Module:          
+          FullName:        VideoSubscriberAccount.VSSubscriptionRegistrationCenter
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          VSSubscriptionRegistrationCenter
+            WithProtocols:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+...

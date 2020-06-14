@@ -1,0 +1,1447 @@
+---
+Module:          
+  FullName:        MDCSwipeToChoose
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         MDCSwipeToChoose
+      IsFramework:     true
+Items:           
+  - Name:            MDCPanState
+    JsName:          MDCPanState
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCPanState
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            direction
+        JsName:          direction
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCPanState
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            direction
+          JsName:          direction
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MDCSwipeDirection
+        Setter:          
+          Name:            'setDirection:'
+          JsName:          setDirection
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MDCSwipeDirection
+      - Name:            thresholdRatio
+        JsName:          thresholdRatio
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCPanState
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            thresholdRatio
+          JsName:          thresholdRatio
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setThresholdRatio:'
+          JsName:          setThresholdRatio
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            view
+        JsName:          view
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCPanState
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            view
+          JsName:          view
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+        Setter:          
+          Name:            'setView:'
+          JsName:          setView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCPanState.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCPanState
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MDCSwipeDirection
+    JsName:          MDCSwipeDirection
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeDirection.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeDirection
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MDCSwipeDirectionNone: '0'
+      - MDCSwipeDirectionLeft: '1'
+      - MDCSwipeDirectionRight: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Left:            '1'
+      - Right:           '2'
+  - Name:            MDCSwipeDirectionLeft
+    JsName:          MDCSwipeDirectionLeft
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeDirection.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeDirection
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MDCSwipeDirectionNone
+    JsName:          MDCSwipeDirectionNone
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeDirection.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeDirection
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MDCSwipeDirectionRight
+    JsName:          MDCSwipeDirectionRight
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeDirection.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeDirection
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MDCSwipeOptions
+    JsName:          MDCSwipeOptions
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeOptions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'exitScreenOnChosenWithDuration:options:'
+        JsName:          exitScreenOnChosenWithDurationOptions
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          MDCSwipeResult
+                WithProtocols:   
+          - Type:            Double
+          - Type:            Enum
+            Name:            UIViewAnimationOptions
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MDCSwipeToChooseDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MDCSwipeToChooseDelegate
+      - Name:            onCancel
+        JsName:          onCancel
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            onCancel
+          JsName:          onCancel
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          UIView
+                  WithProtocols:   
+        Setter:          
+          Name:            'setOnCancel:'
+          JsName:          setOnCancel
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          UIView
+                  WithProtocols:   
+      - Name:            onChosen
+        JsName:          onChosen
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            onChosen
+          JsName:          onChosen
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCSwipeResult
+                  WithProtocols:   
+        Setter:          
+          Name:            'setOnChosen:'
+          JsName:          setOnChosen
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCSwipeResult
+                  WithProtocols:   
+      - Name:            onPan
+        JsName:          onPan
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            onPan
+          JsName:          onPan
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCPanState
+                  WithProtocols:   
+        Setter:          
+          Name:            'setOnPan:'
+          JsName:          setOnPan
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCPanState
+                  WithProtocols:   
+      - Name:            rotationFactor
+        JsName:          rotationFactor
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rotationFactor
+          JsName:          rotationFactor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setRotationFactor:'
+          JsName:          setRotationFactor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            swipeAnimationDuration
+        JsName:          swipeAnimationDuration
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            swipeAnimationDuration
+          JsName:          swipeAnimationDuration
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setSwipeAnimationDuration:'
+          JsName:          setSwipeAnimationDuration
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            swipeAnimationOptions
+        JsName:          swipeAnimationOptions
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            swipeAnimationOptions
+          JsName:          swipeAnimationOptions
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UIViewAnimationOptions
+        Setter:          
+          Name:            'setSwipeAnimationOptions:'
+          JsName:          setSwipeAnimationOptions
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            UIViewAnimationOptions
+      - Name:            swipeCancelledAnimationDuration
+        JsName:          swipeCancelledAnimationDuration
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            swipeCancelledAnimationDuration
+          JsName:          swipeCancelledAnimationDuration
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setSwipeCancelledAnimationDuration:'
+          JsName:          setSwipeCancelledAnimationDuration
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            swipeCancelledAnimationOptions
+        JsName:          swipeCancelledAnimationOptions
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            swipeCancelledAnimationOptions
+          JsName:          swipeCancelledAnimationOptions
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UIViewAnimationOptions
+        Setter:          
+          Name:            'setSwipeCancelledAnimationOptions:'
+          JsName:          setSwipeCancelledAnimationOptions
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            UIViewAnimationOptions
+      - Name:            threshold
+        JsName:          threshold
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            threshold
+          JsName:          threshold
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setThreshold:'
+          JsName:          setThreshold
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MDCSwipeResult
+    JsName:          MDCSwipeResult
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeResult
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            direction
+        JsName:          direction
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeResult
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            direction
+          JsName:          direction
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            MDCSwipeDirection
+        Setter:          
+          Name:            'setDirection:'
+          JsName:          setDirection
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            MDCSwipeDirection
+      - Name:            onCompletion
+        JsName:          onCompletion
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeResult
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            onCompletion
+          JsName:          onCompletion
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+        Setter:          
+          Name:            'setOnCompletion:'
+          JsName:          setOnCompletion
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+      - Name:            translation
+        JsName:          translation
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeResult
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            translation
+          JsName:          translation
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGPoint
+        Setter:          
+          Name:            'setTranslation:'
+          JsName:          setTranslation
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              JsName:          CGPoint
+      - Name:            view
+        JsName:          view
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeResult
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            view
+          JsName:          view
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+        Setter:          
+          Name:            'setView:'
+          JsName:          setView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeResult.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeResult
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            MDCSwipeToChooseDelegate
+    JsName:          MDCSwipeToChooseDelegate
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseDelegate.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeToChooseDelegate
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'viewDidCancelSwipe:'
+        JsName:          viewDidCancelSwipe
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseDelegate.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseDelegate
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIView
+            WithProtocols:   
+      - Name:            'view:shouldBeChosenWithDirection:'
+        JsName:          viewShouldBeChosenWithDirection
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseDelegate.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseDelegate
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          UIView
+            WithProtocols:   
+          - Type:            Enum
+            Name:            MDCSwipeDirection
+      - Name:            'view:wasChosenWithDirection:'
+        JsName:          viewWasChosenWithDirection
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseDelegate.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseDelegate
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIView
+            WithProtocols:   
+          - Type:            Enum
+            Name:            MDCSwipeDirection
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MDCSwipeToChooseVersionNumber
+    JsName:          MDCSwipeToChooseVersionNumber
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChoose-umbrella.h
+    Module:          
+      FullName:        MDCSwipeToChoose
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MDCSwipeToChoose
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            MDCSwipeToChooseVersionString
+    JsName:          MDCSwipeToChooseVersionString
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChoose-umbrella.h
+    Module:          
+      FullName:        MDCSwipeToChoose
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MDCSwipeToChoose
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+  - Name:            MDCSwipeToChooseView
+    JsName:          MDCSwipeToChooseView
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithFrame:options:'
+        JsName:          initWithFrameOptions
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+          - Type:            Interface
+            JsName:          MDCSwipeToChooseViewOptions
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            imageView
+        JsName:          imageView
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            imageView
+          JsName:          imageView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImageView
+              WithProtocols:   
+        Setter:          
+          Name:            'setImageView:'
+          JsName:          setImageView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImageView
+              WithProtocols:   
+      - Name:            likedView
+        JsName:          likedView
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            likedView
+          JsName:          likedView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+        Setter:          
+          Name:            'setLikedView:'
+          JsName:          setLikedView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+      - Name:            nopeView
+        JsName:          nopeView
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nopeView
+          JsName:          nopeView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+        Setter:          
+          Name:            'setNopeView:'
+          JsName:          setNopeView
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseView.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIView
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            UIView
+  - Name:            MDCSwipeToChooseViewOptions
+    JsName:          MDCSwipeToChooseViewOptions
+    Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+    Module:          
+      FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - MDCSwipeToChooseDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - MDCSwipeToChooseDelegate
+      - Name:            likedColor
+        JsName:          likedColor
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            likedColor
+          JsName:          likedColor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setLikedColor:'
+          JsName:          setLikedColor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            likedRotationAngle
+        JsName:          likedRotationAngle
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            likedRotationAngle
+          JsName:          likedRotationAngle
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setLikedRotationAngle:'
+          JsName:          setLikedRotationAngle
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            likedText
+        JsName:          likedText
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            likedText
+          JsName:          likedText
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setLikedText:'
+          JsName:          setLikedText
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            nopeColor
+        JsName:          nopeColor
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nopeColor
+          JsName:          nopeColor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setNopeColor:'
+          JsName:          setNopeColor
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            nopeRotationAngle
+        JsName:          nopeRotationAngle
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nopeRotationAngle
+          JsName:          nopeRotationAngle
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setNopeRotationAngle:'
+          JsName:          setNopeRotationAngle
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+      - Name:            nopeText
+        JsName:          nopeText
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nopeText
+          JsName:          nopeText
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setNopeText:'
+          JsName:          setNopeText
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            onPan
+        JsName:          onPan
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            onPan
+          JsName:          onPan
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCPanState
+                  WithProtocols:   
+        Setter:          
+          Name:            'setOnPan:'
+          JsName:          setOnPan
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+                - Type:            Interface
+                  JsName:          MDCPanState
+                  WithProtocols:   
+      - Name:            threshold
+        JsName:          threshold
+        Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+        Module:          
+          FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            threshold
+          JsName:          threshold
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setThreshold:'
+          JsName:          setThreshold
+          Filename:        /Users/franci/projects/nativescript/plugins/nativescript-card-stack-view/demo/platforms/ios/build/Debug-iphonesimulator/MDCSwipeToChoose/MDCSwipeToChoose.framework/Headers/MDCSwipeToChooseViewOptions.h
+          Module:          
+            FullName:        MDCSwipeToChoose.MDCSwipeToChooseViewOptions
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+...

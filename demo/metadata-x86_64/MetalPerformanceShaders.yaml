@@ -1,0 +1,145 @@
+---
+Module:          
+  FullName:        MetalPerformanceShaders
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         MetalPerformanceShaders
+      IsFramework:     true
+Items:           
+  - Name:            MPSDeviceOptions
+    JsName:          MPSDeviceOptions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - MPSDeviceOptionsDefault: '0'
+      - MPSDeviceOptionsLowPower: '1'
+      - MPSDeviceOptionsSkipRemovable: '2'
+    SwiftNameFields: 
+      - Default:         '0'
+      - LowPower:        '1'
+      - SkipRemovable:   '2'
+  - Name:            MPSDeviceOptionsDefault
+    JsName:          MPSDeviceOptionsDefault
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            MPSDeviceOptionsLowPower
+    JsName:          MPSDeviceOptionsLowPower
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            MPSDeviceOptionsSkipRemovable
+    JsName:          MPSDeviceOptionsSkipRemovable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            MPSGetPreferredDevice
+    JsName:          MPSGetPreferredDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    IntroducedIn:    12.2
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Id
+        WithProtocols:   
+          - MTLDevice
+      - Type:            Enum
+        Name:            MPSDeviceOptions
+  - Name:            MPSHintTemporaryMemoryHighWaterMark
+    JsName:          MPSHintTemporaryMemoryHighWaterMark
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Id
+        WithProtocols:   
+          - MTLCommandBuffer
+      - Type:            ULong
+  - Name:            MPSSetHeapCacheDuration
+    JsName:          MPSSetHeapCacheDuration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Void
+      - Type:            Id
+        WithProtocols:   
+          - MTLCommandBuffer
+      - Type:            Double
+  - Name:            MPSSupportsMTLDevice
+    JsName:          MPSSupportsMTLDevice
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.h
+    Module:          
+      FullName:        MetalPerformanceShaders
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MetalPerformanceShaders
+          IsFramework:     true
+    IntroducedIn:    9.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Bool
+      - Type:            Id
+        WithProtocols:   
+          - MTLDevice
+...

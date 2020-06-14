@@ -1,0 +1,3659 @@
+---
+Module:          
+  FullName:        NaturalLanguage
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         NaturalLanguage
+      IsFramework:     true
+Items:           
+  - Name:            NLDistanceType
+    JsName:          NLDistanceType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+    Module:          
+      FullName:        NaturalLanguage.NLEmbedding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLDistanceTypeCosine: '0'
+    SwiftNameFields: 
+      - Cosine:          '0'
+  - Name:            NLDistanceTypeCosine
+    JsName:          NLDistanceTypeCosine
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+    Module:          
+      FullName:        NaturalLanguage.NLEmbedding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NLEmbedding
+    JsName:          NLEmbedding
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+    Module:          
+      FullName:        NaturalLanguage.NLEmbedding
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'containsString:'
+        JsName:          containsString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'distanceBetweenString:andString:distanceType:'
+        JsName:          distanceBetweenStringAndStringDistanceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Double
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NLDistanceType
+      - Name:            'enumerateNeighborsForString:maximumCount:distanceType:usingBlock:'
+        JsName:          enumerateNeighborsForStringMaximumCountDistanceTypeUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLDistanceType
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Double
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateNeighborsForString:maximumCount:maximumDistance:distanceType:usingBlock:'
+        JsName:          enumerateNeighborsForStringMaximumCountMaximumDistanceDistanceTypeUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Double
+          - Type:            Enum
+            Name:            NLDistanceType
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Double
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateNeighborsForVector:maximumCount:distanceType:usingBlock:'
+        JsName:          enumerateNeighborsForVectorMaximumCountDistanceTypeUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLDistanceType
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Double
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateNeighborsForVector:maximumCount:maximumDistance:distanceType:usingBlock:'
+        JsName:          enumerateNeighborsForVectorMaximumCountMaximumDistanceDistanceTypeUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Double
+          - Type:            Enum
+            Name:            NLDistanceType
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Double
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'getVector:forString:'
+        JsName:          getVectorForString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Pointer
+            PointerType:     
+              Type:            Float
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'neighborsForString:maximumCount:distanceType:'
+        JsName:          neighborsForStringMaximumCountDistanceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLDistanceType
+      - Name:            'neighborsForString:maximumCount:maximumDistance:distanceType:'
+        JsName:          neighborsForStringMaximumCountMaximumDistanceDistanceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Double
+          - Type:            Enum
+            Name:            NLDistanceType
+      - Name:            'neighborsForVector:maximumCount:distanceType:'
+        JsName:          neighborsForVectorMaximumCountDistanceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLDistanceType
+      - Name:            'neighborsForVector:maximumCount:maximumDistance:distanceType:'
+        JsName:          neighborsForVectorMaximumCountMaximumDistanceDistanceType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Double
+          - Type:            Enum
+            Name:            NLDistanceType
+      - Name:            'vectorForString:'
+        JsName:          vectorForString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'currentRevisionForLanguage:'
+        JsName:          currentRevisionForLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            UInt
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'embeddingWithContentsOfURL:error:'
+        JsName:          embeddingWithContentsOfURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'supportedRevisionsForLanguage:'
+        JsName:          supportedRevisionsForLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSIndexSet
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'wordEmbeddingForLanguage:'
+        JsName:          wordEmbeddingForLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NLEmbedding
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'wordEmbeddingForLanguage:revision:'
+        JsName:          wordEmbeddingForLanguageRevision
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NLEmbedding
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+      - Name:            'writeEmbeddingForDictionary:language:revision:toURL:error:'
+        JsName:          writeEmbeddingForDictionaryLanguageRevisionToURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSNumber
+                    WithProtocols:   
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            dimension
+        JsName:          dimension
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dimension
+          JsName:          dimension
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+          Module:          
+            FullName:        NaturalLanguage.NLEmbedding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            language
+        JsName:          language
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            language
+          JsName:          language
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+          Module:          
+            FullName:        NaturalLanguage.NLEmbedding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            revision
+        JsName:          revision
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            revision
+          JsName:          revision
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+          Module:          
+            FullName:        NaturalLanguage.NLEmbedding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            vocabularySize
+        JsName:          vocabularySize
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+        Module:          
+          FullName:        NaturalLanguage.NLEmbedding
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vocabularySize
+          JsName:          vocabularySize
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLEmbedding.h
+          Module:          
+            FullName:        NaturalLanguage.NLEmbedding
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLGazetteer
+    JsName:          NLGazetteer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+    Module:          
+      FullName:        NaturalLanguage.NLGazetteer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithContentsOfURL:error:'
+        JsName:          initWithContentsOfURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithData:error:'
+        JsName:          initWithDataError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSData
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'initWithDictionary:language:error:'
+        JsName:          initWithDictionaryLanguageError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSString
+                    WithProtocols:   
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'labelForString:'
+        JsName:          labelForString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'gazetteerWithContentsOfURL:error:'
+        JsName:          gazetteerWithContentsOfURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'writeGazetteerForDictionary:language:toURL:error:'
+        JsName:          writeGazetteerForDictionaryLanguageToURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    JsName:          NSString
+                    WithProtocols:   
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            data
+        JsName:          data
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            data
+          JsName:          data
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+          Module:          
+            FullName:        NaturalLanguage.NLGazetteer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSData
+              WithProtocols:   
+      - Name:            language
+        JsName:          language
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+        Module:          
+          FullName:        NaturalLanguage.NLGazetteer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            language
+          JsName:          language
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLGazetteer.h
+          Module:          
+            FullName:        NaturalLanguage.NLGazetteer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLLanguageAmharic
+    JsName:          NLLanguageAmharic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageArabic
+    JsName:          NLLanguageArabic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageArmenian
+    JsName:          NLLanguageArmenian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageBengali
+    JsName:          NLLanguageBengali
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageBulgarian
+    JsName:          NLLanguageBulgarian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageBurmese
+    JsName:          NLLanguageBurmese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageCatalan
+    JsName:          NLLanguageCatalan
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageCherokee
+    JsName:          NLLanguageCherokee
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageCroatian
+    JsName:          NLLanguageCroatian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageCzech
+    JsName:          NLLanguageCzech
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageDanish
+    JsName:          NLLanguageDanish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageDutch
+    JsName:          NLLanguageDutch
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageEnglish
+    JsName:          NLLanguageEnglish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageFinnish
+    JsName:          NLLanguageFinnish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageFrench
+    JsName:          NLLanguageFrench
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageGeorgian
+    JsName:          NLLanguageGeorgian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageGerman
+    JsName:          NLLanguageGerman
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageGreek
+    JsName:          NLLanguageGreek
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageGujarati
+    JsName:          NLLanguageGujarati
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageHebrew
+    JsName:          NLLanguageHebrew
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageHindi
+    JsName:          NLLanguageHindi
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageHungarian
+    JsName:          NLLanguageHungarian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageIcelandic
+    JsName:          NLLanguageIcelandic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageIndonesian
+    JsName:          NLLanguageIndonesian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageItalian
+    JsName:          NLLanguageItalian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageJapanese
+    JsName:          NLLanguageJapanese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageKannada
+    JsName:          NLLanguageKannada
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageKhmer
+    JsName:          NLLanguageKhmer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageKorean
+    JsName:          NLLanguageKorean
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageLao
+    JsName:          NLLanguageLao
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageMalay
+    JsName:          NLLanguageMalay
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageMalayalam
+    JsName:          NLLanguageMalayalam
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageMarathi
+    JsName:          NLLanguageMarathi
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageMongolian
+    JsName:          NLLanguageMongolian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageNorwegian
+    JsName:          NLLanguageNorwegian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageOriya
+    JsName:          NLLanguageOriya
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguagePersian
+    JsName:          NLLanguagePersian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguagePolish
+    JsName:          NLLanguagePolish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguagePortuguese
+    JsName:          NLLanguagePortuguese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguagePunjabi
+    JsName:          NLLanguagePunjabi
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageRecognizer
+    JsName:          NLLanguageRecognizer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguageRecognizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'languageHypothesesWithMaximum:'
+        JsName:          languageHypothesesWithMaximum
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSDictionary
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Interface
+                JsName:          NSNumber
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            UInt
+      - Name:            'processString:'
+        JsName:          processString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            reset
+        JsName:          reset
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+      - Name:            'dominantLanguageForString:'
+        JsName:          dominantLanguageForString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    InstanceProperties: 
+      - Name:            dominantLanguage
+        JsName:          dominantLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dominantLanguage
+          JsName:          dominantLanguage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLLanguageRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            languageConstraints
+        JsName:          languageConstraints
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            languageConstraints
+          JsName:          languageConstraints
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLLanguageRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setLanguageConstraints:'
+          JsName:          setLanguageConstraints
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLLanguageRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            languageHints
+        JsName:          languageHints
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLLanguageRecognizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            languageHints
+          JsName:          languageHints
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLLanguageRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+        Setter:          
+          Name:            'setLanguageHints:'
+          JsName:          setLanguageHints
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguageRecognizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLLanguageRecognizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+                - Type:            Interface
+                  JsName:          NSNumber
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLLanguageRomanian
+    JsName:          NLLanguageRomanian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageRussian
+    JsName:          NLLanguageRussian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageSimplifiedChinese
+    JsName:          NLLanguageSimplifiedChinese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageSinhalese
+    JsName:          NLLanguageSinhalese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageSlovak
+    JsName:          NLLanguageSlovak
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageSpanish
+    JsName:          NLLanguageSpanish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageSwedish
+    JsName:          NLLanguageSwedish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageTamil
+    JsName:          NLLanguageTamil
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageTelugu
+    JsName:          NLLanguageTelugu
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageThai
+    JsName:          NLLanguageThai
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageTibetan
+    JsName:          NLLanguageTibetan
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageTraditionalChinese
+    JsName:          NLLanguageTraditionalChinese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageTurkish
+    JsName:          NLLanguageTurkish
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageUkrainian
+    JsName:          NLLanguageUkrainian
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageUndetermined
+    JsName:          NLLanguageUndetermined
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageUrdu
+    JsName:          NLLanguageUrdu
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLLanguageVietnamese
+    JsName:          NLLanguageVietnamese
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLLanguage.h
+    Module:          
+      FullName:        NaturalLanguage.NLLanguage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLModel
+    JsName:          NLModel
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+    Module:          
+      FullName:        NaturalLanguage.NLModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'predictedLabelForString:'
+        JsName:          predictedLabelForString
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'predictedLabelsForTokens:'
+        JsName:          predictedLabelsForTokens
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+    StaticMethods:   
+      - Name:            'modelWithContentsOfURL:error:'
+        JsName:          modelWithContentsOfURLError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSURL
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+      - Name:            'modelWithMLModel:error:'
+        JsName:          modelWithMLModelError
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          MLModel
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSError
+              WithProtocols:   
+    InstanceProperties: 
+      - Name:            configuration
+        JsName:          configuration
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            configuration
+          JsName:          configuration
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+          Module:          
+            FullName:        NaturalLanguage.NLModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NLModelConfiguration
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLModelConfiguration
+    JsName:          NLModelConfiguration
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+    Module:          
+      FullName:        NaturalLanguage.NLModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            'currentRevisionForType:'
+        JsName:          currentRevisionForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLModelType
+      - Name:            'supportedRevisionsForType:'
+        JsName:          supportedRevisionsForType
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSIndexSet
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NLModelType
+    InstanceProperties: 
+      - Name:            language
+        JsName:          language
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            language
+          JsName:          language
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+          Module:          
+            FullName:        NaturalLanguage.NLModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            revision
+        JsName:          revision
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            revision
+          JsName:          revision
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+          Module:          
+            FullName:        NaturalLanguage.NLModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            type
+        JsName:          type
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+        Module:          
+          FullName:        NaturalLanguage.NLModel
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            type
+          JsName:          type
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+          Module:          
+            FullName:        NaturalLanguage.NLModel
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            NLModelType
+    StaticProperties: 
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            NLModelType
+    JsName:          NLModelType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+    Module:          
+      FullName:        NaturalLanguage.NLModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLModelTypeClassifier: '0'
+      - NLModelTypeSequence: '1'
+    SwiftNameFields: 
+      - Classifier:      '0'
+      - Sequence:        '1'
+  - Name:            NLModelTypeClassifier
+    JsName:          NLModelTypeClassifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+    Module:          
+      FullName:        NaturalLanguage.NLModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NLModelTypeSequence
+    JsName:          NLModelTypeSequence
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLModel.h
+    Module:          
+      FullName:        NaturalLanguage.NLModel
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NLTagAdjective
+    JsName:          NLTagAdjective
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagAdverb
+    JsName:          NLTagAdverb
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagClassifier
+    JsName:          NLTagClassifier
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagCloseParenthesis
+    JsName:          NLTagCloseParenthesis
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagCloseQuote
+    JsName:          NLTagCloseQuote
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagConjunction
+    JsName:          NLTagConjunction
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagDash
+    JsName:          NLTagDash
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagDeterminer
+    JsName:          NLTagDeterminer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagIdiom
+    JsName:          NLTagIdiom
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagInterjection
+    JsName:          NLTagInterjection
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagNoun
+    JsName:          NLTagNoun
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagNumber
+    JsName:          NLTagNumber
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOpenParenthesis
+    JsName:          NLTagOpenParenthesis
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOpenQuote
+    JsName:          NLTagOpenQuote
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOrganizationName
+    JsName:          NLTagOrganizationName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOther
+    JsName:          NLTagOther
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOtherPunctuation
+    JsName:          NLTagOtherPunctuation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOtherWhitespace
+    JsName:          NLTagOtherWhitespace
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagOtherWord
+    JsName:          NLTagOtherWord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagParagraphBreak
+    JsName:          NLTagParagraphBreak
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagParticle
+    JsName:          NLTagParticle
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagPersonalName
+    JsName:          NLTagPersonalName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagPlaceName
+    JsName:          NLTagPlaceName
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagPreposition
+    JsName:          NLTagPreposition
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagPronoun
+    JsName:          NLTagPronoun
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagPunctuation
+    JsName:          NLTagPunctuation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeLanguage
+    JsName:          NLTagSchemeLanguage
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeLemma
+    JsName:          NLTagSchemeLemma
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeLexicalClass
+    JsName:          NLTagSchemeLexicalClass
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeNameType
+    JsName:          NLTagSchemeNameType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeNameTypeOrLexicalClass
+    JsName:          NLTagSchemeNameTypeOrLexicalClass
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeScript
+    JsName:          NLTagSchemeScript
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeSentimentScore
+    JsName:          NLTagSchemeSentimentScore
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSchemeTokenType
+    JsName:          NLTagSchemeTokenType
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagSentenceTerminator
+    JsName:          NLTagSentenceTerminator
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagVerb
+    JsName:          NLTagVerb
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagWhitespace
+    JsName:          NLTagWhitespace
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagWord
+    JsName:          NLTagWord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagWordJoiner
+    JsName:          NLTagWordJoiner
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagScheme.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagScheme
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      JsName:          NSString
+      WithProtocols:   
+  - Name:            NLTagger
+    JsName:          NLTagger
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'enumerateTagsInRange:unit:scheme:options:usingBlock:'
+        JsName:          enumerateTagsInRangeUnitSchemeOptionsUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            Enum
+            Name:            NLTokenUnit
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NLTaggerOptions
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+              - Type:            Struct
+                Module:          Foundation.NSRange
+                JsName:          NSRange
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'gazetteersForTagScheme:'
+        JsName:          gazetteersForTagScheme
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NLGazetteer
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'initWithTagSchemes:'
+        JsName:          initWithTagSchemes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+      - Name:            'modelsForTagScheme:'
+        JsName:          modelsForTagScheme
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NLModel
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setGazetteers:forTagScheme:'
+        JsName:          setGazetteersForTagScheme
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NLGazetteer
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setLanguage:range:'
+        JsName:          setLanguageRange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+      - Name:            'setModels:forTagScheme:'
+        JsName:          setModelsForTagScheme
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NLModel
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'setOrthography:range:'
+        JsName:          setOrthographyRange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSOrthography
+            WithProtocols:   
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+      - Name:            'tagAtIndex:unit:scheme:tokenRange:'
+        JsName:          tagAtIndexUnitSchemeTokenRange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLTokenUnit
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Pointer
+            PointerType:     
+              Type:            Struct
+              Module:          Foundation.NSRange
+              JsName:          NSRange
+      - Name:            'tagsInRange:unit:scheme:options:tokenRanges:'
+        JsName:          tagsInRangeUnitSchemeOptionsTokenRanges
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            Enum
+            Name:            NLTokenUnit
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NLTaggerOptions
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSValue
+                  WithProtocols:   
+              WithProtocols:   
+      - Name:            'tokenRangeAtIndex:unit:'
+        JsName:          tokenRangeAtIndexUnit
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            UInt
+          - Type:            Enum
+            Name:            NLTokenUnit
+    StaticMethods:   
+      - Name:            'availableTagSchemesForUnit:language:'
+        JsName:          availableTagSchemesForUnitLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSString
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Enum
+            Name:            NLTokenUnit
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'requestAssetsForLanguage:tagScheme:completionHandler:'
+        JsName:          requestAssetsForLanguageTagSchemeCompletionHandler
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            NLTaggerAssetsResult
+              - Type:            Interface
+                JsName:          NSError
+                WithProtocols:   
+    InstanceProperties: 
+      - Name:            dominantLanguage
+        JsName:          dominantLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dominantLanguage
+          JsName:          dominantLanguage
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+          Module:          
+            FullName:        NaturalLanguage.NLTagger
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            string
+        JsName:          string
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            string
+          JsName:          string
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+          Module:          
+            FullName:        NaturalLanguage.NLTagger
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setString:'
+          JsName:          setString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+          Module:          
+            FullName:        NaturalLanguage.NLTagger
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            tagSchemes
+        JsName:          tagSchemes
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+        Module:          
+          FullName:        NaturalLanguage.NLTagger
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            tagSchemes
+          JsName:          tagSchemes
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+          Module:          
+            FullName:        NaturalLanguage.NLTagger
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  JsName:          NSString
+                  WithProtocols:   
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLTaggerAssetsResult
+    JsName:          NLTaggerAssetsResult
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLTaggerAssetsResultAvailable: '0'
+      - NLTaggerAssetsResultNotAvailable: '1'
+      - NLTaggerAssetsResultError: '2'
+    SwiftNameFields: 
+      - Available:       '0'
+      - NotAvailable:    '1'
+      - Error:           '2'
+  - Name:            NLTaggerAssetsResultAvailable
+    JsName:          NLTaggerAssetsResultAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NLTaggerAssetsResultError
+    JsName:          NLTaggerAssetsResultError
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NLTaggerAssetsResultNotAvailable
+    JsName:          NLTaggerAssetsResultNotAvailable
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NLTaggerJoinContractions
+    JsName:          NLTaggerJoinContractions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            NLTaggerJoinNames
+    JsName:          NLTaggerJoinNames
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            NLTaggerOmitOther
+    JsName:          NLTaggerOmitOther
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            NLTaggerOmitPunctuation
+    JsName:          NLTaggerOmitPunctuation
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NLTaggerOmitWhitespace
+    JsName:          NLTaggerOmitWhitespace
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            NLTaggerOmitWords
+    JsName:          NLTaggerOmitWords
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NLTaggerOptions
+    JsName:          NLTaggerOptions
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTagger.h
+    Module:          
+      FullName:        NaturalLanguage.NLTagger
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLTaggerOmitWords: '1'
+      - NLTaggerOmitPunctuation: '2'
+      - NLTaggerOmitWhitespace: '4'
+      - NLTaggerOmitOther: '8'
+      - NLTaggerJoinNames: '16'
+      - NLTaggerJoinContractions: '32'
+    SwiftNameFields: 
+      - OmitWords:       '1'
+      - OmitPunctuation: '2'
+      - OmitWhitespace:  '4'
+      - OmitOther:       '8'
+      - JoinNames:       '16'
+      - JoinContractions: '32'
+  - Name:            NLTokenUnit
+    JsName:          NLTokenUnit
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLTokenUnitWord: '0'
+      - NLTokenUnitSentence: '1'
+      - NLTokenUnitParagraph: '2'
+      - NLTokenUnitDocument: '3'
+    SwiftNameFields: 
+      - Word:            '0'
+      - Sentence:        '1'
+      - Paragraph:       '2'
+      - Document:        '3'
+  - Name:            NLTokenUnitDocument
+    JsName:          NLTokenUnitDocument
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            NLTokenUnitParagraph
+    JsName:          NLTokenUnitParagraph
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NLTokenUnitSentence
+    JsName:          NLTokenUnitSentence
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NLTokenUnitWord
+    JsName:          NLTokenUnitWord
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NLTokenizer
+    JsName:          NLTokenizer
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    IntroducedIn:    12.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'enumerateTokensInRange:usingBlock:'
+        JsName:          enumerateTokensInRangeUsingBlock
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Struct
+                Module:          Foundation.NSRange
+                JsName:          NSRange
+              - Type:            Enum
+                Name:            NLTokenizerAttributes
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'initWithUnit:'
+        JsName:          initWithUnit
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            NLTokenUnit
+      - Name:            'setLanguage:'
+        JsName:          setLanguage
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'tokenRangeAtIndex:'
+        JsName:          tokenRangeAtIndex
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+          - Type:            UInt
+      - Name:            'tokensForRange:'
+        JsName:          tokensForRange
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSArray
+            TypeParameters:  
+              - Type:            Interface
+                JsName:          NSValue
+                WithProtocols:   
+            WithProtocols:   
+          - Type:            Struct
+            Module:          Foundation.NSRange
+            JsName:          NSRange
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            string
+        JsName:          string
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            string
+          JsName:          string
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLTokenizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setString:'
+          JsName:          setString
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLTokenizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            unit
+        JsName:          unit
+        Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+        Module:          
+          FullName:        NaturalLanguage.NLTokenizer
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+        IntroducedIn:    12.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            unit
+          JsName:          unit
+          Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+          Module:          
+            FullName:        NaturalLanguage.NLTokenizer
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+          IntroducedIn:    12.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            NLTokenUnit
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            NLTokenizerAttributeEmoji
+    JsName:          NLTokenizerAttributeEmoji
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            NLTokenizerAttributeNumeric
+    JsName:          NLTokenizerAttributeNumeric
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NLTokenizerAttributeSymbolic
+    JsName:          NLTokenizerAttributeSymbolic
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            NLTokenizerAttributes
+    JsName:          NLTokenizerAttributes
+    Filename:        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLTokenizer.h
+    Module:          
+      FullName:        NaturalLanguage.NLTokenizer
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NLTokenizerAttributeNumeric: '1'
+      - NLTokenizerAttributeSymbolic: '2'
+      - NLTokenizerAttributeEmoji: '4'
+    SwiftNameFields: 
+      - Numeric:         '1'
+      - Symbolic:        '2'
+      - Emoji:           '4'
+...
