@@ -36,7 +36,7 @@
     "tslint": "~5.11.0",
     "typescript": "~2.8.2",
     "webpack": "~3.8.1",
-    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-bundle-analyzer": "^3.8.0",
     "webpack-sources": "~1.0.1",
     "clean-webpack-plugin": "~0.1.19",
     "uglifyjs-webpack-plugin": "~1.1.6"
